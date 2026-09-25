@@ -82,6 +82,7 @@ class SiteBuilder:
             "author": self.config.get("author", {}),
             "nav": self.config.get("nav", []),
             "google_analytics": self.config.get("google_analytics", ""),
+            "reftagger": self.config.get("reftagger", {"enabled": True, "bible_version": "RVR60", "round_corners": True}),
             "current_year": datetime.now().year,
         })
 

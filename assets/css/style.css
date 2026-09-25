@@ -1362,3 +1362,37 @@ blockquote {
 .timeline-item__dot {
   display: none !important;
 }
+
+/* ==========================================================================
+   Logos RefTagger Bible References Styling
+   ========================================================================== */
+a.rtRef {
+  color: var(--primary);
+  text-decoration: underline dotted var(--gold) !important;
+  text-underline-offset: 3px;
+  font-weight: 500;
+  transition: color 0.15s ease, text-decoration 0.15s ease;
+  cursor: pointer;
+}
+
+a.rtRef:hover {
+  color: var(--gold);
+  text-decoration: underline solid var(--gold) !important;
+}
+
+/* Dark Mode RefTagger Tooltip Overrides */
+[data-theme="dark"] .rtTooltip {
+  background-color: var(--bg-surface-elevated) !important;
+  color: var(--text-main) !important;
+  border-color: var(--border-light) !important;
+  box-shadow: var(--shadow-lg) !important;
+}
+
+[data-theme="dark"] .rtTooltip .rtBody {
+  color: var(--text-main) !important;
+}
+
+[data-theme="dark"] .rtTooltip .rtMore {
+  color: var(--gold) !important;
+}
+

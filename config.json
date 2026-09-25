@@ -6,6 +6,11 @@
   "base_path": "",
   "posts_per_page": 12,
   "google_analytics": "",
+  "reftagger": {
+    "enabled": true,
+    "bible_version": "RVR60",
+    "round_corners": true
+  },
   "author": {
     "name": "Alejandro Morales",
     "bio": "Yo me alegro en la Palabra de Dios porque en ella puedo ver la gloria de Dios en la faz de Jesucristo.",

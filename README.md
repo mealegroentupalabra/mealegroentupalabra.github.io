@@ -151,6 +151,11 @@ Edita el archivo `config.json` para personalizar los ajustes globales del blog:
   "base_path": "",
   "posts_per_page": 12,
   "google_analytics": "G-XXXXXXXXXX",
+  "reftagger": {
+    "enabled": true,
+    "bible_version": "RVR60",
+    "round_corners": true
+  },
   "author": {
     "name": "Alejandro Morales",
     "bio": "Yo me alegro en la Palabra de Dios porque en ella puedo ver la gloria de Dios en la faz de Jesucristo.",
@@ -171,6 +176,13 @@ Edita el archivo `config.json` para personalizar los ajustes globales del blog:
 2. Copia tu **ID de Medición** (formato `G-XXXXXXXXXX`).
 3. Pégalo en el campo `"google_analytics"` de `config.json`.
 4. Recompila con `python3 build.py` y sube el commit. Las estadísticas comenzarán a registrarse inmediatamente.
+
+### Configuración de Logos RefTagger (Citas Bíblicas Automáticas)
+El blog detecta automáticamente cualquier cita bíblica en el texto (ej. *Juan 3:16*, *Génesis 1:1-3*, *Salmo 119:105*) y muestra una ventana emergente (*tooltip*) con el texto bíblico al pasar el ratón.
+- En `config.json`, dentro de `"reftagger"`:
+  - `"enabled"`: `true` o `false` para activar o desactivar RefTagger.
+  - `"bible_version"`: Versión de la Biblia (por defecto `"RVR60"`, también puedes usar `"LBLA"`, `"NVI"`, `"NBLA"`, etc.).
+  - `"round_corners"`: `true` o `false` para bordes redondeados en la ventana emergente.
 
 ---
 
