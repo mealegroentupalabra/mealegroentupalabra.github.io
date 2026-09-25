@@ -10,27 +10,26 @@ summary: "1 Reyes 8-9. Una vez terminado el templo, el mobiliario y los utensili
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/15/dia-105-plan-de-lectura/"
 ---
 
-<hr class="wp-block-coblocks-dynamic-separator is-style-dots" style="height:50px;"/>
-<ul class="wp-block-jetpack-timeline">
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee;"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee;"></div><div class="timeline-item__dot" style="background-color:#eeeeee;"></div>
+<div class="reading-plan-flow">
+<div>
 <h2 class="wp-block-heading" id="lectura-de-hoy">Lectura de hoy</h2>
 <p class="wp-block-paragraph">1 Reyes 8-9</p>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee;"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee;"></div><div class="timeline-item__dot" style="background-color:#eeeeee;"></div>
+</div>
+<div>
 <h2 class="wp-block-heading" id="preguntas-de-reflexion">Preguntas de reflexión</h2>
 <ul class="wp-block-list"><li>COMPARAR 1 Reyes 8:10-11 con Éxodo 40:34-35. ¿Por qué no podían estar en el templo?</li><li>1 Reyes 8:22-24 ¿Cómo es nuestro Dios?</li><li>REFLEXIONEMOS sobre 1 Reyes 8:27. ¿De qué manera podría Dios morar verdaderamente sobre la tierra?</li><li>COMPARAR 1 Reyes 8:56 con Josué 21:43-45. ¿Cómo avanza el desarrollo del plan de Dios, según sus promesas?</li><li>1 Reyes 9:1-9. ¿Qué condición debía cumplir Salomón para que Dios cumpliera a través de él la promesa hecha a David? ¿Por qué es tan reiterativo Dios respecto a este asunto?</li></ul>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee;"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee;"></div><div class="timeline-item__dot" style="background-color:#eeeeee;"></div>
+</div>
+<div>
 <h2 class="wp-block-heading" id="resumen">Resumen</h2>
 <p class="wp-block-paragraph">Una vez terminado el templo, el mobiliario y los utensilios, Salomón hizo traer el arca del pacto de Dios y la introdujo en el lugar santísimo por medio de los sacerdotes. Junto con la congregación sacrificó multitud de ovejas y de bueyes, y una vez que los sacerdotes salieron, la nube de la gloria de Dios llenó el templo, y Salomón oró a Dios para consagrarle este lugar y pedirle que escuchara la oración de su pueblo en todo tiempo. Salomón organizó una gran fiesta por la construcción y consagración del templo en la que participó todo Israel. Después de esto, Dios se apareció por segunda vez a Salomón.</p>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee;"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee;"></div><div class="timeline-item__dot" style="background-color:#eeeeee;"></div>
+</div>
+<div>
 <h2 class="wp-block-heading">Recursos adicionales</h2>
 <ul class="wp-block-list"><li><a href="https://youtu.be/KkViTm76uVc" rel="noreferrer noopener" target="_blank"></a><a href="https://youtu.be/t56W2zp823Q" rel="noreferrer noopener" target="_blank">Proyecto Biblia – Templo</a></li></ul>
-</div></li>
-</ul>
-<hr class="wp-block-coblocks-dynamic-separator" style="height:50px;"/>
+</div>
+</div>
+
 <div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="https://mealegroentupalabra.com/plan-de-lectura/">Revisar el Plan de Lectura</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
 </div>
 <div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

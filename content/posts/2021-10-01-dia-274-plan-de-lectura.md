@@ -10,13 +10,12 @@ summary: "Malaquías 1-4. Israel no le dio a Dios el fruto que él esperaba ya q
 original_url: "https://mealegroentupalabra.wordpress.com/2021/10/01/dia-274-plan-de-lectura/"
 ---
 
-<hr class="wp-block-coblocks-dynamic-separator is-style-dots" style="height:50px"/>
-<ul class="wp-block-jetpack-timeline">
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee"></div><div class="timeline-item__dot" style="background-color:#eeeeee"></div>
+<div class="reading-plan-flow">
+<div>
 <h2 class="wp-block-heading">Lectura de hoy</h2>
 <p class="wp-block-paragraph">Malaquías 1-4</p>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee"></div><div class="timeline-item__dot" style="background-color:#eeeeee"></div>
+</div>
+<div>
 <h2 class="wp-block-heading">Preguntas de reflexión</h2>
 <ul class="wp-block-list">
 <li>Al llegar al último libro del Antiguo Testamento, encontramos una gran expectativa sobre la venida del reino de Dios y del rey especial, el Mesías, que traerá ese reino perfecto. En ese tiempo futuro, Israel será restaurado y seguirá a Dios con fidelidad. Pero el escenario que tenemos aquí no se parece al de las promesas, ya que Israel no es fiel, los sacerdotes menosprecian a Dios y hasta cuestionan su justicia, por lo cual, Dios no se complace en ellos (Malaquías 1:10). </li>
@@ -29,20 +28,20 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/10/01/dia-274-plan
 <li>La pregunta que hemos considerado en días pasados sigue siendo vigente. ¿Cuál es la pregunta y cuál es su respuesta? RECORDAR Éxodo 16:28; Números 14:11,27</li>
 <li>El Señor ya viene. Fin del Antiguo Testamento.</li>
 </ul>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee"></div><div class="timeline-item__dot" style="background-color:#eeeeee"></div>
+</div>
+<div>
 <h2 class="wp-block-heading">Resumen</h2>
 <p class="wp-block-paragraph">Israel no le dio a Dios el fruto que él esperaba ya que sus vidas se caracterizaron por la injusticia y el menosprecio contra su Hacedor. Menospreciaron su amor, su señorío, su dignidad real, sus leyes, sus ordenanzas rituales y su sentido perfecto de justicia. Por esta razón, Dios no se complacía en ellos. Lo que es asombroso, es que Dios continúo amándolos, porque él es fiel y no cambia (Malaquías 3:6), y por ello, los volvió a invitar al arrepentimiento y les recordó que su Rey vendría pronto, que el sol de justicia amanecería.</p>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee"></div><div class="timeline-item__dot" style="background-color:#eeeeee"></div>
+</div>
+<div>
 <h2 class="wp-block-heading">Recursos adicionales</h2>
 <ul class="wp-block-list">
 <li><a href="https://youtu.be/8ZMSBFH-8QM" rel="noreferrer noopener" target="_blank">Proyecto Biblia – Malaquías</a></li>
 </ul>
-</div></li>
-</ul>
-<hr class="wp-block-coblocks-dynamic-separator" style="height:50px"/>
+</div>
+</div>
+
 <div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://mealegroentupalabra.com/plan-de-lectura/">Revisar el Plan de Lectura</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
 </div>
 <div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

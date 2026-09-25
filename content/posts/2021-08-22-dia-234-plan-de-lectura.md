@@ -10,26 +10,25 @@ summary: "Jeremías 35-37. Dios usó como ejemplo de obediencia a los hijos de R
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/22/dia-234-plan-de-lectura/"
 ---
 
-<hr class="wp-block-coblocks-dynamic-separator is-style-dots" style="height:50px"/>
-<ul class="wp-block-jetpack-timeline">
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee"></div><div class="timeline-item__dot" style="background-color:#eeeeee"></div>
+<div class="reading-plan-flow">
+<div>
 <h2 class="wp-block-heading">Lectura de hoy</h2>
 <p class="wp-block-paragraph">Jeremías 35-37</p>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee"></div><div class="timeline-item__dot" style="background-color:#eeeeee"></div>
+</div>
+<div>
 <h2 class="wp-block-heading">Preguntas de reflexión</h2>
 <ul class="wp-block-list">
 <li>Jeremías 36:1-3 ¿Qué habría pasado, sin lugar a dudas, si el pueblo de Israel se arrepentía y confesaba su pecado? ¿Qué hizo Joacim con el rollo que contenía la Palabra de Dios? Jeremías 36:28-31 ¿Qué dijo Dios al respecto?</li>
 <li>Jeremías 37 ¿Qué le costó al profeta Jeremías su fidelidad en proclamar el mensaje de Dios?</li>
 </ul>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee"></div><div class="timeline-item__dot" style="background-color:#eeeeee"></div>
+</div>
+<div>
 <h2 class="wp-block-heading">Resumen</h2>
 <p class="wp-block-paragraph">Dios usó como ejemplo de obediencia a los hijos de Recab, el cuál había mandado a su hijos que no tomaran vino y que vivieran en tiendas. Si la palabra de Recab había sido firme para sus descendientes, ¿cuánto más lo sería la Palabra de Dios? Luego de esto, Dios ordenó a Jeremías que escribiera un rollo con los juicios de Dios para el pueblo. Todos los que oyeron lo que el rollo decía fueron impactados hasta que las palabras fueron leídas delante del rey, quién no dejando que la lectura avanzara, quemó el rollo en el fuego. Por esta razón, Dios reafirmó que haría juicio por medio de Babilonia y que castigaría a Joacim por su maldad.</p>
-</div></li>
-</ul>
-<hr class="wp-block-coblocks-dynamic-separator" style="height:50px"/>
+</div>
+</div>
+
 <div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://mealegroentupalabra.com/plan-de-lectura/">Revisar el Plan de Lectura</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
 </div>
 <div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

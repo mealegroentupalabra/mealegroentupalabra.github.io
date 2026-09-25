@@ -10,28 +10,27 @@ summary: "Números 35-36. Mientras el pueblo aún estaba en las llanuras de Moab
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/26/dia-57-plan-de-lectura/"
 ---
 
-<hr class="wp-block-coblocks-dynamic-separator is-style-dots" style="height:50px;"/>
-<ul class="wp-block-jetpack-timeline">
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee;"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee;"></div><div class="timeline-item__dot" style="background-color:#eeeeee;"></div>
+<div class="reading-plan-flow">
+<div>
 <h2 class="wp-block-heading" id="lectura-de-hoy">Lectura de hoy</h2>
 <p class="wp-block-paragraph">Números 35-36</p>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee;"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee;"></div><div class="timeline-item__dot" style="background-color:#eeeeee;"></div>
+</div>
+<div>
 <h2 class="wp-block-heading" id="preguntas-de-reflexion">Preguntas de reflexión</h2>
 <ul class="wp-block-list"><li>Números 35:2. Ya que los levitas no recibirían posesión de tierra, ¿En dónde vivirían?</li><li>Números 35:8 ¿De qué manera se debían asignar estas ciudades para que fuese equitativo?</li><li>Números 35:13-15 ¿Cuántas ciudades de refugió debían ser asignadas? ¿Cuál era el propósito de estas ciudades?</li><li>Números 36:3-4. Las hijas de Zelofehad habían recibido la herencia que correspondía a su padre, ya que éste había muerto sin tener un hijo varón (Números 27:1-11). ¿Qué le preocupaba a los príncipes de la tribu de Manases respecto a éstas mujeres?</li><li>Números 36:5 ¿Cómo vio el Señor la petición que ellos le presentaron?</li><li>Números 36:6-7 ¿Qué solución proveyó Dios para la inquietud de estos hombres?</li><li>Números 36:10 ¿De qué manera respondieron las hijas de Zelofehad a los mandatos dados por Dios? ¿Qué podemos aprender estas mujeres?</li></ul>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee;"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee;"></div><div class="timeline-item__dot" style="background-color:#eeeeee;"></div>
+</div>
+<div>
 <h2 class="wp-block-heading" id="resumen">Resumen</h2>
 <p class="wp-block-paragraph">Mientras el pueblo aún estaba en las llanuras de Moab, Dios les mandó a través de Moisés que cuando tomaran posesión de la tierra, dieran a los levitas ciudades con sus respectivos campos para que éstos habitaran allí. En total, debía entregárseles cuarenta y ocho ciudades. Entre esas cuarenta y ocho, seis serían utilizadas como ciudades de refugio, es decir, ciudades donde una persona que mataba a otra podría ir y esconderse del vengador hasta que recibiera un juicio apropiado.</p>
 <p class="wp-block-paragraph">Dios también indicó que los territorios pertenecientes a cada una de las tribus no debían ser traspasados a otra tribu, y por ello, las mujeres que recibieran la herencia de sus padres por no tener éste un hijo varón, debían casarse con personas de su misma tribu para así mantener la heredad dentro de la misma tribu.</p>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee;"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee;"></div><div class="timeline-item__dot" style="background-color:#eeeeee;"></div>
+</div>
+<div>
 <h2 class="wp-block-heading" id="recursos-adicionales">Recursos adicionales</h2>
 <ul class="wp-block-list"><li><a href="https://www.studylight.org/pastoral-resources/bible-maps-archive/bible-map-548-100.jpg" rel="noreferrer noopener" target="_blank"></a><a href="https://youtu.be/IhW7gXB3o8I" rel="noreferrer noopener" target="_blank">Proyecto Biblia – Panorama del Números</a></li><li><a href="https://studylight.org/pastoral-resources/bible-maps-archive/bible-map-560-100.jpg" rel="noreferrer noopener" target="_blank">Archivo de Mapas – Ciudades de los Levitas y Ciudades de Refugio</a></li></ul>
-</div></li>
-</ul>
-<hr class="wp-block-coblocks-dynamic-separator" style="height:50px;"/>
+</div>
+</div>
+
 <div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="https://mealegroentupalabra.com/plan-de-lectura/">Revisar el Plan de Lectura</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
 </div>
 <div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

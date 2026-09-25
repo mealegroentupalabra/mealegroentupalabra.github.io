@@ -10,13 +10,12 @@ summary: "Nahúm 1-3. Nahúm profetizó el final de Nínive, la ciudad sanguinar
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/26/dia-269-plan-de-lectura/"
 ---
 
-<hr class="wp-block-coblocks-dynamic-separator is-style-dots" style="height:50px"/>
-<ul class="wp-block-jetpack-timeline">
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee"></div><div class="timeline-item__dot" style="background-color:#eeeeee"></div>
+<div class="reading-plan-flow">
+<div>
 <h2 class="wp-block-heading">Lectura de hoy</h2>
 <p class="wp-block-paragraph">Nahúm 1-3</p>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee"></div><div class="timeline-item__dot" style="background-color:#eeeeee"></div>
+</div>
+<div>
 <h2 class="wp-block-heading">Preguntas de reflexión</h2>
 <ul class="wp-block-list">
 <li>Nínive es la capital de Asiria, el imperio que llevó cautivos a los israelitas. A esta misma ciudad, Dios envió a Jonás para que proclamara su mensaje y sus habitantes lo recibieron con arrepentimiento. En esta nueva ocasión, unos 100 años después, Dios anunció la caída final de Nínive y del imperio Asirio por medio de Nahúm.</li>
@@ -25,20 +24,20 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/09/26/dia-269-plan
 <li>Nahúm 3:1-4 ¿Cómo es Nínive? ¿Cuáles son sus pecados?</li>
 <li>Nahúm 3:18-19 ¿Cuál será el destino final de Nínive?</li>
 </ul>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee"></div><div class="timeline-item__dot" style="background-color:#eeeeee"></div>
+</div>
+<div>
 <h2 class="wp-block-heading">Resumen</h2>
 <p class="wp-block-paragraph">Nahúm profetizó el final de Nínive, la ciudad sanguinaria y llena de mentira. Dijo que sería destruida del todo y que sus maldades, que había hecho contra muchos pueblos, serían eliminadas de la faz de la tierra. Su juicio, lo atribuyó al Señor, quien es vengador, y no tendrá por inocente al culpable.</p>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee"></div><div class="timeline-item__dot" style="background-color:#eeeeee"></div>
+</div>
+<div>
 <h2 class="wp-block-heading">Recursos adicionales</h2>
 <ul class="wp-block-list">
 <li><a href="https://www.youtube.com/watch?v=bDGI0kq3vaE" rel="noreferrer noopener" target="_blank">Proyecto Bíblia – Nahúm</a></li>
 </ul>
-</div></li>
-</ul>
-<hr class="wp-block-coblocks-dynamic-separator" style="height:50px"/>
+</div>
+</div>
+
 <div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://mealegroentupalabra.com/plan-de-lectura/">Revisar el Plan de Lectura</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
 </div>
 <div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

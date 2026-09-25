@@ -10,13 +10,12 @@ summary: "Lamentaciones 3-5. El autor de estas lamentaciones habla de su profund
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/29/dia-241-plan-de-lectura/"
 ---
 
-<hr class="wp-block-coblocks-dynamic-separator is-style-dots" style="height:50px"/>
-<ul class="wp-block-jetpack-timeline">
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee"></div><div class="timeline-item__dot" style="background-color:#eeeeee"></div>
+<div class="reading-plan-flow">
+<div>
 <h2 class="wp-block-heading">Lectura de hoy</h2>
 <p class="wp-block-paragraph">Lamentaciones 3-5</p>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee"></div><div class="timeline-item__dot" style="background-color:#eeeeee"></div>
+</div>
+<div>
 <h2 class="wp-block-heading">Preguntas de reflexión</h2>
 <ul class="wp-block-list">
 <li>Después de leer tantas sentencias de juicio en Jeremías, de ver el sufrimiento del autor de estas lamentaciones por causa del exilio y el aparente abandono de Dios, es refrescante leer las palabras de Lamentaciones 3:31-33. ¿A Dios le agrada el sufrimiento humano?</li>
@@ -24,14 +23,14 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/08/29/dia-241-plan
 <li>Lamentaciones 5:19-22. A la manera de los salmistas, el autor de Lamentaciones se pregunta ¿Nos has desechado para siempre? ¿Cómo responder a esta pregunta?</li>
 <li>¿Qué nos enseña el autor acerca de la manera como podemos afrontar nuestras propias tristezas y angustias?</li>
 </ul>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee"></div><div class="timeline-item__dot" style="background-color:#eeeeee"></div>
+</div>
+<div>
 <h2 class="wp-block-heading">Resumen</h2>
 <p class="wp-block-paragraph">El autor de estas lamentaciones habla de su profunda tristeza por la situación de Jerusalén. Lo que pasó con los bebés, los niños, las doncellas y los ancianos fue terrible. La misma ciudad quedó desolada y destruida por completo. Él mismo autor también experimentó sufrimientos, fue perseguido y encarcelado sin razón, pero Dios le dijo: “No temas”. Finalmente él preguntó a Dios por su pueblo: “¿Nos has abadonado para siempre, Señor?”.</p>
-</div></li>
-</ul>
-<hr class="wp-block-coblocks-dynamic-separator" style="height:50px"/>
+</div>
+</div>
+
 <div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://mealegroentupalabra.com/plan-de-lectura/">Revisar el Plan de Lectura</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
 </div>
 <div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

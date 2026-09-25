@@ -20,4 +20,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2026/03/09/se-un-admini
 <li>Administradores y También Hijos</li>
 </ol>
 <p class="wp-block-paragraph">Anímate a tomar el plan en el siguiente enlace: <a href="https://www.bible.com/reading-plans/68371-se-un-administrador-fiel">Ir al Plan de Lectura</a></p>
-

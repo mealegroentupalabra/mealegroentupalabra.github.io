@@ -107,12 +107,85 @@ class SiteBuilder:
 
         return frontmatter, body
 
+    def transform_url(self, url):
+        from urllib.parse import urlparse
+        parsed = urlparse(url)
+        domain = parsed.netloc.lower()
+        if "mealegroentupalabra" not in domain:
+            return url
+        
+        path = parsed.path.strip("/")
+        base = self.config.get("base_path", "")
+        
+        if not path:
+            return f"{base}/" if base else "/"
+        
+        if path == "plan-de-lectura":
+            return f"{base}/planes-de-lectura/"
+        
+        m_cat = re.match(r"^category/(?:la-biblia-en-un-ano/)?([^/]+)", path)
+        if m_cat:
+            cat_slug = m_cat.group(1)
+            if cat_slug == "la-biblia-en-un-ano":
+                return f"{base}/la-biblia-en-un-ano/"
+            return f"{base}/categoria/{cat_slug}/"
+
+        m_tag = re.match(r"^tag/([^/]+)", path)
+        if m_tag:
+            return f"{base}/etiqueta/{m_tag.group(1)}/"
+
+        m_post = re.match(r"^\d{4}/\d{2}/\d{2}/([^/]+)", path)
+        if m_post:
+            return f"{base}/posts/{m_post.group(1)}/"
+
+        if path in ["reflexiones", "planes-de-lectura", "la-biblia-en-un-ano", "acerca-de", "buscar", "categorias", "etiquetas"]:
+            return f"{base}/{path}/"
+
+        return f"{base}/posts/{path}/"
+
     def render_content(self, body_text):
-        # If the body is already predominantly HTML (from WordPress migration),
-        # parse and clean it, else render via markdown_it.
         if body_text.strip().startswith("<") and "</" in body_text:
-            return body_text
-        return md_parser.render(body_text)
+            rendered = body_text
+        else:
+            rendered = md_parser.render(body_text)
+
+        soup = BeautifulSoup(rendered, "html.parser")
+
+        # Remove timeline bubbles and dots
+        for bubble in soup.find_all("div", class_=lambda c: c and ("timeline-item__bubble" in c or "timeline-item__dot" in c)):
+            bubble.decompose()
+
+        # Unwrap timeline items
+        for ul in soup.find_all("ul", class_=lambda c: c and "wp-block-jetpack-timeline" in c):
+            ul.name = "div"
+            ul["class"] = "reading-plan-flow"
+
+        for li in soup.find_all("li", class_=lambda c: c and "wp-block-jetpack-timeline-item" in c):
+            li.name = "div"
+            if li.has_attr("style"):
+                del li["style"]
+            if li.has_attr("class"):
+                del li["class"]
+
+        for item in soup.find_all("div", class_="timeline-item"):
+            item.unwrap()
+
+        # Remove background-color:#eeeeee card backgrounds
+        for el in soup.find_all(True):
+            if el.has_attr("style") and ("background-color:#eee" in el["style"] or "background-color:#eeeeee" in el["style"]):
+                new_style = re.sub(r"background-color:\s*#[a-fA-F0-9]+;?", "", el["style"]).strip()
+                if new_style:
+                    el["style"] = new_style
+                else:
+                    del el["style"]
+
+        # Rewrite internal links
+        for a in soup.find_all("a", href=True):
+            href = a["href"]
+            if "mealegroentupalabra" in href and "/wp-content/uploads/" not in href:
+                a["href"] = self.transform_url(href)
+
+        return str(soup)
 
     def load_posts(self):
         posts = []

@@ -10,24 +10,23 @@ summary: "Deuteronomio 28-29. Moisés continuó presentando las maravillosas ben
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/08/dia-67-plan-de-lectura/"
 ---
 
-<hr class="wp-block-coblocks-dynamic-separator is-style-dots" style="height:50px;"/>
-<ul class="wp-block-jetpack-timeline">
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee;"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee;"></div><div class="timeline-item__dot" style="background-color:#eeeeee;"></div>
+<div class="reading-plan-flow">
+<div>
 <h2 class="wp-block-heading" id="lectura-de-hoy">Lectura de hoy</h2>
 <p class="wp-block-paragraph">Deuteronomio 28-29</p>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee;"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee;"></div><div class="timeline-item__dot" style="background-color:#eeeeee;"></div>
+</div>
+<div>
 <h2 class="wp-block-heading" id="preguntas-de-reflexion">Preguntas de reflexión</h2>
 <ul class="wp-block-list"><li>Moisés pronunció bendiciones extraordinarias a los israelitas si guardan el pacto. Pero también, maldiciones durísimas sí rechazaban al Señor.</li><li>COMPARAR Génesis 1:28-30; 2:8-17 con Deuteronomio 28:1-14 y Génesis 3:16-19 con Deuteronomio 28:15-68 ¿Puedes identificar algunas relaciones?</li><li>OBSERVACIÓN: Este capítulo 28 parece una descripción profética de la experiencia futura de Israel en la tierra prometida. Cada una de las maldiciones presentadas aquí se cumplirían al pie de la letra debido a la desobediencia y el corazón endurecido de esta nación.</li><li>Deuteronomio 29:1,10-15 ¿Qué ordenó Dios a Moisés que hiciera con el pueblo de Israel? ¿Con quiénes haría Dios este pacto?</li><li>Deuteronomio 29:4 ¿Cuál era el verdadero problema de los israelitas?</li><li>Deuteronomio 29:20-24 ¿Por qué Dios parece tan severo?</li></ul>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee;"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee;"></div><div class="timeline-item__dot" style="background-color:#eeeeee;"></div>
+</div>
+<div>
 <h2 class="wp-block-heading" id="resumen">Resumen</h2>
 <p class="wp-block-paragraph">Moisés continuó presentando las maravillosas bendiciones que vendrían a Israel si ellos guardaban los mandamientos, pero si los olvidaban, dejando al Señor y sirviendo a otros dioses, vendrían sobre ellos duras maldiciones. Vendrían escasez, infertilidad, enfermedades, derrotas, opresión y finalmente serían expulsados de la tierra y llevados en cautiverio. Pero incluso, aunque estuviesen en cautiverio allí tampoco tendrían paz. El Dios que se había gozado en bendecirlos en extremo, sería también severo en castigar su desobediencia y deslealtad.</p>
 <p class="wp-block-paragraph">Además, estando aún en las llanuras de Moab, antes de cruzar el Jordán para entrar en la tierra prometida, Dios celebró con ellos otro pacto adicional al que había hecho con ellos en el monte Sinaí. A través de este pacto, Dios confirmaría a Israel como su pueblo, de la manera que juró a Abraham, Isaac y Jacob.</p>
-</div></li>
-</ul>
-<hr class="wp-block-coblocks-dynamic-separator" style="height:50px;"/>
+</div>
+</div>
+
 <div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="https://mealegroentupalabra.com/plan-de-lectura/">Revisar el Plan de Lectura</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
 </div>
 <div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

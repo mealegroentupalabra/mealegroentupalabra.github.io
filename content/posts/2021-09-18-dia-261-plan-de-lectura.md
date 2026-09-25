@@ -10,26 +10,25 @@ summary: "Daniel 10-12. Durante el reinado de Ciro el Persa, Daniel tuvo una nue
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/18/dia-261-plan-de-lectura/"
 ---
 
-<hr class="wp-block-coblocks-dynamic-separator is-style-dots" style="height:50px"/>
-<ul class="wp-block-jetpack-timeline">
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee"></div><div class="timeline-item__dot" style="background-color:#eeeeee"></div>
+<div class="reading-plan-flow">
+<div>
 <h2 class="wp-block-heading">Lectura de hoy</h2>
 <p class="wp-block-paragraph">Daniel 10-12</p>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee"></div><div class="timeline-item__dot" style="background-color:#eeeeee"></div>
+</div>
+<div>
 <h2 class="wp-block-heading">Preguntas de reflexión</h2>
 <ul class="wp-block-list">
 <li>Daniel está lleno de visiones de los días por venir y el tema del reino es importante en sus páginas. Por ejemplo, Nabucodonosor fue un rey arrogante que aprendió que el reino le pertenece a Dios y que él gobierna y señorea sobre todos, y que él da dominio a quien él quiere. También nos presenta la sucesión de los reinos que vendrían después de Babilonia, es decir, Persia, Grecia y Roma. Y por último, al final de los tiempos, nos muestra el reinado justo del Mesías, uno que tiene semejanza de hombre. Daniel 7:13-14</li>
 <li>Daniel 12:6. Daniel se pregunta cuándo será el fin de estas maravillas. ¿Cuál es la respuesta que recibe? ¿Qué significa “cuando acabe la dispersión del pueblo santo”?</li>
 </ul>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee"></div><div class="timeline-item__dot" style="background-color:#eeeeee"></div>
+</div>
+<div>
 <h2 class="wp-block-heading">Resumen</h2>
 <p class="wp-block-paragraph">Durante el reinado de Ciro el Persa, Daniel tuvo una nueva visión. En ella, un mensajero de parte de Dios vino para mostrar a Daniel los próximos sucesos. Le habló de los reinos que vendría y sus luchas de poder, y de un rey que vendría contra el pueblo santo. Finalmente le habló de su esperanza y de su resurrección al fin de los tiempos.</p>
-</div></li>
-</ul>
-<hr class="wp-block-coblocks-dynamic-separator" style="height:50px"/>
+</div>
+</div>
+
 <div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://mealegroentupalabra.com/plan-de-lectura/">Revisar el Plan de Lectura</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
 </div>
 <div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

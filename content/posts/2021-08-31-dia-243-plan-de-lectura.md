@@ -10,13 +10,12 @@ summary: "Ezequiel 5-8. Dios anunció por medio de Ezequiel el sitio y destrucci
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/31/dia-243-plan-de-lectura/"
 ---
 
-<hr class="wp-block-coblocks-dynamic-separator is-style-dots" style="height:50px"/>
-<ul class="wp-block-jetpack-timeline">
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee"></div><div class="timeline-item__dot" style="background-color:#eeeeee"></div>
+<div class="reading-plan-flow">
+<div>
 <h2 class="wp-block-heading">Lectura de hoy</h2>
 <p class="wp-block-paragraph">Ezequiel 5-8</p>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee"></div><div class="timeline-item__dot" style="background-color:#eeeeee"></div>
+</div>
+<div>
 <h2 class="wp-block-heading">Preguntas de reflexión</h2>
 <ul class="wp-block-list">
 <li>Ezequiel 6:10; 7:5. La palabra “mal” en este contexto no significa pecado o maldad. Se refiere a las grandes adversidades que vendrían de parte de Dios para Israel como un juicio justo.</li>
@@ -24,14 +23,14 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/08/31/dia-243-plan
 <li>Ezequiel 8 nos muestra de forma clara por qué Dios retiró su bendición y su presencia del templo. ¿Cuáles fueron sus razones?</li>
 <li>Cuando Dios retiró su protección, la ciudad de Jerusalén y todo Judá cayeron en manos de Babilonia. COMPARAR Ezequiel 7:22 con Salmos 127:1-2</li>
 </ul>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee"></div><div class="timeline-item__dot" style="background-color:#eeeeee"></div>
+</div>
+<div>
 <h2 class="wp-block-heading">Resumen</h2>
 <p class="wp-block-paragraph">Dios anunció por medio de Ezequiel el sitio y destrucción de Jerusalén. Él dijo que retiraría su protección de su ciudad santa y de su templo por las abominaciones del pueblo, y los entregaría al hambre, a la pestilencia y a la espada. Su ojo no los perdonaría, ni tendría misericordia, por cuanto ellos le dieron la espalda y no escucharon su llamado. A pesar de esto, él también dejaría un resto de ellos esparcido entre las naciones, que recordarían su pecado con vergüenza y sabrían que del Señor vinieron todas estas cosas.</p>
-</div></li>
-</ul>
-<hr class="wp-block-coblocks-dynamic-separator" style="height:50px"/>
+</div>
+</div>
+
 <div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://mealegroentupalabra.com/plan-de-lectura/">Revisar el Plan de Lectura</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
 </div>
 <div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

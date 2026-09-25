@@ -10,27 +10,26 @@ summary: "Éxodo 36-38. Bezaleel, Aholiab y los otros artesanos recibieron de Mo
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/30/dia-30-plan-de-lectura/"
 ---
 
-<hr class="wp-block-coblocks-dynamic-separator is-style-dots" style="height:50px;"/>
-<ul class="wp-block-jetpack-timeline">
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee;"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee;"></div><div class="timeline-item__dot" style="background-color:#eeeeee;"></div>
+<div class="reading-plan-flow">
+<div>
 <h2 class="wp-block-heading">Lectura de hoy</h2>
 <p class="wp-block-paragraph">Éxodo 36-38</p>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee;"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee;"></div><div class="timeline-item__dot" style="background-color:#eeeeee;"></div>
+</div>
+<div>
 <h2 class="wp-block-heading">Preguntas de reflexión</h2>
 <ul class="wp-block-list"><li>Éxodo 36:1 ¿De dónde provenía la capacidad de estos hombres para llevar a cabo la labor que había mandado el Señor?</li><li>¿Qué aprendemos del carácter de Dios en la manera como se realizó esta obra?</li><li>¿Qué aprendemos acerca del papel que jugaron cada una de las partes involucradas: el pueblo, los artesanos y Moisés?</li></ul>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee;"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee;"></div><div class="timeline-item__dot" style="background-color:#eeeeee;"></div>
+</div>
+<div>
 <h2 class="wp-block-heading">Resumen</h2>
 <p class="wp-block-paragraph">Bezaleel, Aholiab y los otros artesanos recibieron de Moisés la ofrenda que el pueblo había separado para la obra del santuario (el tabernáculo). Tal fue la ofrenda, que estos hombres vinieron a Moisés para informarle que tenían más que suficiente y así él hizo pregonar al pueblo que no era necesario traer más. Con esos insumos, estos hombres expertos, capacitados por Dios para la construcción, realizaron todo según lo que Dios había ordenado a Moisés: el tabernáculo, el mobiliario, los utensilios y las vestiduras sacerdotales.</p>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee;"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee;"></div><div class="timeline-item__dot" style="background-color:#eeeeee;"></div>
+</div>
+<div>
 <h2 class="wp-block-heading">Recursos adicionales</h2>
 <ul class="wp-block-list"><li><a href="https://youtu.be/zCJUcscTrDw" rel="noreferrer noopener" target="_blank">Proyecto Biblia – Panorama de Éxodo Parte 1</a></li></ul>
-</div></li>
-</ul>
-<hr class="wp-block-coblocks-dynamic-separator" style="height:50px;"/>
+</div>
+</div>
+
 <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="https://mealegroentupalabra.com/plan-de-lectura/">Revisar el Plan de Lectura</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
 </div>
 <div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

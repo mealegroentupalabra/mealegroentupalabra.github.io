@@ -10,13 +10,12 @@ summary: "Mateo 1-4. Pasaron cuatro siglos desde que la última voz profética r
 original_url: "https://mealegroentupalabra.wordpress.com/2021/10/02/dia-275-plan-de-lectura/"
 ---
 
-<hr class="wp-block-coblocks-dynamic-separator is-style-dots" style="height:50px"/>
-<ul class="wp-block-jetpack-timeline">
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee"></div><div class="timeline-item__dot" style="background-color:#eeeeee"></div>
+<div class="reading-plan-flow">
+<div>
 <h2 class="wp-block-heading">Lectura de hoy</h2>
 <p class="wp-block-paragraph">Mateo 1-4</p>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee"></div><div class="timeline-item__dot" style="background-color:#eeeeee"></div>
+</div>
+<div>
 <h2 class="wp-block-heading">Preguntas de reflexión</h2>
 <ul class="wp-block-list">
 <li>Iniciamos el Nuevo Testamento con el evangelio según Mateo, quien nos presenta el cumplimiento de todas las expectativas mesiánicas por medio del rey Jesús. Mateo inició presentándonos la genealogía real de Jesús, su nacimiento y su posterior manifestación a Israel. Todas estas cosas ocurrieron cuatro siglos después del mensaje de Malaquías. Durante ese tiempo, la escena del mundo conocido cambió de un imperio a otro, e Israel fue dominado primero por los griegos y luego por los romanos. Esta es la razón por la que el Nuevo Testamento contiene un buen número de referencias a ellos.</li>
@@ -29,22 +28,22 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/10/02/dia-275-plan
 <li>Mateo 3:16. Aquí se nos presenta a Jesús siendo ungido como el rey de Dios para Israel. Él no fue ungido como los antiguos reyes de Israel derramando aceite sobre su cabeza. ¿Cómo fue ungido entonces? ¿Qué importancia tiene esto? RECUERDA Isaías 61:1-4</li>
 <li>Mateo 4:17. Cuando Jesús comenzó su ministerio público, ¿Cuál fue su mensaje? ¿Qué significa que “el reino de los cielos se había acercado”?</li>
 </ul>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee"></div><div class="timeline-item__dot" style="background-color:#eeeeee"></div>
+</div>
+<div>
 <h2 class="wp-block-heading">Resumen</h2>
 <p class="wp-block-paragraph">Pasaron cuatro siglos desde que la última voz profética registrada en las Escrituras alzó su voz para anunciar la venida del Señor. Ese día dichoso finalmente había llegado. María, siendo una jóven virgen, había concebido por la obra sobrenatural del Espíritu Santo un hijo que llevaría el nombre de Jesús, que significa Salvador.</p>
 <p class="wp-block-paragraph">José, el prometido de María, quien era un hombre justo y un descendiente del rey David, recibió órdenes del Señor para encargarse de ella y de su hijo, y él obedeció a la palabra de Dios.</p>
 <p class="wp-block-paragraph">Pasados muchos años, y hecho ya un adulto, Jesús dio inicio a su manifestación pública a Israel como Mesías y rey, cumpliendo con todas las cosas anticipadas por los profetas. Esto sucedió en los tiempos en que Juan el Bautista, un hombre escogido por Dios, predicaba acerca de la llegada del Señor y del acercamiento de su reino, invitando a todos a que se arrepintieran y fueran bautizados, para que el Señor encontrara un pueblo bien dispuesto.</p>
-</div></li>
-<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee"></div><div class="timeline-item__dot" style="background-color:#eeeeee"></div>
+</div>
+<div>
 <h2 class="wp-block-heading">Recursos adicionales</h2>
 <ul class="wp-block-list">
 <li><a href="https://youtu.be/3jUPGTb80ms" rel="noreferrer noopener" target="_blank">Proyecto Biblia – Mateo 1-13</a></li>
 </ul>
-</div></li>
-</ul>
-<hr class="wp-block-coblocks-dynamic-separator" style="height:50px"/>
+</div>
+</div>
+
 <div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://mealegroentupalabra.com/plan-de-lectura/">Revisar el Plan de Lectura</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
 </div>
 <div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>
