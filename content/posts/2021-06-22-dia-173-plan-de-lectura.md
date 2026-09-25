@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/06/22/dia-173-plan
 <p class="wp-block-paragraph">Finalmente, Asaf reflexiona sobre el juicio de Dios para Israel. El Señor convocará a su pueblo a juicio y reprenderá a los malvados. Lo que él quiere son verdaderas obras de justicia, por eso los que se han apartado de sus caminos deben atender a este llamado a tiempo.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

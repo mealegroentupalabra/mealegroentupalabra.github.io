@@ -28,8 +28,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/09/03/dia-246-plan
 <p class="wp-block-paragraph">Dios habló por medio de Ezequiel acerca de su profundo dolor al ser traicionado por su esposa Israel. Él la había amado y cuidado desde temprana edad, y había entrado en pacto con ella, pero cuando creció y se hizo hermosa se fue tras otros amantes. Fue peor que una ramera en que ella no buscaba que le pagaran por sus servicios, sino que ella pagaba a sus amantes por placer. Ahora, ¿Iba Dios a abandonarla como ella lo hizo? De ninguna manera, Dios se acordaría de su pacto y lo cumpliría.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

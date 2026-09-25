@@ -30,8 +30,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/08/13/dia-225-plan
 <p class="wp-block-paragraph">Jeremías dijo que Dios le pidió a su pueblo que se volviera a él, que le entregaran su corazón. A él le dolían las fibras de su corazón porque escuchaba el sonido de guerra que venía de parte de Dios para disciplinar a Israel, pero éste no quiso escuchar ni convertirse. Fuesen los pobres o los grandes entre el pueblo, todos quebrantaron las leyes de Dios.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

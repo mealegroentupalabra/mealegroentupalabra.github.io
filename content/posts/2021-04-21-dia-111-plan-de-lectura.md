@@ -26,8 +26,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/04/21/dia-111-plan
 <p class="wp-block-paragraph">A Ocozías, le sucedió en el trono Joram. Éste fue un rey malo, pero no tanto como lo fue Acab. Éste hizo alianza con Josafat rey de Judá y con el rey de Edom para ir y pelear contra Moab y Dios les concedió la victoria.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

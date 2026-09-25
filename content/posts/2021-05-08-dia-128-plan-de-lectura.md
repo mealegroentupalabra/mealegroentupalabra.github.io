@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/05/08/dia-128-plan
 <p class="wp-block-paragraph">David hizo preparativos con mucho esfuerzo y con todo su corazón para la construcción de la casa de Jehová. Él pensó que de esta manera, ayudaba a su hijo que era joven con la gran responsabilidad que tendría, porque la casa de Dios debía ser excelente. También, llamó a Salomón y le recordó la promesa de Dios, y lo animó a ser fiel, a construir la casa para Dios y a ser obediente en todas las cosas al Señor. Después de esto, David organizó el ministerio de los levitas para la casa de Dios y el ministerio sacerdotal.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

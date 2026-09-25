@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/01/20/dia-20-plan-
 <p class="wp-block-paragraph">Dios le dio instrucciones a Moisés y a Aarón y ellos hicieron como el Señor les ordenó, se presentaron delante del Faraón y le pidieron la liberación de los israelitas. Aarón usó su vara para realizar una demostración del poder de Dios y los hechiceros del Faraón repitieron el mismo acto extraordinario y el Faraón respondió endureciendo su corazón. Frente a esto, Dios envió varias plagas sobre él Faraón y sobre Egipto.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

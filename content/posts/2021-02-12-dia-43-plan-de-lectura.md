@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/02/12/dia-43-plan-
 <p class="wp-block-paragraph">Dios designó a la tribu de Leví para servir en el ministerio del tabernáculo de reunión bajo la dirección de Aarón y de sus descendientes. Aarón y sus hijos también fueron desginados para el sacerdocio, así pues, ninguno que no fuese levita o sacerdote podía acercarse para ministrar al interior del santuario. También, el Señor distribuyó las tareas de los levitas de acuerdo a su ascendencia familiar.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

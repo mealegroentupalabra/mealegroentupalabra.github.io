@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/08/05/dia-217-plan
 <p class="wp-block-paragraph">También, cuando estaba enfermo de muerte, Ezequías oró al Señor quien lo salvó añadiendo quince años a su vida. Por eso Ezequías dejó por escrito algunas palabras alabando a Dios. Pero después de esto, una delegación de Babilonia vino a visitar a Ezequías, el cual los recibió mostrándoles todo lo que había en su casa. Entonces, Isaías profetizó que todo eso sería llevado a Babilonia, al igual que su descendencia.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

@@ -27,8 +27,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/09/07/dia-250-plan
 <p class="wp-block-paragraph">Dios pronunció juicios contra los pueblos de Amón, Moab, Edom, Filistea y Tiro, por el trato que tuvieron con su pueblo Israel en el día en que Dios los castigó. Estos pueblos se alegraron y se mofaron del sufrimiento de Israel, cada uno a su manera. Sin embargo, el Señor los reprenderá fuertemente y hará venir sobre ellos su castigo.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

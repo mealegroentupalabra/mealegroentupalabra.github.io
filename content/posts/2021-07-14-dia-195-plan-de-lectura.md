@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/07/14/dia-195-plan
 <p class="wp-block-paragraph">David enseñó a Salomón a amar la sabiduría. Él le decía que por encima de todas las cosas adquiriera sabiduría e inteligencia, porque si él abrazaba la sabiduría, ella también le guardaría y sería como una corona de gracia sobre su cabeza. La sabiduría le guardaría de la mujer seductora, cuyos labios eran dulces como la miel, pero que arrastraban a los que los probaban a la muerte. Así que lo mejor, era gozarse con su propia esposa y deleitarse totalmente en ella. También le aconsejó que no fuera perezoso y que siguiera el ejemplo de las hormigas. Ellas no tienen capitán pero son diligentes en preparar su comida para el invierno.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

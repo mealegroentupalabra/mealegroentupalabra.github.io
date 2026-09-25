@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/05/04/dia-124-plan
 <p class="wp-block-paragraph">Esta sección finaliza con la genealogía de Saúl, y con los últimos sucesos de su vida que concluyeron con su muerte y la de Jonatán, y con el ascenso de David al poder desde Hebrón. Más tarde, David tomó a Jerusalén, que se encontraba en poder de los jebuseos y estableció su reino allí.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

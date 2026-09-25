@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/07/30/dia-211-plan
 <p class="wp-block-paragraph">No habría para siempre oscuridad para la que se encontraba en tinieblas, porque un niño nacería cuyo nombre es Admirable. Su reino de paz no tendría fin, aunque aún debían suceder varias cosas: Dios derramaría su furor sobre Israel por su pecado y humillaría a los soberbios de entre las naciones, pero finalmente vendría aquel que saldría del linaje de Isaí y sobre él reposaría el Espíritu de Jehová para que gobierne con sabiduría, poder e imparcialidad. Durante su reino, toda la tierra gozara de paz y armonía y él hará volver a su pueblo de todos los confines de la tierra para que moren seguros en su santo monte. De esa manera, su pueblo cantará con gozo porque él habrá sido su salvación.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

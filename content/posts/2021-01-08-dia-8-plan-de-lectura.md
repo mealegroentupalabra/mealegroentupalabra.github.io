@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/01/08/dia-8-plan-d
 <p class="wp-block-paragraph">Isaac tomó por mujer a Rebeca, la cual era estéril. Por esto, Isaac clamó a Dios y él lo escuchó al concederle dos hijos: Esaú y Jacob. Estos dos hermanos fueron rivales incluso desde el vientre. Ya crecidos, Jacob, aprovechando la debilidad de carácter de su hermano Esaú, le compró la primogenitura por un plato de comida. Por otra parte, Dios confirmó a Isaac la promesa hecha a su padre Abraham.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

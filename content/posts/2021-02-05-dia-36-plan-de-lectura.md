@@ -26,8 +26,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/02/05/dia-36-plan-
 <p class="wp-block-paragraph">A través de Moisés, Dios instruyó a los sacerdotes sobre el procedimiento que deben seguir para analizar los distintos casos de lepra y determinar si la persona o cosa afectada estaban limpias. También dio instrucciones sobre la purificación de quienes tenían emisión de flujos corporales y estableció el día de la expiación, un día especial en el que el sumo sacerdote entraría al lugar santísimo para hacer expiación por sus pecados y por los del pueblo.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

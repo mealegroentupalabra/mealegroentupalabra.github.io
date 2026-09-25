@@ -30,8 +30,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/08/20/dia-232-plan
 <p class="wp-block-paragraph">Dios habló del gran día que vendrá, será un tiempo de aflicción para Israel, pero será librado de ella. En aquel tiempo, Dios traerá a todos los esparcidos de su pueblo de entre todos los lugares en que se encuentran y los traerá a su tierra para que la habiten con seguridad. Él también hará un pacto nuevo con ellos, diferente al pacto antiguo que invalidaron. En este pacto, Dios escribirá sus leyes en sus mentes y corazones, así ellos serán su pueblo y él será su Dios.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

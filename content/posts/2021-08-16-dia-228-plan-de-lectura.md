@@ -29,8 +29,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/08/16/dia-228-plan
 <p class="wp-block-paragraph">Jeremías llamó a Dios esperanza de Israel y su guardador, y le pidió que librara a su pueblo del mal que vendría. Sin embargo, el Señor mandó a Jeremías que no orara por el pueblo ya que el castigo estaba determinado y él no iba a desistir, porque el pecado del pueblo estaba grabado en el corazón de ellos como con cincel y su corazón era extremadamente engañoso y perverso.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

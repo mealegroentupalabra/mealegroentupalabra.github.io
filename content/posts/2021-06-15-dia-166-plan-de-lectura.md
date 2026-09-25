@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/06/15/dia-166-plan
 <p class="wp-block-paragraph">David alaba a Dios por sus maravillas, porque él le ha librado de sus adversarios y quebrantó a las naciones enemigas. El Señor no desampara a los que confían en él y le conocen. El malo, por su parte, se aprovecha de los desvalidos, su boca está llena de maldición, fraude y engaño, pero Dios hará justicia porque no se complace en las obras de ellos. La razón por la que el malo es así, es porque neciamente dice que no hay Dios, pero los justos son bienvenidos a la casa de Dios y se recrearán en ella.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

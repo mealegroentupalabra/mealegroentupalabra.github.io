@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/02/09/dia-40-plan-
 <p class="wp-block-paragraph">Luego, se presentó la situación de un hombre que blasfemó contra el nombre de Dios. Dios instruyó a Moisés sobre el caso particular, y sobre otras situaciones semejantes, mostrando cómo debían manejarse. También el Señor enseñó sobre el reposo de la tierra y el año del jubileo.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

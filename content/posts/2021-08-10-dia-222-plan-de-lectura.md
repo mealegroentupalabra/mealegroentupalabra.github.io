@@ -30,8 +30,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/08/10/dia-222-plan
 <p class="wp-block-paragraph">Cuando el Redentor venga a Sion, ésta será levantada y la gloria del Señor se verá en ella, los justos la habitarán y de todas las naciones vendrán a traer tributo. Ya no será más asolada ni desamparada sino que será llamada Ciudad Deseada. Y conocerán que Jehová es su salvador y redentor, que es el Fuerte de Jacob.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

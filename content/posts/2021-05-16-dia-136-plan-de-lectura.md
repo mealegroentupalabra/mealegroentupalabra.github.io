@@ -26,8 +26,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/05/16/dia-136-plan
 <p class="wp-block-paragraph">Cuando Atalía supo de la muerte de su hijo, exterminó toda la descendencia real. Solo se salvó el bebé Joás, que fue salvado por su tía Josabet, después de lo cual, reinó Atalía sobre Judá. Pasados algunos años, el sacerdote Joiada reunió a hombres leales y valientes que se levantaron contra Atalía, le dieron muerte y establecieron a Joás por rey.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

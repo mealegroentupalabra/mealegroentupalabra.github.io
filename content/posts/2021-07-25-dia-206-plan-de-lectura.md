@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/07/25/dia-206-plan
 <p class="wp-block-paragraph">El Predicador habló de lo importante que es no apresurarse en hacer votos a Dios y de cumplir lo que se le promete. También dio más ejemplos de lo que es vanidad: el amor al dinero y al tener de sobra; el tener mucho pero sin la capacidad de disfrutarlo; el hecho de que a justos e impíos les sucede lo mismo, y que incluso estos últimos son honrados cuando mueren mientras que del justo no se tiene memoria. Por esa razón, él compartió con nosotros varios consejos sabios.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

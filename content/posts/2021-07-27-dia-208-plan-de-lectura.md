@@ -28,8 +28,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/07/27/dia-208-plan
 <ul class="wp-block-list"><li><a href="https://youtu.be/JeTxGCZH99o" rel="noreferrer noopener" target="_blank">Proyecto Biblia – Cantar de los Cantares</a></li><li><a href="https://www.gotquestions.org/Espanol/Libro-de-Cantar-Cantares.html" rel="noreferrer noopener" target="_blank">Got Questions – Resumen del Libro</a></li></ul>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

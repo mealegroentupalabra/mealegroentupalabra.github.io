@@ -31,8 +31,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/08/21/dia-233-plan
 <p class="wp-block-paragraph">En el año décimo del reinado de Sedequías, que a su vez era el año decimoctavo de Nabucodonosor, la ciudad de Jerusalén estaba rodeada por el ejército Babilonio y Jeremías estaba en la ciudad, preso en el patio de la casa del rey. Dios había dicho al pueblo por medio de Jeremías que no resistieran a Nabucodonosor porque esto venía de su mano y cuando éste llegara con sus ejércitos arrasaría con todo. A pesar de esto, y ante la sorpresa de Jeremías, Dios le pidió que comprara una propiedad en la tierra. ¿Qué sentido podría tener esto ante la inminente destrucción?</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

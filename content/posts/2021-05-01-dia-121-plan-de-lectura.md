@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/05/01/dia-121-plan
 <p class="wp-block-paragraph">En esta continuación de las genealogías, encontrarás el listado de los descendientes de Fares: David y Salomón; luego son presentados los otros descendientes de Judá. También encontrarás los descendientes de Simeón y de las tribus que se encontraban al este del Jordán: Rubén, Gad y La Media Tribu de Manasés.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

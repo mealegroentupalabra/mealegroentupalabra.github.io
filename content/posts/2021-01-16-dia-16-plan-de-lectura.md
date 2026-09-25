@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/01/16/dia-16-plan-
 <p class="wp-block-paragraph">Dios le mostró a Jacob que debía descender a Egipto sin temor y Jacob así lo hizo yendo allá con su familia y con todo lo que tenía, y cuando llegó, José los instaló en lo mejor de la tierra de Egipto, en la tierra de Gosén, y le proporcionó lo necesario para su subsistencia. Estando en Egipto, los descendientes de Jacob, los israelitas, se multiplicaron grandemente. En la proximidad de su muerte, Jacob hizo saber a José, y lo hizo jurar, que cuando él muriera, no lo sepultara en Egipto sino en la tierra de Canaán, en el sepulcro de sus antepasados.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

@@ -26,8 +26,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/04/28/dia-118-plan
 <p class="wp-block-paragraph">Después de la muerte de Manasés, reinó su hijo Amón y también hizo lo malo ante los ojos de Dios. Cuando Amón fue asesinado, su hijo Josías reinó siendo aún muy niño. A diferencia de su padre, él hizo lo bueno ante los ojos de Dios todos los días de su vida. Cuando leyeron el libro de la ley que fue encontrado en el templo delante de él, el corazón de Josías se enterneció y con dolor se humilló ante Dios por todas las cosas que el libro de la ley decía.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

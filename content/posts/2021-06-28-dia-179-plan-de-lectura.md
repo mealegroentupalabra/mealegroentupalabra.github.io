@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/06/28/dia-179-plan
 <p class="wp-block-paragraph">Luego Asaf hizo un recuento de la historia de Israel y habló de cómo Dios los liberó de la esclavitud y los sustentó en el desierto hasta introducirlos a la tierra prometida, pero también habló de cómo una y otra vez ellos fueron rebeldes. Entonces, una vez más el pueblo estaba sufriendo la opresión de las naciones vecinas y Asaf se preguntaba de nuevo: ¿Nos has desechado Señor? pero inmediatamente suplicó por perdón y pidió que Dios liberara a su pueblo una vez más para que ellos le alabaran para siempre.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

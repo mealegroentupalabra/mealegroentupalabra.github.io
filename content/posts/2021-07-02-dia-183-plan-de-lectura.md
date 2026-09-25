@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/07/02/dia-183-plan
 <p class="wp-block-paragraph">Cuando Dios venga, y su reino con él, éste será un reino de integridad y justicia. Los impíos, infamadores y mentirosos no hallaran cabida en la ciudad de Dios, pero los fieles de la tierra serán bienvenidos.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

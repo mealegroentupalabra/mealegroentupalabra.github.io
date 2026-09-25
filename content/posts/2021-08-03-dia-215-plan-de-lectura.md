@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/08/03/dia-215-plan
 <p class="wp-block-paragraph">Isaías habló de Efraín, y de cómo en el futuro Dios sería corona de gloria y diadema de hermosura a los que queden de su pueblo. Pero en el tiempo en que Isaías les hablaba, ellos no estaban escuchando a Dios e incluso sus sacerdotes y profetas erraban dejándose llevar por la embriaguez. También los líderes burladores de Jerusalén fueron advertidos, Dios edificará su reino de justicia y la primera piedra de su edificio sería preciosa y estable, y ellos no tendrían lugar en él.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

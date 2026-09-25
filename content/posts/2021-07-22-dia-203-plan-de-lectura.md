@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/07/22/dia-203-plan
 <p class="wp-block-paragraph">Salomón nos insta a ser diligentes en el cumplimiento de nuestras responsabilidades y en el cuidado de las cosas a nuestro cargo, para que así disfrutemos del fruto de nuestra labor. También nos aconseja que no busquemos la alabanza personal y que nos seamos ambiciosos ni avaros.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

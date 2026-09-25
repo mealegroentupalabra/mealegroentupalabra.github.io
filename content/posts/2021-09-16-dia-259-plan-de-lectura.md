@@ -31,8 +31,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/09/16/dia-259-plan
 <p class="wp-block-paragraph">Finalmente, en los tiempos de Dario el medo, Daniel fue echado en un foso con leones debido a su integridad y fidelidad a Dios, pero el Señor lo rescató de manera extraordinaria de ser muerto por los leones.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

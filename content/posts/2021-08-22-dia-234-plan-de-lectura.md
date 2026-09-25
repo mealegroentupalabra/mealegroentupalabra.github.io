@@ -27,8 +27,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/08/22/dia-234-plan
 <p class="wp-block-paragraph">Dios usó como ejemplo de obediencia a los hijos de Recab, el cuál había mandado a su hijos que no tomaran vino y que vivieran en tiendas. Si la palabra de Recab había sido firme para sus descendientes, ¿cuánto más lo sería la Palabra de Dios? Luego de esto, Dios ordenó a Jeremías que escribiera un rollo con los juicios de Dios para el pueblo. Todos los que oyeron lo que el rollo decía fueron impactados hasta que las palabras fueron leídas delante del rey, quién no dejando que la lectura avanzara, quemó el rollo en el fuego. Por esta razón, Dios reafirmó que haría juicio por medio de Babilonia y que castigaría a Joacim por su maldad.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

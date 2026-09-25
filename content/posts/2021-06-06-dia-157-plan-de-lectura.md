@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/06/06/dia-157-plan
 <p class="wp-block-paragraph">Los amigos de Job le responden cada vez con más dureza, recordándole que Dios pagará a los malos con desgracia, y que él es uno de ellos. Por su parte, Job no deja de defender su inocencia, y aunque sus amigos le escarnecen, su familia lo desprecia, los siervos no le obedecen y los niños se burlan, él sabe muy bien que su Redentor vive.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

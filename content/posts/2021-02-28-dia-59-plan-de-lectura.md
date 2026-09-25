@@ -26,8 +26,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/02/28/dia-59-plan-
 <p class="wp-block-paragraph">Luego continúo exhortando al pueblo a obedecer los mandamientos que Dios les enseñó a través suyo. Ellos debían recordar la relación especial que Dios había establecido con ellos, ya que Dios los había escogido como su propio pueblo de entre todas las naciones de la tierra. Debido a esta relación especial con Dios, los israelitas debían guardarse de adorar otros dioses y de hacer imágenes de Dios para adorar, porque de otra manera serían expulsados de la tierra.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

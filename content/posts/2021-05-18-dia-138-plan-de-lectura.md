@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/05/18/dia-138-plan
 <p class="wp-block-paragraph">Después de éste, reinó Ezequías e hizo lo bueno ante los ojos de Dios. Él trajo un avivamiento espiritual a la nación de Israel: restableció el servicio en el templo, hizo que se celebrara de nuevo la Pascua invitando a las tribus del norte a participar de ella, y reorganizó el servicio de los sacerdotes y levitas. Y la mano del Señor estuvo con él.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

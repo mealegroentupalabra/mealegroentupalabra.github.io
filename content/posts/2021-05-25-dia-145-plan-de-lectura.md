@@ -28,8 +28,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/05/25/dia-145-plan
 <ul class="wp-block-list"><li><a href="https://youtu.be/6csnrnHc4NA" rel="noreferrer noopener" target="_blank">Vídeo Explicativo – El Diario de Nehemías</a></li></ul>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

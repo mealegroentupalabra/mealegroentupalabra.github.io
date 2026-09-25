@@ -26,8 +26,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/05/14/dia-134-plan
 <p class="wp-block-paragraph">Después de Asa, reinó Josafat sobre Judá y Dios lo engrandeció mucho. Durante su tiempo, Judá se fortaleció tanto que los pueblos de alrededor no se atrevieron a hacerles guerra. Josafat también envió a sus príncipes y a los levitas para que enseñaran la ley de Moisés al pueblo.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

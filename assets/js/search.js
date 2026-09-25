@@ -73,11 +73,15 @@
 
     for (const post of searchIndex) {
       const postCatNorm = normalizeText(post.category || '');
+      const postCatsNorm = (post.categories || [post.category || '']).map(c => normalizeText(c));
       const postTagsNorm = (post.tags || []).map(t => normalizeText(t));
 
       // Category filter check
-      if (normCat && normCat !== 'todos' && postCatNorm !== normCat) {
-        continue;
+      if (normCat && normCat !== 'todos' && normCat !== 'all') {
+        const matchesCat = postCatsNorm.includes(normCat) || postCatNorm === normCat;
+        if (!matchesCat) {
+          continue;
+        }
       }
 
       // Tag filter check
@@ -111,7 +115,7 @@
         }
 
         // Category match
-        if (postCatNorm.includes(token)) {
+        if (postCatsNorm.some(c => c.includes(token)) || postCatNorm.includes(token)) {
           score += 10;
           tokenMatched = true;
           if (!matchedIn.includes('Categoría')) matchedIn.push('Categoría');

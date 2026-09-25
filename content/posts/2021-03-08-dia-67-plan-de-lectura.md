@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/03/08/dia-67-plan-
 <p class="wp-block-paragraph">Además, estando aún en las llanuras de Moab, antes de cruzar el Jordán para entrar en la tierra prometida, Dios celebró con ellos otro pacto adicional al que había hecho con ellos en el monte Sinaí. A través de este pacto, Dios confirmaría a Israel como su pueblo, de la manera que juró a Abraham, Isaac y Jacob.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

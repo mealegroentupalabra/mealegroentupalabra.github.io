@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/02/24/dia-55-plan-
 <p class="wp-block-paragraph">Después de estas cosas, los rubenitas y los gaditas solicitaron a Moisés que les diera las tierras que habían conquistado cuando vencieron a Sehón rey de Hesbón y a Og rey de Basán. Moisés accedió a darles dichas tierras con la condición de que fueran con sus hermanos de las otras tribus a pelear hasta que cada uno poseyera su heredad.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

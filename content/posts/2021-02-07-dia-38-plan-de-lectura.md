@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/02/07/dia-38-plan-
 <p class="wp-block-paragraph">Dios continuó dando un conjunto de normas para el pueblo a través de Moisés. Dios quería un pueblo santo porque él es santo. Algunos de las normas entregadas en estos capítulos tienen que ver con la manera como debían convivir y tratarse los unos a los otros, con las prácticas sexuales prohibidas y con algunas cosas que debían practicar los sacerdotes.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

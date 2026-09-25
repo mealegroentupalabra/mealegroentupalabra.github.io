@@ -26,8 +26,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/05/17/dia-137-plan
 <p class="wp-block-paragraph">Reinó en su lugar Jotam e hizo lo recto ante Dios, aunque el pueblo continuaba corrompiéndose. Pero Jotam se fortaleció mucho, porque ordenó sus pasos delante del Señor.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

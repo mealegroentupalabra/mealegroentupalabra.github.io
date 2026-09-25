@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/05/06/dia-126-plan
 <p class="wp-block-paragraph">Después de esto, se propuso David construir una casa para Dios, ya que hasta el momento el arca del pacto había estado de tienda en tienda. Pero Dios le dijo a David que más bien sería él quien le edificaría a David una casa, es decir, un linaje, y que por medio de uno de sus descendientes establecería su trono para siempre.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/05/31/dia-151-plan
 <p class="wp-block-paragraph">El pueblo judío ayunó y se humilló en cilicio y ceniza por causa del decreto que buscaba su aniquilación. Por su parte, Mardoqueo informó a Ester del decreto y la instó a suplicar al rey por la vida de su pueblo. Luego que Ester denunció a Amán y sus planes contra los judíos, el rey ordenó colgar a Amán y dio autoridad a Mardoqueo y a Ester para actuar en pro de la salvación de su pueblo.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

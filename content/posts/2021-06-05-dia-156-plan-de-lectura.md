@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/06/05/dia-156-plan
 <p class="wp-block-paragraph">Elifaz le pidió a Job que dejara de hablar tantas necedades, que por eso estaba en esa condición. Por su parte, Job le reprochó a sus amigos su actitud, y les hizo ver que eran pésimos consejeros, y que si ellos estuvieran en su lugar, él no los criticaría ni los despreciaría en medio del dolor, sino que sería de ánimo para ellos. También afirmó que el único que realmente escucharía su voz era el Señor y que ante él llevaría su quebranto.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

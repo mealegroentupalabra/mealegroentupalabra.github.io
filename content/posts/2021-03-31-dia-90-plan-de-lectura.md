@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/03/31/dia-90-plan-
 <p class="wp-block-paragraph">Sucedió después, que los filisteos se dispusieron para pelear contra Israel, y entre ellos había un gran guerrero llamado Goliat, al cual los israelitas le temían. David decidió enfrentarse a él y con la ayuda de Dios lo mató y dio una gran victoria a Israel aquel día.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

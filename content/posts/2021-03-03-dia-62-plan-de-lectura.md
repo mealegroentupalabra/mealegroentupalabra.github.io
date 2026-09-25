@@ -26,8 +26,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/03/03/dia-62-plan-
 <p class="wp-block-paragraph">Por último, los israelitas debían cuidarse de escuchar a cualquiera que los invitara a adorar a dioses falsos, aunque se tratara de un profeta, de una persona muy cercana o incluso de una ciudad entera. Quienes hicieran esto debían morir.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

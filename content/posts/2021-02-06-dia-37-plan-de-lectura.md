@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/02/06/dia-37-plan-
 <p class="wp-block-paragraph">Dios también manifestó que solo en el lugar donde él pusiere su Nombre, allí los israelitas podían ofrecerle sacrificios. Tampoco debían comer la sangre del animal, porque ella representa la vida y Dios separó la sangre para hacer expiación. Adicionalmente, Dios detalló una serie de prácticas sexuales que prohibió a los hijos de Israel.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

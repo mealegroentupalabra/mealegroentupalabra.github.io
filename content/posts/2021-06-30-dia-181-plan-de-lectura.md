@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/06/30/dia-181-plan
 <p class="wp-block-paragraph">Finalmente, Etán ezraíta habló sobre la misericordia y fidelidad de Dios en su pacto con David. Dios es poderosísimo y sus palabras son firmes, él hizo un pacto con David diciendo que su trono sería estable al igual que su descendencia y él lo cumplirá. Pero entonces, Dios se había enojado con la descendencia de David y los dejó a merced de los enemigos. Y por eso Etán se preguntaba: ¿Hasta cuándo, Señor?</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

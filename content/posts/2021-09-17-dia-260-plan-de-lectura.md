@@ -29,8 +29,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/09/17/dia-260-plan
 <p class="wp-block-paragraph">Cierto tiempo después, Daniel leyó en los libros de los profetas que el Señor había determinado que el exilio duraría setenta años. Así que él oró reconociendo la justicia de Dios, reconociendo los pecados del pueblo y suplicando el perdón y la misericordia del Señor.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

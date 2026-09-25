@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/07/16/dia-197-plan
 <p class="wp-block-paragraph">Ahora se introducen los proverbios de Salomón y él nos ofrece un contraste entre los justos y los malvados. A los justos se los llama sabios, diligentes, entendidos e íntegros; pero a los malos necios, inicuos, impíos, negligentes e insensatos. De los unos y de los otros brotan pensamientos, palabras y acciones diferentes, y por ello, cada uno recogerá lo que ha sembrado.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

@@ -32,8 +32,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/08/15/dia-227-plan
 <p class="wp-block-paragraph">Dios también les llamó la atención a Israel y a Judá por invalidar su pacto que él había concertado con sus antepasados, a pesar del solemne llamado que él les había hecho a escuchar y obedecer todas las cosas contenidas en él. Por eso, Dios traería el mal sobre ellos, y cuando clamaran a sus ídolos, éstos no los podrían ayudar. Además, Jeremías no debía orar por ellos el día en que el castigo de Dios viniera, porque Dios no atendería esa oración.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

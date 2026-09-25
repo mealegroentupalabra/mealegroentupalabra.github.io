@@ -57,7 +57,13 @@
       </nav>
 
       <div class="meta-row" style="justify-content: center; margin-bottom: 1.25rem;">
-        <a href="{{ base_path }}/categoria/{{ post.category_slug }}/" class="category-badge">{{ post.category }}</a>
+        {% if post.categories_data %}
+          {% for cat in post.categories_data %}
+            <a href="{{ base_path }}/categoria/{{ cat.slug }}/" class="category-badge">{{ cat.name }}</a>
+          {% endfor %}
+        {% else %}
+          <a href="{{ base_path }}/categoria/{{ post.category_slug }}/" class="category-badge">{{ post.category }}</a>
+        {% endif %}
         <span>•</span>
         <time datetime="{{ post.date }}">{{ post.date_formatted }}</time>
         <span>•</span>

@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/06/19/dia-170-plan
 <p class="wp-block-paragraph">David reflexionó sobre la bienaventuranza del hombre cuyos pecados son perdonados. Él lo experimentó porque pecó gravemente, pero al confesar su falta, el Señor le perdonó. También animó a los íntegros a alabar a Dios, a reconocerlo por sus hechos poderosos en la creación y por que su mirada está sobre los que le temen para bien. Él les libra de todos sus temores, alumbra sus rostros, acampa alrededor de ellos y suple todas sus necesidades. Finalmente, él pidió al Señor que lo librara de los hombres malignos que buscaban su vida.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

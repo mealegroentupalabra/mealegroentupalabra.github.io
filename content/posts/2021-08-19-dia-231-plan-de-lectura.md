@@ -30,8 +30,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/08/19/dia-231-plan
 <p class="wp-block-paragraph">En el tiempo del reinado de Joacím, Dios ordenó a Jeremías que advirtiera a varias naciones vecinas para que se sometieran a Babilonia porque él le había dado dominio. Todos los que se sometieran vivirían. Jeremías también advirtió a Sedequías y a los sacerdotes, él les dijo a estos últimos, que todos los utensilios del templo serían llevados a Babilonia, y que solo regresarían al templo cuando Dios lo determinara. Aquellos judíos que habían sido llevados en cautiverio debían establecerse en los lugares a los que habían sido llevados y prosperar en ellos, pero los que se habían quedado en Jerusalén estaban destinados a la espada.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

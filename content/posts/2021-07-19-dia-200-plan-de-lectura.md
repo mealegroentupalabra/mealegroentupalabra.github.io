@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/07/19/dia-200-plan
 <p class="wp-block-paragraph">Salomón continúa presentándonos sus consejos de sabiduría. Él nos habla de la ira del hombre, de la pereza, del falso testimonio y de la generosidad, entre otros temas. Él también nos dice que el Señor es el dueño de los caminos del hombre, que aunque éste tiene libertad para escoger, la última palabra siempre está en la potestad de Dios. Por último, él insiste en que el alma que carece de sabiduría va rumbo a la muerte.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

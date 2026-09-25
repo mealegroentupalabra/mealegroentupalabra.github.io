@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/05/12/dia-132-plan
 <p class="wp-block-paragraph">Una vez terminadas estas cosas, Dios se le apareció a Salomón y le dijo que él había escuchado su oración y que haría como él se lo había pedido, y que su Nombre estaría sobre el templo entre tanto que los israelitas fueran obedientes. De otra manera, el templo sería destruido y ellos serían expulsados de la tierra.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

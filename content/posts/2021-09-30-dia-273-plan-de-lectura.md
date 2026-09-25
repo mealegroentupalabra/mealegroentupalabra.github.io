@@ -29,8 +29,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/09/30/dia-273-plan
 <p class="wp-block-paragraph">Todo esto será el día que él venga, y sus pies se posen sobre el monte de los Olivos, y combata contra los enemigos de su pueblo, los venza y al fin gobierne sobre ellos y sobre las naciones. Entonces, los que hubieren sobrevivido de la naciones después de la batalla, vendrán a Jerusalén cada año para adorar al rey Jehová de los ejércitos.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

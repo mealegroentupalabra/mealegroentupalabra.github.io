@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/08/04/dia-216-plan
 <p class="wp-block-paragraph">También, en aquel día el Señor será exaltado, y en sus tiempos reinarán la sabiduría, la ciencia, la justicia y la salvación, y solo el que camina en justicia y hace lo recto habitará con él en su morada santa. Él hará un camino para que todos sus redimidos vengan de todos los lugares en que estén esparcidos, y ellos vendrán con gozo cantando al Señor.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

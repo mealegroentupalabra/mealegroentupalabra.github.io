@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/04/09/dia-99-plan-
 <p class="wp-block-paragraph">Cuando David huyó de Jerusalén, mientras él iba por el camino, algunos salieron para mostrarle su lealtad y apoyo, y otros para maldecirlo. Por su parte, Absalón buscó ganarse el desprecio de su padre teniendo relaciones sexuales a plena luz del día con las concubinas que permanecieron en el palacio en Jerusalén. Después de esto, Absalón buscó consejo para saber cómo atacar a David, pero Husai, que era un fiel consejero y amigo de David, lo aconsejó engañosamente para dar tiempo a David de ponerse a salvo y de prepararse para la batalla. Absalón vino entonces con un gran ejército de israelitas para enfrentarse a David, pero fue vencido y asesinado por Joab. Cuando David lo supo, se turbó y lloró por su hijo.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

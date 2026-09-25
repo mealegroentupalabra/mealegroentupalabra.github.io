@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/07/21/dia-202-plan
 <p class="wp-block-paragraph">Los siguientes proverbios de Salomón fueron recopilados por hombres del rey Ezequías. En ellos encontramos consejo acerca del trato con los reyes, de la moderación de la conducta en varias circunstancias, del trato con los necios y del comportamiento de los perezosos, entre otros. También encontramos el consejo de otros hombres sabios.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

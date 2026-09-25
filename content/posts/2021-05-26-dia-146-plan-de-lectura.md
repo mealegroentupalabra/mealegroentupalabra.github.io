@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/05/26/dia-146-plan
 <p class="wp-block-paragraph">Una vez concluida la edificación del muro, Nehemías le asignó a su hermano Hanani, y a Hananías, el cuidado de las puertas de Jerusalén. También estableció guardas por turnos ya que la ciudad era espaciosa y sus habitantes pocos. Luego, Nehemías empadronó al pueblo según su genealogía, identificando quienes podían servir en el sacerdocio y como levitas.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

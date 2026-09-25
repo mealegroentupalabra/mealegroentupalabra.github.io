@@ -29,8 +29,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/07/18/dia-199-plan
 <p class="wp-block-paragraph">Salomón dice que los pensamientos y las decisiones del hombre están en su propia mano, pero que el Señor tiene potestad sobre ellos. Así afirma el dominio de Dios sobre todos los asuntos de la vida. También, presenta la manera como la sabiduría influye positivamente en las relaciones con otros: los padres, los amigos y hasta los enemigos, pero también enseña que la necedad destruye todas las relaciones.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

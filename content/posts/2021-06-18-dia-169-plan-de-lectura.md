@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/06/18/dia-169-plan
 <p class="wp-block-paragraph">David habló sobre su fe y su integridad, él no fue amigo de hombres hipócritas ni participó en sus pecados. Por eso con confianza pidió que Dios examinara su corazón y evaluara sus pensamientos. Él también reconoció que Dios fue su salvación, el que le libró de todos los malignos, de sus angustiadores y sus enemigos, por lo cuál él tendrá confianza siempre, y no tendrá temor aunque un ejército acampe contra él. Además, David no cesó de exaltar a Dios por su gran poder, de clamar por su reino, de desear su presencia y de proclamar su Nombre entre el pueblo.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

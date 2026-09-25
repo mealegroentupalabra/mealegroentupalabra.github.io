@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/02/14/dia-45-plan-
 <p class="wp-block-paragraph">Los príncipes de las tribus de Israel trajeron ofrendas para el Señor el día en que el tabernáculo con su mobiliario y sus utensilios fueron ungidos y santificados. Dichas ofrendas fueron utilizadas de dos formas: los carros y algunos bueyes fueron entregados a los levitas para transportar todos los elementos que componían el tabernáculo mientras Israel viajaba a través del desierto; el resto de las ofrendas se utilizaron para ofrecer sacrificios.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

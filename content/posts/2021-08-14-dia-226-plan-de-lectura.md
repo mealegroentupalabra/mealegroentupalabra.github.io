@@ -30,8 +30,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/08/14/dia-226-plan
 <p class="wp-block-paragraph">Dios envió a Jeremías a proclamar desde la puerta del templo a todos los que se acercaban para adorar a Dios que no pensaran que por el hecho de que Dios hubiese puesto su Nombre sobre ese lugar, eso los libraría del castigo para seguir haciendo abominaciones, que viesen lo que Dios había hecho por causa del pecado de Israel en Silo, el lugar donde antes estuvo el tabernáculo, y reconsideraran, porque Dios haría lo mismo al templo de Jerusalén. La determinación estaba ya tomada y Dios no cambiaría de parecer.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

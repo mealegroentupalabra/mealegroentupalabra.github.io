@@ -30,8 +30,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/09/11/dia-254-plan
 <p class="wp-block-paragraph">También, Dios lo mandó a profetizar contra Gog, el príncipe de Mesec y Tubal, diciendo que Dios estaba contra él, y que el día que él se levantara contra su pueblo Israel, viniendo con un gran ejército reunido de muchas naciones, Dios derramaría su ira contra él y su ejército, para que su pueblo no sea perturbado y habite en paz y seguridad para siempre.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

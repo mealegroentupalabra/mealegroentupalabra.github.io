@@ -30,8 +30,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/08/11/dia-223-plan
 <p class="wp-block-paragraph">Así que Dios lidiará con el pecado, él tomará cuenta de todos los que le rechazaron, pero sus siervos se alegrarán en él y cantarán de júbilo, porque él creará cielos nuevos y tierra nueva donde no habrá clamor ni lloro, sino consolación perpetua.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/08/08/dia-220-plan
 <p class="wp-block-paragraph">Dios estableció a su siervo para restaurar a Israel, pero también lo dio por luz para las naciones y para salvación hasta la último de la tierra. Él lo haría por medio de su sufrimiento, pero no porque lo mereciera, sino para llevar las culpas de su pueblo y así redimirlos. Así Dios mostraría que aunque su pueblo pensó que él los había abandonado, él jamás se olvidaría de ellos, así como una madre no se olvida de la criatura que trajo al mundo.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

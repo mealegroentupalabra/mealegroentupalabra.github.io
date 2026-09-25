@@ -220,9 +220,25 @@ class SiteBuilder:
                     dt = datetime.now()
 
             category = fm.get("category", "Reflexiones")
-            categories_list = fm.get("categories", [category])
-            if not isinstance(categories_list, list):
-                categories_list = [categories_list]
+            raw_categories = fm.get("categories", [category])
+            if not isinstance(raw_categories, list):
+                raw_categories = [raw_categories]
+
+            all_categories = []
+            for c in raw_categories + [category]:
+                if c and isinstance(c, str):
+                    c_clean = c.strip()
+                    if c_clean and c_clean not in all_categories:
+                        all_categories.append(c_clean)
+            if not all_categories:
+                all_categories = ["Reflexiones"]
+
+            primary_category = all_categories[0]
+            categories_data = [{"name": c, "slug": slugify(c)} for c in all_categories]
+
+            # Day number for reading plan posts
+            day_match = re.search(r"dia-(\d+)", slug) or re.search(r"d[ií]a\s*(\d+)", title, re.IGNORECASE)
+            day_number = int(day_match.group(1)) if day_match else None
 
             raw_tags = fm.get("tags", [])
             if not isinstance(raw_tags, list):
@@ -254,9 +270,11 @@ class SiteBuilder:
                 "date_iso": date_iso,
                 "date_formatted": date_formatted,
                 "pub_date_rfc822": date_rfc822,
-                "category": category,
-                "category_slug": slugify(category),
-                "categories": categories_list,
+                "category": primary_category,
+                "category_slug": slugify(primary_category),
+                "categories": all_categories,
+                "categories_data": categories_data,
+                "day_number": day_number,
                 "tags": tags,
                 "image": image,
                 "summary": summary,
@@ -322,12 +340,13 @@ class SiteBuilder:
         tags_map = {}
 
         for p in posts:
-            cat_name = p["category"]
-            cat_slug = p["category_slug"]
-            if cat_slug not in categories_map:
-                categories_map[cat_slug] = {"name": cat_name, "slug": cat_slug, "count": 0, "posts": []}
-            categories_map[cat_slug]["count"] += 1
-            categories_map[cat_slug]["posts"].append(p)
+            for cat_item in p["categories_data"]:
+                cat_name = cat_item["name"]
+                cat_slug = cat_item["slug"]
+                if cat_slug not in categories_map:
+                    categories_map[cat_slug] = {"name": cat_name, "slug": cat_slug, "count": 0, "posts": []}
+                categories_map[cat_slug]["count"] += 1
+                categories_map[cat_slug]["posts"].append(p)
 
             for t in p["tags"]:
                 t_slug = t["slug"]
@@ -335,6 +354,13 @@ class SiteBuilder:
                     tags_map[t_slug] = {"name": t["name"], "slug": t_slug, "count": 0, "posts": []}
                 tags_map[t_slug]["count"] += 1
                 tags_map[t_slug]["posts"].append(p)
+
+        # Sort reading plan categories in chronological day order (Day 1 -> 276)
+        for plan_slug in ("la-biblia-en-un-ano", "planes-de-lectura"):
+            if plan_slug in categories_map:
+                categories_map[plan_slug]["posts"].sort(
+                    key=lambda p: (p.get("day_number") is None, p.get("day_number") or 0, p["date"])
+                )
 
         categories_list = sorted(categories_map.values(), key=lambda c: -c["count"])
         
@@ -357,12 +383,17 @@ class SiteBuilder:
 
             # Find up to 3 related posts (same category or overlapping tags)
             related = []
+            post_cat_slugs = {c["slug"] for c in post["categories_data"]}
             for other in posts:
                 if other["slug"] == post["slug"]:
                     continue
                 score = 0
-                if other["category"] == post["category"]:
-                    score += 2
+                other_cat_slugs = {c["slug"] for c in other["categories_data"]}
+                overlap_cats = post_cat_slugs.intersection(other_cat_slugs)
+                for c_slug in overlap_cats:
+                    # Give higher affinity to specific Bible books than the generic plan category
+                    score += 1 if c_slug in ("la-biblia-en-un-ano", "planes-de-lectura") else 3
+
                 tag_names = {t["name"] for t in post["tags"]}
                 other_tags = {t["name"] for t in other["tags"]}
                 score += len(tag_names.intersection(other_tags))
@@ -383,6 +414,9 @@ class SiteBuilder:
                 "date_formatted": p["date_formatted"],
                 "category": p["category"],
                 "category_slug": p["category_slug"],
+                "categories": [c["name"] for c in p["categories_data"]],
+                "categories_data": p["categories_data"],
+                "day_number": p.get("day_number"),
                 "tags": [t["name"] for t in p["tags"]],
                 "summary": p["summary"],
                 "content": p["plain_text"][:1200],  # first 1200 chars for deep search
@@ -527,7 +561,11 @@ class SiteBuilder:
             
             # Check if this page matches a category name (e.g. reflexiones, planes-de-lectura, la-biblia-en-un-ano)
             matched_cat_slug = slugify(pg["title"])
-            page_posts = categories_map.get(matched_cat_slug, {}).get("posts", [])
+            page_posts = list(categories_map.get(matched_cat_slug, {}).get("posts", []))
+            if not page_posts and pg["slug"] in categories_map:
+                page_posts = list(categories_map[pg["slug"]]["posts"])
+            if pg["slug"] in ("la-biblia-en-un-ano", "planes-de-lectura") or matched_cat_slug in ("la-biblia-en-un-ano", "planes-de-lectura"):
+                page_posts.sort(key=lambda p: (p.get("day_number") is None, p.get("day_number") or 0, p["date"]))
             
             html_out = page_tmpl.render(
                 page=pg,

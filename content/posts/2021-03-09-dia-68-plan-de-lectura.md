@@ -26,8 +26,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/03/09/dia-68-plan-
 <p class="wp-block-paragraph">Finalmente, Moisés se preparó para su muerte: concluyó la escritura del libro de la ley y la puso bajo el cuidado de los sacerdotes; animó a Josué a esforzarse, tener ánimo y ser valiente, porque él introduciría a los israelitas en la tierra de Canaán. A su vez, el Señor se apareció en el tabernáculo para designar a Josué como sucesor de Moisés y para advertir al pueblo acerca de lo que pasaría en los años siguientes. Dios enseñó a Moisés una canción que él debía enseñar a los israelitas como un testimonio contra ellos por las cosas que harían en el futuro.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

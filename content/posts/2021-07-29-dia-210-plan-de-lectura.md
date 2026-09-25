@@ -26,8 +26,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/07/29/dia-210-plan
 <p class="wp-block-paragraph">Finalmente, en los tiempos del rey Acaz del reino de Judá (2 Reyes 16-17), los reinos de Israel y Siria se unieron para invadir a Judá. Dios ofreció su ayuda a Acaz, pero este rehusó recibirla y prefirió hacer una alianza con el imperio Asirio, quien por cierto le traicionaría.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

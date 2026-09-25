@@ -28,8 +28,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/09/06/dia-249-plan
 <p class="wp-block-paragraph">Dios también le quitó a Ezequiel su esposa diciéndole que no llorara y ni se lamentara por ella. Esto sería una señal para los israelitas, de que así como había sucedido con Ezequiel, pasaría con ellos cuando Jerusalén fuese destruida, ni siquiera tendrían tiempo de hacer duelo.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

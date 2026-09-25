@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/05/23/dia-143-plan
 <p class="wp-block-paragraph">Después de esto, se acercaron algunos del pueblo a Esdras y le informaron de cómo algunos de los que habían venido de la cautividad tomaron para sí mujeres de los cananeos. Esto conmovió profundamente a Esdras, el cual oró al Señor y confesó delante de él los pecados de Israel. También, junto con el pueblo, hicieron pacto de que disolverían los matrimonios que no eran conforme a la ley de Moisés.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

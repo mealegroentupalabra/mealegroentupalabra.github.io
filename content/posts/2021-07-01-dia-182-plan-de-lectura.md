@@ -26,8 +26,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/07/01/dia-182-plan
 <p class="wp-block-paragraph">Finalmente, hablaron de la inmensa majestad de Dios y de su gran poder, él es más poderoso que el ímpetu y estruendo de las muchas aguas. Por eso, se preguntan una vez más, ¿Has cuando, Señor? ¿Vas a permitir que los soberbios permanezcan para siempre y continúen haciendo de las suyas? Ellos ven a Dios como el Dios de la venganza y le piden que actúe.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

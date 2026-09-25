@@ -57,6 +57,12 @@
   </url>
   
   <url>
+    <loc>https://alemormez.github.io/categoria/salmos/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
     <loc>https://alemormez.github.io/categoria/genesis/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -70,6 +76,12 @@
   
   <url>
     <loc>https://alemormez.github.io/categoria/jeremias/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://alemormez.github.io/categoria/numeros/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -105,6 +117,12 @@
   </url>
   
   <url>
+    <loc>https://alemormez.github.io/categoria/proverbios/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
     <loc>https://alemormez.github.io/categoria/1-cronicas/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -112,6 +130,12 @@
   
   <url>
     <loc>https://alemormez.github.io/categoria/2-cronicas/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://alemormez.github.io/categoria/levitico/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -153,6 +177,12 @@
   </url>
   
   <url>
+    <loc>https://alemormez.github.io/categoria/nehemias/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
     <loc>https://alemormez.github.io/categoria/daniel/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -183,7 +213,43 @@
   </url>
   
   <url>
+    <loc>https://alemormez.github.io/categoria/mateo/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://alemormez.github.io/categoria/zacarias/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://alemormez.github.io/categoria/amos/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://alemormez.github.io/categoria/oseas/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://alemormez.github.io/categoria/lamentaciones/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
     <loc>https://alemormez.github.io/categoria/ester/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://alemormez.github.io/categoria/malaquias/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -201,6 +267,24 @@
   </url>
   
   <url>
+    <loc>https://alemormez.github.io/categoria/sofonias/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://alemormez.github.io/categoria/nahum/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://alemormez.github.io/categoria/miqueas/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
     <loc>https://alemormez.github.io/categoria/jonas/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -213,12 +297,6 @@
   </url>
   
   <url>
-    <loc>https://alemormez.github.io/categoria/amos/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
     <loc>https://alemormez.github.io/categoria/joel/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -226,6 +304,12 @@
   
   <url>
     <loc>https://alemormez.github.io/categoria/cantares/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://alemormez.github.io/categoria/rut/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

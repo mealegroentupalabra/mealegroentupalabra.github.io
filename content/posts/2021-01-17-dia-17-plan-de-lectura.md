@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/01/17/dia-17-plan-
 <p class="wp-block-paragraph">En sus últimos momentos, Jacob bendice de manera especial a los hijos de José dándoles una mayor participación en la herencia que recibirían en la tierra prometida cuando tomaran posesión de ella. También, le anuncia a José que Dios estaría con ellos, y que eventualmente, los haría volver a la tierra prometida. También reunió a sus hijos para anunciar lo que sería de cada uno de ellos en lo porvenir, después de lo cual, él murió y fue llevado a Canaán para ser sepultado allá según su deseo. Después de un buen tiempo, José también murió, pero antes de ello, hizo jurar a sus hermanos que cuando Dios los sacara de Egipto llevarían sus huesos con ellos.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

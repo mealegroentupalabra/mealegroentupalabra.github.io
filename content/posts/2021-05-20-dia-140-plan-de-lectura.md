@@ -26,8 +26,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/05/20/dia-140-plan
 <p class="wp-block-paragraph">Setenta años después de estos acontecimientos, el rey Ciro de Persia, quien conquistó Babilonia decretó que los del pueblo de Judá podían regresar a su tierra y reconstruir la casa de Dios.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/05/27/dia-147-plan
 <p class="wp-block-paragraph">Después de esto, el pueblo se reunió nuevamente para ayunar y entristecerse delante de Dios. Una vez más se leyó del libro de la ley y los levitas oraron al Señor. Después de hacerlo, hicieron fiel promesa delante del Señor y la dejaron por escrito.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

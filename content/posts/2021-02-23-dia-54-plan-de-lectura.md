@@ -28,8 +28,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/02/23/dia-54-plan-
 <ul class="wp-block-list"><li><a href="https://youtu.be/g7lewy22t4M" rel="noreferrer noopener" target="_blank">Vídeo explicativo – La Pascua (inglés)</a></li><li><a href="https://youtu.be/ubPKLDF_G6E" rel="noreferrer noopener" target="_blank">Vídeo explicativo – Pentecostés (inglés)</a></li><li><a href="https://youtu.be/g9wDnsjMtW0" rel="noreferrer noopener" target="_blank">Vídeo explicativo – Fiesta de las Trompetas (inglés)</a></li><li><a href="https://youtu.be/fssPmwOhRf0" rel="noreferrer noopener" target="_blank">Vídeo explicativo – El Día de la Expiación (inglés)</a></li><li><a href="https://youtu.be/u6PmxypqZ9I" rel="noreferrer noopener" target="_blank">Vídeo explicativo – Fiesta de los Tabernáculos (inglés)</a></li></ul>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

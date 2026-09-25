@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/06/29/dia-180-plan
 <p class="wp-block-paragraph">Finalmente, un salmista anónimo reflexionó sobre el privilegio de los que habitaban en la casa de Dios y le servían. La morada de Dios era hermosa y todos estaban invitados a ella. Pero, a pesar de su deslumbrante belleza, lo que hacía a la casa de Dios tan codiciable era la presencia de Dios mismo, porque él es el escudo de todos los que confían en él.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

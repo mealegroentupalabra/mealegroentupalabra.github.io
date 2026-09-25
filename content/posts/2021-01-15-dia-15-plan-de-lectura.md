@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/01/15/dia-15-plan-
 <p class="wp-block-paragraph">Los hermanos de José vinieron una vez por trigo y José los llamó espías, y por ello les pidió una prueba de que no lo eran. Ellos debían traer a Benjamín, su hermano menor, la próxima vez que vinieran por alimentos, y uno de ellos se quedaría como prisionero en Egipto. Por supuesto, Jacob no quiso que llevaran a Benjamín, pero una vez que sus provisiones se acabaron, y después de convencer a Jacob, finalmente descendieron a Egipto con su hermano menor. Después de algunos momentos profundamente conmovedores, José se dio a conocer a sus hermanos y les pidió que trajeran a su padre y descendieran todos para vivir en Egipto y ser sustentados durante la hambruna. Por su parte, Dios también le reveló a Jacob que debía descender a Egipto y morar allí.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

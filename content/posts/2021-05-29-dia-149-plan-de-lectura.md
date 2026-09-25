@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/05/29/dia-149-plan
 <p class="wp-block-paragraph">También Nehemías hizo sacar las cosas que Eliasib había introducido en la casa de Dios por consideración a Tobías. Nehemías ordenó que se limpiara la habitación y que allí fueran depositados los utensilios de la casa de Dios, las ofrendas y el incienso.También puso en orden algunas otras cosas que estaban mal en el pueblo y en la administración de la casa de Dios.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

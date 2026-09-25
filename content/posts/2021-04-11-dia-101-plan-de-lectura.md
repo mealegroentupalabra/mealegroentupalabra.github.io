@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/04/11/dia-101-plan
 <p class="wp-block-paragraph">David elevó un cántico de alabanza y gratitud a Dios por su liberación diciendo que Dios lo salvó de todos sus enemigos y le mostró su misericordia a él y a su descendencia para siempre, conforme a su promesa. También dijo, por medio del Espíritu Santo, que vendría un justo que gobernaría en el temor de Dios y que sería como la luz de la mañana. Después de esto, David volvió a pecar contra Dios, lo cual provocó una terrible mortandad en el pueblo.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

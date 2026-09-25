@@ -27,8 +27,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/04/24/dia-114-plan
 <p class="wp-block-paragraph">Después de la muerte de Ocozías de Judá, su madre Atalía mandó asesinar a todo el linaje real, pero Dios providencialmente salvó la vida de Joás, guardando así el trono de Judá para el linaje real de David. Finalmente, Atalía fue asesinada y todo el pueblo se regocijó, y la ciudad estuvo en reposo.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

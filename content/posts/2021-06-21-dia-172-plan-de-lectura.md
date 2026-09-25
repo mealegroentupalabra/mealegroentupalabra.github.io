@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/06/21/dia-172-plan
 <p class="wp-block-paragraph">También los hijos de Coré reflexionaron sobre su profunda necesidad de Dios, tan grande como la del ciervo que anhela y gime por agua. Para ellos, el alma abatida necesita a Dios, y aunque a veces parece que él se ha olvidado, continúan poniendo su esperanza en Dios.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

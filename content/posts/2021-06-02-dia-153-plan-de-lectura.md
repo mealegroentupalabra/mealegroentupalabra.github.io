@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/06/02/dia-153-plan
 <p class="wp-block-paragraph">Job maldijo el día en que nació y se lamentó profundamente. Entonces, su amigo Elifaz respondió sugiriendo que Job debió haber hecho algo para estar en dicha condición, porque Dios reprende al impío y libra al justo. Por su parte, Job reconoció que habló apresuradamente, pero que todo fue fruto de su terrible dolor. Finalmente, se preguntó sobre por qué Dios se había ensañado contra él.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

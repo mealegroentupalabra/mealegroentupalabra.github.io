@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/06/03/dia-154-plan
 <p class="wp-block-paragraph">Bildad le dice a Job que todo esto le sucede porque es pecador y afirma que tiene que arrepentirse porque Dios no castigaría al justo. Pero Job insiste en que él es inocente y piensa que está sufriendo sin causa, así que le pregunta a Dios por qué lo hace sufrir de esa manera y le pide que le dé reposo antes de morir.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

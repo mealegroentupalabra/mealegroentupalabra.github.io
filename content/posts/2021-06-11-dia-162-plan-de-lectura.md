@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/06/11/dia-162-plan
 <p class="wp-block-paragraph">Eliú continuó dirigiendo sus palabras contra Job por decir que él era más justo que Dios y lo tildó de impío. Luego habló de la justicia de Dios y de cómo él condena al impío pero muestra misericordia al afligido. También, mostró cómo las obras de Dios son incomprensibles para el ser humano y animó a Job a meditar en ellas.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

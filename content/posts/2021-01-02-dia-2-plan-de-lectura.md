@@ -28,8 +28,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/01/02/dia-2-plan-d
 <ul class="wp-block-list"><li><a href="https://youtu.be/VsGlbwF4HtI" rel="noreferrer noopener" target="_blank">Proyecto Biblia – La Imagen de Dios</a></li><li><a href="https://answersingenesis.org/es/ciencia/de-d%C3%B3nde-sali%C3%B3-el-agua-en-la-tierra/" rel="noreferrer noopener" target="_blank">Respuestas en Génesis – ¿De dónde salió el agua en la tierra?</a></li></ul>
 </div>
 </div>
-
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/06/23/dia-174-plan
 <p class="wp-block-paragraph">David también se regocijó en la salvación de Dios y de cómo él le libró de sus enemigos. En cada tiempo en que su vida corrió peligro, él dirigió a Dios su oración y fue escuchado. Pero los enemigos no fueron solo los de afuera, sino también aquel que había sido su íntimo amigo, con quien subía a la casa de Dios y compartía sus secretos, éste también buscó su mal. A pesar de eso, él decidió confiar y descansar en el Señor.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

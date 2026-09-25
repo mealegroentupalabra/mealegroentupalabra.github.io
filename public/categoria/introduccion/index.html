@@ -37,6 +37,14 @@
 
   <!-- Google Analytics GA4 -->
   
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1ZQG29HZLW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1ZQG29HZLW');
+  </script>
+  
 
   
 </head>
@@ -123,9 +131,11 @@
       <p style="color: var(--text-muted);">3 artículos publicados en esta categoría</p>
     </div>
 
+    
+
     <div class="posts-grid">
       
-      <article class="post-card">
+      <article class="post-card" data-day="0">
         
         <a href="/posts/los-primeros-pasos/" class="card-media">
           <img src="https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/03/steps-1081909_1280.jpg" alt="Los Primeros Pasos" loading="lazy">
@@ -156,7 +166,7 @@
         </div>
       </article>
       
-      <article class="post-card">
+      <article class="post-card" data-day="0">
         
         <a href="/posts/la-aventura-empieza-aqui/" class="card-media">
           <img src="https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/03/pexels-luis-quintero-2294873-2.jpg" alt="La Aventura Empieza Aquí" loading="lazy">
@@ -185,7 +195,7 @@
         </div>
       </article>
       
-      <article class="post-card">
+      <article class="post-card" data-day="0">
         
         <a href="/posts/hola-a-todos/" class="card-media">
           <img src="https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/03/pexels-pixabay-372748.jpg" alt="Hola Mundo" loading="lazy">
@@ -223,6 +233,8 @@
     </div>
   </div>
 </section>
+
+
 
   </main>
 

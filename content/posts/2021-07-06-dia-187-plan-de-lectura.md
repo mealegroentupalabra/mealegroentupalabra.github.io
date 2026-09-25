@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/07/06/dia-187-plan
 <p class="wp-block-paragraph">El salmista mostró la diferencia entre Dios y los ídolos. Dios está en los cielos y hace según su perfecta voluntad, pero los ídolos son nada. Así que, el Señor y sólo él es digno de confianza y el salmista lo ama de todo corazón, porque Dios escuchó su súplicas y lo libró con su gran poder de la muerte. Además, por eso invocará su Nombre y pagará sus votos. También, invitó a las naciones y a su propio pueblo a alabar a Dios por su misericordia, su fidelidad y su bondad para con Israel.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

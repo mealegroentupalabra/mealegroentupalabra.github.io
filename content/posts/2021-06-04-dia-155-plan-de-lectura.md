@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/06/04/dia-155-plan
 <p class="wp-block-paragraph">Zofar acusó directamente a Job y le atribuyó varios pecados, también lo invitó a arrepentirse con la confianza de que seguro Dios lo perdonaría. Por su parte, Job sabía que no era un impío y quería que Dios le respondiera y le dijera porqué lo humillaba así, él se preguntaba cuál era su maldad y si es que Dios se había dedicado a juntar todos sus pecados desde la juventud. Él se sentía como una hoja seca que se lleva el viento y como madera que se pudre.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

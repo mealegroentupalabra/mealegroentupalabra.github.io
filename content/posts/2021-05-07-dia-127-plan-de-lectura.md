@@ -26,8 +26,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/05/07/dia-127-plan
 <p class="wp-block-paragraph">Después de estas cosas, el rey David obstinadamente realizó un censo a pesar del consejo de su general Joab. Por esta causa, Dios envió una terrible mortandad sobre Israel por medio del ángel de Jehová. Cuando el ángel extendió su espada contra Jerusalén, Dios lo detuvo porque tuvo misericordia y le ordenó a David que construyera un altar para Dios en la era de Ornán jebuseo. De esa manera, David subió prontamente allí, compró la era de Ornán, construyó el altar y ofreció sacrificios a Dios. Dios recibió el sacrificio respondiendo con fuego del cielo.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

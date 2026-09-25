@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/06/26/dia-177-plan
 <p class="wp-block-paragraph">Por último, al inicio de la nueva sección de los salmos, el libro tercero, Asaf reflexionó sobre su propia experiencia al considerar la prosperidad material de los malvados. Él vio que a ellos les iba bien y que no sufrían por nada, y eso le produjo amargura, hasta el punto de pensar que es en vano buscar a Dios. Pero luego, mientras meditaba en el templo, entendió cuál era el final de ellos, y recordó que lo único que debe anhelar un justo es a Dios mismo.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

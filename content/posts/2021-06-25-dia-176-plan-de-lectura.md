@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/06/25/dia-176-plan
 <p class="wp-block-paragraph">También el salmista David recuerda la manera como Dios dirigió a Israel por el desierto para introducirlo a la tierra prometida. Cuando Dios se levantaba para dirigir a los millares de Israel, los pueblos temían ante su presencia. El Señor dejó su morada en el monte Sinaí, entró en medio de Israel a la tierra prometida e hizo reposar su Nombre sobre el monte que él escogió.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

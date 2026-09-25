@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/02/13/dia-44-plan-
 <p class="wp-block-paragraph">Dios ordenó que todos aquellos que estuvieran ritualmente impuros debían salir del campamento. También dio instrucciones sobre la restitución de un daño, sobre el manejo de las situaciones en las que el marido sospecha que su esposa le fue infiel y sobre el voto de nazareo. También Dios entregó a los sacerdotes un bendición especial con la que bendecirían al pueblo de Israel.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

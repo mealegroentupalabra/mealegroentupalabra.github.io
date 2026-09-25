@@ -27,8 +27,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/09/18/dia-261-plan
 <p class="wp-block-paragraph">Durante el reinado de Ciro el Persa, Daniel tuvo una nueva visión. En ella, un mensajero de parte de Dios vino para mostrar a Daniel los próximos sucesos. Le habló de los reinos que vendría y sus luchas de poder, y de un rey que vendría contra el pueblo santo. Finalmente le habló de su esperanza y de su resurrección al fin de los tiempos.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

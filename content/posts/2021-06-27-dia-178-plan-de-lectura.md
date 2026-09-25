@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/06/27/dia-178-plan
 <p class="wp-block-paragraph">Finalmente, habló sobre la manera como buscó a Dios en un momento de angustia. Él estaba intranquilo y su corazón se desanimaba pensando que Dios había abandonado a su pueblo y ya no tendría más misericordia de él. Este pensamiento le quitaba el sueño, hasta que decidió recordar las obras del Señor y de cómo éste había hecho pasar a su pueblo por el mar de la mano de Moisés y de Aarón.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

@@ -31,8 +31,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/08/17/dia-229-plan
 <p class="wp-block-paragraph">Por otra parte, Jeremías fue perseguido por el mensaje que proclamaba. A pesar de su fiel intercesión a Dios por el pueblo éstos conspiraban para hacerle daño. Por eso, él imploró a Dios que no olvidara el pecado de ellos y que actuara en su favor.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

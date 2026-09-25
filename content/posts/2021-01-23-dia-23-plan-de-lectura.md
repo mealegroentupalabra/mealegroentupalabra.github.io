@@ -28,8 +28,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/01/23/dia-23-plan-
 <ul class="wp-block-list"><li><a href="https://youtu.be/13zKQAlBHpg" rel="noreferrer noopener" target="_blank">Proyecto Biblia – Segunda Parte del Panorama de Éxodo</a></li><li><a href="https://www.studylight.org/pastoral-resources/bible-maps-archive/bible-map-545-100.jpg" rel="noreferrer noopener" target="_blank">Archivo de Mapas – Posibles Rutas del Éxodo</a></li><li><a href="https://sermons.faithlife.com/sermons/270642-el-protocolo-biblico-para-una-visita-provechosa" rel="noreferrer noopener" target="_blank">Sermón – El Protocolo Bíblico Para una Visita Provechosa</a></li></ul>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

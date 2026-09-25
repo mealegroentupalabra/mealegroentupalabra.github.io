@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/06/08/dia-159-plan
 <p class="wp-block-paragraph">Job asegura que Dios ve el sufrimiento de los desvalidos y no atiende a la oración de ellos, pero que los malvados, adúlteros y poderosos están seguros y confiados, aunque eventualmente desaparecerán. Luego Bildad responde que Dios es grande y que nadie sino solo él puede ser puro. Job, por su parte continúa aferrándose a su integridad.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

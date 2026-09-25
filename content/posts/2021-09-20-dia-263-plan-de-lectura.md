@@ -29,8 +29,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/09/20/dia-263-plan
 <p class="wp-block-paragraph">Israel puso su confianza en su ídolos y en sus ciudades fortificadas. Tuvo abundante fruto que uso para su propio beneficio, y con él sirvió a sus ídolos. Dios los llamó muchas veces, pero ellos se alejaban más y más. A pesar de ello, la compasión de Dios por su pueblo no terminó. Él les dijo que los amaría de pura gracia, que sanaría su rebelión y que los haría florecer.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

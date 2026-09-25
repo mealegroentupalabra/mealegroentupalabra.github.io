@@ -29,8 +29,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/08/29/dia-241-plan
 <p class="wp-block-paragraph">El autor de estas lamentaciones habla de su profunda tristeza por la situación de Jerusalén. Lo que pasó con los bebés, los niños, las doncellas y los ancianos fue terrible. La misma ciudad quedó desolada y destruida por completo. Él mismo autor también experimentó sufrimientos, fue perseguido y encarcelado sin razón, pero Dios le dijo: “No temas”. Finalmente él preguntó a Dios por su pueblo: “¿Nos has abadonado para siempre, Señor?”.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

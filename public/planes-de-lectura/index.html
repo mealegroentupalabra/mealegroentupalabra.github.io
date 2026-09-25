@@ -37,6 +37,14 @@
 
   <!-- Google Analytics GA4 -->
   
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1ZQG29HZLW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1ZQG29HZLW');
+  </script>
+  
 
   
 </head>
@@ -142,57 +150,19 @@
     <!-- If this page is associated with a category, list its posts -->
     
     <div style="margin-top: 3.5rem; padding-top: 2rem; border-top: 1px solid var(--border-light);">
-      <h2 style="font-family: var(--font-serif); font-size: 1.6rem; margin-bottom: 1.5rem;">Publicaciones en Planes de Lectura</h2>
+      <div class="category-toolbar">
+        <h2 style="font-family: var(--font-serif); font-size: 1.5rem; margin: 0;">Publicaciones en Planes de Lectura (3)</h2>
+        
+        <div class="sort-toggle-group" id="sortToggle">
+          <button type="button" class="sort-btn active" data-order="asc">Día 1 &rarr; 276</button>
+          <button type="button" class="sort-btn" data-order="desc">Más recientes</button>
+        </div>
+        
+      </div>
       
       <div class="posts-grid">
         
-        <article class="post-card">
-          
-          <a href="/posts/el-camino-superior-de-la-fe/" class="card-media">
-            <img src="https://mealegroentupalabra.wordpress.com/wp-content/uploads/2026/07/el-camino-superior-de-la-fe-youversion-1440x810-1.jpg" alt="El Camino Superior de la Fe" loading="lazy">
-          </a>
-          
-          <div class="card-body">
-            <div class="meta-row">
-              <span class="category-badge">Planes de Lectura</span>
-              <span>•</span>
-              <time datetime="2026-09-09 13:00:38">9 de septiembre de 2026</time>
-            </div>
-            <h3 class="card-title">
-              <a href="/posts/el-camino-superior-de-la-fe/">El Camino Superior de la Fe</a>
-            </h3>
-            <p class="card-excerpt">¡Ya está disponible en YouVersion el nuevo plan de lectura bíblica “El camino superior de la fe”! Me complace enormemente compartir con ustedes la publicación de este plan de...</p>
-            <div class="card-footer">
-              <span style="font-size: 0.78rem; color: var(--text-light);">⏱️ 2 min</span>
-              <a href="/posts/el-camino-superior-de-la-fe/" style="color: var(--primary); font-weight: 600; font-size: 0.82rem;">Leer &rarr;</a>
-            </div>
-          </div>
-        </article>
-        
-        <article class="post-card">
-          
-          <a href="/posts/disfruta-nuestra-nueva-app-movil-gratuita/" class="card-media">
-            <img src="https://mealegroentupalabra.wordpress.com/wp-content/uploads/2026/06/app-movil-maetp-2.jpg" alt="¡Disfruta Nuestra Nueva App Móvil Gratuita!" loading="lazy">
-          </a>
-          
-          <div class="card-body">
-            <div class="meta-row">
-              <span class="category-badge">Planes de Lectura</span>
-              <span>•</span>
-              <time datetime="2026-06-10 12:14:00">10 de junio de 2026</time>
-            </div>
-            <h3 class="card-title">
-              <a href="/posts/disfruta-nuestra-nueva-app-movil-gratuita/">¡Disfruta Nuestra Nueva App Móvil Gratuita!</a>
-            </h3>
-            <p class="card-excerpt">Me Alegro En Tu Palabra es una aplicación diseñada para acompañarte en la lectura completa de la Biblia, avanzando capítulo por capítulo y permitiéndote visualizar claramente tu...</p>
-            <div class="card-footer">
-              <span style="font-size: 0.78rem; color: var(--text-light);">⏱️ 3 min</span>
-              <a href="/posts/disfruta-nuestra-nueva-app-movil-gratuita/" style="color: var(--primary); font-weight: 600; font-size: 0.82rem;">Leer &rarr;</a>
-            </div>
-          </div>
-        </article>
-        
-        <article class="post-card">
+        <article class="post-card" data-day="0">
           
           <a href="/posts/se-un-administrador-fiel/" class="card-media">
             <img src="https://mealegroentupalabra.wordpress.com/wp-content/uploads/2026/03/se-un-administrador-fiel-1440x810-1.jpg" alt="Sé Un Administrador Fiel" loading="lazy">
@@ -215,8 +185,80 @@
           </div>
         </article>
         
+        <article class="post-card" data-day="0">
+          
+          <a href="/posts/disfruta-nuestra-nueva-app-movil-gratuita/" class="card-media">
+            <img src="https://mealegroentupalabra.wordpress.com/wp-content/uploads/2026/06/app-movil-maetp-2.jpg" alt="¡Disfruta Nuestra Nueva App Móvil Gratuita!" loading="lazy">
+          </a>
+          
+          <div class="card-body">
+            <div class="meta-row">
+              <span class="category-badge">Planes de Lectura</span>
+              <span>•</span>
+              <time datetime="2026-06-10 12:14:00">10 de junio de 2026</time>
+            </div>
+            <h3 class="card-title">
+              <a href="/posts/disfruta-nuestra-nueva-app-movil-gratuita/">¡Disfruta Nuestra Nueva App Móvil Gratuita!</a>
+            </h3>
+            <p class="card-excerpt">Me Alegro En Tu Palabra es una aplicación diseñada para acompañarte en la lectura completa de la Biblia, avanzando capítulo por capítulo y permitiéndote visualizar claramente tu...</p>
+            <div class="card-footer">
+              <span style="font-size: 0.78rem; color: var(--text-light);">⏱️ 3 min</span>
+              <a href="/posts/disfruta-nuestra-nueva-app-movil-gratuita/" style="color: var(--primary); font-weight: 600; font-size: 0.82rem;">Leer &rarr;</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="post-card" data-day="0">
+          
+          <a href="/posts/el-camino-superior-de-la-fe/" class="card-media">
+            <img src="https://mealegroentupalabra.wordpress.com/wp-content/uploads/2026/07/el-camino-superior-de-la-fe-youversion-1440x810-1.jpg" alt="El Camino Superior de la Fe" loading="lazy">
+          </a>
+          
+          <div class="card-body">
+            <div class="meta-row">
+              <span class="category-badge">Planes de Lectura</span>
+              <span>•</span>
+              <time datetime="2026-09-09 13:00:38">9 de septiembre de 2026</time>
+            </div>
+            <h3 class="card-title">
+              <a href="/posts/el-camino-superior-de-la-fe/">El Camino Superior de la Fe</a>
+            </h3>
+            <p class="card-excerpt">¡Ya está disponible en YouVersion el nuevo plan de lectura bíblica “El camino superior de la fe”! Me complace enormemente compartir con ustedes la publicación de este plan de...</p>
+            <div class="card-footer">
+              <span style="font-size: 0.78rem; color: var(--text-light);">⏱️ 2 min</span>
+              <a href="/posts/el-camino-superior-de-la-fe/" style="color: var(--primary); font-weight: 600; font-size: 0.82rem;">Leer &rarr;</a>
+            </div>
+          </div>
+        </article>
+        
       </div>
     </div>
+
+    
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var toggle = document.getElementById('sortToggle');
+        if (!toggle) return;
+        var grid = document.querySelector('.posts-grid');
+        if (!grid) return;
+        var cards = Array.from(grid.querySelectorAll('.post-card'));
+
+        toggle.querySelectorAll('.sort-btn').forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            toggle.querySelectorAll('.sort-btn').forEach(function (b) { b.classList.remove('active'); });
+            btn.classList.add('active');
+            var order = btn.getAttribute('data-order');
+            cards.sort(function (a, b) {
+              var dayA = parseInt(a.getAttribute('data-day') || '0', 10);
+              var dayB = parseInt(b.getAttribute('data-day') || '0', 10);
+              return order === 'asc' ? (dayA - dayB) : (dayB - dayA);
+            });
+            cards.forEach(function (card) { grid.appendChild(card); });
+          });
+        });
+      });
+    </script>
+    
     
   </div>
 </article>

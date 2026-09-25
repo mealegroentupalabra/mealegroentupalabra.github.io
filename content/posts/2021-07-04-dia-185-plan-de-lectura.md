@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/07/04/dia-185-plan
 <p class="wp-block-paragraph">El salmista empezó reconociendo la bondad y misericordia de Dios, para luego adentrarse en un repaso poético de la historia de la constante rebeldía de Israel hacia Dios. Él reconoció su continuo pecado a través de todas las etapas de su historia, pero también descansó en la fidelidad de Dios que hizo pacto con ellos, y por eso clamó por salvación, y pidió a Dios que los recogiera de todos los lugares en que se encontraban esparcidos, lo cual apuntaba claramente al cumplimiento futuro de la esperanza de Israel. Si hay algo que los salmistas saben bien, es que Dios libra de la aflicción.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

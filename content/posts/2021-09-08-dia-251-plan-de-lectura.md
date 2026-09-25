@@ -29,8 +29,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/09/08/dia-251-plan
 <p class="wp-block-paragraph">Dios anunció su juicio contra el arrogante rey de Tiro, que por sus riquezas y prosperidad se llamaba a sí mismo Dios. Por ello, él sería derribado hasta el polvo. También fueron anunciados juicios contra Sidón, Egipto y otras naciones. En cuanto a Egipto, Dios los reduciría hasta ser un pueblo débil, para que Israel no volviera a poner su confianza en ellos.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

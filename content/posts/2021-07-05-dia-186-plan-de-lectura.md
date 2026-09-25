@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/07/05/dia-186-plan
 <p class="wp-block-paragraph">Luego, los salmistas alabaron a Dios por su cuidado para su pueblo, por su compasión para los que le conocen, por su exaltación del pobre y por su poder en la liberación de Israel de su esclavitud en Egipto.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

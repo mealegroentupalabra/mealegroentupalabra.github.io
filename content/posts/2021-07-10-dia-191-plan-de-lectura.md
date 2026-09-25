@@ -26,8 +26,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/07/10/dia-191-plan
 <p class="wp-block-paragraph">Por otro lado, los cautivos de Babilonia añoran a Jerusalén. Aunque los que los tenían cautivos les pedían que entonaran los cánticos de su ciudad, ¿Cómo podían ellos cantar los cánticos de Jerusalén en tierra de extranjeros?</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

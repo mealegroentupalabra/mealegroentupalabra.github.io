@@ -28,8 +28,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/01/24/dia-24-plan-
 <ul class="wp-block-list"><li><a href="https://youtu.be/U2lUpubEMDI" rel="noreferrer noopener" target="_blank">Proyecto Biblia – Éxodo 19-40</a></li><li><a href="https://youtu.be/YCdpa0pb15Y" rel="noreferrer noopener" target="_blank">Documental – El Monte Sinaí</a></li><li><a href="https://www.studylight.org/pastoral-resources/bible-maps-archive/bible-map-545-100.jpg" rel="noreferrer noopener" target="_blank">Archivo de Mapas – Posibles Rutas del Éxodo</a></li></ul>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

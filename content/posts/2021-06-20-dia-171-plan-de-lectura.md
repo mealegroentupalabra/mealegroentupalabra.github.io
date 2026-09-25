@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/06/20/dia-171-plan
 <p class="wp-block-paragraph">David afirma que el malo no teme a Dios y se ufana de que su maldad no será descubierta, incluso sobre su cama planea sus actos inicuos. Pero Dios tiene misericordia de los que le conocen y por eso ellos se amparan bajo la sombra de sus alas. También dice que el destino de los malos será destrucción, pero que los rectos heredarán la tierra y vivirán para siempre en ella. Por eso, los justos no deben impacientarse cuando ven que los malvados prosperan, porque son como la hierba que hoy es y mañana ya no está, más bien deben confiar en el Señor y esperar de todo corazón en él. También habló de su pecado y de cómo éste le afecto, pero suplicó por la misericordia de Dios y esperó que él no lo desamparara.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

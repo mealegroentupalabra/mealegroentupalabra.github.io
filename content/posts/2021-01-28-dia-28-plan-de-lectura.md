@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/01/28/dia-28-plan-
 <p class="wp-block-paragraph">Entre tanto, el pueblo se desesperó porque Moisés tardaba y pidieron a Aarón que hiciera un becerro de oro. El pueblo adoró al becerro como si éste los hubiera sacado de la tierra de Egipto. Por esta razón, la ira de Dios se encendió contra ellos, pero Dios los perdonó debido a la intercesión de Moisés.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

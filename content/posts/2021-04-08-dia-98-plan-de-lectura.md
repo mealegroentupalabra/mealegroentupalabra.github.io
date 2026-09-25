@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/04/08/dia-98-plan-
 <p class="wp-block-paragraph">Las consecuencias del pecado de David no se hicieron esperar y los problemas vinieron del interior de su familia. Por un lado, uno de los hijos del rey llamado Amnón violó a Tamar, que era su media hermana, y por el otro, Absalón, el hermano de Tamar, cobró venganza matando a Amnón, después de lo cuál huyó a Siria. Después, pasados varios años, Absalón se rebeló contra David, lo hizo huir del palacio y tomó el control del reino.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

@@ -27,8 +27,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/04/29/dia-119-plan
 <p class="wp-block-paragraph">En el año treinta y siete del cautiverio de Joaquín, el nuevo rey de Babilonia Evil-merodac lo liberó de la prisión y lo trató con benevolencia, y comió siempre delante del rey por el resto de su vida.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/08/07/dia-219-plan
 <p class="wp-block-paragraph">Finalmente, Dios declaró una vez más su juicio sobre Babilonia. Ella se sentía orgullosa e intocable, pero el Señor le enviaría quebrantamiento.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

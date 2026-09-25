@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/06/17/dia-168-plan
 <p class="wp-block-paragraph">David se regocijó en el Señor porque le salvó, bendijo y coronó como rey. También habló sobre la manera como todos los que aborrecen a Dios serán juzgados por él. Para David, Dios es su socorro, el que le salva de todos sus enemigos. En el tiempo de la aflicción él clamará porque el Señor es su fortaleza. Dios también es su pastor, que le provee de todo lo que necesita y que le libra de todos sus angustiadores. Por eso su mirada siempre está puesta en él.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

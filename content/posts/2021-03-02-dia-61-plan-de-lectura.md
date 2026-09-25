@@ -26,8 +26,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/03/02/dia-61-plan-
 <p class="wp-block-paragraph">Moisés, por último, les recordó que debido a su rebelión él rompió las tablas de piedra en las que Dios había escrito los diez mandamientos, y que Dios también quiso destruirlos, pero que él intercedió por ellos. Así que Dios lo escuchó y escribió los mandamientos en nuevas tablas de piedra y mandó a Moisés llevar a los israelitas a la tierra prometida.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

@@ -26,8 +26,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/04/18/dia-108-plan
 <p class="wp-block-paragraph">Luego, cuando Acab subió al poder e hizo lo malo ante los ojos de Dios, el Señor levantó al profeta Elías para que anunciara un juicio sobre Israel: no llovería sobre las tierra hasta que Elías lo anunciara.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

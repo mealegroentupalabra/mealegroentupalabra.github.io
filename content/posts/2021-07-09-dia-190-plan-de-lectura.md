@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/07/09/dia-190-plan
 <p class="wp-block-paragraph">Por otra parte, el salmista habló del sufrimiento de Sion y de su constante opresión, pero también acerca de cómo el Señor justo la librará de los impíos, porque Dios no se detiene en los pecados de su pueblo sino que actuará para redimirlos de todos ellos, asimismo habitará en Sion para siempre y derramará sobre ella bendición.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/07/12/dia-193-plan
 <p class="wp-block-paragraph">El salmista invitó a todos en el cielo y en la tierra a alabar al Señor presentando muchas razones por las que debemos hacerlo. Alaben al Señor, dijo, porque es ayuda y esperanza, porque él vela por los necesitados, porque él edifica a Jerusalén, porque él exalta a los humildes y humilla a los soberbios y porque él sustenta su creación, entre muchas otras razones. También animó a alabar a Dios con diversos instrumentos, con alegría y con danzas.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

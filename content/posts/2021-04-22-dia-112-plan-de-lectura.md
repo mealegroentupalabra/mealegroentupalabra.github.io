@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/04/22/dia-112-plan
 <p class="wp-block-paragraph">Eliseo realizó varios milagros. Los dos primeros fueron en beneficio de dos mujeres, una de ellas era una viuda pobre y la otra una mujer estéril. También ayudó a los hijos de los profetas durante un tiempo de hambruna y luego sanó a un leproso llamado Naamán, que era general del ejercito de Siria. En un giro desafortunado, el siervo de Eliseo llamado Giezi, codició algunas de las cosas que trajo Naamán como presentes para Eliseo y las obtuvo con engaño. Por esto que hizo, la lepra de Naamán se le pasó a él.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

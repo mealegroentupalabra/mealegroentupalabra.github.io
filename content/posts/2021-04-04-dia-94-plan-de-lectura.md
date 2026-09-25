@@ -26,8 +26,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/04/04/dia-94-plan-
 <p class="wp-block-paragraph">Finalmente, la batalla entre Israel y los filisteos dio como vencedores a estos últimos, y Saúl y sus hijos fueron asesinados junto con muchos hombres del pueblo de Israel.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

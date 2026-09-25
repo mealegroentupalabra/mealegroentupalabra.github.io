@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/01/21/dia-21-plan-
 <p class="wp-block-paragraph">Las plagas continuaron ante la terquedad del Faraón y de sus siervos. Una vez tras otra pedían que Dios les quitara las plagas, pero tan pronto el azote pasaba volvían a endurecer sus corazones, hasta que Dios determinó la plaga final con la que Faraón dejaría ir a los israelitas. Dios pasaría por la tierra de Egipto matando todos los primogénitos de cada familia, pero proveyó una manera para que todos los que confiaban en él pudieran salvar sus primogénitos mediante el sacrificio de un cordero inocente y perfecto. La noche que esto sucedió hubo gran lamento en Egipto por la mortandad, y después de esto, Faraón echó a los israelitas de su tierra. Dios estableció una celebración muy importante para el pueblo, llamada la Pascua.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

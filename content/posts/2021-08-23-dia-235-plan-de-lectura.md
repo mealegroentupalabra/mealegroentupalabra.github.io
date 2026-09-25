@@ -29,8 +29,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/08/23/dia-235-plan
 <p class="wp-block-paragraph">Finalmente, Nacucodonosor estableció a Gedalias como gobernador de Judá y todos los judíos que no fueron deportados quedaron bajo su cuidado. También Jeremías escogió quedarse con Gedalías. Pero Ismael, de la descendencia real de David lo mató y tomó cautivos a los que estaban con él. Su intención era unirse a los amonitas, pero Johanan intervino recuperando a los cautivos de manos de Ismael. Johanán, con su gente y todos los cautivos que fueron recuperados se establecieron en Gerut-quimam, que queda cerca de Belén, para luego dirigirse a Egipto.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

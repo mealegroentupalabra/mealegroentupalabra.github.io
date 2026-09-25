@@ -31,8 +31,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/10/03/dia-276-plan
 <p class="wp-block-paragraph">En una ocasión, viendo las multitudes, subió a un monte y se sentó, y cuando sus discípulos se hubieron acercado, les habló del reino de Dios. Les habló de la clase de vida que caracteriza a los súbditos del reino, y mostró lo radicalmente diferente que el reino de Dios es. Un reino que no consiste en la práctica superficial y aparente de ciertas ordenanzas que satisfacen al ojo humano, sino uno que se manifiesta principalmente en la intimidad del ser y que produce verdaderos frutos de justicia, una justicia mayor que la de los escribas y fariseos.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

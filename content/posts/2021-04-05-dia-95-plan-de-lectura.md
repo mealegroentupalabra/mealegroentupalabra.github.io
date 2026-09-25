@@ -28,8 +28,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/04/05/dia-95-plan-
 <ul class="wp-block-list"><li><a href="https://youtu.be/BEvicPpjQBE" rel="noreferrer noopener" target="_blank">Proyecto Biblia – Segundo Libro de Samuel</a></li><li><a href="https://studylight.org/pastoral-resources/bible-maps-archive/bible-map-574-100.jpg" rel="noreferrer noopener" target="_blank">Archivo de Mapas – El Ascenso de David al Poder</a></li></ul>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

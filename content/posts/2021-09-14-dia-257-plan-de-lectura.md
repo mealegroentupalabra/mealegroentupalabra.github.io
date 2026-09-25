@@ -28,8 +28,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/09/14/dia-257-plan
 <p class="wp-block-paragraph">Dios entregó más instrucciones sobre el uso del templo y dio indicaciones sobre la distribución de la tierra prometida entre las tribus de Israel. Una porción de la tierra estará consagrada para los sacerdotes y levitas, y en ella estarán la ciudad de Dios y el templo. Desde el interior de éste templo, saldrá un río cuyas aguas traerán sanidad, y la ciudad recibirá el nombre Jehová-sama, que en español es, Jehová-allí.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

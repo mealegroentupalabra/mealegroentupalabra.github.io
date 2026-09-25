@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/06/24/dia-175-plan
 <p class="wp-block-paragraph">David también expresó su profunda necesidad de Dios, él lo buscaba de madrugada porque su alma tenía sed y solo él podía saciarla. Finalmente, exaltó a Dios por su infinita bondad manifestada en la creación.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

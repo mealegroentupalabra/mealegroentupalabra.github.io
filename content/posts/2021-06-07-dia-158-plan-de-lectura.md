@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/06/07/dia-158-plan
 <p class="wp-block-paragraph">A Job le parece increíble que los malvados se encuentren tan bien, que puedan ver a sus hijos establecerse y ver crecer a sus nietos, que disfruten de bienestar y los respeten, y que aún en su muerte los homenajeen, también sus pecados están ocultos y todo les sale bien. Pero Job, que es justo, ya no puede disfrutar nada de eso: sus hijos ya no están, sus riquezas se esfumaron y sus amigos lo juzgan y lo critican. Él siente que es tratado injustamente, pero tampoco quiere volverse como los malos que no temen al Señor.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

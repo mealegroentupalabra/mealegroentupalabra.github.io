@@ -30,8 +30,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/09/04/dia-247-plan
 <p class="wp-block-paragraph">Algunos del pueblo utilizaban el refrán: “Los padres comieron las uvas agrias, y los dientes de los hijos tienen la dentera”. Sin embargo, Dios advirtió que esto ya no se diría más, porque cada quién moriría por su maldad o viviría por su propia justicia. Él no quiere la muerte del impío, por tanto, si se aparta de su mal camino vivirá.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

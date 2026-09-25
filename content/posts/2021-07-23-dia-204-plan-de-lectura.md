@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/07/23/dia-204-plan
 <p class="wp-block-paragraph">Finalmente, encontramos las palabras de Agur (que son identificadas como profecía) y las del rey Lemuel, las cuales le transmitió su madre. Agur habla de su falta de sabiduría a la vez que exalta el conocimiento, sabiduría y palabras de Dios. Por su parte, Lemuel habla del cuidado que lo reyes deben tener con las mujeres y el vino, y exalta a la mujer virtuosa.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

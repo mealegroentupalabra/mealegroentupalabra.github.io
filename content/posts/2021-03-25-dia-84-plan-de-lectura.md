@@ -26,8 +26,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/03/25/dia-84-plan-
 <p class="wp-block-paragraph">Después de varias batallas, Dios finalmente entregó a los benjamitas en manos de Israel, de modo que mataron de ellos a veinticinco mil varones. La tribu de Benjamín se vio tan menguada en número, que las otras tribus tuvieron compasión de sus hermanos y buscaron una manera de proveer esposas para los benjamitas y preservar su tribu.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/05/09/dia-129-plan
 <p class="wp-block-paragraph">David organizó a los levitas para el ministerio en el templo y distribuyó los turnos en los que serviría cada uno de ellos. Estableció músicos, porteros, tesoreros, gobernadores y jueces. También organizó lo relacionado con el servicio militar, estableciendo doce divisiones de veinticuatro mil soldados cada una, para ejercer su servicio en el mes del año que les correspondía.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

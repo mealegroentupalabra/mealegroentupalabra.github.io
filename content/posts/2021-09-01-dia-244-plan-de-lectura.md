@@ -30,8 +30,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/09/01/dia-244-plan
 <p class="wp-block-paragraph">Ezequiel fue llevado por el Espíritu de Dios en visiones a Jerusalén y al templo. Allí volvió a ver la manifestación de la gloria de Dios, como la había visto antes junto al río Quebar. En esta ocasión, Dios le afirmó que iba a ser un pequeño santuario para todos los que serían enviados lejos, pero que eventualmente, él los recogería, los haría volver y les daría un corazón nuevo.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px"></div>

@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/08/02/dia-214-plan
 <p class="wp-block-paragraph">Y entonces cantará su pueblo exaltándole y se dirá en aquel entonces: el Señor es nuestro Dios a quien hemos esperado, el cuál nos salvará. Él invitará a los justos a entrar en su ciudad y la hará extremadamente segura por sus muros y antemuros que se llamará “Salvación”. Así que él pide a Israel que espere un poco mientras el Señor ejecuta su ira y juzga la maldad.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

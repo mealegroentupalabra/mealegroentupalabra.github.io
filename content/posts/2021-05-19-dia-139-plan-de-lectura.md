@@ -26,8 +26,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/05/19/dia-139-plan
 <p class="wp-block-paragraph">Luego de estos dos reyes malos, reinó Josías, quien hizo lo recto ante los ojos de Dios. Josías limpió a Judá y a Jerusalén de los ídolos y de los altares que sus antecesores y el pueblo habían edificado. También, cuando el libro de la ley fue leído delante de él, su corazón se enterneció y se humilló ante el Señor. Por esta razón, reunió a los principales del pueblo y a los sacerdotes e hizo pacto con ellos de que servirían al Señor de todo su corazón.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

@@ -24,8 +24,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/03/06/dia-65-plan-
 <p class="wp-block-paragraph">Moisés dio más leyes al pueblo: les habló de cómo quitar la culpa de Israel cuando encontraran una persona muerta sin conocer quién fue el asesino y les habló de cómo manejar los casos de adulterio, violaciones y malos tratos hacia las mujeres, entre muchas otras cosas.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

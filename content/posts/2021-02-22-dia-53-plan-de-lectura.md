@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/02/22/dia-53-plan-
 <p class="wp-block-paragraph">Después de esto, Dios dijo a Moisés que subiera al monte Abarim desde donde podría ver la tierra prometida, ya que después de haberla visto, él también moriría. También, Moisés le pidió al Señor que estableciera una persona que guiara al pueblo después de su partida y el Señor designó a Josué como su sucesor.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

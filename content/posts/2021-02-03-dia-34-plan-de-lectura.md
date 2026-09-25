@@ -26,8 +26,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/02/03/dia-34-plan-
 <p class="wp-block-paragraph">Luego, Nadab y Abiú hijos de Aarón, ofrecieron fuego extraño delante del Señor y salió fuego de la presencia de Dios que los consumió y murieron.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

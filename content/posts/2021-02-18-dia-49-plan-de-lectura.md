@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/02/18/dia-49-plan-
 <p class="wp-block-paragraph">Finalmente, para acallar las murmuraciones del pueblo respecto a quién había sido escogido para oficiar como sacerdote delante del Señor, Dios ordenó a Moisés que introdujera una vara en el tabernáculo marcada con el nombre de cada uno de los príncipes de las doce tribus. Dios mostró que había escogido a Aarón por cuanto hizo reverdecer la vara que llevaba su nombre.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

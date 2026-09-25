@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/03/07/dia-66-plan-
 <p class="wp-block-paragraph">Por último, ordenó a los israelitas que cuando cruzaran el Jordán para entrar en la tierra, escribieran en piedras grandes las leyes de Dios. Adicionalmente, seis de las tribus debían estar sobre el monte Gerizim para bendecir al pueblo y seis tribus en el monte Ebal para pronunciar las maldiciones.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

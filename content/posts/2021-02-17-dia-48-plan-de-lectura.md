@@ -25,8 +25,3 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/02/17/dia-48-plan-
 <p class="wp-block-paragraph">Por provocar su ira tantas veces, Dios quiso herirlos con mortandad, pero Moisés intercedió por ellos y rogó su favor recordando el Nombre del Señor, el cuál él había proclamado delante de Moisés. Aunque Dios los perdonó, él también determinó que todos los que despreciaron la tierra prometida morirían en el desierto, pero que la próxima generación entraría y tomaría posesión de ella.</p>
 </div>
 </div>
-
-<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link" href="/planes-de-lectura/">Revisar el Plan de Lectura</a></div>
-</div>
-<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>
