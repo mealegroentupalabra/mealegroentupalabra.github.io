@@ -1,0 +1,34 @@
+---
+title: "Día 140 – Plan de Lectura"
+date: 2021-05-20 20:59:00
+slug: "dia-140-plan-de-lectura"
+category: "2 Crónicas"
+categories: ["2 Crónicas", "La Biblia en un Año"]
+tags: ["biblia", "exilio", "fe", "guerra", "israel", "juicio", "obediencia", "reyes"]
+image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/05/mesopotamian-2189138_1280.jpg"
+summary: "2 Crónicas 35-36. Josías celebró la pascua con los de Judá e Israel en el año dieciocho de su reinado conforme a lo ordenado en la ley de Moisés. Nunca fue celebrada una pascua..."
+original_url: "https://mealegroentupalabra.wordpress.com/2021/05/20/dia-140-plan-de-lectura/"
+---
+
+<hr class="wp-block-coblocks-dynamic-separator is-style-dots" style="height:50px;"/>
+<ul class="wp-block-jetpack-timeline">
+<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee;"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee;"></div><div class="timeline-item__dot" style="background-color:#eeeeee;"></div>
+<h2 class="wp-block-heading">Lectura de hoy</h2>
+<p class="wp-block-paragraph">2 Crónicas 35-36</p>
+</div></li>
+<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee;"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee;"></div><div class="timeline-item__dot" style="background-color:#eeeeee;"></div>
+<h2 class="wp-block-heading">Preguntas de reflexión</h2>
+<ul class="wp-block-list"><li>2 Crónicas 36:20-21. Aquí Crónicas nos proporciona información adicional a la que vimos en Reyes. ¿Cuánto tiempo estuvieron los de Judá en el exilio? ¿Quién profetizó acerca de esto?</li><li>2 Crónicas 36:22-23. ¿A qué rey extranjero uso Dios para traer de vuelta al pueblo de Judá a su tierra? ¿Quién profetizó acerca de esto? COMPARAR con Proverbios 21:1</li></ul>
+</div></li>
+<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee;"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee;"></div><div class="timeline-item__dot" style="background-color:#eeeeee;"></div>
+<h2 class="wp-block-heading">Resumen</h2>
+<p class="wp-block-paragraph">Josías celebró la pascua con los de Judá e Israel en el año dieciocho de su reinado conforme a lo ordenado en la ley de Moisés. Nunca fue celebrada una pascua como la que él mandó realizar en su tiempo. También ordenó que la casa de Dios fuese reparada. Después de estas cosas, Josías murió en una batalla contra Necao rey de Egipto.</p>
+<p class="wp-block-paragraph">Después de esto reinaron Joacaz, Joacim, Joaquín y Sedequías. En el tiempo de Joacim vino por primera vez Nabucodonosor rey de Babilonia contra Jerusalén. Durante el tiempo de Joaquín vino Nabucodonosor y llevó los objetos preciosos de la casa de Dios a Babilonia. Finalmente, durante el tiempo de Sedequías, vino Nabucodonosor y destruyó por completo los muros de Jerusalén y el templo, y los utensilios de la casa de Dios que restaban fueron transportados a Babilonia.</p>
+<p class="wp-block-paragraph">Setenta años después de estos acontecimientos, el rey Ciro de Persia, quien conquistó Babilonia decretó que los del pueblo de Judá podían regresar a su tierra y reconstruir la casa de Dios.</p>
+</div></li>
+</ul>
+<hr class="wp-block-coblocks-dynamic-separator" style="height:50px;"/>
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link" href="https://mealegroentupalabra.com/plan-de-lectura/">Revisar el Plan de Lectura</a></div>
+</div>
+<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

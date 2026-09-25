@@ -1,0 +1,32 @@
+---
+title: "Día 206 – Plan de Lectura"
+date: 2021-07-25 13:48:00
+slug: "dia-206-plan-de-lectura"
+category: "Eclesiastés"
+categories: ["Eclesiastés", "La Biblia en un Año"]
+tags: ["biblia", "Dios", "reyes", "sabiduría"]
+image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/08/jimmy-dean-yl7y8dhyzyy-unsplash.jpg"
+summary: "Eclesiastés 5-8. El Predicador habló de lo importante que es no apresurarse en hacer votos a Dios y de cumplir lo que se le promete. También dio más ejemplos de lo que es vanidad:..."
+original_url: "https://mealegroentupalabra.wordpress.com/2021/07/25/dia-206-plan-de-lectura/"
+---
+
+<hr class="wp-block-coblocks-dynamic-separator is-style-dots" style="height:50px;"/>
+<ul class="wp-block-jetpack-timeline">
+<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee;"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee;"></div><div class="timeline-item__dot" style="background-color:#eeeeee;"></div>
+<h2 class="wp-block-heading">Lectura de hoy</h2>
+<p class="wp-block-paragraph">Eclesiastés 5-8</p>
+</div></li>
+<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee;"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee;"></div><div class="timeline-item__dot" style="background-color:#eeeeee;"></div>
+<h2 class="wp-block-heading">Preguntas de reflexión</h2>
+<ul class="wp-block-list"><li>¿Qué ejemplos da el Predicador para mostrar que todo es vanidad?</li><li>Eclesiastés 5:18-20;8:15 ¿Qué es lo único que el Predicador no llama vano y que dice que es un regalo de Dios para la vida debajo del sol?</li><li>¿Qué otras reflexiones del Predicador han llamando tu atención y por qué?</li></ul>
+</div></li>
+<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee;"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee;"></div><div class="timeline-item__dot" style="background-color:#eeeeee;"></div>
+<h2 class="wp-block-heading">Resumen</h2>
+<p class="wp-block-paragraph">El Predicador habló de lo importante que es no apresurarse en hacer votos a Dios y de cumplir lo que se le promete. También dio más ejemplos de lo que es vanidad: el amor al dinero y al tener de sobra; el tener mucho pero sin la capacidad de disfrutarlo; el hecho de que a justos e impíos les sucede lo mismo, y que incluso estos últimos son honrados cuando mueren mientras que del justo no se tiene memoria. Por esa razón, él compartió con nosotros varios consejos sabios.</p>
+</div></li>
+</ul>
+<hr class="wp-block-coblocks-dynamic-separator" style="height:50px;"/>
+<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://mealegroentupalabra.com/plan-de-lectura/">Revisar el Plan de Lectura</a></div>
+</div>
+<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

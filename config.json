@@ -1,0 +1,29 @@
+{
+  "site_title": "Me Alegro En Tu Palabra",
+  "site_tagline": "Descubre el tesoro de Dios para ti",
+  "site_description": "Reflexiones bíblicas, planes de lectura y estudio de las Escrituras para descubrir la gloria de Dios en Jesucristo.",
+  "site_url": "https://alemormez.github.io",
+  "base_path": "",
+  "posts_per_page": 12,
+  "google_analytics": "",
+  "author": {
+    "name": "Alejandro Morales",
+    "bio": "Yo me alegro en la Palabra de Dios porque en ella puedo ver la gloria de Dios en la faz de Jesucristo.",
+    "avatar": "assets/images/logo.png",
+    "social": {
+      "youtube": "https://www.youtube.com/c/AlejandroMorales",
+      "twitter": "https://twitter.com/alemormez",
+      "facebook": "https://www.facebook.com/mealegroentupalabra",
+      "instagram": "https://instagram.com/alejandromoralesmeza",
+      "linktree": "https://linktr.ee/alemormez"
+    }
+  },
+  "nav": [
+    { "title": "Inicio", "url": "" },
+    { "title": "Reflexiones", "url": "reflexiones/" },
+    { "title": "Planes de Lectura", "url": "planes-de-lectura/" },
+    { "title": "La Biblia en un Año", "url": "la-biblia-en-un-ano/" },
+    { "title": "Categorías", "url": "categorias/" },
+    { "title": "Acerca de", "url": "acerca-de/" }
+  ]
+}

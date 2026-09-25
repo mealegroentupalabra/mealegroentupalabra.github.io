@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}Etiquetas — {{ site_title }}{% endblock %}
+{% block description %}Índice temático y nube de etiquetas de Me Alegro En Tu Palabra.{% endblock %}
+
+{% block content %}
+<section style="padding: 3.5rem 0 4rem;">
+  <div class="container">
+    <div style="text-align: center; max-width: 650px; margin: 0 auto 3rem;">
+      <h1 class="hero-title" style="font-size: 2.6rem; margin-bottom: 0.75rem;">Etiquetas Temáticas</h1>
+      <p style="color: var(--text-muted); font-size: 1.05rem;">
+        Explora los {{ tags | length }} temas específicos tratados a lo largo de las publicaciones.
+      </p>
+    </div>
+
+    <!-- Tag Cloud -->
+    <div style="max-width: 900px; margin: 0 auto; background: var(--bg-surface); border: 1px solid var(--border-card); border-radius: var(--radius-lg); padding: 2.5rem; box-shadow: var(--shadow-sm);">
+      <h2 style="font-family: var(--font-serif); font-size: 1.4rem; margin-bottom: 1.5rem; text-align: center;">Nube de Temas</h2>
+      <div style="display: flex; flex-wrap: wrap; gap: 0.65rem; justify-content: center; align-items: center;">
+        {% for tag in tags %}
+        <a href="{{ base_path }}/etiqueta/{{ tag.slug }}/" class="tag-badge" style="font-size: {{ tag.font_size }}rem; padding: 0.35rem 0.75rem; border: 1px solid var(--border-light);">
+          #{{ tag.name }} <span style="opacity: 0.65; font-size: 0.75em; margin-left: 2px;">({{ tag.count }})</span>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

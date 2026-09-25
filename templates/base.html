@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="base-path" content="{{ base_path }}">
+  
+  <title>{% block title %}{{ site_title }}{% if site_tagline %} — {{ site_tagline }}{% endif %}{% endblock %}</title>
+  <meta name="description" content="{% block description %}{{ site_description }}{% endblock %}">
+  <link rel="canonical" href="{{ canonical_url }}">
+  
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="{% block og_type %}website{% endblock %}">
+  <meta property="og:site_name" content="{{ site_title }}">
+  <meta property="og:title" content="{% block og_title %}{{ self.title() }}{% endblock %}">
+  <meta property="og:description" content="{% block og_description %}{{ self.description() }}{% endblock %}">
+  <meta property="og:url" content="{{ canonical_url }}">
+  <meta property="og:image" content="{% block og_image %}{{ site_url }}{{ base_path }}/assets/images/logo.png{% endblock %}">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@alemormez">
+  <meta name="twitter:title" content="{{ self.og_title() }}">
+  <meta name="twitter:description" content="{{ self.og_description() }}">
+  <meta name="twitter:image" content="{{ self.og_image() }}">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ base_path }}/assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="{{ base_path }}/assets/images/favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/assets/images/apple-touch-icon.png">
+  <link rel="alternate" type="application/rss+xml" title="{{ site_title }} &raquo; Feed RSS" href="{{ base_path }}/feed.xml">
+
+  <!-- Fonts & Stylesheet -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="{{ base_path }}/assets/css/style.css">
+
+  <!-- Google Analytics GA4 -->
+  {% if google_analytics %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ google_analytics }}');
+  </script>
+  {% endif %}
+
+  {% block head_extra %}{% endblock %}
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="{{ base_path }}/" class="site-brand">
+        <img src="{{ base_path }}/assets/images/logo.png" alt="Logo de {{ site_title }}" class="site-logo" width="44" height="44">
+        <div class="brand-text">
+          <span class="brand-title">{{ site_title }}</span>
+          <span class="brand-tagline">{{ site_tagline }}</span>
+        </div>
+      </a>
+
+      <nav class="site-nav" aria-label="Navegación principal">
+        <ul class="nav-links">
+          {% for item in nav %}
+          <li>
+            <a href="{{ base_path }}/{{ item.url }}" class="nav-link {% if current_path == item.url %}active{% endif %}">{{ item.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Quick Search Button -->
+        <button class="search-trigger" aria-label="Abrir buscador">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <span>Buscar</span>
+          <span class="kbd-hint">⌘K</span>
+        </button>
+
+        <!-- Dark/Light Theme Toggle -->
+        <button class="icon-btn theme-toggle-btn" aria-label="Alternar tema">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="icon-btn mobile-menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    {% block content %}{% endblock %}
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem;">
+            <img src="{{ base_path }}/assets/images/logo.png" alt="Logo {{ site_title }}" width="36" height="36" style="border-radius: 50%;">
+            <h3>{{ site_title }}</h3>
+          </div>
+          <p>{{ site_description }}</p>
+          <div class="author-socials" style="margin-top: 1rem;">
+            {% if author.social.youtube %}
+            <a href="{{ author.social.youtube }}" class="social-icon-link" target="_blank" rel="noopener" title="YouTube">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
+            {% endif %}
+            {% if author.social.twitter %}
+            <a href="{{ author.social.twitter }}" class="social-icon-link" target="_blank" rel="noopener" title="Twitter / X">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            {% endif %}
+            {% if author.social.facebook %}
+            <a href="{{ author.social.facebook }}" class="social-icon-link" target="_blank" rel="noopener" title="Facebook">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            {% endif %}
+            {% if author.social.instagram %}
+            <a href="{{ author.social.instagram }}" class="social-icon-link" target="_blank" rel="noopener" title="Instagram">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            {% endif %}
+          </div>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4>Explorar</h4>
+          <ul class="footer-links">
+            <li><a href="{{ base_path }}/">Inicio</a></li>
+            <li><a href="{{ base_path }}/reflexiones/">Reflexiones</a></li>
+            <li><a href="{{ base_path }}/planes-de-lectura/">Planes de Lectura</a></li>
+            <li><a href="{{ base_path }}/la-biblia-en-un-ano/">La Biblia en un Año</a></li>
+            <li><a href="{{ base_path }}/categorias/">Todas las Categorías</a></li>
+            <li><a href="{{ base_path }}/etiquetas/">Nube de Etiquetas</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4>Información</h4>
+          <ul class="footer-links">
+            <li><a href="{{ base_path }}/acerca-de/">Acerca de</a></li>
+            <li><a href="{{ base_path }}/buscar/">Buscador de Artículos</a></li>
+            <li><a href="{{ base_path }}/feed.xml" target="_blank">Canal RSS</a></li>
+            <li><a href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">Licencia CC BY-NC 4.0</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; {{ current_year }} <strong>{{ site_title }}</strong> por <a href="{{ author.social.linktree }}" target="_blank" rel="noopener" style="text-decoration: underline;">{{ author.name }}</a>.
+        </div>
+        <div>
+          Recursos: <a href="https://bibleproject.com/" target="_blank" rel="noopener">Proyecto Biblia</a> y <a href="https://studylight.org/" target="_blank" rel="noopener">Study Light</a>.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Search Modal -->
+  <div class="search-modal" role="dialog" aria-modal="true" aria-label="Buscador del blog">
+    <div class="search-box-wrap">
+      <div class="search-input-header">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--text-light); flex-shrink: 0;">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="search" class="search-input" placeholder="Buscar por título, contenido, categoría o etiqueta..." autocomplete="off">
+        <button class="icon-btn search-close-btn" aria-label="Cerrar búsqueda">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Quick Category Chips inside Search -->
+      <div class="search-filters-bar">
+        <span style="font-size: 0.75rem; font-weight: 600; color: var(--text-light); margin-right: 0.25rem;">Filtrar:</span>
+        <button class="filter-chip active" data-cat="all">Todos</button>
+        <button class="filter-chip" data-cat="Reflexiones">Reflexiones</button>
+        <button class="filter-chip" data-cat="Planes de Lectura">Planes de Lectura</button>
+        <button class="filter-chip" data-cat="La Biblia en un Año">La Biblia en un Año</button>
+      </div>
+
+      <div class="search-results-list">
+        <!-- Results injected dynamically by search.js -->
+      </div>
+
+      <div class="search-footer-hint">
+        <span>Presiona <kbd style="background: var(--bg-surface); padding: 1px 4px; border-radius: 3px; border: 1px solid var(--border-light);">Esc</kbd> para cerrar</span>
+        <a href="{{ base_path }}/buscar/" style="color: var(--primary); text-decoration: underline;">Búsqueda avanzada &rarr;</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-msg" role="status" aria-live="polite"></div>
+
+  <!-- Scripts -->
+  <script src="{{ base_path }}/assets/js/main.js"></script>
+  <script src="{{ base_path }}/assets/js/search.js"></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

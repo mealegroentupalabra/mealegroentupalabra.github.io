@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Core Pages -->
+  <url>
+    <loc>{{ site_url }}{{ base_path }}/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>{{ site_url }}{{ base_path }}/buscar/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>{{ site_url }}{{ base_path }}/categorias/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>{{ site_url }}{{ base_path }}/etiquetas/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  {% for page in static_pages %}
+  <url>
+    <loc>{{ site_url }}{{ page.url }}</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  {% endfor %}
+
+  <!-- Categories -->
+  {% for cat in categories %}
+  <url>
+    <loc>{{ site_url }}{{ base_path }}/categoria/{{ cat.slug }}/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  {% endfor %}
+
+  <!-- Posts -->
+  {% for post in posts %}
+  <url>
+    <loc>{{ site_url }}{{ post.url }}</loc>
+    <lastmod>{{ post.date_iso }}</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.9</priority>
+  </url>
+  {% endfor %}
+</urlset>

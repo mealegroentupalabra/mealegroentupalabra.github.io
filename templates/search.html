@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block title %}Buscador de Artículos — {{ site_title }}{% endblock %}
+{% block description %}Busca reflexiones bíblicas por título, palabra clave, categoría o etiqueta en Me Alegro En Tu Palabra.{% endblock %}
+
+{% block content %}
+<section class="search-page-container" style="padding: 3.5rem 0 5rem;">
+  <div class="container" style="max-width: 860px;">
+    <div style="text-align: center; margin-bottom: 2.5rem;">
+      <h1 class="hero-title" style="font-size: 2.5rem; margin-bottom: 0.5rem;">Búsqueda en el Blog</h1>
+      <p style="color: var(--text-muted); font-size: 1.05rem;">
+        Encuentra rápidamente cualquier pasaje, enseñanza o tema doctrinal en nuestros artículos.
+      </p>
+    </div>
+
+    <!-- Search Input Box -->
+    <div style="background: var(--bg-surface); border: 2px solid var(--border-light); border-radius: var(--radius-lg); padding: 0.85rem 1.25rem; display: flex; align-items: center; gap: 0.75rem; box-shadow: var(--shadow-md); margin-bottom: 1.5rem; transition: border-color 0.2s ease;">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: var(--primary); flex-shrink: 0;">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input type="search" class="page-search-input" placeholder="Escribe un tema (ej: fe, oración, gracia, Isaías, santidad)..." style="width: 100%; border: none; background: transparent; font-family: inherit; font-size: 1.15rem; color: var(--text-main); outline: none;">
+    </div>
+
+    <!-- Category Filter Chips -->
+    <div style="margin-bottom: 1.25rem;">
+      <span style="font-size: 0.82rem; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 0.5rem;">Filtrar por categoría:</span>
+      <div style="display: flex; flex-wrap: wrap; gap: 0.4rem;">
+        <button class="filter-chip active" data-cat="all">Todas</button>
+        {% for cat in top_categories %}
+        <button class="filter-chip" data-cat="{{ cat.name }}">{{ cat.name }} ({{ cat.count }})</button>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Popular Tag Chips -->
+    <div style="margin-bottom: 2rem;">
+      <span style="font-size: 0.82rem; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 0.5rem;">Temas frecuentes:</span>
+      <div style="display: flex; flex-wrap: wrap; gap: 0.35rem;">
+        {% for tag in top_tags %}
+        <button class="filter-chip tag-filter-chip" data-tag="{{ tag.name }}">#{{ tag.name }}</button>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Results Status Counter -->
+    <div style="display: flex; align-items: center; justify-content: space-between; padding-bottom: 0.75rem; border-bottom: 1px solid var(--border-light); margin-bottom: 1.25rem;">
+      <span class="search-counter" style="font-size: 0.9rem; font-weight: 600; color: var(--text-muted);">Cargando catálogo...</span>
+      <span style="font-size: 0.78rem; color: var(--text-light);">Búsqueda instantánea</span>
+    </div>
+
+    <!-- Results Container -->
+    <div class="page-search-results" style="display: flex; flex-direction: column; gap: 0.75rem;">
+      <!-- Results populated by search.js -->
+    </div>
+  </div>
+</section>
+{% endblock %}

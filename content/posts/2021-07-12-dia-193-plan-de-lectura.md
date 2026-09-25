@@ -1,0 +1,32 @@
+---
+title: "Día 193 – Plan de Lectura"
+date: 2021-07-12 22:20:00
+slug: "dia-193-plan-de-lectura"
+category: "La Biblia en un Año"
+categories: ["La Biblia en un Año", "Salmos"]
+tags: ["adoración", "alabanza", "biblia", "confianza", "Dios", "fidelidad", "israel", "juicio", "justicia", "misericordia"]
+image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/07/guitar-g060fb38e5_1280.jpg"
+summary: "Salmos 146-150. El salmista invitó a todos en el cielo y en la tierra a alabar al Señor presentando muchas razones por las que debemos hacerlo. Alaben al Señor, dijo, porque es..."
+original_url: "https://mealegroentupalabra.wordpress.com/2021/07/12/dia-193-plan-de-lectura/"
+---
+
+<hr class="wp-block-coblocks-dynamic-separator is-style-dots" style="height:50px;"/>
+<ul class="wp-block-jetpack-timeline">
+<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee;"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee;"></div><div class="timeline-item__dot" style="background-color:#eeeeee;"></div>
+<h2 class="wp-block-heading">Lectura de hoy</h2>
+<p class="wp-block-paragraph">Salmos 146-150</p>
+</div></li>
+<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee;"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee;"></div><div class="timeline-item__dot" style="background-color:#eeeeee;"></div>
+<h2 class="wp-block-heading">Preguntas de reflexión</h2>
+<ul class="wp-block-list"><li>Cada uno de estos salmos empieza y concluye con la palabra Aleluya. Esta palabra significa: Alabad a Jah, es decir, alabad a Jehová, porque Jah es la forma corta del nombre Jehová. Mientras los lees, piensa en quiénes dice el salmista que deben alabar al Señor y por qué. ¿Con cuál de estos motivos te identificas hoy para alabar al Señor por ello?</li><li>COMPARAR Salmos 146:3-4 con Salmos 146:5-7. ¿Por qué no debemos confiar en los príncipes y sí en el Señor? ¿De qué manera el Señor es distinto a los príncipes humanos?</li><li>Salmos 146:5-10 ¿Cómo sería un gobierno de Dios según estas palabras?</li><li>COMPARAR Salmos 147:2,12-13 con Salmos 127:1-2</li><li>Salmos 147:19-20 ¿Qué es lo que diferencia a Israel de las demás naciones?</li><li>¿Qué nos enseñan estos salmos acerca de cómo alabar al Señor?</li></ul>
+</div></li>
+<li class="wp-block-jetpack-timeline-item" style="background-color:#eeeeee;"><div class="timeline-item"><div class="timeline-item__bubble" style="border-color:#eeeeee;"></div><div class="timeline-item__dot" style="background-color:#eeeeee;"></div>
+<h2 class="wp-block-heading">Resumen</h2>
+<p class="wp-block-paragraph">El salmista invitó a todos en el cielo y en la tierra a alabar al Señor presentando muchas razones por las que debemos hacerlo. Alaben al Señor, dijo, porque es ayuda y esperanza, porque él vela por los necesitados, porque él edifica a Jerusalén, porque él exalta a los humildes y humilla a los soberbios y porque él sustenta su creación, entre muchas otras razones. También animó a alabar a Dios con diversos instrumentos, con alegría y con danzas.</p>
+</div></li>
+</ul>
+<hr class="wp-block-coblocks-dynamic-separator" style="height:50px;"/>
+<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://mealegroentupalabra.com/plan-de-lectura/">Revisar el Plan de Lectura</a></div>
+</div>
+<div aria-hidden="true" class="wp-block-spacer" style="height:100px;"></div>

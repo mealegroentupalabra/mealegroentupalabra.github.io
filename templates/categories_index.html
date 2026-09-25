@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block title %}Categorías — {{ site_title }}{% endblock %}
+{% block description %}Explora todas las categorías temáticas y libros de la Biblia en Me Alegro En Tu Palabra.{% endblock %}
+
+{% block content %}
+<section style="padding: 3.5rem 0 4rem;">
+  <div class="container">
+    <div style="text-align: center; max-width: 650px; margin: 0 auto 3rem;">
+      <h1 class="hero-title" style="font-size: 2.6rem; margin-bottom: 0.75rem;">Categorías</h1>
+      <p style="color: var(--text-muted); font-size: 1.05rem;">
+        Encuentra reflexiones por series temáticas, libros bíblicos y planes devocionales.
+      </p>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; max-width: 1000px; margin: 0 auto;">
+      {% for cat in categories %}
+      <a href="{{ base_path }}/categoria/{{ cat.slug }}/" class="post-card" style="padding: 1.5rem; text-decoration: none; border-radius: var(--radius-md);">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem;">
+          <h3 style="font-family: var(--font-serif); font-size: 1.3rem; color: var(--text-main); font-weight: 700;">{{ cat.name }}</h3>
+          <span class="category-badge">{{ cat.count }}</span>
+        </div>
+        <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.5;">
+          {{ cat.count }} {{ 'artículo publicado' if cat.count == 1 else 'artículos publicados' }}
+        </p>
+        <div style="margin-top: 1rem; color: var(--primary); font-size: 0.85rem; font-weight: 600; display: flex; align-items: center; gap: 0.35rem;">
+          Explorar categoría &rarr;
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}

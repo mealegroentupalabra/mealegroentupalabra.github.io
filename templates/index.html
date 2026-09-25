@@ -1,0 +1,145 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero-section">
+  <div class="container">
+    <div class="hero-verse-pill">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+      </svg>
+      <span>Salmo 119:162</span>
+    </div>
+    
+    <h1 class="hero-title">Me Alegro En Tu Palabra</h1>
+    <p class="hero-subtitle">
+      «Me gozo en tu palabra como el que halla muchos despojos». Descubre reflexiones, planes de lectura y el tesoro de las Escrituras para tu vida.
+    </p>
+
+    <!-- Category Shortcuts -->
+    <div class="hero-categories">
+      <a href="{{ base_path }}/reflexiones/" class="hero-cat-btn">
+        <span>📖 Reflexiones</span>
+      </a>
+      <a href="{{ base_path }}/planes-de-lectura/" class="hero-cat-btn">
+        <span>✨ Planes de Lectura</span>
+      </a>
+      <a href="{{ base_path }}/la-biblia-en-un-ano/" class="hero-cat-btn">
+        <span>🗓️ La Biblia en un Año</span>
+      </a>
+      <a href="{{ base_path }}/buscar/" class="hero-cat-btn">
+        <span>🔍 Explorar Temas</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Post (if page 1) -->
+{% if page_num == 1 and featured_post %}
+<section class="featured-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Publicación Destacada</h2>
+      <a href="{{ base_path }}/categoria/{{ featured_post.category_slug }}/" class="category-badge">{{ featured_post.category }}</a>
+    </div>
+
+    <article class="card-featured">
+      <div class="featured-img-wrap">
+        <a href="{{ featured_post.url }}">
+          <img src="{{ featured_post.image }}" alt="{{ featured_post.title }}" loading="eager">
+        </a>
+      </div>
+      <div class="featured-content">
+        <div class="meta-row">
+          <span class="category-badge">{{ featured_post.category }}</span>
+          <span>•</span>
+          <time datetime="{{ featured_post.date }}">{{ featured_post.date_formatted }}</time>
+          <span>•</span>
+          <span>⏱️ {{ featured_post.reading_time }}</span>
+        </div>
+        <h3 class="featured-title">
+          <a href="{{ featured_post.url }}">{{ featured_post.title }}</a>
+        </h3>
+        <p class="featured-excerpt">{{ featured_post.summary }}</p>
+        
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-top: 1rem;">
+          <div class="card-tags">
+            {% for tag in featured_post.tags[:4] %}
+            <a href="{{ base_path }}/etiqueta/{{ tag.slug }}/" class="tag-badge">#{{ tag.name }}</a>
+            {% endfor %}
+          </div>
+          <a href="{{ featured_post.url }}" style="font-weight: 600; color: var(--primary); font-size: 0.92rem; display: inline-flex; align-items: center; gap: 0.35rem;">
+            Leer artículo &rarr;
+          </a>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+{% endif %}
+
+<!-- Latest Posts Section -->
+<section style="padding: 2.5rem 0 3rem;">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">{% if page_num == 1 %}Artículos Recientes{% else %}Artículos (Página {{ page_num }}){% endif %}</h2>
+      <span style="font-size: 0.88rem; color: var(--text-muted);">{{ total_posts }} publicaciones en total</span>
+    </div>
+
+    <div class="posts-grid">
+      {% for post in posts %}
+      <article class="post-card">
+        {% if post.image %}
+        <a href="{{ post.url }}" class="card-media">
+          <img src="{{ post.image }}" alt="{{ post.title }}" loading="lazy">
+        </a>
+        {% endif %}
+        <div class="card-body">
+          <div class="meta-row">
+            <a href="{{ base_path }}/categoria/{{ post.category_slug }}/" class="category-badge">{{ post.category }}</a>
+            <span>•</span>
+            <time datetime="{{ post.date }}">{{ post.date_formatted }}</time>
+            <span>•</span>
+            <span>⏱️ {{ post.reading_time }}</span>
+          </div>
+          <h3 class="card-title">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </h3>
+          <p class="card-excerpt">{{ post.summary }}</p>
+          <div class="card-footer">
+            <div class="card-tags">
+              {% for tag in post.tags[:3] %}
+              <a href="{{ base_path }}/etiqueta/{{ tag.slug }}/" class="tag-badge">#{{ tag.name }}</a>
+              {% endfor %}
+            </div>
+            <a href="{{ post.url }}" style="color: var(--primary); font-weight: 600; font-size: 0.82rem;" aria-label="Leer {{ post.title }}">&rarr;</a>
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+
+    <!-- Pagination -->
+    {% if total_pages > 1 %}
+    <nav class="pagination" aria-label="Paginación del blog">
+      {% if has_prev %}
+      <a href="{{ prev_page_url }}" class="page-btn">&larr; Anterior</a>
+      {% else %}
+      <span class="page-btn disabled">&larr; Anterior</span>
+      {% endif %}
+
+      <span style="font-size: 0.88rem; color: var(--text-muted); padding: 0 0.5rem;">
+        Página {{ page_num }} de {{ total_pages }}
+      </span>
+
+      {% if has_next %}
+      <a href="{{ next_page_url }}" class="page-btn">Siguiente &rarr;</a>
+      {% else %}
+      <span class="page-btn disabled">Siguiente &rarr;</span>
+      {% endif %}
+    </nav>
+    {% endif %}
+  </div>
+</section>
+{% endblock %}

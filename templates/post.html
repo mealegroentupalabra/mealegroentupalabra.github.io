@@ -1,0 +1,213 @@
+{% extends "base.html" %}
+
+{% block title %}{{ post.title }} — {{ site_title }}{% endblock %}
+{% block description %}{{ post.summary }}{% endblock %}
+{% block og_type %}article{% endblock %}
+{% block og_title %}{{ post.title }}{% endblock %}
+{% block og_description %}{{ post.summary }}{% endblock %}
+{% if post.image %}
+{% block og_image %}{{ post.image }}{% endblock %}
+{% endif %}
+
+{% block head_extra %}
+<!-- Schema.org Article structured data for rich Google search cards -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ post.title | tojson }},
+  "description": {{ post.summary | tojson }},
+  "datePublished": "{{ post.date }}",
+  "dateModified": "{{ post.date }}",
+  "author": {
+    "@type": "Person",
+    "name": {{ author.name | tojson }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site_title | tojson }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site_url }}{{ base_path }}/assets/images/logo.png"
+    }
+  },
+  {% if post.image %}"image": {{ post.image | tojson }},{% endif %}
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ canonical_url }}"
+  }
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<!-- Reading Progress Bar -->
+<div class="reading-progress"></div>
+
+<article class="post-layout">
+  <!-- Post Header -->
+  <header class="post-header">
+    <div class="container-narrow">
+      <nav class="breadcrumbs" aria-label="Migas de pan">
+        <a href="{{ base_path }}/">Inicio</a>
+        <span>/</span>
+        <a href="{{ base_path }}/categoria/{{ post.category_slug }}/">{{ post.category }}</a>
+        <span>/</span>
+        <span style="color: var(--text-muted);">{{ post.title }}</span>
+      </nav>
+
+      <div class="meta-row" style="justify-content: center; margin-bottom: 1.25rem;">
+        <a href="{{ base_path }}/categoria/{{ post.category_slug }}/" class="category-badge">{{ post.category }}</a>
+        <span>•</span>
+        <time datetime="{{ post.date }}">{{ post.date_formatted }}</time>
+        <span>•</span>
+        <span>⏱️ {{ post.reading_time }} de lectura</span>
+      </div>
+
+      <h1 class="post-title">{{ post.title }}</h1>
+
+      {% if post.summary %}
+      <p style="font-size: 1.15rem; color: var(--text-muted); line-height: 1.6; max-width: 650px; margin: 0 auto;">
+        {{ post.summary }}
+      </p>
+      {% endif %}
+    </div>
+  </header>
+
+  <!-- Featured Image -->
+  {% if post.image %}
+  <div class="container-narrow">
+    <div class="post-featured-image">
+      <img src="{{ post.image }}" alt="{{ post.title }}" loading="eager">
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- Article Content -->
+  <div class="container-narrow">
+    <div class="post-content">
+      {{ post.content_html | safe }}
+    </div>
+
+    <!-- Post Footer -->
+    <footer class="post-footer">
+      <!-- Tags -->
+      {% if post.tags %}
+      <div class="post-tags-row">
+        <span style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); margin-right: 0.5rem;">Etiquetas:</span>
+        {% for tag in post.tags %}
+        <a href="{{ base_path }}/etiqueta/{{ tag.slug }}/" class="tag-badge">#{{ tag.name }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      <!-- Share Buttons -->
+      <div class="share-bar">
+        <span class="share-label">Compartir esta reflexión:</span>
+        <div class="share-buttons">
+          <a href="#" class="share-btn whatsapp" target="_blank" rel="noopener" aria-label="Compartir en WhatsApp">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+            <span>WhatsApp</span>
+          </a>
+
+          <a href="#" class="share-btn telegram" target="_blank" rel="noopener" aria-label="Compartir en Telegram">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.643-.204-.657-.643.136-.953l11.57-4.458c.538-.196 1.006.128.832.943z"/></svg>
+            <span>Telegram</span>
+          </a>
+
+          <a href="#" class="share-btn twitter" target="_blank" rel="noopener" aria-label="Compartir en X">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            <span>X</span>
+          </a>
+
+          <a href="#" class="share-btn facebook" target="_blank" rel="noopener" aria-label="Compartir en Facebook">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            <span>Facebook</span>
+          </a>
+
+          <button class="share-btn copy" aria-label="Copiar enlace">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+            <span>Copiar</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Author Bio Card -->
+      <div class="author-card">
+        <img src="{{ base_path }}/{{ author.avatar }}" alt="{{ author.name }}" class="author-avatar" width="80" height="80">
+        <div class="author-info">
+          <h4>{{ author.name }}</h4>
+          <p class="author-bio">{{ author.bio }}</p>
+          <div class="author-socials">
+            <a href="{{ author.social.linktree }}" target="_blank" rel="noopener" class="social-icon-link" title="Enlaces de Alejandro Morales" style="font-size: 0.82rem; font-weight: 600; color: var(--primary);">
+              Ver más sobre el autor &rarr;
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Previous / Next Navigation -->
+      {% if prev_post or next_post %}
+      <nav class="post-navigation" aria-label="Navegación entre artículos">
+        {% if prev_post %}
+        <a href="{{ prev_post.url }}" class="nav-post-card">
+          <div class="nav-direction">&larr; Artículo anterior</div>
+          <div class="nav-post-title">{{ prev_post.title }}</div>
+        </a>
+        {% else %}
+        <div></div>
+        {% endif %}
+
+        {% if next_post %}
+        <a href="{{ next_post.url }}" class="nav-post-card" style="text-align: right;">
+          <div class="nav-direction">Siguiente artículo &rarr;</div>
+          <div class="nav-post-title">{{ next_post.title }}</div>
+        </a>
+        {% else %}
+        <div></div>
+        {% endif %}
+      </nav>
+      {% endif %}
+    </footer>
+  </div>
+</article>
+
+<!-- Related Posts -->
+{% if related_posts %}
+<section class="related-posts-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Artículos Relacionados</h2>
+      <a href="{{ base_path }}/categoria/{{ post.category_slug }}/" style="font-size: 0.88rem; color: var(--primary); font-weight: 600;">Ver más de {{ post.category }} &rarr;</a>
+    </div>
+
+    <div class="posts-grid">
+      {% for rel in related_posts %}
+      <article class="post-card">
+        {% if rel.image %}
+        <a href="{{ rel.url }}" class="card-media">
+          <img src="{{ rel.image }}" alt="{{ rel.title }}" loading="lazy">
+        </a>
+        {% endif %}
+        <div class="card-body">
+          <div class="meta-row">
+            <span class="category-badge">{{ rel.category }}</span>
+            <span>•</span>
+            <time datetime="{{ rel.date }}">{{ rel.date_formatted }}</time>
+          </div>
+          <h3 class="card-title">
+            <a href="{{ rel.url }}">{{ rel.title }}</a>
+          </h3>
+          <p class="card-excerpt">{{ rel.summary }}</p>
+          <div class="card-footer">
+            <span style="font-size: 0.78rem; color: var(--text-light);">⏱️ {{ rel.reading_time }}</span>
+            <a href="{{ rel.url }}" style="color: var(--primary); font-weight: 600; font-size: 0.82rem;">Leer &rarr;</a>
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+{% endblock %}
