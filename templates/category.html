@@ -12,21 +12,21 @@
       <p style="color: var(--text-muted);">{{ posts | length }} {{ 'artículo' if posts | length == 1 else 'artículos' }} publicados en esta categoría</p>
     </div>
 
-    {% if category_slug in ['la-biblia-en-un-ano', 'planes-de-lectura'] %}
+    {% if posts | length > 1 %}
     <div class="category-toolbar">
       <div class="category-toolbar-title">
-        <span>📖 Plan de lectura: <strong>{{ posts | length }} días</strong></span>
+        <span>Artículos en esta sección: <strong>{{ posts | length }}</strong></span>
       </div>
       <div class="sort-toggle-group" id="sortToggle">
-        <button type="button" class="sort-btn active" data-order="asc">Día 1 &rarr; 276</button>
-        <button type="button" class="sort-btn" data-order="desc">Más recientes</button>
+        <button type="button" class="sort-btn {% if category_slug != 'la-biblia-en-un-ano' and category_slug != 'planes-de-lectura' %}active{% endif %}" data-order="desc">Más recientes</button>
+        <button type="button" class="sort-btn {% if category_slug == 'la-biblia-en-un-ano' or category_slug == 'planes-de-lectura' %}active{% endif %}" data-order="asc">Más antiguas</button>
       </div>
     </div>
     {% endif %}
 
     <div class="posts-grid">
       {% for post in posts %}
-      <article class="post-card" data-day="{{ post.day_number or 0 }}">
+      <article class="post-card" data-timestamp="{{ post.timestamp }}" data-day="{{ post.day_number or 0 }}">
         {% if post.image %}
         <a href="{{ post.url }}" class="card-media">
           <img src="{{ post.image }}" alt="{{ post.title }}" loading="lazy">
@@ -60,30 +60,4 @@
     </div>
   </div>
 </section>
-
-{% if category_slug in ['la-biblia-en-un-ano', 'planes-de-lectura'] %}
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    var toggle = document.getElementById('sortToggle');
-    if (!toggle) return;
-    var grid = document.querySelector('.posts-grid');
-    if (!grid) return;
-    var cards = Array.from(grid.querySelectorAll('.post-card'));
-
-    toggle.querySelectorAll('.sort-btn').forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        toggle.querySelectorAll('.sort-btn').forEach(function (b) { b.classList.remove('active'); });
-        btn.classList.add('active');
-        var order = btn.getAttribute('data-order');
-        cards.sort(function (a, b) {
-          var dayA = parseInt(a.getAttribute('data-day') || '0', 10);
-          var dayB = parseInt(b.getAttribute('data-day') || '0', 10);
-          return order === 'asc' ? (dayA - dayB) : (dayB - dayA);
-        });
-        cards.forEach(function (card) { grid.appendChild(card); });
-      });
-    });
-  });
-</script>
-{% endif %}
 {% endblock %}

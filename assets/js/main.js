@@ -187,12 +187,36 @@
     }
   }
 
+  // --- Sorting Controls (Más recientes / Más antiguas) ---
+  function initSortControls() {
+    const toggle = document.getElementById('sortToggle');
+    if (!toggle) return;
+    const grid = document.querySelector('.posts-grid');
+    if (!grid) return;
+    const cards = Array.from(grid.querySelectorAll('.post-card'));
+
+    toggle.querySelectorAll('.sort-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        toggle.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const order = btn.getAttribute('data-order');
+        cards.sort((a, b) => {
+          const tA = parseInt(a.getAttribute('data-timestamp') || a.getAttribute('data-day') || '0', 10);
+          const tB = parseInt(b.getAttribute('data-timestamp') || b.getAttribute('data-day') || '0', 10);
+          return order === 'asc' ? (tA - tB) : (tB - tA);
+        });
+        cards.forEach(card => grid.appendChild(card));
+      });
+    });
+  }
+
   // --- Global Event Attachments ---
   document.addEventListener('DOMContentLoaded', () => {
     initTheme();
     initMobileMenu();
     initReadingProgress();
     initShareButtons();
+    initSortControls();
 
     document.querySelectorAll('.theme-toggle-btn').forEach(btn => {
       btn.addEventListener('click', toggleTheme);

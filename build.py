@@ -270,6 +270,7 @@ class SiteBuilder:
                 "date_iso": date_iso,
                 "date_formatted": date_formatted,
                 "pub_date_rfc822": date_rfc822,
+                "timestamp": int(dt.timestamp()),
                 "category": primary_category,
                 "category_slug": slugify(primary_category),
                 "categories": all_categories,

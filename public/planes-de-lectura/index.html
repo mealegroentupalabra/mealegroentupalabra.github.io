@@ -151,18 +151,18 @@
     
     <div style="margin-top: 3.5rem; padding-top: 2rem; border-top: 1px solid var(--border-light);">
       <div class="category-toolbar">
-        <h2 style="font-family: var(--font-serif); font-size: 1.5rem; margin: 0;">Publicaciones en Planes de Lectura (3)</h2>
+        <h2 style="font-family: var(--font-serif); font-size: 1.4rem; margin: 0;">Publicaciones en Planes de Lectura (3)</h2>
         
         <div class="sort-toggle-group" id="sortToggle">
-          <button type="button" class="sort-btn active" data-order="asc">Día 1 &rarr; 276</button>
-          <button type="button" class="sort-btn" data-order="desc">Más recientes</button>
+          <button type="button" class="sort-btn " data-order="desc">Más recientes</button>
+          <button type="button" class="sort-btn active" data-order="asc">Más antiguas</button>
         </div>
         
       </div>
       
       <div class="posts-grid">
         
-        <article class="post-card" data-day="0">
+        <article class="post-card" data-timestamp="1773093375" data-day="0">
           
           <a href="/posts/se-un-administrador-fiel/" class="card-media">
             <img src="https://mealegroentupalabra.wordpress.com/wp-content/uploads/2026/03/se-un-administrador-fiel-1440x810-1.jpg" alt="Sé Un Administrador Fiel" loading="lazy">
@@ -185,7 +185,7 @@
           </div>
         </article>
         
-        <article class="post-card" data-day="0">
+        <article class="post-card" data-timestamp="1781111640" data-day="0">
           
           <a href="/posts/disfruta-nuestra-nueva-app-movil-gratuita/" class="card-media">
             <img src="https://mealegroentupalabra.wordpress.com/wp-content/uploads/2026/06/app-movil-maetp-2.jpg" alt="¡Disfruta Nuestra Nueva App Móvil Gratuita!" loading="lazy">
@@ -208,7 +208,7 @@
           </div>
         </article>
         
-        <article class="post-card" data-day="0">
+        <article class="post-card" data-timestamp="1788976838" data-day="0">
           
           <a href="/posts/el-camino-superior-de-la-fe/" class="card-media">
             <img src="https://mealegroentupalabra.wordpress.com/wp-content/uploads/2026/07/el-camino-superior-de-la-fe-youversion-1440x810-1.jpg" alt="El Camino Superior de la Fe" loading="lazy">
@@ -233,32 +233,6 @@
         
       </div>
     </div>
-
-    
-    <script>
-      document.addEventListener('DOMContentLoaded', function () {
-        var toggle = document.getElementById('sortToggle');
-        if (!toggle) return;
-        var grid = document.querySelector('.posts-grid');
-        if (!grid) return;
-        var cards = Array.from(grid.querySelectorAll('.post-card'));
-
-        toggle.querySelectorAll('.sort-btn').forEach(function (btn) {
-          btn.addEventListener('click', function () {
-            toggle.querySelectorAll('.sort-btn').forEach(function (b) { b.classList.remove('active'); });
-            btn.classList.add('active');
-            var order = btn.getAttribute('data-order');
-            cards.sort(function (a, b) {
-              var dayA = parseInt(a.getAttribute('data-day') || '0', 10);
-              var dayB = parseInt(b.getAttribute('data-day') || '0', 10);
-              return order === 'asc' ? (dayA - dayB) : (dayB - dayA);
-            });
-            cards.forEach(function (card) { grid.appendChild(card); });
-          });
-        });
-      });
-    </script>
-    
     
   </div>
 </article>
