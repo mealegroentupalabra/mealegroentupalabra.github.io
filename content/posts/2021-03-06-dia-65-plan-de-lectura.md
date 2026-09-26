@@ -5,7 +5,7 @@ slug: "dia-65-plan-de-lectura"
 category: "Deuteronomio"
 categories: ["Deuteronomio", "La Biblia en un Año"]
 tags: ["biblia", "desierto", "israel", "ley", "obediencia", "profetas"]
-image: "/assets/images/posts/sam-manns-p0zvbvpw3ky-unsplash.jpg"
+image: "/assets/images/posts/2021/03/sam-manns-p0zvbvpw3ky-unsplash.jpg"
 summary: "Deuteronomio 21-23. Moisés dio más leyes al pueblo: les habló de cómo quitar la culpa de Israel cuando encontraran una persona muerta sin conocer quién fue el asesino y les habló..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/06/dia-65-plan-de-lectura/"
 ---

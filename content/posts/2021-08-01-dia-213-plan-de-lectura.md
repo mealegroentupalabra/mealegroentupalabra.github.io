@@ -5,7 +5,7 @@ slug: "dia-213-plan-de-lectura"
 category: "Isaías"
 categories: ["Isaías", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "esperanza", "juicio", "naciones", "pecado", "profecía", "reino"]
-image: "/assets/images/posts/priest-g2ce66ad2c_1280.jpg"
+image: "/assets/images/posts/2021/08/priest-g2ce66ad2c_1280.jpg"
 summary: "Isaías 18-22. Etiopía, el pueblo de elevada estatura y de tez brillante vendrá al final de los tiempos para traer ofrenda al Señor en Sion. En cuanto a Egipto, el Señor entrará en..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/01/dia-213-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-25-plan-de-lectura"
 category: "Éxodo"
 categories: ["Éxodo", "La Biblia en un Año"]
 tags: ["biblia", "desierto", "ley", "pacto", "poder", "presencia", "tierra", "victoria"]
-image: "/assets/images/posts/sinai-1947342_1280.jpg"
+image: "/assets/images/posts/2021/01/sinai-1947342_1280.jpg"
 summary: "Éxodo 22-24. Dios continuó dando leyes a los israelitas, y también le indicó a Moisés que su Ángel iría delante del pueblo para guiarlo a lo largo del camino, el Ángel de Jehová..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/25/dia-25-plan-de-lectura/"
 ---

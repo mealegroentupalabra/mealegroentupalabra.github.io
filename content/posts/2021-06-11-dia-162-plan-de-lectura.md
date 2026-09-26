@@ -5,7 +5,7 @@ slug: "dia-162-plan-de-lectura"
 category: "Job"
 categories: ["Job", "La Biblia en un Año"]
 tags: ["biblia", "confianza", "fe", "justicia", "providencia", "prueba", "sufrimiento"]
-image: "/assets/images/posts/dark-g90737de5f_1920.jpg"
+image: "/assets/images/posts/2021/06/dark-g90737de5f_1920.jpg"
 summary: "Job 35-37. Eliú continuó dirigiendo sus palabras contra Job por decir que él era más justo que Dios y lo tildó de impío. Luego habló de la justicia de Dios y de cómo él condena al..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/11/dia-162-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-222-plan-de-lectura"
 category: "Isaías"
 categories: ["Isaías", "La Biblia en un Año"]
 tags: ["biblia", "confianza", "Dios", "esperanza", "israel", "naciones", "promesa", "salvación"]
-image: "/assets/images/posts/sebastien-gabriel-imlv9jlb24-unsplash.jpg"
+image: "/assets/images/posts/2021/08/sebastien-gabriel-imlv9jlb24-unsplash.jpg"
 summary: "Isaías 59-63. No es que el Señor ya no pueda salvar ni tampoco que no pueda escuchar el clamor de su pueblo, es más bien que sus maldades han alejado a Dios de ellos. Aún así,..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/10/dia-222-plan-de-lectura/"
 ---

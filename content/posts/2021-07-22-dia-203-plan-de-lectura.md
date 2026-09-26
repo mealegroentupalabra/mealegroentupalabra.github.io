@@ -5,7 +5,7 @@ slug: "dia-203-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Proverbios"]
 tags: ["biblia", "Dios", "maldad", "obediencia", "pecado", "reyes", "sabiduría"]
-image: "/assets/images/posts/shakespeare-1716106_1280.jpg"
+image: "/assets/images/posts/2021/07/shakespeare-1716106_1280.jpg"
 summary: "Proverbios 27-29. Salomón nos insta a ser diligentes en el cumplimiento de nuestras responsabilidades y en el cuidado de las cosas a nuestro cargo, para que así disfrutemos del..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/22/dia-203-plan-de-lectura/"
 ---

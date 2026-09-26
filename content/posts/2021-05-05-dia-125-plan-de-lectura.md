@@ -5,7 +5,7 @@ slug: "dia-125-plan-de-lectura"
 category: "1 Crónicas"
 categories: ["1 Crónicas", "La Biblia en un Año"]
 tags: ["biblia", "genealogía", "guerra", "israel", "reyes", "templo"]
-image: "/assets/images/posts/markus-spiske-kp1bubr2j4a-unsplash.jpg"
+image: "/assets/images/posts/2021/03/markus-spiske-kp1bubr2j4a-unsplash.jpg"
 summary: "1 Crónicas 12-14. Mientras David estaba oculto de Saúl, se encontró acompañado por hombres valientes que se aliaron con él, cada día llegaban más personas hasta conformar un gran..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/05/dia-125-plan-de-lectura/"
 ---

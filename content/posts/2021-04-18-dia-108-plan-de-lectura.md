@@ -5,7 +5,7 @@ slug: "dia-108-plan-de-lectura"
 category: "1 Reyes"
 categories: ["1 Reyes", "La Biblia en un Año"]
 tags: ["biblia", "israel", "judá", "juicio", "pecado", "profetas", "reino", "reyes"]
-image: "/assets/images/posts/common-raven-gd4079dba8_1280.jpg"
+image: "/assets/images/posts/2021/04/common-raven-gd4079dba8_1280.jpg"
 summary: "1 Reyes 15-17. En Judá, el reino del sur, encontramos a los reyes Abiam y Asa. Abiam fue un rey malo desde el punto de vista de Dios, pero Asa fue recto para con el Señor a pesar..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/18/dia-108-plan-de-lectura/"
 ---

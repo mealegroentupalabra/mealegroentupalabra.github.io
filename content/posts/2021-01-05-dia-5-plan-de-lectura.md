@@ -5,7 +5,7 @@ slug: "dia-5-plan-de-lectura"
 category: "Génesis"
 categories: ["Génesis", "La Biblia en un Año"]
 tags: ["biblia", "descendencia", "fe", "pacto", "plan", "promesa", "simiente", "tierra"]
-image: "/assets/images/posts/israel-4876975_1280.jpg"
+image: "/assets/images/posts/2021/01/israel-4876975_1280.jpg"
 summary: "Génesis 16-18. Dios le prometió a Abram: tierra, descendencia y bendición. La tierra, era la tierra de Canaán. La descendencia, era una nación que provendría de él y de su esposa..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/05/dia-5-plan-de-lectura/"
 ---

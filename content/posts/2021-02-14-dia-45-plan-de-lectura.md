@@ -5,7 +5,7 @@ slug: "dia-45-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Números"]
 tags: ["biblia", "desierto", "ley", "ofrenda", "sacerdotes", "voto"]
-image: "/assets/images/posts/pexels-rodnae-productions-7080470.jpg"
+image: "/assets/images/posts/2021/02/pexels-rodnae-productions-7080470.jpg"
 summary: "Números 7. Los príncipes de las tribus de Israel trajeron ofrendas para el Señor el día en que el tabernáculo con su mobiliario y sus utensilios fueron ungidos y santificados."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/14/dia-45-plan-de-lectura/"
 ---

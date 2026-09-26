@@ -5,7 +5,7 @@ slug: "dia-196-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Proverbios"]
 tags: ["biblia", "confianza", "Dios", "juicio", "justicia", "ley", "misericordia", "obediencia", "pecado", "sabiduría"]
-image: "/assets/images/posts/platter-gc6eda4d35_1280.jpg"
+image: "/assets/images/posts/2021/07/platter-gc6eda4d35_1280.jpg"
 summary: "Proverbios 7-9. Salomón le pide a sus oyentes que atesoren sus instrucciones para que sean guardados de la mujer seductora y desvergonzada que atrapa a los faltos de entendimiento..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/15/dia-196-plan-de-lectura/"
 ---

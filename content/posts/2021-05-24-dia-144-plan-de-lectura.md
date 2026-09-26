@@ -5,7 +5,7 @@ slug: "dia-144-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Nehemías"]
 tags: ["biblia", "judá", "obediencia", "oración", "reconstrucción", "restauración"]
-image: "/assets/images/posts/pexels-polina-tankilevitch-4110406.jpg"
+image: "/assets/images/posts/2021/05/pexels-polina-tankilevitch-4110406.jpg"
 summary: "Nehemías 1-3. Nehemías servía de copero al rey Artajerjes cuando recibió noticias del estado del pueblo y de la ciudad de Jerusalén, la cual se encontraba en ruinas y sus muros..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/24/dia-144-plan-de-lectura/"
 ---

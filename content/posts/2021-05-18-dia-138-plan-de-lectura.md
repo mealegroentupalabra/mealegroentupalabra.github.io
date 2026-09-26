@@ -5,7 +5,7 @@ slug: "dia-138-plan-de-lectura"
 category: "2 Crónicas"
 categories: ["2 Crónicas", "La Biblia en un Año"]
 tags: ["ídolos", "biblia", "fe", "guerra", "israel", "obediencia", "reyes"]
-image: "/assets/images/posts/mesopotamia-1827242_1280.jpg"
+image: "/assets/images/posts/2021/05/mesopotamia-1827242_1280.jpg"
 summary: "2 Crónicas 28-31. Reinó Acaz sobre Jerusalén e hizo lo malo ante los ojos de Dios. Cometió abominaciones terribles como las naciones que Dios había echado delante de Israel cuando..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/18/dia-138-plan-de-lectura/"
 ---

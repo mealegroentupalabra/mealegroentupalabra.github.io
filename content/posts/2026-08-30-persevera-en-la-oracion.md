@@ -5,7 +5,7 @@ slug: "persevera-en-la-oracion"
 category: "Reflexiones"
 categories: ["Reflexiones"]
 tags: ["adoración", "confianza", "Dios", "oración"]
-image: "/assets/images/posts/jesus-ora-en-getsemani.jpg"
+image: "/assets/images/posts/2026/08/jesus-ora-en-getsemani.jpg"
 summary: "¿Nos hemos detenido a pensar por un instante lo que significa que podamos llamar a Dios: Padre? ¿Hemos considerado todo lo que eso implica para nosotros? ¿Hemos saboreado, por así..."
 original_url: "https://mealegroentupalabra.wordpress.com/2026/08/30/persevera-en-la-oracion/"
 ---
@@ -13,7 +13,7 @@ original_url: "https://mealegroentupalabra.wordpress.com/2026/08/30/persevera-en
 <p class="wp-block-paragraph">La oración es uno de los grandes privilegios que tenemos al ser hijos de Dios, uno de los grandes recursos puestos a nuestra disposición para nuestro crecimiento espiritual y una de las más poderosas armas que portamos como soldados de Jesucristo.</p>
 <p class="wp-block-paragraph">Mediante la oración nos presentamos frente al mismísimo trono de Dios, quien, aunque es el rey supremo de todo lo creado también es nuestro propio Padre, el Padre nuestro que está en los cielos.</p>
 <p class="wp-block-paragraph">¿Nos hemos detenido a pensar por un instante lo que significa que podamos llamar a Dios: Padre? ¿Hemos considerado todo lo que eso implica para nosotros? ¿Hemos saboreado, por así decirlo, el que ahora podamos dirigirnos a él libre y confiadamente, sabiendo que en él encontramos a un padre amoroso, protector, proveedor y sabio? Realmente no hay palabras para describir lo maravillosa que es esta verdad.</p>
-<figure class="wp-block-image alignleft size-large is-resized"><img alt="" class="wp-image-2867" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/assets/images/posts/perseverar-oracion-cita-1.jpg" srcset="/assets/images/posts/perseverar-oracion-cita-1.jpg 768w" style="aspect-ratio:0.7500050252266377;width:566px;height:auto" width="768"/></figure>
+<figure class="wp-block-image alignleft size-large is-resized"><img alt="" class="wp-image-2867" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/assets/images/posts/2026/08/perseverar-oracion-cita-1.jpg" srcset="/assets/images/posts/2026/08/perseverar-oracion-cita-1.jpg 768w" style="aspect-ratio:0.7500050252266377;width:566px;height:auto" width="768"/></figure>
 <h2 class="wp-block-heading">¿Qué es la oración?</h2>
 <p class="wp-block-paragraph">Como ustedes bien saben, por oración nos referimos, simple y llanamente, al acto de hablar con Dios, ya sea que lo hagamos de manera silenciosa en nuestros pensamientos o articulando en voz audible nuestras palabras. Sin importar la forma, Dios oye las palabras que elevamos a él. Él está verdaderamente atento a lo que cada uno de nosotros le expresemos porque nos ama profundamente.</p>
 <p class="wp-block-paragraph">Recordemos que orar no es solo pedir. La oración incluye adoración y alabanza, incluye confesión, agradecimiento y, por supuesto, incluye petición.</p>
@@ -29,7 +29,7 @@ original_url: "https://mealegroentupalabra.wordpress.com/2026/08/30/persevera-en
 <p class="wp-block-paragraph">orando en todo tiempo con toda oración y súplica en el Espíritu, y velando en ello con toda perseverancia y súplica por todos los santos;</p>
 <cite>Efesios 6:18</cite></blockquote>
 <p class="wp-block-paragraph">Luego encontramos en el libro de Hechos que, mientras los discípulos esperaban la venida del Espíritu Santo según la promesa del Señor, perseveraban unánimes en la oración:</p>
-<figure class="wp-block-image alignright size-large is-resized"><img alt="" class="wp-image-2868" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/assets/images/posts/perseverar-oracion-cita-2.jpg" srcset="/assets/images/posts/perseverar-oracion-cita-2.jpg 768w" style="width:571px;height:auto" width="768"/></figure>
+<figure class="wp-block-image alignright size-large is-resized"><img alt="" class="wp-image-2868" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/assets/images/posts/2026/08/perseverar-oracion-cita-2.jpg" srcset="/assets/images/posts/2026/08/perseverar-oracion-cita-2.jpg 768w" style="width:571px;height:auto" width="768"/></figure>
 <blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
 <p class="wp-block-paragraph">Todos éstos perseveraban unánimes en oración y ruego, con las mujeres, y con María la madre de Jesús, y con sus hermanos.</p>
 <cite>Hechos 1:14</cite></blockquote>
@@ -51,7 +51,7 @@ original_url: "https://mealegroentupalabra.wordpress.com/2026/08/30/persevera-en
 <blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
 <p class="wp-block-paragraph">7 Pedid, y se os dará; buscad, y hallaréis; llamad, y se os abrirá. 8 Porque todo aquel que pide, recibe; y el que busca, halla; y al que llama, se le abrirá. 9 ¿Qué hombre hay de vosotros, que si su hijo le pide pan, le dará una piedra? 10 ¿O si le pide un pescado, le dará una serpiente? 11 Pues si vosotros, siendo malos, sabéis dar buenas dádivas a vuestros hijos, ¿cuánto más vuestro Padre que está en los cielos dará buenas cosas a los que le pidan?</p>
 </blockquote>
-<figure class="wp-block-image alignleft size-large is-resized"><img alt="" class="wp-image-2869" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/assets/images/posts/perseverar-oracion-cita-3.jpg" srcset="/assets/images/posts/perseverar-oracion-cita-3.jpg 768w" style="aspect-ratio:0.7500131378422408;width:582px;height:auto" width="768"/></figure>
+<figure class="wp-block-image alignleft size-large is-resized"><img alt="" class="wp-image-2869" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/assets/images/posts/2026/08/perseverar-oracion-cita-3.jpg" srcset="/assets/images/posts/2026/08/perseverar-oracion-cita-3.jpg 768w" style="aspect-ratio:0.7500131378422408;width:582px;height:auto" width="768"/></figure>
 <h2 class="wp-block-heading">¿Cómo se ora con perseverancia?</h2>
 <p class="wp-block-paragraph">De acuerdo con lo que hemos expresado hasta el momento no cabe duda de la importancia de la oración perseverante, pero bien podríamos preguntarnos, ¿Cómo es que se ora con perseverancia?</p>
 <p class="wp-block-paragraph">En primer lugar, cuando hacemos de la oración un hábito que se practica a diario. Cuando de manera personal y privada dedicamos tiempo a hablar con nuestro Padre celestial y a cultivar nuestro compañerismo con él. Es triste decirlo, pero muchos cristianos no pasan tiempo en oración. Las causas pueden ser muy variadas: por pereza, por no entender la importancia de su vida de oración, por falta de tiempo, por desánimo o incluso por pecado sin confesar.</p>
@@ -61,7 +61,7 @@ original_url: "https://mealegroentupalabra.wordpress.com/2026/08/30/persevera-en
 <p class="wp-block-paragraph">Una tercera cosa en cuanto a perseverar en la oración es que también es importante hacerlo como iglesia, y no solo en la vida privada y personal. Los discípulos oraban juntos y con un solo corazón. Sus oraciones subían unidas a la presencia de Dios y él les respondía conforme a su gracia y buena voluntad.</p>
 <h2 class="wp-block-heading">Velar en la oración</h2>
 <p class="wp-block-paragraph">Hay un último aspecto de la perseverancia en la oración que merece nuestra atención. El apóstol Pablo lo menciona en uno de los textos que vimos previamente:</p>
-<figure class="wp-block-image alignright size-large is-resized"><img alt="" class="wp-image-2872" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/assets/images/posts/perseverar-oracion-cita-4.jpg" srcset="/assets/images/posts/perseverar-oracion-cita-4.jpg 768w" style="aspect-ratio:0.7500061291034348;width:632px;height:auto" width="768"/></figure>
+<figure class="wp-block-image alignright size-large is-resized"><img alt="" class="wp-image-2872" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/assets/images/posts/2026/08/perseverar-oracion-cita-4.jpg" srcset="/assets/images/posts/2026/08/perseverar-oracion-cita-4.jpg 768w" style="aspect-ratio:0.7500061291034348;width:632px;height:auto" width="768"/></figure>
 <blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
 <p class="wp-block-paragraph">orando en todo tiempo con toda oración y súplica en el Espíritu, y <strong>velando en ello con toda perseverancia</strong> y súplica por todos los santos;</p>
 <cite>Efesios 6:18</cite></blockquote>

@@ -5,7 +5,7 @@ slug: "dia-218-plan-de-lectura"
 category: "Isaías"
 categories: ["Isaías", "La Biblia en un Año"]
 tags: ["atributos", "ídolos", "biblia", "Dios", "esperanza", "idolatría", "naciones", "reino", "salvación"]
-image: "/assets/images/posts/buddah-g6d8fd3f5c_1280.jpg"
+image: "/assets/images/posts/2021/08/buddah-g6d8fd3f5c_1280.jpg"
 summary: "Isaías 40-44. El Señor dice a su pueblo: consolaos. Le pide a la anunciadora de Sion que grite con fuerte voz que él ya viene con poder para gobernar y apacentar a su pueblo."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/06/dia-218-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-17-plan-de-lectura"
 category: "Génesis"
 categories: ["Génesis", "La Biblia en un Año"]
 tags: ["bendición", "biblia", "egipto", "esperanza", "perdón", "plan", "profecía", "promesa"]
-image: "/assets/images/posts/history-1901078_1280.jpg"
+image: "/assets/images/posts/2021/01/history-1901078_1280.jpg"
 summary: "Génesis 48-50. En sus últimos momentos, Jacob bendice de manera especial a los hijos de José dándoles una mayor participación en la herencia que recibirían en la tierra prometida..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/17/dia-17-plan-de-lectura/"
 ---

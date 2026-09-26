@@ -5,7 +5,7 @@ slug: "dia-106-plan-de-lectura"
 category: "1 Reyes"
 categories: ["1 Reyes", "La Biblia en un Año"]
 tags: ["biblia", "fidelidad", "israel", "juicio", "pecado", "reino", "reyes", "tabernáculo"]
-image: "/assets/images/posts/queen-g20e2d43e8_1280.jpg"
+image: "/assets/images/posts/2021/04/queen-g20e2d43e8_1280.jpg"
 summary: "1 Reyes 10-11. La reina de Sabá oyó de la fama que Salomón había alcanzado por el nombre de Jehová y vino para probar su sabiduría con preguntas difíciles. Además vio el palacio,..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/16/dia-106-plan-de-lectura/"
 ---

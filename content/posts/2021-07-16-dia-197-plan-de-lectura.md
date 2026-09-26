@@ -5,7 +5,7 @@ slug: "dia-197-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Proverbios"]
 tags: ["biblia", "Dios", "justicia", "maldad", "misericordia", "sabiduría"]
-image: "/assets/images/posts/justos-malvados.jpg"
+image: "/assets/images/posts/2021/07/justos-malvados.jpg"
 summary: "Proverbios 10-12. Ahora se introducen los proverbios de Salomón y él nos ofrece un contraste entre los justos y los malvados. A los justos se los llama sabios, diligentes,..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/16/dia-197-plan-de-lectura/"
 ---

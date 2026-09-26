@@ -5,7 +5,7 @@ slug: "dia-237-plan-de-lectura"
 category: "Jeremías"
 categories: ["Jeremías", "La Biblia en un Año"]
 tags: ["biblia", "confianza", "Dios", "egipto", "judá", "juicio", "obediencia", "profecía", "reyes"]
-image: "/assets/images/posts/earth-1023859_1280.jpg"
+image: "/assets/images/posts/2021/08/earth-1023859_1280.jpg"
 summary: "Jeremías 46-48. Dios anunció a través de Jeremías, el juicio para Egipto. El Faraón Necao sería vencido y los dioses de Egipto humillados, y Nabucodonosor, el rey de Babilonia,..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/25/dia-237-plan-de-lectura/"
 ---

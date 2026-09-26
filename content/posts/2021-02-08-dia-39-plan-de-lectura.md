@@ -5,7 +5,7 @@ slug: "dia-39-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Levítico"]
 tags: ["biblia", "desierto", "fiestas", "ley", "presencia", "sacerdotes", "santidad", "tabernáculo", "templo"]
-image: "/assets/images/posts/pexels-cottonbro-6054113.jpg"
+image: "/assets/images/posts/2021/02/pexels-cottonbro-6054113.jpg"
 summary: "Levítico 22-23. Dios entregó más normas sobre la manera como debían tratarse las cosas dedicadas a Dios por los israelitas, las cuales eran sagradas. También Dios ordenó algunas..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/08/dia-39-plan-de-lectura/"
 ---

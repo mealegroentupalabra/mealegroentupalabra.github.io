@@ -5,7 +5,7 @@ slug: "dia-82-plan-de-lectura"
 category: "Jueces"
 categories: ["Jueces", "La Biblia en un Año"]
 tags: ["batalla", "biblia", "israel", "liberación", "misericordia", "obediencia", "pecado"]
-image: "/assets/images/posts/lion-1141303_1280.jpg"
+image: "/assets/images/posts/2021/03/lion-1141303_1280.jpg"
 summary: "Jueces 13-15. Los israelitas volvieron a pecar y Dios los entregó en manos de los filisteos por cuarenta años. Pero Dios envió al Ángel de Jehová para anunciar a Manoa y a su..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/23/dia-82-plan-de-lectura/"
 ---

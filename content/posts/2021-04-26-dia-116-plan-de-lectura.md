@@ -5,7 +5,7 @@ slug: "dia-116-plan-de-lectura"
 category: "2 Reyes"
 categories: ["2 Reyes", "La Biblia en un Año"]
 tags: ["biblia", "cautividad", "exilio", "israel", "judá", "juicio", "justicia", "profetas", "reyes", "tierra", "venganza"]
-image: "/assets/images/posts/chains-19176_1280.jpg"
+image: "/assets/images/posts/2021/04/chains-19176_1280.jpg"
 summary: "2 Reyes 15-17. El reino del norte pasó por un periodo de gran inestabilidad en el poder debido a una serie de actos de traición y de conspiración en los que algunos reyes fueron..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/26/dia-116-plan-de-lectura/"
 ---

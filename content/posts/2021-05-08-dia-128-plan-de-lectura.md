@@ -5,7 +5,7 @@ slug: "dia-128-plan-de-lectura"
 category: "1 Crónicas"
 categories: ["1 Crónicas", "La Biblia en un Año"]
 tags: ["biblia", "israel", "reyes", "sacerdotes", "templo"]
-image: "/assets/images/posts/bible-1679749_1280.jpg"
+image: "/assets/images/posts/2021/05/bible-1679749_1280.jpg"
 summary: "1 Crónicas 22-24. David hizo preparativos con mucho esfuerzo y con todo su corazón para la construcción de la casa de Jehová. Él pensó que de esta manera, ayudaba a su hijo que..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/08/dia-128-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-262-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Oseas"]
 tags: ["biblia", "Dios", "esperanza", "israel", "juicio", "justicia", "pecado", "profecía", "profetas", "traición"]
-image: "/assets/images/posts/home-5574911_1280.jpg"
+image: "/assets/images/posts/2021/09/home-5574911_1280.jpg"
 summary: "Oseas 1-7. Dios mandó a Oseas que tomara como esposa una mujer adultera y que la amara, así como él tomó a la nación de Israel y la amó. Oseas obedeció a la voz del Señor y lo..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/19/dia-262-plan-de-lectura/"
 ---

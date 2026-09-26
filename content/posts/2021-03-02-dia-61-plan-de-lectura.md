@@ -5,7 +5,7 @@ slug: "dia-61-plan-de-lectura"
 category: "Deuteronomio"
 categories: ["Deuteronomio", "La Biblia en un Año"]
 tags: ["atributos", "biblia", "desierto", "fidelidad", "israel", "misericordia", "obediencia", "tierra"]
-image: "/assets/images/posts/moses-2628535_1280.jpg"
+image: "/assets/images/posts/2021/01/moses-2628535_1280.jpg"
 summary: "Deuteronomio 8-10. Moisés continuó instando al pueblo a obedecer al Señor y a acordarse de la relación especial que Dios inició con ellos. No debían olvidar que Dios los sacó de..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/02/dia-61-plan-de-lectura/"
 ---

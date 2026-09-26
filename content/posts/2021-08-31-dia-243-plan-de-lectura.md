@@ -5,7 +5,7 @@ slug: "dia-243-plan-de-lectura"
 category: "Ezequiel"
 categories: ["Ezequiel", "La Biblia en un Año"]
 tags: ["biblia", "cautividad", "Dios", "exilio", "gloria", "idolatría", "israel", "judá", "juicio", "justicia", "pecado"]
-image: "/assets/images/posts/padlock-g0408186c5_1280.jpg"
+image: "/assets/images/posts/2021/08/padlock-g0408186c5_1280.jpg"
 summary: "Ezequiel 5-8. Dios anunció por medio de Ezequiel el sitio y destrucción de Jerusalén. Él dijo que retiraría su protección de su ciudad santa y de su templo por las abominaciones..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/31/dia-243-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-119-plan-de-lectura"
 category: "2 Reyes"
 categories: ["2 Reyes", "La Biblia en un Año"]
 tags: ["biblia", "cautividad", "exilio", "judá", "juicio", "justicia", "profecía", "profetas", "reyes", "tierra"]
-image: "/assets/images/posts/kingdom-6196975_1280.jpg"
+image: "/assets/images/posts/2021/04/kingdom-6196975_1280.jpg"
 summary: "2 Reyes 23-25. Josías reunió a los ancianos y subió con ellos, el pueblo, los sacerdotes y los profetas a la casa de Dios, y allí leyó delante de todos la ley, e hizo pacto con el..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/29/dia-119-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-107-plan-de-lectura"
 category: "1 Reyes"
 categories: ["1 Reyes", "La Biblia en un Año"]
 tags: ["biblia", "fidelidad", "israel", "juicio", "maldad", "pecado", "reino", "reyes"]
-image: "/assets/images/posts/meadow-g8276db3fe_1280.jpg"
+image: "/assets/images/posts/2021/04/meadow-g8276db3fe_1280.jpg"
 summary: "1 Reyes 12-14. El pueblo de Israel fue convocado a Siquem para hacer rey a Roboam y le pidieron que disminuyera la dura carga de tributos que Salomón les había impuesto, pero éste..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/17/dia-107-plan-de-lectura/"
 ---

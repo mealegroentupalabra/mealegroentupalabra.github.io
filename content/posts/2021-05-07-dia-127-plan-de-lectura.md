@@ -5,7 +5,7 @@ slug: "dia-127-plan-de-lectura"
 category: "1 Crónicas"
 categories: ["1 Crónicas", "La Biblia en un Año"]
 tags: ["biblia", "israel", "juicio", "reyes", "templo"]
-image: "/assets/images/posts/dominic-sansotta-cepy8wko9hu-unsplash.jpg"
+image: "/assets/images/posts/2021/05/dominic-sansotta-cepy8wko9hu-unsplash.jpg"
 summary: "1 Crónicas 18-21. Dios dio la victoria a David en todas sus batallas contra los filisteos, los moabitas, los sirios y los edomitas, entre otros. Los tesoros obtenidos en estos..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/07/dia-127-plan-de-lectura/"
 ---

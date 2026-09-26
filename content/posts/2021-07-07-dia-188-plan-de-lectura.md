@@ -5,7 +5,7 @@ slug: "dia-188-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["alabanza", "biblia", "confianza", "Dios", "fidelidad", "israel", "justicia", "misericordia", "obediencia"]
-image: "/assets/images/posts/samantha-sophia-nawkmlp3tvs-unsplash.jpg"
+image: "/assets/images/posts/2021/07/samantha-sophia-nawkmlp3tvs-unsplash.jpg"
 summary: "Salmos 119. El salmista nos muestra su profunda relación con la palabra de Dios. Él habla de la bienaventuranza de los que andan en ella, de cómo ella ordena la vida del hombre,..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/07/dia-188-plan-de-lectura/"
 ---

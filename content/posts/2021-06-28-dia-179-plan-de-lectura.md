@@ -5,7 +5,7 @@ slug: "dia-179-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["alabanza", "biblia", "confianza", "desierto", "Dios", "israel", "juicio", "justicia", "misericordia", "pacto", "pecado", "salvación"]
-image: "/assets/images/posts/priscilla-du-preez-mcxesld2su-unsplash.jpg"
+image: "/assets/images/posts/2021/06/priscilla-du-preez-mcxesld2su-unsplash.jpg"
 summary: "Salmos 78-79. Asaf habló de la importancia de transmitir a la nueva generación la historia de los hechos poderosos de Dios así como la generación anterior lo había hecho con..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/28/dia-179-plan-de-lectura/"
 ---

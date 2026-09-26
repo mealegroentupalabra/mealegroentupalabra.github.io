@@ -5,7 +5,7 @@ slug: "dia-40-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Levítico"]
 tags: ["biblia", "desierto", "ley", "presencia", "sacerdotes", "santidad", "tabernáculo", "templo"]
-image: "/assets/images/posts/grapes-553463_1280.jpg"
+image: "/assets/images/posts/2021/02/grapes-553463_1280.jpg"
 summary: "Levítico 24-25. Dios continuó dando indicaciones para el pueblo por medio de Moisés: habló acerca del aceite para las lámparas y sobre la preparación y presentación del pan de la..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/09/dia-40-plan-de-lectura/"
 ---

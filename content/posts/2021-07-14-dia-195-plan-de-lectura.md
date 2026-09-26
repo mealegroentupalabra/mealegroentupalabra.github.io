@@ -5,7 +5,7 @@ slug: "dia-195-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Proverbios"]
 tags: ["biblia", "confianza", "Dios", "juicio", "justicia", "ley", "misericordia", "obediencia", "sabiduría"]
-image: "/assets/images/posts/leaf-g76963f106_1280.jpg"
+image: "/assets/images/posts/2021/07/leaf-g76963f106_1280.jpg"
 summary: "Proverbios 4-6. David enseñó a Salomón a amar la sabiduría. Él le decía que por encima de todas las cosas adquiriera sabiduría e inteligencia, porque si él abrazaba la sabiduría,..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/14/dia-195-plan-de-lectura/"
 ---

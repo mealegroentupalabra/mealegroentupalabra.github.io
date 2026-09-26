@@ -5,7 +5,7 @@ slug: "dia-85-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Rut"]
 tags: ["alabanza", "biblia", "fidelidad", "gracia", "israel", "obediencia", "promesa", "providencia", "provisión"]
-image: "/assets/images/posts/barley-field-1684052_1280.jpg"
+image: "/assets/images/posts/2021/03/barley-field-1684052_1280.jpg"
 summary: "Rut 1-4. En el tiempo de los Jueces, hubo hambre en la tierra de Israel. Por eso, un hombre de Belén se fue a la tierra de Moab llevando consigo a su mujer y a sus hijos, los..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/26/dia-85-plan-de-lectura/"
 ---

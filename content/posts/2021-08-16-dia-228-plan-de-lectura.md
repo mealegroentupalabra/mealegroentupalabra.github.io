@@ -5,7 +5,7 @@ slug: "dia-228-plan-de-lectura"
 category: "Jeremías"
 categories: ["Jeremías", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "israel", "judá", "juicio", "justicia", "obediencia", "pecado", "profecía"]
-image: "/assets/images/posts/ilgmyzin-b0-7f_xuh_0-unsplash.jpg"
+image: "/assets/images/posts/2021/08/ilgmyzin-b0-7f_xuh_0-unsplash.jpg"
 summary: "Jeremías 14-17. Jeremías llamó a Dios esperanza de Israel y su guardador, y le pidió que librara a su pueblo del mal que vendría. Sin embargo, el Señor mandó a Jeremías que no..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/16/dia-228-plan-de-lectura/"
 ---

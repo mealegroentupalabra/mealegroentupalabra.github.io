@@ -5,7 +5,7 @@ slug: "dia-94-plan-de-lectura"
 category: "1 Samuel"
 categories: ["1 Samuel", "La Biblia en un Año"]
 tags: ["batalla", "biblia", "justicia", "pecado", "profecía", "profetas", "reino", "reyes", "victoria"]
-image: "/assets/images/posts/anxiety-g8bc34d63d_1920.jpg"
+image: "/assets/images/posts/2021/04/anxiety-g8bc34d63d_1920.jpg"
 summary: "1 Samuel 28-31. Los filisteos y los israelitas reunieron cada uno sus ejércitos para combatir, y cuando Saúl vio el campamento de los filisteos tuvo gran temor y fue a consultar a..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/04/dia-94-plan-de-lectura/"
 ---

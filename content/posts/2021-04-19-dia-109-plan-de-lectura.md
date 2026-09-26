@@ -5,7 +5,7 @@ slug: "dia-109-plan-de-lectura"
 category: "1 Reyes"
 categories: ["1 Reyes", "La Biblia en un Año"]
 tags: ["adoración", "atributos", "biblia", "israel", "judá", "poder", "profetas", "reino", "reyes"]
-image: "/assets/images/posts/florian-olivo-rqzeciyyroa-unsplash.jpg"
+image: "/assets/images/posts/2021/04/florian-olivo-rqzeciyyroa-unsplash.jpg"
 summary: "1 Reyes 18-20. Pasados tres años desde el inicio de la sequía, Dios envió a Elías a presentarse delante de Acab. Éste lo había estado buscando durante todo ese tiempo, pero no lo..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/19/dia-109-plan-de-lectura/"
 ---

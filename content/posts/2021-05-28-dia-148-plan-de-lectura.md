@@ -5,7 +5,7 @@ slug: "dia-148-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Nehemías"]
 tags: ["biblia", "judá", "ley", "obediencia", "pacto", "reconstrucción", "restauración"]
-image: "/assets/images/posts/tanner-mardis-xuxghzhibn4-unsplash.jpg"
+image: "/assets/images/posts/2021/03/tanner-mardis-xuxghzhibn4-unsplash.jpg"
 summary: "Nehemías 10-11. El compromiso que hizo el pueblo consistía en apartarse de las alianzas que habían hecho con los pueblos extranjeros, en guardar el día de reposo y en todo lo..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/28/dia-148-plan-de-lectura/"
 ---

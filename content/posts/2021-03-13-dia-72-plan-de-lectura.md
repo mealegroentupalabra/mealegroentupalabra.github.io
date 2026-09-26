@@ -5,7 +5,7 @@ slug: "dia-72-plan-de-lectura"
 category: "Josué"
 categories: ["Josué", "La Biblia en un Año"]
 tags: ["batalla", "biblia", "conquista", "israel", "milagro", "obediencia", "tierra", "victoria"]
-image: "/assets/images/posts/craig-vodnik-ncw7np38qpw-unsplash.jpg"
+image: "/assets/images/posts/2021/03/craig-vodnik-ncw7np38qpw-unsplash.jpg"
 summary: "Josué 9-11. Los gabaonitas vinieron al campamento de Israel en Gilgal y engañaron a Josué y a los principales de Israel haciéndoles pensar que venían de lejos para que Israel..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/13/dia-72-plan-de-lectura/"
 ---

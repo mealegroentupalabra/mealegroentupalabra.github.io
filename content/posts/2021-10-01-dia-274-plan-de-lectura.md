@@ -5,7 +5,7 @@ slug: "dia-274-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Malaquías"]
 tags: ["bendición", "biblia", "Dios", "israel", "judá", "justicia", "maldición", "naciones", "profetas", "reino", "restauración", "sacerdotes", "templo"]
-image: "/assets/images/posts/daisy-4373803_1280.jpg"
+image: "/assets/images/posts/2021/10/daisy-4373803_1280.jpg"
 summary: "Malaquías 1-4. Israel no le dio a Dios el fruto que él esperaba ya que sus vidas se caracterizaron por la injusticia y el menosprecio contra su Hacedor. Menospreciaron su amor, su..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/10/01/dia-274-plan-de-lectura/"
 ---

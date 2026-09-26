@@ -5,7 +5,7 @@ slug: "dia-21-plan-de-lectura"
 category: "Éxodo"
 categories: ["Éxodo", "La Biblia en un Año"]
 tags: ["biblia", "egipto", "esclavitud", "juicio", "maldad", "plan", "poder"]
-image: "/assets/images/posts/exodo-plagas-2.jpg"
+image: "/assets/images/posts/2021/01/exodo-plagas-2.jpg"
 summary: "Éxodo 10-12. Las plagas continuaron ante la terquedad del Faraón y de sus siervos. Una vez tras otra pedían que Dios les quitara las plagas, pero tan pronto el azote pasaba..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/21/dia-21-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-51-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Números"]
 tags: ["biblia", "desierto", "dificultades", "incredulidad", "juicio", "pecado", "perdón"]
-image: "/assets/images/posts/pexels-miriam-fischer-2581178.jpg"
+image: "/assets/images/posts/2021/02/pexels-miriam-fischer-2581178.jpg"
 summary: "Números 21-22. Cuando los israelitas partieron del monte de Hor decidieron rodear la tierra de Edom. Yendo de camino, el pueblo se desanimó y se quejó una vez más."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/20/dia-51-plan-de-lectura/"
 ---

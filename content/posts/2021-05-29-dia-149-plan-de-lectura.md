@@ -5,7 +5,7 @@ slug: "dia-149-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Nehemías"]
 tags: ["biblia", "judá", "ley", "obediencia", "pacto", "reconstrucción", "restauración"]
-image: "/assets/images/posts/city-5461993_1280.jpg"
+image: "/assets/images/posts/2021/05/city-5461993_1280.jpg"
 summary: "Nehemías 12-13. Llegó el momento de realizar la dedicación de los muros de la ciudad. Hicieron venir a los levitas para que la fiesta de dedicación estuviera acompañada con..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/29/dia-149-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-12-plan-de-lectura"
 category: "Génesis"
 categories: ["Génesis", "La Biblia en un Año"]
 tags: ["biblia", "fidelidad", "pacto", "promesa", "rivalidad"]
-image: "/assets/images/posts/colorful-620520_1280.jpg"
+image: "/assets/images/posts/2021/01/colorful-620520_1280.jpg"
 summary: "Génesis 35-37. Dios le ordenó a Jacob que fuera a Bet-el, el lugar en que Dios se le apareció cuando huía de Esaú, y que le edificara allí un altar. En ese lugar, Dios bendijo a..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/12/dia-12-plan-de-lectura/"
 ---

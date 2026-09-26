@@ -5,7 +5,7 @@ slug: "dia-98-plan-de-lectura"
 category: "2 Samuel"
 categories: ["2 Samuel", "La Biblia en un Año"]
 tags: ["batalla", "biblia", "israel", "pecado", "reino", "reyes"]
-image: "/assets/images/posts/checkmate-g6aa408b5c_1280.jpg"
+image: "/assets/images/posts/2021/04/checkmate-g6aa408b5c_1280.jpg"
 summary: "2 Samuel 13-15. Las consecuencias del pecado de David no se hicieron esperar y los problemas vinieron del interior de su familia. Por un lado, uno de los hijos del rey llamado..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/08/dia-98-plan-de-lectura/"
 ---

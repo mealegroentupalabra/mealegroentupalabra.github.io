@@ -5,7 +5,7 @@ slug: "dia-220-plan-de-lectura"
 category: "Isaías"
 categories: ["Isaías", "La Biblia en un Año"]
 tags: ["biblia", "confianza", "Dios", "esperanza", "israel", "naciones", "salvación", "sufrimiento"]
-image: "/assets/images/posts/andrey-grinkevich-cj6lom-gjyi-unsplash.jpg"
+image: "/assets/images/posts/2021/08/andrey-grinkevich-cj6lom-gjyi-unsplash.jpg"
 summary: "Isaías 49-53. Dios estableció a su siervo para restaurar a Israel, pero también lo dio por luz para las naciones y para salvación hasta la último de la tierra. Él lo haría por..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/08/dia-220-plan-de-lectura/"
 ---

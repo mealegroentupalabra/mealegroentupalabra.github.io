@@ -5,7 +5,7 @@ slug: "dia-192-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["alabanza", "biblia", "confianza", "Dios", "fidelidad", "israel", "juicio", "justicia", "misericordia", "obediencia"]
-image: "/assets/images/posts/pexels-jeffry-surianto-8807543-1.jpg"
+image: "/assets/images/posts/2021/07/pexels-jeffry-surianto-8807543-1.jpg"
 summary: "Salmos 140-145. David suplicó a Dios que lo librara de los hombres malos porque ellos maquinaban mal en sus corazones y utilizaban sus lenguas como armas. David no quería caer en..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/11/dia-192-plan-de-lectura/"
 ---

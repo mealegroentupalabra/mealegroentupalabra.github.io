@@ -5,7 +5,7 @@ slug: "dia-249-plan-de-lectura"
 category: "Ezequiel"
 categories: ["Ezequiel", "La Biblia en un Año"]
 tags: ["biblia", "cautividad", "Dios", "israel", "judá", "juicio", "justicia", "pecado"]
-image: "/assets/images/posts/grave-g2c397f07f_1280.png"
+image: "/assets/images/posts/2021/09/grave-g2c397f07f_1280.png"
 summary: "Ezequiel 23-24. Dios dibujó para Ezequiel un retrato vívido de la tración de su pueblo. Comparó a Israel y a Judá con dos mujeres que habían adulterado, ya que su pueblo había..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/06/dia-249-plan-de-lectura/"
 ---

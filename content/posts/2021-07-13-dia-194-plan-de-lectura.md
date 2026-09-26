@@ -5,7 +5,7 @@ slug: "dia-194-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Proverbios"]
 tags: ["biblia", "confianza", "Dios", "juicio", "justicia", "ley", "misericordia", "obediencia", "sabiduría"]
-image: "/assets/images/posts/analogue-g13a320770_1280.jpg"
+image: "/assets/images/posts/2021/07/analogue-g13a320770_1280.jpg"
 summary: "Proverbios 1-3. Estos son los proverbios de Salomón, el hijo del rey David. Su propósito es el de dar conocimiento, instrucción, consejo y sagacidad para vivir bien de acuerdo al..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/13/dia-194-plan-de-lectura/"
 ---

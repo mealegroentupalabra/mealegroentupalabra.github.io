@@ -5,7 +5,7 @@ slug: "dia-8-plan-de-lectura"
 category: "Génesis"
 categories: ["Génesis", "La Biblia en un Año"]
 tags: ["biblia", "fe", "pacto", "promesa"]
-image: "/assets/images/posts/pexels-katie-evensen-4923807.jpg"
+image: "/assets/images/posts/2021/01/pexels-katie-evensen-4923807.jpg"
 summary: "Génesis 25-26. Isaac tomó por mujer a Rebeca, la cual era estéril. Por esto, Isaac clamó a Dios y él lo escuchó al concederle dos hijos: Esaú y Jacob. Estos dos hermanos fueron..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/08/dia-8-plan-de-lectura/"
 ---

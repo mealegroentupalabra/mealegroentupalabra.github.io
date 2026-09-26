@@ -575,6 +575,21 @@
       color: #ffffff;
     }
 
+    .tb-btn.special-pullquote {
+      width: auto;
+      padding: 0 0.65rem;
+      background: var(--primary-light);
+      border-color: rgba(26, 54, 93, 0.25);
+      color: var(--primary);
+      font-size: 0.8rem;
+      gap: 0.3rem;
+    }
+
+    .tb-btn.special-pullquote:hover {
+      background: var(--primary);
+      color: #ffffff;
+    }
+
     /* Split Workspace */
     .canvas-workspaces {
       flex: 1;
@@ -945,7 +960,7 @@
           </div>
         </div>
 
-        <input type="text" id="manualImageUrl" class="form-input" placeholder="/assets/images/posts/imagen.jpg o https://..." style="display: none; font-size: 0.82rem; margin-top: 0.35rem;">
+        <input type="text" id="manualImageUrl" class="form-input" placeholder="/assets/images/posts/2026/09/imagen.jpg o https://..." style="display: none; font-size: 0.82rem; margin-top: 0.35rem;">
       </div>
 
       <!-- Summary -->
@@ -992,6 +1007,9 @@
         <div class="toolbar-group">
           <button type="button" class="tb-btn special-scripture" onclick="openScriptureModal()" title="Insertar tarjeta sagrada de Versículo Bíblico">
             <span>📖 Cita Bíblica</span>
+          </button>
+          <button type="button" class="tb-btn special-pullquote" onclick="openPullQuoteModal()" title="Resaltar porción o cita del artículo (alineada a derecha, izquierda o centro)">
+            <span>💬 Cita Destacada</span>
           </button>
         </div>
 
@@ -1099,6 +1117,51 @@
     </div>
   </div>
 
+  <!-- Modal: Pull Quote Inserter -->
+  <div class="studio-modal-backdrop" id="pullQuoteModalBackdrop">
+    <div class="studio-modal">
+      <h3 class="modal-title">💬 Insertar Cita Destacada del Artículo</h3>
+      
+      <div class="form-group" style="margin-bottom: 1rem;">
+        <label class="form-label" for="pullQuoteText">Texto o frase clave a resaltar</label>
+        <textarea id="pullQuoteText" class="form-input" rows="3" placeholder="Escribe o selecciona la frase del artículo que deseas destacar..."></textarea>
+      </div>
+
+      <div class="form-group" style="margin-bottom: 1rem;">
+        <label class="form-label">Alineación dentro del texto</label>
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.5rem; margin-top: 0.35rem;">
+          <label style="display: flex; flex-direction: column; align-items: center; gap: 0.35rem; padding: 0.65rem 0.4rem; border: 1.5px solid var(--border-light); border-radius: var(--radius-md); cursor: pointer; text-align: center; background: var(--bg-body); transition: all 0.2s ease;">
+            <input type="radio" name="pullQuoteAlign" value="align-right" checked style="accent-color: var(--primary);">
+            <span style="font-size: 0.82rem; font-weight: 600;">➡️ Derecha</span>
+            <span style="font-size: 0.68rem; color: var(--text-light); line-height: 1.2;">El texto fluye a la izquierda</span>
+          </label>
+
+          <label style="display: flex; flex-direction: column; align-items: center; gap: 0.35rem; padding: 0.65rem 0.4rem; border: 1.5px solid var(--border-light); border-radius: var(--radius-md); cursor: pointer; text-align: center; background: var(--bg-body); transition: all 0.2s ease;">
+            <input type="radio" name="pullQuoteAlign" value="align-left" style="accent-color: var(--primary);">
+            <span style="font-size: 0.82rem; font-weight: 600;">⬅️ Izquierda</span>
+            <span style="font-size: 0.68rem; color: var(--text-light); line-height: 1.2;">El texto fluye a la derecha</span>
+          </label>
+
+          <label style="display: flex; flex-direction: column; align-items: center; gap: 0.35rem; padding: 0.65rem 0.4rem; border: 1.5px solid var(--border-light); border-radius: var(--radius-md); cursor: pointer; text-align: center; background: var(--bg-body); transition: all 0.2s ease;">
+            <input type="radio" name="pullQuoteAlign" value="align-center" style="accent-color: var(--primary);">
+            <span style="font-size: 0.82rem; font-weight: 600;">⏺️ Centro</span>
+            <span style="font-size: 0.68rem; color: var(--text-light); line-height: 1.2;">Bloque destacado central</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="pullQuoteCite">Etiqueta o referencia (opcional)</label>
+        <input type="text" id="pullQuoteCite" class="form-input" placeholder="Ej: Idea Clave, Reflexión, o déjalo vacío">
+      </div>
+
+      <div class="modal-actions">
+        <button type="button" class="btn-drawer-toggle" onclick="closePullQuoteModal()">Cancelar</button>
+        <button type="button" class="btn-studio-save" onclick="confirmInsertPullQuote()">Insertar Cita Destacada</button>
+      </div>
+    </div>
+  </div>
+
   <!-- Modal: Link Inserter -->
   <div class="studio-modal-backdrop" id="linkModalBackdrop">
     <div class="studio-modal">
@@ -1141,6 +1204,7 @@
       let selectedCategories = new Set();
       let selectedTags = new Set();
       let currentFilename = null;
+      let currentOriginalUrl = '';
       let isUnsaved = false;
 
       // DOM Elements
@@ -1672,6 +1736,40 @@
         }
       };
 
+      // Pull Quote Modal
+      const pullQuoteModal = document.getElementById('pullQuoteModalBackdrop');
+      window.openPullQuoteModal = function () {
+        const sel = postContent.value.substring(postContent.selectionStart, postContent.selectionEnd).trim();
+        document.getElementById('pullQuoteText').value = sel || '';
+        document.getElementById('pullQuoteCite').value = '';
+        pullQuoteModal.classList.add('active');
+        document.getElementById('pullQuoteText').focus();
+      };
+      window.closePullQuoteModal = function () {
+        pullQuoteModal.classList.remove('active');
+      };
+      window.confirmInsertPullQuote = function () {
+        const txt = document.getElementById('pullQuoteText').value.trim();
+        if (!txt) {
+          showToast('Por favor escribe la porción o frase a resaltar.', true);
+          return;
+        }
+        const alignRadio = document.querySelector('input[name="pullQuoteAlign"]:checked');
+        const align = alignRadio ? alignRadio.value : 'align-right';
+        const cite = document.getElementById('pullQuoteCite').value.trim();
+
+        let snippet = `\n<blockquote class="pull-quote ${align}">\n  «${txt}»`;
+        if (cite) {
+          snippet += `\n  <cite class="pull-quote-cite">${cite}</cite>`;
+        }
+        snippet += `\n</blockquote>\n`;
+
+        insertSyntax(snippet, '');
+        document.getElementById('pullQuoteText').value = '';
+        document.getElementById('pullQuoteCite').value = '';
+        closePullQuoteModal();
+      };
+
       // Link Modal
       const linkModal = document.getElementById('linkModalBackdrop');
       window.openLinkModal = function () {
@@ -1838,6 +1936,7 @@
           const post = await resp.json();
 
           currentFilename = post.filename;
+          currentOriginalUrl = post.original_url || '';
           currentEditingBadge.textContent = `Editando: ${post.title}`;
           postTitle.value = post.title || '';
           postSlug.value = post.slug || '';
@@ -1877,6 +1976,7 @@
           return;
         }
         currentFilename = null;
+        currentOriginalUrl = '';
         currentEditingBadge.textContent = 'Nuevo Artículo (Borrador)';
         postTitle.value = '';
         postSlug.value = '';
@@ -1911,6 +2011,7 @@
 
         const payload = {
           filename: currentFilename || '',
+          original_url: currentOriginalUrl || '',
           title: title,
           slug: postSlug.value.trim() || generateSlug(title),
           categories: Array.from(selectedCategories),

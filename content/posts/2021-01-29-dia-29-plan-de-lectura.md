@@ -5,7 +5,7 @@ slug: "dia-29-plan-de-lectura"
 category: "Éxodo"
 categories: ["Éxodo", "La Biblia en un Año"]
 tags: ["atributos", "biblia", "desierto", "gloria", "ley", "presencia", "sacerdotes", "tabernáculo", "templo"]
-image: "/assets/images/posts/sunset-189912_1280.jpg"
+image: "/assets/images/posts/2021/01/sunset-189912_1280.jpg"
 summary: "Éxodo 33-35. Dios hablaba con Moisés cara a cara, es decir, de manera directa y sin intermediarios, pero Moisés quería más, quería ver toda la gloria de Dios, así que le pidió al..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/29/dia-29-plan-de-lectura/"
 ---

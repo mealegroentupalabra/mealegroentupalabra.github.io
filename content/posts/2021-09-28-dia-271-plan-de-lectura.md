@@ -5,7 +5,7 @@ slug: "dia-271-plan-de-lectura"
 category: "Hageo"
 categories: ["Hageo", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "judá", "obediencia", "profetas", "templo"]
-image: "/assets/images/posts/pexels-ahmet-cotur-19075388.jpg"
+image: "/assets/images/posts/2021/09/pexels-ahmet-cotur-19075388.jpg"
 summary: "Hageo 1-2. En el segundo año de Dario el persa, Dios habló por medio de Hageo a Zorobabel, el gobernador de Judá, y a Josué, el sumo sacerdote. Éste los animó a reconstruir el..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/28/dia-271-plan-de-lectura/"
 ---

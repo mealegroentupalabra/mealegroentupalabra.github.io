@@ -5,7 +5,7 @@ slug: "dia-97-plan-de-lectura"
 category: "2 Samuel"
 categories: ["2 Samuel", "La Biblia en un Año"]
 tags: ["batalla", "biblia", "israel", "misericordia", "pecado", "profetas", "reino", "reyes", "templo", "victoria"]
-image: "/assets/images/posts/chariot-g25bb0435b_1280.jpg"
+image: "/assets/images/posts/2021/04/chariot-g25bb0435b_1280.jpg"
 summary: "2 Samuel 8-12. Después de haber sido confirmado en su reino, David emprendió varias campañas militares para conquistar más territorios, y donde quiera que iba, Dios le daba la..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/07/dia-97-plan-de-lectura/"
 ---

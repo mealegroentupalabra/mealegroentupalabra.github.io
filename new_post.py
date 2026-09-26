@@ -152,6 +152,7 @@ def get_post_by_file(filename):
             "image": fm.get("image", ""),
             "summary": fm.get("summary", ""),
             "featured": is_featured,
+            "original_url": fm.get("original_url", ""),
             "content": body
         }
     return {
@@ -263,6 +264,10 @@ def save_post_data(data):
         frontmatter.append(f'image: "{image}"')
     if summary:
         frontmatter.append(f'summary: "{summary.replace("\"", "\\\"")}"')
+
+    original_url = data.get("original_url") or existing_fm.get("original_url")
+    if original_url:
+        frontmatter.append(f'original_url: "{original_url}"')
 
     frontmatter.append("---\n")
     full_text = "\n".join(frontmatter) + content.lstrip("\n")

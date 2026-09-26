@@ -5,7 +5,7 @@ slug: "dia-171-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["adoración", "alabanza", "biblia", "confianza", "Dios", "esperanza", "fe", "oración", "perdón", "victoria"]
-image: "/assets/images/posts/opposites-g34cfa624d_1920.jpg"
+image: "/assets/images/posts/2021/06/opposites-g34cfa624d_1920.jpg"
 summary: "Salmos 36-39. David afirma que el malo no teme a Dios y se ufana de que su maldad no será descubierta, incluso sobre su cama planea sus actos inicuos. Pero Dios tiene misericordia..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/20/dia-171-plan-de-lectura/"
 ---

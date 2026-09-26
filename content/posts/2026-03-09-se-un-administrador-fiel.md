@@ -5,7 +5,7 @@ slug: "se-un-administrador-fiel"
 category: "Planes de Lectura"
 categories: ["Planes de Lectura"]
 tags: ["administracion", "confianza", "fidelidad", "obediencia", "reyes"]
-image: "/assets/images/posts/se-un-administrador-fiel-1440x810-1.jpg"
+image: "/assets/images/posts/2026/03/se-un-administrador-fiel-1440x810-1.jpg"
 summary: "Me complace enormemente compartir con ustedes la reciente publicación en la plataforma bíblica YouVersion de mi primer plan de lectura bíblica de cinco (5) días, enfocado en ver..."
 original_url: "https://mealegroentupalabra.wordpress.com/2026/03/09/se-un-administrador-fiel/"
 ---

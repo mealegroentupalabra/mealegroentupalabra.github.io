@@ -5,7 +5,7 @@ slug: "dia-90-plan-de-lectura"
 category: "1 Samuel"
 categories: ["1 Samuel", "La Biblia en un Año"]
 tags: ["batalla", "biblia", "confianza", "obediencia", "oración", "pecado", "profetas", "reino", "reyes", "victoria"]
-image: "/assets/images/posts/jesus-gc08d7a814_1280.jpg"
+image: "/assets/images/posts/2021/03/jesus-gc08d7a814_1280.jpg"
 summary: "1 Samuel 15-17. Dios ordenó a Saúl que enfrentara a los de Amalec y los destruyera del todo, pero éste desobedeció una vez más. Esto le pesó a Dios en su corazón y por eso, le..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/31/dia-90-plan-de-lectura/"
 ---

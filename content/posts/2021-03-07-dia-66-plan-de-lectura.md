@@ -5,7 +5,7 @@ slug: "dia-66-plan-de-lectura"
 category: "Deuteronomio"
 categories: ["Deuteronomio", "La Biblia en un Año"]
 tags: ["biblia", "desierto", "israel", "ley", "obediencia", "venganza"]
-image: "/assets/images/posts/elaine-casap-qghgdbbsnm8-unsplash.jpg"
+image: "/assets/images/posts/2021/03/elaine-casap-qghgdbbsnm8-unsplash.jpg"
 summary: "Deuteronomio 24-27. Moisés entregó más leyes relacionadas con el divorcio, y con el trato de los israelitas hacia sus hermanos más necesitados. Dios proveyó cuidado para los..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/07/dia-66-plan-de-lectura/"
 ---

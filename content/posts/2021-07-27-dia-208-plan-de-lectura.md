@@ -5,7 +5,7 @@ slug: "dia-208-plan-de-lectura"
 category: "Cantares"
 categories: ["Cantares", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "esposos", "familia", "matrimonio"]
-image: "/assets/images/posts/paper-3061485_1280.jpg"
+image: "/assets/images/posts/2021/07/paper-3061485_1280.jpg"
 summary: "Cantares 1-8. Esta canción es una maravillosa composición de amor. En ella los esposos, una joven morena y su amado, un humilde pastor, se expresan su mutuo afecto y admiración...."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/27/dia-208-plan-de-lectura/"
 ---

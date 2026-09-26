@@ -5,7 +5,7 @@ slug: "dia-92-plan-de-lectura"
 category: "1 Samuel"
 categories: ["1 Samuel", "La Biblia en un Año"]
 tags: ["batalla", "biblia", "confianza", "pecado", "reino", "reyes", "victoria"]
-image: "/assets/images/posts/pexels-haley-black-2102628.jpg"
+image: "/assets/images/posts/2021/04/pexels-haley-black-2102628.jpg"
 summary: "1 Samuel 21-24. David huyó de Saúl y se dirigió a Nob, allí el sacerdote Ahimelec le dio provisiones y la espada de Goliat. Después de esto, se dirigió al territorio de los..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/02/dia-92-plan-de-lectura/"
 ---

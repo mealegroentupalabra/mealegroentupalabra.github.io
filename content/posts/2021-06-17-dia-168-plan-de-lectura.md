@@ -5,7 +5,7 @@ slug: "dia-168-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["adoración", "alabanza", "biblia", "confianza", "Dios", "fe", "justicia", "oración", "victoria"]
-image: "/assets/images/posts/patrick-schneider-wczrs3unfnk-unsplash.jpg"
+image: "/assets/images/posts/2021/06/patrick-schneider-wczrs3unfnk-unsplash.jpg"
 summary: "Salmos 21-25. David se regocijó en el Señor porque le salvó, bendijo y coronó como rey. También habló sobre la manera como todos los que aborrecen a Dios serán juzgados por él...."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/17/dia-168-plan-de-lectura/"
 ---

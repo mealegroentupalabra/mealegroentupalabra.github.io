@@ -146,24 +146,28 @@ class BlogRequestHandler(http.server.SimpleHTTPRequestHandler):
                 if not clean_name or "." not in clean_name:
                     clean_name = f"upload_{datetime.now().strftime('%Y%m%d_%H%M%S')}.jpg"
 
-                dest_dir = Path("assets/images/posts")
+                now = datetime.now()
+                year_str = now.strftime('%Y')
+                month_str = now.strftime('%m')
+
+                dest_dir = Path(f"assets/images/posts/{year_str}/{month_str}")
                 dest_dir.mkdir(parents=True, exist_ok=True)
                 dest_file = dest_dir / clean_name
 
                 # Avoid accidental overwrite
                 if dest_file.exists():
                     base_n, ext_n = os.path.splitext(clean_name)
-                    clean_name = f"{base_n}_{datetime.now().strftime('%H%M%S')}{ext_n}"
+                    clean_name = f"{base_n}_{now.strftime('%H%M%S')}{ext_n}"
                     dest_file = dest_dir / clean_name
 
                 dest_file.write_bytes(image_bytes)
 
                 # Also write immediately to public/ so it can be previewed/served without full rebuild
-                public_file = Path("public/assets/images/posts") / clean_name
+                public_file = Path(f"public/assets/images/posts/{year_str}/{month_str}") / clean_name
                 public_file.parent.mkdir(parents=True, exist_ok=True)
                 public_file.write_bytes(image_bytes)
 
-                url = f"/assets/images/posts/{clean_name}"
+                url = f"/assets/images/posts/{year_str}/{month_str}/{clean_name}"
                 self.send_response(200)
                 self.send_header("Content-Type", "application/json; charset=utf-8")
                 self.end_headers()

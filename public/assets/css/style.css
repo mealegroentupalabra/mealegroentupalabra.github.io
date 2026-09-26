@@ -956,6 +956,165 @@ blockquote {
   color: var(--text-muted);
 }
 
+/* ==========================================================================
+   Pull Quotes (Citas destacadas del artículo con texto fluido)
+   ========================================================================== */
+.pull-quote {
+  position: relative;
+  font-family: var(--font-serif);
+  font-size: 1.26rem;
+  font-style: italic;
+  line-height: 1.55;
+  color: var(--text-main);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-md);
+  padding: 1.4rem 1.6rem;
+  box-shadow: var(--shadow-sm);
+  box-sizing: border-box;
+  margin: 1.5rem 0;
+}
+
+.pull-quote::before {
+  content: "“";
+  position: absolute;
+  top: -0.2rem;
+  left: 0.8rem;
+  font-family: Georgia, serif;
+  font-size: 3.2rem;
+  line-height: 1;
+  color: var(--gold);
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+.pull-quote cite,
+.pull-quote .pull-quote-cite {
+  display: block;
+  font-family: var(--font-sans);
+  font-style: normal;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--gold);
+  margin-top: 0.85rem;
+}
+
+/* Align Right (Flota a la derecha, el texto fluye a la izquierda) */
+.pull-quote.align-right,
+.pull-quote.alignright {
+  float: right;
+  width: 45%;
+  min-width: 250px;
+  margin: 0.6rem 0 1.6rem 2rem;
+  border-left: 4px solid var(--gold);
+  clear: right;
+}
+
+.pull-quote.align-right cite,
+.pull-quote.align-right .pull-quote-cite,
+.pull-quote.alignright cite,
+.pull-quote.alignright .pull-quote-cite {
+  text-align: right;
+}
+
+/* Align Left (Flota a la izquierda, el texto fluye a la derecha) */
+.pull-quote.align-left,
+.pull-quote.alignleft {
+  float: left;
+  width: 45%;
+  min-width: 250px;
+  margin: 0.6rem 2rem 1.6rem 0;
+  border-left: 4px solid var(--primary);
+  clear: left;
+}
+
+/* Align Center (Bloque destacado central en el artículo) */
+.pull-quote.align-center,
+.pull-quote.aligncenter {
+  float: none;
+  clear: both;
+  max-width: 86%;
+  margin: 2.75rem auto;
+  text-align: center;
+  padding: 2rem 2.5rem;
+  border-left: 1px solid var(--border-card);
+  border-right: 1px solid var(--border-card);
+  border-top: 3px solid var(--gold);
+  border-bottom: 3px solid var(--gold);
+  font-size: 1.38rem;
+  border-radius: var(--radius-sm);
+}
+
+.pull-quote.align-center::before,
+.pull-quote.aligncenter::before {
+  left: 50%;
+  transform: translateX(-50%);
+  top: -1.2rem;
+  background: var(--bg-surface);
+  padding: 0 0.6rem;
+  opacity: 0.6;
+}
+
+.pull-quote.align-center cite,
+.pull-quote.align-center .pull-quote-cite,
+.pull-quote.aligncenter cite,
+.pull-quote.aligncenter .pull-quote-cite {
+  text-align: center;
+}
+
+/* Alineación de imágenes dentro del cuerpo del artículo */
+.post-content img.align-right,
+.post-content figure.align-right {
+  float: right;
+  max-width: 46%;
+  margin: 0.5rem 0 1.5rem 1.75rem;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  clear: right;
+}
+
+.post-content img.align-left,
+.post-content figure.align-left {
+  float: left;
+  max-width: 46%;
+  margin: 0.5rem 1.75rem 1.5rem 0;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  clear: left;
+}
+
+.post-content img.align-center,
+.post-content figure.align-center {
+  display: block;
+  max-width: 90%;
+  margin: 2rem auto;
+  border-radius: var(--radius-md);
+  clear: both;
+}
+
+/* Clearfix para evitar desbordes */
+.post-content::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 768px) {
+  .pull-quote.align-right,
+  .pull-quote.alignright,
+  .pull-quote.align-left,
+  .pull-quote.alignleft,
+  .post-content img.align-right,
+  .post-content img.align-left {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 1.75rem 0;
+  }
+}
+
 /* Post Share & Footer */
 .post-footer {
   margin-top: 3.5rem;
@@ -1543,5 +1702,182 @@ a.rtRef:hover {
 
 [data-theme="dark"] .rtTooltip .rtMore {
   color: var(--gold) !important;
+}
+
+/* ==========================================================================
+   Acerca de / Author Profile & Legacy Gutenberg Fallbacks
+   ========================================================================== */
+.about-hero-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 1.5rem auto 3rem;
+  max-width: 640px;
+  padding: 0 1rem;
+}
+
+.about-avatar-wrap {
+  width: 140px;
+  height: 140px;
+  margin: 0 auto 1.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  border: 4px solid var(--border-light);
+  background: var(--bg-card);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.about-author-name {
+  font-family: var(--font-serif);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--text-color);
+  margin: 0 0 0.75rem;
+  line-height: 1.2;
+}
+
+.about-author-slogan {
+  font-size: 1.15rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  max-width: 520px;
+  margin: 0 auto 1.75rem;
+  font-style: italic;
+}
+
+.about-social-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 0.5rem 0 1.5rem;
+}
+
+.about-social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  color: var(--text-color);
+  transition: all 0.25s ease;
+  box-shadow: var(--shadow-sm);
+  text-decoration: none;
+}
+
+.about-social-link:hover {
+  transform: translateY(-3px);
+  border-color: var(--primary);
+  color: var(--primary);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  background: var(--bg-subtle);
+}
+
+.about-social-link svg {
+  width: 22px;
+  height: 22px;
+  fill: currentColor;
+}
+
+.about-divider {
+  border: 0;
+  height: 1px;
+  background: var(--border-light);
+  max-width: 400px;
+  margin: 2.5rem auto;
+}
+
+.about-section {
+  max-width: 640px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.about-section h3 {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  color: var(--text-color);
+  margin-bottom: 0.75rem;
+}
+
+.about-section p {
+  color: var(--text-muted);
+  line-height: 1.65;
+  font-size: 0.98rem;
+  margin-bottom: 1rem;
+}
+
+.about-license-badge {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.75rem;
+}
+
+/* Ensure WordPress Gutenberg blocks also follow these centering rules & hide labels */
+.screen-reader-text,
+.wp-block-social-link-label {
+  display: none !important;
+}
+
+ul.wp-block-social-links {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 1.5rem auto !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 1rem !important;
+}
+
+.wp-block-social-links li.wp-block-social-link {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.wp-block-social-link-anchor {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 50% !important;
+  background: var(--bg-card) !important;
+  border: 1px solid var(--border-light) !important;
+  color: var(--text-color) !important;
+  transition: all 0.25s ease !important;
+}
+
+.wp-block-social-link-anchor:hover {
+  transform: translateY(-3px) !important;
+  border-color: var(--primary) !important;
+  color: var(--primary) !important;
+  background: var(--bg-subtle) !important;
+}
+
+.wp-block-image.aligncenter {
+  display: flex !important;
+  justify-content: center !important;
+  margin: 1.5rem auto !important;
+}
+
+.wp-block-image.aligncenter img {
+  display: block !important;
+  margin: 0 auto !important;
 }
 

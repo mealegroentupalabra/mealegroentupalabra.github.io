@@ -5,7 +5,7 @@ slug: "dia-74-plan-de-lectura"
 category: "Josué"
 categories: ["Josué", "La Biblia en un Año"]
 tags: ["batalla", "biblia", "conquista", "israel", "obediencia", "tierra", "victoria"]
-image: "/assets/images/posts/israel-g2261eac3d_1280.jpg"
+image: "/assets/images/posts/2021/03/israel-g2261eac3d_1280.jpg"
 summary: "Josué 16-18. Se echaron suertes sobre las tribus de Efraín y la Mitad de Manases y se les asignaron los territorios correspondientes. La tribu de Efraín era grande en número, por..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/15/dia-74-plan-de-lectura/"
 ---

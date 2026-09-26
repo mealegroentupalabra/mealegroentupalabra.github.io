@@ -5,7 +5,7 @@ slug: "dia-75-plan-de-lectura"
 category: "Josué"
 categories: ["Josué", "La Biblia en un Año"]
 tags: ["biblia", "conquista", "fidelidad", "israel", "obediencia", "promesa", "tierra", "victoria"]
-image: "/assets/images/posts/pexels-haley-black-2102619.jpg"
+image: "/assets/images/posts/2021/03/pexels-haley-black-2102619.jpg"
 summary: "Josué 19-21. Fueron echadas suertes sobre las siete tribus restantes en el siguiente orden: Benjamín, Simeón, Zabulón, Isacar, Aser, Neftalí y Dan. Después que todas tuvieron sus..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/16/dia-75-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-150-plan-de-lectura"
 category: "Ester"
 categories: ["Ester", "La Biblia en un Año"]
 tags: ["biblia", "cautividad", "providencia", "salvación"]
-image: "/assets/images/posts/queen-2941437_1280.jpg"
+image: "/assets/images/posts/2021/05/queen-2941437_1280.jpg"
 summary: "Ester 1-5. El rey Asuero fue confirmado en su reino desde la India hasta Etiopía, e hizo un banquete por varios meses para mostrar la gloria de su imperio a los jefes de las..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/30/dia-150-plan-de-lectura/"
 ---

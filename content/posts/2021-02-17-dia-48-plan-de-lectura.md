@@ -5,7 +5,7 @@ slug: "dia-48-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Números"]
 tags: ["biblia", "confianza", "desierto", "incredulidad", "juicio", "ley", "pecado", "tierra"]
-image: "/assets/images/posts/pexels-pixabay-60013.jpg"
+image: "/assets/images/posts/2021/02/pexels-pixabay-60013.jpg"
 summary: "Números 14-15. El pueblo se lamentó toda la noche por las palabras de los espías que los desanimaron. Solo Caleb y Josué confiaron en la Palabra del Señor e intentaron animar al..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/17/dia-48-plan-de-lectura/"
 ---

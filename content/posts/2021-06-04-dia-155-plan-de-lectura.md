@@ -5,7 +5,7 @@ slug: "dia-155-plan-de-lectura"
 category: "Job"
 categories: ["Job", "La Biblia en un Año"]
 tags: ["biblia", "confianza", "fe", "justicia", "providencia", "prueba", "sufrimiento"]
-image: "/assets/images/posts/adi-goldstein-kobsuu7b3g-unsplash.jpg"
+image: "/assets/images/posts/2021/06/adi-goldstein-kobsuu7b3g-unsplash.jpg"
 summary: "Job 11-13. Zofar acusó directamente a Job y le atribuyó varios pecados, también lo invitó a arrepentirse con la confianza de que seguro Dios lo perdonaría. Por su parte, Job sabía..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/04/dia-155-plan-de-lectura/"
 ---

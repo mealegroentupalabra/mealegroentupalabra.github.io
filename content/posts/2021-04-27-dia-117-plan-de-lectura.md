@@ -5,7 +5,7 @@ slug: "dia-117-plan-de-lectura"
 category: "2 Reyes"
 categories: ["2 Reyes", "La Biblia en un Año"]
 tags: ["biblia", "cautividad", "israel", "judá", "juicio", "justicia", "liberación", "profetas", "reyes", "tierra", "venganza"]
-image: "/assets/images/posts/assyria-1827296_1280.jpg"
+image: "/assets/images/posts/2021/04/assyria-1827296_1280.jpg"
 summary: "2 Reyes 18-19. Ezequías empezó a reinar sobre Judá antes de la caída y cautiverio de Israel, y reinó veintinueve años e hizo lo recto ante los ojos de Dios. Durante su reinado..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/27/dia-117-plan-de-lectura/"
 ---

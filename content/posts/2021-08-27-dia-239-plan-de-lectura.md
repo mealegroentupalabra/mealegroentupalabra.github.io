@@ -5,7 +5,7 @@ slug: "dia-239-plan-de-lectura"
 category: "Jeremías"
 categories: ["Jeremías", "La Biblia en un Año"]
 tags: ["biblia", "desierto", "Dios", "juicio", "justicia", "pecado", "profecía", "venganza"]
-image: "/assets/images/posts/carlos-n-cuatzo-meza-fhfbsx7u7pm-unsplash.jpg"
+image: "/assets/images/posts/2021/08/carlos-n-cuatzo-meza-fhfbsx7u7pm-unsplash.jpg"
 summary: "Jeremías 51-52. Jeremías profetizó contra Babilonia en un tiempo en que el rey Sedequías fue a Babilonia junto con Seraías, quien era uno de sus funcionarios. Él escribió en un..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/27/dia-239-plan-de-lectura/"
 ---

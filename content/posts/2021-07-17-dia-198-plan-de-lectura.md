@@ -5,7 +5,7 @@ slug: "dia-198-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Proverbios"]
 tags: ["biblia", "Dios", "justicia", "ley", "maldad", "misericordia", "sabiduría"]
-image: "/assets/images/posts/death-g52a7f703a_1280.jpg"
+image: "/assets/images/posts/2021/07/death-g52a7f703a_1280.jpg"
 summary: "Proverbios 13-15. El tema de los justos y los malvados continúa en estos proverbios. Salomón afirma que los justos escuchan el consejo de los sabios, se juntan con ellos y..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/17/dia-198-plan-de-lectura/"
 ---

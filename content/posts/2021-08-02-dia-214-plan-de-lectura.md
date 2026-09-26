@@ -5,7 +5,7 @@ slug: "dia-214-plan-de-lectura"
 category: "Isaías"
 categories: ["Isaías", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "esperanza", "juicio", "naciones", "profecía", "reino", "salvación"]
-image: "/assets/images/posts/jackson-david-yhdetjebn5s-unsplash.jpg"
+image: "/assets/images/posts/2021/08/jackson-david-yhdetjebn5s-unsplash.jpg"
 summary: "Isaías 23-27. La soberbia de Tiro y de Sidón será abatida por la destrucción que les vendrá por el decreto del Señor. También toda la tierra será trastornada y sus moradores serán..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/02/dia-214-plan-de-lectura/"
 ---

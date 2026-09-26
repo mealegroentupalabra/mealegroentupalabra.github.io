@@ -5,7 +5,7 @@ slug: "dia-151-plan-de-lectura"
 category: "Ester"
 categories: ["Ester", "La Biblia en un Año"]
 tags: ["biblia", "cautividad", "providencia", "salvación"]
-image: "/assets/images/posts/ring-1017797_1280.jpg"
+image: "/assets/images/posts/2021/05/ring-1017797_1280.jpg"
 summary: "Ester 6-10. El pueblo judío ayunó y se humilló en cilicio y ceniza por causa del decreto que buscaba su aniquilación. Por su parte, Mardoqueo informó a Ester del decreto y la..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/31/dia-151-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-265-plan-de-lectura"
 category: "Amós"
 categories: ["Amós", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "israel", "judá", "juicio", "justicia", "naciones", "pecado", "profecía"]
-image: "/assets/images/posts/lion-2427389_1280.jpg"
+image: "/assets/images/posts/2021/09/lion-2427389_1280.jpg"
 summary: "Amós 1-5. Dios profetizó por medio de Amós su juicio contra los pueblos vecinos al reino de Israel: Siria, Tiro, Gaza, Edom, Amón y Moab. Incluso Judá e Israel mismo, recibieron..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/22/dia-265-plan-de-lectura/"
 ---

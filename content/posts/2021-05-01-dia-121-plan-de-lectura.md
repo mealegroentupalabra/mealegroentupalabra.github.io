@@ -5,7 +5,7 @@ slug: "dia-121-plan-de-lectura"
 category: "1 Crónicas"
 categories: ["1 Crónicas", "La Biblia en un Año"]
 tags: ["biblia", "cautividad", "genealogía", "israel", "juicio", "profecía"]
-image: "/assets/images/posts/flower-636554_1280.jpg"
+image: "/assets/images/posts/2021/05/flower-636554_1280.jpg"
 summary: "1 Crónicas 3-5. En esta continuación de las genealogías, encontrarás el listado de los descendientes de Fares: David y Salomón; luego son presentados los otros descendientes de..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/01/dia-121-plan-de-lectura/"
 ---

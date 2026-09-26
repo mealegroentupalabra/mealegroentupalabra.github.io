@@ -5,7 +5,7 @@ slug: "dia-258-plan-de-lectura"
 category: "Daniel"
 categories: ["Daniel", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "esperanza", "idolatría", "judá", "juicio", "profecía", "profetas", "reyes"]
-image: "/assets/images/posts/king-8170255_1280.png"
+image: "/assets/images/posts/2021/09/king-8170255_1280.png"
 summary: "Daniel 1-3. En el año tercero del reinado de Joacim, vino Nabucodonosor y sitio a Jerusalén y la tomó llevando cautivos a Daniel y a sus amigos. Estando en Babilonia, estos fueron..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/15/dia-258-plan-de-lectura/"
 ---

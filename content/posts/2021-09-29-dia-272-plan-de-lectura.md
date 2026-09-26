@@ -5,7 +5,7 @@ slug: "dia-272-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Zacarías"]
 tags: ["biblia", "Dios", "israel", "judá", "justicia", "naciones", "pecado", "profetas", "restauración"]
-image: "/assets/images/posts/architect-3979490_1280.jpg"
+image: "/assets/images/posts/2021/09/architect-3979490_1280.jpg"
 summary: "Zacarías 1-7. Dios recordó por medio de Zacarías que fue el pecado de su pueblo el que provocó su exilio. Dios les habló por medio de los primeros profetas para que se volvieran a..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/29/dia-272-plan-de-lectura/"
 ---

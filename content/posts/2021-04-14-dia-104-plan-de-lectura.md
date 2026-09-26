@@ -5,7 +5,7 @@ slug: "dia-104-plan-de-lectura"
 category: "1 Reyes"
 categories: ["1 Reyes", "La Biblia en un Año"]
 tags: ["adoración", "biblia", "fidelidad", "israel", "ofrenda", "reino", "reyes", "sabiduría", "sacerdotes", "tabernáculo", "templo"]
-image: "/assets/images/posts/sander-crombach-d_so1trfkjk-unsplash.jpg"
+image: "/assets/images/posts/2021/04/sander-crombach-d_so1trfkjk-unsplash.jpg"
 summary: "1 Reyes 6-7. Cuatrocientos ochenta años después de la salida de Egipto, en el cuarto año de su reinado, Salomón inició la edificación del templo en Jerusalén. Fue un lugar..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/14/dia-104-plan-de-lectura/"
 ---

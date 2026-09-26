@@ -5,7 +5,7 @@ slug: "dia-263-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Oseas"]
 tags: ["biblia", "Dios", "esperanza", "israel", "juicio", "justicia", "pecado", "perdón", "profecía", "profetas", "restauración", "traición"]
-image: "/assets/images/posts/agapanthus-1465146_1280.jpg"
+image: "/assets/images/posts/2021/09/agapanthus-1465146_1280.jpg"
 summary: "Oseas 8-14. Israel puso su confianza en su ídolos y en sus ciudades fortificadas. Tuvo abundante fruto que uso para su propio beneficio, y con él sirvió a sus ídolos. Dios los..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/20/dia-263-plan-de-lectura/"
 ---

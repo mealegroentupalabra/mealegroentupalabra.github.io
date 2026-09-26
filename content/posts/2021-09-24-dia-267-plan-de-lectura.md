@@ -5,7 +5,7 @@ slug: "dia-267-plan-de-lectura"
 category: "Jonás"
 categories: ["Jonás", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "juicio", "justicia", "naciones", "pecado", "profetas"]
-image: "/assets/images/posts/jesus-4779542_1280.jpg"
+image: "/assets/images/posts/2021/09/jesus-4779542_1280.jpg"
 summary: "Jonás 1-4. Dios envió a Jonás a Nínive, la gran ciudad donde habían más de ciento veinte mil personas, para anunciar un juicio contra ella si no se arrepentían de su pecado."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/24/dia-267-plan-de-lectura/"
 ---

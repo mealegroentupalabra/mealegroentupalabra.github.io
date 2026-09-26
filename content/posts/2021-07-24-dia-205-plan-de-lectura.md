@@ -5,7 +5,7 @@ slug: "dia-205-plan-de-lectura"
 category: "Eclesiastés"
 categories: ["Eclesiastés", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "reyes", "sabiduría"]
-image: "/assets/images/posts/ishan-seefromthesky-sp9a8dhk7ls-unsplash.jpg"
+image: "/assets/images/posts/2021/07/ishan-seefromthesky-sp9a8dhk7ls-unsplash.jpg"
 summary: "Eclesiastés 1-4. El Predicador fue rey de Israel, descendiente de David. Él se dedicó a reflexionar sobre las cosas en que los hombres se ocupan debajo del sol, es decir, en este..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/24/dia-205-plan-de-lectura/"
 ---

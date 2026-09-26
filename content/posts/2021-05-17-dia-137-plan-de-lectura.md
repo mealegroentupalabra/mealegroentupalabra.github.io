@@ -5,7 +5,7 @@ slug: "dia-137-plan-de-lectura"
 category: "2 Crónicas"
 categories: ["2 Crónicas", "La Biblia en un Año"]
 tags: ["ídolos", "biblia", "fe", "guerra", "israel", "juicio", "justicia", "obediencia", "profetas", "reyes", "traición", "trono"]
-image: "/assets/images/posts/idols-2208774_1280.jpg"
+image: "/assets/images/posts/2021/05/idols-2208774_1280.jpg"
 summary: "2 Crónicas 25-27. Reinó Amasías en Judá e hizo lo bueno ante los ojos de Dios, aunque no de perfecto corazón. Empezó bien su reinado, escuchando la voz de Dios, pero después que..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/17/dia-137-plan-de-lectura/"
 ---

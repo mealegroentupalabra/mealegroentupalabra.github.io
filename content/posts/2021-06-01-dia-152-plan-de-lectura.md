@@ -5,7 +5,7 @@ slug: "dia-152-plan-de-lectura"
 category: "Job"
 categories: ["Job", "La Biblia en un Año"]
 tags: ["biblia", "confianza", "fe", "justicia", "providencia", "prueba", "sufrimiento"]
-image: "/assets/images/posts/milo-weiler-ylohoz9g34-unsplash.jpg"
+image: "/assets/images/posts/2021/06/milo-weiler-ylohoz9g34-unsplash.jpg"
 summary: "Job 1-4. Job era un hombre recto y temeroso de Dios. Un día, se presentó Satanás ante Dios y éste le preguntó si había considerado la rectitud y fidelidad de Job, a lo que Satanás..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/01/dia-152-plan-de-lectura/"
 ---

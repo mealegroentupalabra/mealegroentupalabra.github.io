@@ -5,7 +5,7 @@ slug: "dia-235-plan-de-lectura"
 category: "Jeremías"
 categories: ["Jeremías", "La Biblia en un Año"]
 tags: ["biblia", "confianza", "Dios", "israel", "judá", "juicio", "profecía"]
-image: "/assets/images/posts/levi-meir-clancy-mbjycwednlq-unsplash.jpg"
+image: "/assets/images/posts/2021/08/levi-meir-clancy-mbjycwednlq-unsplash.jpg"
 summary: "Jeremías 38-41. Dios dijo que los que se entregaran a los babilonios vivirían y que los que no, serían entregados al hambre, a la espada y a la peste."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/23/dia-235-plan-de-lectura/"
 ---

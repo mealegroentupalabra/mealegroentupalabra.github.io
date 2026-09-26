@@ -5,7 +5,7 @@ slug: "dia-47-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Números"]
 tags: ["biblia", "desierto", "incredulidad", "ley", "ofrenda", "pecado", "sacerdotes", "voto"]
-image: "/assets/images/posts/fantasy-3186483_1280.jpg"
+image: "/assets/images/posts/2021/02/fantasy-3186483_1280.jpg"
 summary: "Números 11-13. Mientras el pueblo marchaba en dirección al desierto de Parán se quejaron contra Jehová y éste envío fuego que consumió uno de los extremos del campamento hasta que..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/16/dia-47-plan-de-lectura/"
 ---

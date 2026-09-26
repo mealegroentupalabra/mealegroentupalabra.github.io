@@ -5,7 +5,7 @@ slug: "dia-9-plan-de-lectura"
 category: "Génesis"
 categories: ["Génesis", "La Biblia en un Año"]
 tags: ["bendición", "biblia", "fe", "pacto", "promesa"]
-image: "/assets/images/posts/ziggurat-1322581_1280.jpg"
+image: "/assets/images/posts/2021/01/ziggurat-1322581_1280.jpg"
 summary: "Génesis 27-29. Isaac quiso bendecir a su hijo Esaú, pero no se trataba de cualquier bendición, sino de la bendición especial con que Dios bendijo a Abraham y luego a Isaac mismo...."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/09/dia-9-plan-de-lectura/"
 ---

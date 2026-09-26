@@ -5,7 +5,7 @@ slug: "dia-141-plan-de-lectura"
 category: "Esdras"
 categories: ["Esdras", "La Biblia en un Año"]
 tags: ["biblia", "israel", "judá", "reconstrucción", "restauración", "reyes"]
-image: "/assets/images/posts/iran-5729533_1280.jpg"
+image: "/assets/images/posts/2021/05/iran-5729533_1280.jpg"
 summary: "Esdras 1-3. El rey Ciro decretó en el primer año de su reinado que todos los cautivos del pueblo de Dios podían regresar a Jerusalén y Judá para reedificar la casa de Dios. Así se..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/21/dia-141-plan-de-lectura/"
 ---
