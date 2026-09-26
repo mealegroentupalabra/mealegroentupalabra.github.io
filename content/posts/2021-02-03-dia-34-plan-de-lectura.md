@@ -5,7 +5,7 @@ slug: "dia-34-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Levítico"]
 tags: ["biblia", "desierto", "fuego", "gloria", "juicio", "ley", "ofrenda", "presencia", "sacerdotes", "sacrificio", "santidad", "tabernáculo", "templo"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/04/diya-2918628_1280.jpg"
+image: "/assets/images/posts/diya-2918628_1280.jpg"
 summary: "Levítico 8-10. Dios ordenó a Moisés que consagrara a Aarón y a sus hijos por sacerdotes delante de la congregación a la puerta del tabernáculo de reunión. Moisés hizo venir a..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/03/dia-34-plan-de-lectura/"
 ---

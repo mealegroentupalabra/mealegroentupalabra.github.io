@@ -5,7 +5,7 @@ slug: "dia-238-plan-de-lectura"
 category: "Jeremías"
 categories: ["Jeremías", "La Biblia en un Año"]
 tags: ["biblia", "desierto", "Dios", "juicio", "justicia", "pecado", "profecía", "venganza"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2023/06/jackal-4777627_1280.jpg"
+image: "/assets/images/posts/jackal-4777627_1280.jpg"
 summary: "Jeremías 49-50. Jeremías profetizó contra Amón, Edóm, Damasco, Cedar, Hazor, Elam y Babilonia. Para algunos de esos pueblos, el juicio sería definitivo, al punto de que ya no..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/26/dia-238-plan-de-lectura/"
 ---

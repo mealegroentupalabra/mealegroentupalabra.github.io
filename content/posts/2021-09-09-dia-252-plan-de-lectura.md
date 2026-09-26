@@ -5,7 +5,7 @@ slug: "dia-252-plan-de-lectura"
 category: "Ezequiel"
 categories: ["Ezequiel", "La Biblia en un Año"]
 tags: ["biblia", "cautividad", "Dios", "juicio", "justicia", "naciones", "pecado"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/09/abou-simbel-3506105_1280.jpg"
+image: "/assets/images/posts/abou-simbel-3506105_1280.jpg"
 summary: "Ezequiel 31-33. Faraón, el rey de Egipto, y todo su pueblo, se habían enaltecido a sí mismos, pero sería derribados como todos los que hacen. Por esto se entonaría cantos de..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/09/dia-252-plan-de-lectura/"
 ---

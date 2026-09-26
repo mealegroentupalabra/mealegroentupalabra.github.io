@@ -5,7 +5,7 @@ slug: "dia-101-plan-de-lectura"
 category: "2 Samuel"
 categories: ["2 Samuel", "La Biblia en un Año"]
 tags: ["adoración", "alabanza", "batalla", "biblia", "gracia", "israel", "juicio", "pecado", "reino", "reyes"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/04/pexels-hans-lindgren-6017459.jpg"
+image: "/assets/images/posts/pexels-hans-lindgren-6017459.jpg"
 summary: "2 Samuel 22-24. David elevó un cántico de alabanza y gratitud a Dios por su liberación diciendo que Dios lo salvó de todos sus enemigos y le mostró su misericordia a él y a su..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/11/dia-101-plan-de-lectura/"
 ---

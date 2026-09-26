@@ -5,7 +5,7 @@ slug: "dia-120-plan-de-lectura"
 category: "1 Crónicas"
 categories: ["1 Crónicas", "La Biblia en un Año"]
 tags: ["biblia", "genealogía"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/05/peter-zagar-blgwa9b0ioy-unsplash.jpg"
+image: "/assets/images/posts/peter-zagar-blgwa9b0ioy-unsplash.jpg"
 summary: "1 Crónicas 1-2. A continuación encontrarás la genealogía de los principales personajes de la Biblia. En estos primeros dos capítulos se encuentran las listas de descendientes de:..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/30/dia-120-plan-de-lectura/"
 ---

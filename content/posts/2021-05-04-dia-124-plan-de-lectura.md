@@ -5,7 +5,7 @@ slug: "dia-124-plan-de-lectura"
 category: "1 Crónicas"
 categories: ["1 Crónicas", "La Biblia en un Año"]
 tags: ["biblia", "cautividad", "genealogía", "israel", "juicio", "reyes"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/05/pexels-jerusalen.jpg"
+image: "/assets/images/posts/pexels-jerusalen.jpg"
 summary: "1 Crónicas 9-11. Luego de que los de Judá fueron llevados en cautiverio a Babilonia, Dios les permitió regresar a su tierra. Estos capítulos nos dan el listado de los primeros en..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/04/dia-124-plan-de-lectura/"
 ---

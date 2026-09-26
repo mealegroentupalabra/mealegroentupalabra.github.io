@@ -5,7 +5,7 @@ slug: "dia-224-plan-de-lectura"
 category: "Jeremías"
 categories: ["Jeremías", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "esperanza", "israel", "judá", "juicio", "justicia", "naciones"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/09/siora-photography-ptmu7d9ahes-unsplash.jpg"
+image: "/assets/images/posts/siora-photography-ptmu7d9ahes-unsplash.jpg"
 summary: "Jeremías 1-3. En los días del rey Josías, la Palabra de Jehová vino a Jeremías para encomendarle la tarea de profetizar acerca de Jerusalén y de otros reinos. Su tarea no sería..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/12/dia-224-plan-de-lectura/"
 ---

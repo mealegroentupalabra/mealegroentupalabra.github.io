@@ -5,7 +5,7 @@ slug: "dia-81-plan-de-lectura"
 category: "Jueces"
 categories: ["Jueces", "La Biblia en un Año"]
 tags: ["batalla", "biblia", "israel", "liberación", "misericordia", "obediencia", "pecado", "tierra"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/03/artem-kovalev-fk3xucftavk-unsplash.jpg"
+image: "/assets/images/posts/artem-kovalev-fk3xucftavk-unsplash.jpg"
 summary: "Jueces 10-12. Después de la muerte de Abimelec, Dios levantó a Tola hijo de Fúa para librar a Israel, y después de él a Jair gaaladita. Pero el pueblo de Israel hizo lo malo una..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/22/dia-81-plan-de-lectura/"
 ---

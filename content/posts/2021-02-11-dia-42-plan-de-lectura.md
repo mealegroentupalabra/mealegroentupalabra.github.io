@@ -5,7 +5,7 @@ slug: "dia-42-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Números"]
 tags: ["biblia", "desierto", "presencia", "sacerdotes", "tribus"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/05/seif-amr-lunnwltzovi-unsplash.jpg"
+image: "/assets/images/posts/seif-amr-lunnwltzovi-unsplash.jpg"
 summary: "Números 1-2. En el segundo año de su salida de Egipto, el primer día del segundo mes, Dios ordenó a Moisés que tomara el número de los varones de veinte años en adelante, los..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/11/dia-42-plan-de-lectura/"
 ---

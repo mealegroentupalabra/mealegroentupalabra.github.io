@@ -5,7 +5,7 @@ slug: "dia-206-plan-de-lectura"
 category: "Eclesiastés"
 categories: ["Eclesiastés", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "reyes", "sabiduría"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/08/jimmy-dean-yl7y8dhyzyy-unsplash.jpg"
+image: "/assets/images/posts/jimmy-dean-yl7y8dhyzyy-unsplash.jpg"
 summary: "Eclesiastés 5-8. El Predicador habló de lo importante que es no apresurarse en hacer votos a Dios y de cumplir lo que se le promete. También dio más ejemplos de lo que es vanidad:..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/25/dia-206-plan-de-lectura/"
 ---

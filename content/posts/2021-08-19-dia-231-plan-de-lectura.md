@@ -5,7 +5,7 @@ slug: "dia-231-plan-de-lectura"
 category: "Jeremías"
 categories: ["Jeremías", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "israel", "judá", "juicio", "justicia", "profetas"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2023/06/pexels-george-becker-131616.jpg"
+image: "/assets/images/posts/pexels-george-becker-131616.jpg"
 summary: "Jeremías 26-29. Dios envió a Jeremías al templo a profetizar, su mensaje era que el templo y la ciudad de Jerusalén serían destruidos y desolados. Al oír esto, los sacerdotes, los..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/19/dia-231-plan-de-lectura/"
 ---

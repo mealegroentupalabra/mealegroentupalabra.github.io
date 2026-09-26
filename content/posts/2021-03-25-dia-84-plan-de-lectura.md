@@ -5,7 +5,7 @@ slug: "dia-84-plan-de-lectura"
 category: "Jueces"
 categories: ["Jueces", "La Biblia en un Año"]
 tags: ["ídolos", "batalla", "biblia", "israel", "liberación", "obediencia", "pecado", "sacerdotes", "tabernáculo"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/04/sword-790815_1280.jpg"
+image: "/assets/images/posts/sword-790815_1280.jpg"
 summary: "Jueces 19-21. Aconteció en el tiempo en que aún no había rey en Israel, que varones malvados de la tribu de Benjamín quisieron violentar sexualmente a un levita que se alojaba en..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/25/dia-84-plan-de-lectura/"
 ---

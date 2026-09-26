@@ -5,7 +5,7 @@ slug: "dia-187-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["alabanza", "biblia", "confianza", "Dios", "esperanza", "fidelidad", "israel", "misericordia", "naciones"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/07/avel-chuklanov-9cx4-qowglc-unsplash.jpg"
+image: "/assets/images/posts/avel-chuklanov-9cx4-qowglc-unsplash.jpg"
 summary: "Salmos 115-118. El salmista mostró la diferencia entre Dios y los ídolos. Dios está en los cielos y hace según su perfecta voluntad, pero los ídolos son nada. Así que, el Señor y..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/06/dia-187-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-176-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["adoración", "alabanza", "batalla", "biblia", "confianza", "desierto", "Dios", "oración"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/06/nick-fewings-bazejjdz57w-unsplash.jpg"
+image: "/assets/images/posts/nick-fewings-bazejjdz57w-unsplash.jpg"
 summary: "Salmos 66-69. El salmista invita a todas las naciones de la tierra a exaltar a Dios al considerar sus obras poderosas. También clama a Dios que resplandezca sobre Israel para que..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/25/dia-176-plan-de-lectura/"
 ---

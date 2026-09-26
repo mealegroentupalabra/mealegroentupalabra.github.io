@@ -1,23 +1,21 @@
 #!/usr/bin/env python3
 """
-Me Alegro En Tu Palabra - Article Creator CLI
-Easily create and publish new blog posts.
-Usage:
-  Interactive mode:
-    python3 new_post.py
-
-  Direct mode:
-    python3 new_post.py "Título del Artículo" --category "Reflexiones" --tags "fe, gracia, oración" --summary "Resumen breve..."
+Me Alegro En Tu Palabra - Post Management & Creation Backend
+Provides core functions for creating, editing, and listing blog posts,
+as well as extracting dynamic taxonomies (categories and tags).
 """
 
 import os
 import sys
 import re
-import argparse
-from datetime import datetime
+import glob
 import json
+import yaml
+from datetime import datetime
+from pathlib import Path
 
-POSTS_DIR = "content/posts"
+POSTS_DIR = Path("content/posts")
+POSTS_DIR.mkdir(parents=True, exist_ok=True)
 
 def slugify(text):
     text = str(text).lower().strip()
@@ -30,67 +28,210 @@ def slugify(text):
     text = re.sub(r'[^a-z0-9]+', '-', text)
     return text.strip('-')
 
-def get_existing_categories():
-    categories = ["Reflexiones", "Planes de Lectura", "La Biblia en un Año"]
-    if os.path.exists(POSTS_DIR):
-        for f in os.listdir(POSTS_DIR):
-            if f.endswith(".md"):
-                try:
-                    with open(os.path.join(POSTS_DIR, f), "r", encoding="utf-8") as file:
-                        for line in file:
-                            if line.startswith("category:"):
-                                cat = line.split(":", 1)[1].strip().strip('"\'')
-                                if cat and cat not in categories:
-                                    categories.append(cat)
-                                break
-                except Exception:
-                    pass
-    return categories
+def get_all_taxonomies():
+    """Extract all categories and tags dynamically across all existing posts."""
+    cat_counts = {}
+    tag_counts = {}
 
-def create_post(title, category="Reflexiones", tags=None, summary="", image="", content=""):
-    os.makedirs(POSTS_DIR, exist_ok=True)
-    now = datetime.now()
-    date_str = now.strftime("%Y-%m-%d %H:%M:%S")
-    date_prefix = now.strftime("%Y-%m-%d")
-    slug = slugify(title)
-    filename = f"{date_prefix}-{slug}.md"
-    filepath = os.path.join(POSTS_DIR, filename)
+    for fpath in POSTS_DIR.glob("*.md"):
+        try:
+            content = fpath.read_text(encoding="utf-8")
+            parts = content.split("---", 2)
+            if len(parts) >= 3:
+                fm = yaml.safe_load(parts[1])
+                if not fm:
+                    continue
+                
+                # Categories
+                post_cats = fm.get("categories", [])
+                if isinstance(post_cats, str):
+                    post_cats = [post_cats]
+                cat = fm.get("category")
+                if cat and cat not in post_cats:
+                    post_cats.append(cat)
+                
+                for c in post_cats:
+                    c = str(c).strip()
+                    if c:
+                        cat_counts[c] = cat_counts.get(c, 0) + 1
 
-    if os.path.exists(filepath):
-        print(f"\n⚠️  Aviso: Ya existe un archivo con este nombre: {filepath}")
-        slug = f"{slug}-{now.strftime('%H%M%S')}"
-        filename = f"{date_prefix}-{slug}.md"
-        filepath = os.path.join(POSTS_DIR, filename)
+                # Tags
+                post_tags = fm.get("tags", [])
+                if isinstance(post_tags, str):
+                    post_tags = [t.strip() for t in post_tags.split(",") if t.strip()]
+                for t in post_tags:
+                    t = str(t).strip()
+                    if t:
+                        tag_counts[t] = tag_counts.get(t, 0) + 1
+        except Exception:
+            pass
 
-    if not tags:
-        tags = []
-    elif isinstance(tags, str):
+    # Sort categories by popularity, keeping top themes at top
+    categories = sorted(cat_counts.items(), key=lambda x: -x[1])
+    tags = sorted(tag_counts.items(), key=lambda x: -x[1])
+
+    return {
+        "categories": [{"name": c[0], "count": c[1]} for c in categories],
+        "tags": [{"name": t[0], "count": t[1]} for t in tags]
+    }
+
+def get_all_posts():
+    """List all existing posts with summary metadata for the editor drawer."""
+    posts = []
+    for fpath in sorted(POSTS_DIR.glob("*.md"), reverse=True):
+        try:
+            content = fpath.read_text(encoding="utf-8")
+            parts = content.split("---", 2)
+            if len(parts) >= 3:
+                fm = yaml.safe_load(parts[1]) or {}
+                title = fm.get("title", fpath.stem)
+                slug = fm.get("slug", slugify(title))
+                date_val = str(fm.get("date", ""))[:10]
+                category = fm.get("category", "Reflexiones")
+                categories = fm.get("categories", [category])
+                if isinstance(categories, str):
+                    categories = [categories]
+                tags = fm.get("tags", [])
+                if isinstance(tags, str):
+                    tags = [t.strip() for t in tags.split(",") if t.strip()]
+
+                posts.append({
+                    "filename": fpath.name,
+                    "title": title,
+                    "slug": slug,
+                    "date": date_val,
+                    "category": category,
+                    "categories": categories,
+                    "tags": tags,
+                    "image": fm.get("image", ""),
+                    "summary": fm.get("summary", "")
+                })
+        except Exception:
+            pass
+    
+    # Sort posts by date descending
+    posts.sort(key=lambda p: p["date"], reverse=True)
+    return posts
+
+def get_post_by_file(filename):
+    """Load full frontmatter and body content for an existing post."""
+    clean_fn = os.path.basename(filename)
+    fpath = POSTS_DIR / clean_fn
+    if not fpath.exists():
+        raise FileNotFoundError(f"No se encontró el archivo: {clean_fn}")
+
+    content = fpath.read_text(encoding="utf-8")
+    parts = content.split("---", 2)
+    if len(parts) >= 3:
+        fm = yaml.safe_load(parts[1]) or {}
+        body = parts[2].lstrip("\n")
+        
+        category = fm.get("category", "Reflexiones")
+        categories = fm.get("categories", [category])
+        if isinstance(categories, str):
+            categories = [categories]
+        tags = fm.get("tags", [])
+        if isinstance(tags, str):
+            tags = [t.strip() for t in tags.split(",") if t.strip()]
+
+        return {
+            "filename": clean_fn,
+            "title": fm.get("title", ""),
+            "slug": fm.get("slug", slugify(fm.get("title", clean_fn))),
+            "date": str(fm.get("date", "")),
+            "category": category,
+            "categories": categories,
+            "tags": tags,
+            "image": fm.get("image", ""),
+            "summary": fm.get("summary", ""),
+            "content": body
+        }
+    return {
+        "filename": clean_fn,
+        "title": clean_fn,
+        "slug": slugify(clean_fn),
+        "date": "",
+        "category": "Reflexiones",
+        "categories": ["Reflexiones"],
+        "tags": [],
+        "image": "",
+        "summary": "",
+        "content": content
+    }
+
+def save_post_data(data):
+    """
+    Creates or updates a post markdown file.
+    data fields:
+      - filename (optional; if provided and exists, updates that file)
+      - title (str, required)
+      - categories (list or str, required)
+      - tags (list or str)
+      - summary (str)
+      - image (str)
+      - content (str)
+      - slug (optional)
+    """
+    title = data.get("title", "").strip()
+    if not title:
+        raise ValueError("El título del artículo es obligatorio.")
+
+    categories = data.get("categories", [])
+    if isinstance(categories, str):
+        categories = [c.strip() for c in categories.split(",") if c.strip()]
+    if not categories:
+        cat_single = data.get("category", "Reflexiones").strip()
+        categories = [cat_single] if cat_single else ["Reflexiones"]
+
+    primary_category = categories[0]
+
+    tags = data.get("tags", [])
+    if isinstance(tags, str):
         tags = [t.strip() for t in tags.split(",") if t.strip()]
 
-    if not content:
-        content = f"""Escribe aquí el contenido de tu reflexión o estudio bíblico...
+    summary = data.get("summary", "").strip()
+    image = data.get("image", "").strip()
+    content = data.get("content", "")
 
-<div class="scripture-card">
-  <blockquote>
-    «Lámpara es a mis pies tu palabra, y lumbrera a mi camino.»
-    <cite class="scripture-cite">Salmo 119:105</cite>
-  </blockquote>
-</div>
+    filename = data.get("filename", "").strip()
+    now = datetime.now()
 
-Puedes usar formato estándar de Markdown:
-- **Texto en negrita**
-- *Texto en cursiva*
-- [Enlaces a recursos](https://bibleproject.com/)
-- Listas y encabezados (## Subtítulo)
-"""
+    if filename and (POSTS_DIR / filename).exists():
+        # Updating existing post
+        fpath = POSTS_DIR / filename
+        # Read existing date if available
+        existing_fm = {}
+        try:
+            raw_c = fpath.read_text(encoding="utf-8")
+            parts = raw_c.split("---", 2)
+            if len(parts) >= 3:
+                existing_fm = yaml.safe_load(parts[1]) or {}
+        except Exception:
+            pass
+
+        date_str = str(existing_fm.get("date")) if existing_fm.get("date") else now.strftime("%Y-%m-%d %H:%M:%S")
+        slug = existing_fm.get("slug") or data.get("slug") or slugify(title)
+        is_new = False
+    else:
+        # Creating brand new post
+        date_str = now.strftime("%Y-%m-%d %H:%M:%S")
+        date_prefix = now.strftime("%Y-%m-%d")
+        slug = data.get("slug") or slugify(title)
+        filename = f"{date_prefix}-{slug}.md"
+        fpath = POSTS_DIR / filename
+        if fpath.exists():
+            slug = f"{slug}-{now.strftime('%H%M%S')}"
+            filename = f"{date_prefix}-{slug}.md"
+            fpath = POSTS_DIR / filename
+        is_new = True
 
     frontmatter = [
         "---",
         f'title: "{title.replace("\"", "\\\"")}"',
         f'date: {date_str}',
         f'slug: "{slug}"',
-        f'category: "{category}"',
-        f'categories: ["{category}"]',
+        f'category: "{primary_category}"',
+        f'categories: {json.dumps(categories, ensure_ascii=False)}',
         f'tags: {json.dumps(tags, ensure_ascii=False)}',
     ]
 
@@ -100,76 +241,57 @@ Puedes usar formato estándar de Markdown:
         frontmatter.append(f'summary: "{summary.replace("\"", "\\\"")}"')
 
     frontmatter.append("---\n")
+    full_text = "\n".join(frontmatter) + content.lstrip("\n")
 
-    full_text = "\n".join(frontmatter) + content
+    fpath.write_text(full_text, encoding="utf-8")
 
-    with open(filepath, "w", encoding="utf-8") as f:
-        f.write(full_text)
-
-    print(f"\n✅ ¡Artículo creado con éxito!")
-    print(f"📄 Archivo: {filepath}")
-    print(f"🔗 Slug: {slug}")
-    return filepath
+    return {
+        "filepath": str(fpath),
+        "filename": filename,
+        "slug": slug,
+        "is_new": is_new,
+        "url": f"/posts/{slug}/"
+    }
 
 def interactive_mode():
     print("=" * 60)
-    print(" 📖  Me Alegro En Tu Palabra — Publicar Nuevo Artículo")
+    print(" 📖  Me Alegro En Tu Palabra — CLI de Artículos")
     print("=" * 60)
-
     title = input("\n1. Título del artículo: ").strip()
     while not title:
-        title = input("El título es obligatorio. Escribe un título: ").strip()
+        title = input("El título es obligatorio: ").strip()
 
-    existing_cats = get_existing_categories()
-    print("\n2. Selecciona una categoría:")
-    for idx, cat in enumerate(existing_cats[:8], 1):
-        print(f"   [{idx}] {cat}")
-    print(f"   [{len(existing_cats[:8]) + 1}] Otra categoría (escribir nueva)")
+    tax = get_all_taxonomies()
+    print("\n2. Categorías disponibles:")
+    for idx, c in enumerate(tax["categories"][:10], 1):
+        print(f"   [{idx}] {c['name']} ({c['count']})")
+    print(f"   [{min(11, len(tax['categories']) + 1)}] Otra categoría")
 
-    cat_choice = input(f"Elige una opción (1-{len(existing_cats[:8]) + 1}) [por defecto: 1]: ").strip()
-    if cat_choice.isdigit() and 1 <= int(cat_choice) <= len(existing_cats[:8]):
-        category = existing_cats[int(cat_choice) - 1]
-    elif cat_choice == str(len(existing_cats[:8]) + 1):
-        category = input("Escribe el nombre de la nueva categoría: ").strip() or "Reflexiones"
+    choice = input("Elige categoría principal (1-11) [1]: ").strip()
+    if choice.isdigit() and 1 <= int(choice) <= min(10, len(tax["categories"])):
+        category = tax["categories"][int(choice) - 1]["name"]
     else:
-        category = existing_cats[0]
+        category = input("Nombre de categoría: ").strip() or "Reflexiones"
 
-    tags_input = input("\n3. Etiquetas / Temas (separados por coma, ej: fe, oración, gracia): ").strip()
-    tags = [t.strip() for t in tags_input.split(",") if t.strip()]
+    tags_in = input("\n3. Etiquetas separadas por coma: ").strip()
+    summary = input("\n4. Resumen breve (opcional): ").strip()
+    image = input("\n5. URL de imagen (opcional): ").strip()
 
-    summary = input("\n4. Resumen breve para tarjetas y redes (opcional): ").strip()
-    image = input("\n5. URL de imagen destacada (opcional, ej: assets/images/... o URL externa): ").strip()
+    res = save_post_data({
+        "title": title,
+        "categories": [category],
+        "tags": tags_in,
+        "summary": summary,
+        "image": image,
+        "content": "Escribe aquí tu contenido..."
+    })
 
-    filepath = create_post(title, category, tags, summary, image)
-
-    # Ask if user wants to rebuild site now
-    rebuild = input("\n¿Deseas compilar el sitio ahora con el nuevo artículo? (S/n): ").strip().lower()
+    print(f"\n✅ ¡Artículo guardado! {res['filepath']}")
+    rebuild = input("¿Compilar sitio ahora? (S/n): ").strip().lower()
     if rebuild in ("", "s", "si", "y", "yes"):
         from build import SiteBuilder
-        builder = SiteBuilder()
-        builder.build()
-        print("\n🚀 ¡Sitio compilado y listo para ver o subir a GitHub Pages!")
-
-def main():
-    parser = argparse.ArgumentParser(description="Crear un nuevo artículo para Me Alegro En Tu Palabra")
-    parser.add_argument("title", nargs="?", help="Título del artículo")
-    parser.add_argument("-c", "--category", default="Reflexiones", help="Categoría del artículo")
-    parser.add_argument("-t", "--tags", default="", help="Etiquetas separadas por coma")
-    parser.add_argument("-s", "--summary", default="", help="Resumen del artículo")
-    parser.add_argument("-i", "--image", default="", help="Ruta o URL de la imagen destacada")
-    parser.add_argument("--build", action="store_true", help="Compilar el sitio inmediatamente")
-
-    args = parser.parse_args()
-
-    if args.title:
-        tags = [t.strip() for t in args.tags.split(",") if t.strip()]
-        filepath = create_post(args.title, args.category, tags, args.summary, args.image)
-        if args.build:
-            from build import SiteBuilder
-            builder = SiteBuilder()
-            builder.build()
-    else:
-        interactive_mode()
+        SiteBuilder().build()
+        print("🚀 ¡Sitio compilado!")
 
 if __name__ == "__main__":
-    main()
+    interactive_mode()

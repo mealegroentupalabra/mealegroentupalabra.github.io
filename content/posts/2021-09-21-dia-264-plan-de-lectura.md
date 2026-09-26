@@ -5,7 +5,7 @@ slug: "dia-264-plan-de-lectura"
 category: "Joel"
 categories: ["Joel", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "esperanza", "israel", "judá", "juicio", "justicia", "pecado", "perdón", "profecía", "restauración"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/09/desert-locust-1865955_1280.jpg"
+image: "/assets/images/posts/desert-locust-1865955_1280.jpg"
 summary: "Joel 1-3. Dios envió tal devastación que los campos de trigo, los viñedos y los olivares fueron consumidos, a tal punto que la provisión para el servicio de la casa de Dios..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/21/dia-264-plan-de-lectura/"
 ---

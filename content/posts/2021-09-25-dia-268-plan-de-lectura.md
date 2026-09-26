@@ -5,7 +5,7 @@ slug: "dia-268-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Miqueas"]
 tags: ["biblia", "Dios", "israel", "judá", "justicia", "pecado", "profetas"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2023/10/pro-church-media-s4n91esctqm-unsplash.jpg"
+image: "/assets/images/posts/pro-church-media-s4n91esctqm-unsplash.jpg"
 summary: "Miqueas 1-7. Miqueas profetizó contra las rebeliones de Samaria y de Jerusalén, las capitales de los reinos de Israel y de Judá. Él también habló contra sus dirigentes, sus..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/25/dia-268-plan-de-lectura/"
 ---

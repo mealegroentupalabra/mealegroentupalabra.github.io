@@ -5,7 +5,7 @@ slug: "dia-159-plan-de-lectura"
 category: "Job"
 categories: ["Job", "La Biblia en un Año"]
 tags: ["biblia", "confianza", "fe", "justicia", "providencia", "prueba", "sufrimiento"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/06/wave-g18a58ad19_1280.jpg"
+image: "/assets/images/posts/wave-g18a58ad19_1280.jpg"
 summary: "Job 24-28. Job asegura que Dios ve el sufrimiento de los desvalidos y no atiende a la oración de ellos, pero que los malvados, adúlteros y poderosos están seguros y confiados,..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/08/dia-159-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "los-primeros-pasos"
 category: "Introducción"
 categories: ["Introducción"]
 tags: ["biblia", "Dios", "teología"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/03/steps-1081909_1280.jpg"
+image: "/assets/images/posts/steps-1081909_1280.jpg"
 summary: "¡Bienvenido! Me alegra muchísimo que hayas tomado la decisión de empezar a leer la Biblia de principio a fin, y que estés escogiendo esta guía paso a paso para hacerlo. Yo he..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/01/los-primeros-pasos/"
 ---

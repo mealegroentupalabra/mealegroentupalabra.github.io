@@ -5,7 +5,7 @@ slug: "dia-105-plan-de-lectura"
 category: "1 Reyes"
 categories: ["1 Reyes", "La Biblia en un Año"]
 tags: ["adoración", "biblia", "fidelidad", "israel", "ofrenda", "oración", "reino", "reyes", "sacerdotes", "tabernáculo", "templo"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/04/pexels-haley-black-2087387.jpg"
+image: "/assets/images/posts/pexels-haley-black-2087387.jpg"
 summary: "1 Reyes 8-9. Una vez terminado el templo, el mobiliario y los utensilios, Salomón hizo traer el arca del pacto de Dios y la introdujo en el lugar santísimo por medio de los..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/15/dia-105-plan-de-lectura/"
 ---

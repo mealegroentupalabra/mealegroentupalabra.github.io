@@ -5,7 +5,7 @@ slug: "dia-14-plan-de-lectura"
 category: "Génesis"
 categories: ["Génesis", "La Biblia en un Año"]
 tags: ["biblia", "dificultades", "egipto", "exaltación", "fidelidad", "plan", "protección", "providencia", "recompensa"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/04/field-2513272_1280.jpg"
+image: "/assets/images/posts/field-2513272_1280.jpg"
 summary: "Génesis 41-42. Mientras estuvo en la prisión, José interpretó el sueño del jefe de los panaderos del Faraón, quien también se encontraba preso, anunciándole que Dios lo devolvería..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/14/dia-14-plan-de-lectura/"
 ---

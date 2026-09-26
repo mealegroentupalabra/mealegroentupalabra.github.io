@@ -5,7 +5,7 @@ slug: "hola-a-todos"
 category: "Introducción"
 categories: ["Introducción"]
 tags: ["biblia", "historia", "teología", "zerotohero"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/03/pexels-pixabay-372748.jpg"
+image: "/assets/images/posts/pexels-pixabay-372748.jpg"
 summary: "Hola a todos. Desde muy pequeño me ha apasionado la escritura, esa posibilidad de plasmar tus ideas sobre el papel y que éstas, como uno de esos avioncitos que hacía cuando era..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/01/hola-a-todos/"
 ---

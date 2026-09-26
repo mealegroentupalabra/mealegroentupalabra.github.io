@@ -5,7 +5,7 @@ slug: "dia-55-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Números"]
 tags: ["batalla", "biblia", "desierto", "guerra", "israel", "juicio", "justicia", "ley", "venganza"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/02/octavian-dan-ywu3pg6l1ue-unsplash.jpg"
+image: "/assets/images/posts/octavian-dan-ywu3pg6l1ue-unsplash.jpg"
 summary: "Números 31-32. Dios mandó a Moisés y al pueblo tomar venganza contra Madian por la forma como les hicieron fornicar. De cada una de las tribus se escogieron mil hombres para..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/24/dia-55-plan-de-lectura/"
 ---

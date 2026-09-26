@@ -5,7 +5,7 @@ slug: "dia-250-plan-de-lectura"
 category: "Ezequiel"
 categories: ["Ezequiel", "La Biblia en un Año"]
 tags: ["biblia", "cautividad", "Dios", "israel", "judá", "juicio", "justicia", "naciones", "pecado"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2023/08/nabih-el-boustani-qlunzkfuxtg-unsplash.jpg"
+image: "/assets/images/posts/nabih-el-boustani-qlunzkfuxtg-unsplash.jpg"
 summary: "Ezequiel 25-27. Dios pronunció juicios contra los pueblos de Amón, Moab, Edom, Filistea y Tiro, por el trato que tuvieron con su pueblo Israel en el día en que Dios los castigó."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/07/dia-250-plan-de-lectura/"
 ---

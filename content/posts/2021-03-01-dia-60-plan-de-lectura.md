@@ -5,7 +5,7 @@ slug: "dia-60-plan-de-lectura"
 category: "Deuteronomio"
 categories: ["Deuteronomio", "La Biblia en un Año"]
 tags: ["atributos", "biblia", "desierto", "fidelidad", "israel", "misericordia", "obediencia", "tierra"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/05/tanner-mardis-xuxghzhibn4-unsplash.jpg"
+image: "/assets/images/posts/tanner-mardis-xuxghzhibn4-unsplash.jpg"
 summary: "Deuteronomio 5-7. Ahora el libro de Deuteronomio se enfoca en presentar la ley que Moisés entregó a Israel desde que salieron de Egipto hasta antes de cruzar el Jordán para tomar..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/01/dia-60-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-189-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["biblia", "confianza", "Dios", "fidelidad", "israel", "justicia", "misericordia", "paz"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/07/sander-crombach-b5a_mgblbx8-unsplash.jpg"
+image: "/assets/images/posts/sander-crombach-b5a_mgblbx8-unsplash.jpg"
 summary: "Salmos 120-125. stos salmos presentan temas variados. En primer lugar, el salmista pidió ser librado de la lengua engañosa y reconoció que el Señor es su guardador, quien le..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/08/dia-189-plan-de-lectura/"
 ---

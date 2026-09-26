@@ -5,7 +5,7 @@ slug: "dia-212-plan-de-lectura"
 category: "Isaías"
 categories: ["Isaías", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "esperanza", "juicio", "pecado", "profecía", "reino", "reyes"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/08/pexels-ekaterina-bolovtsova-6077447.jpg"
+image: "/assets/images/posts/pexels-ekaterina-bolovtsova-6077447.jpg"
 summary: "Isaías 13-17. Isaías profetiza contra Babilonia diciendo que ya pronto viene el día de Jehová, el cual será un día de oscuridad, de terror y de ira en el que Dios castigará al..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/31/dia-212-plan-de-lectura/"
 ---

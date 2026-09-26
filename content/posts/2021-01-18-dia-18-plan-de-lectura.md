@@ -5,7 +5,7 @@ slug: "dia-18-plan-de-lectura"
 category: "Éxodo"
 categories: ["Éxodo", "La Biblia en un Año"]
 tags: ["biblia", "dificultades", "egipto", "esclavitud", "fidelidad", "plan", "providencia"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/04/jesus-3710692_1280.jpg"
+image: "/assets/images/posts/jesus-3710692_1280.jpg"
 summary: "Éxodo 1-3. Durante su estadía en Egipto por unos 400 años aproximados, los israelitas se multiplicaron y fortalecieron en extremo. Esto causó inquietud en el corazón del nuevo..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/18/dia-18-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-22-plan-de-lectura"
 category: "Éxodo"
 categories: ["Éxodo", "La Biblia en un Año"]
 tags: ["biblia", "desierto", "egipto", "gloria", "liberación", "plan", "poder", "presencia"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/04/mar-3539011_1280.jpg"
+image: "/assets/images/posts/mar-3539011_1280.jpg"
 summary: "Éxodo 13-15. Los israelitas salieron de Egipto debido a la poderosa mano de Dios. El día que salieron, era un día para recordar y celebrar y por eso se estableció la fiesta de la..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/22/dia-22-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-245-plan-de-lectura"
 category: "Ezequiel"
 categories: ["Ezequiel", "La Biblia en un Año"]
 tags: ["biblia", "cautividad", "Dios", "exilio", "idolatría", "israel", "judá", "juicio"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/09/meteor-g8de3a91a1_1280.png"
+image: "/assets/images/posts/meteor-g8de3a91a1_1280.png"
 summary: "Ezequiel 13-15. Los falsos profetas anunciaban cosas que venían de su propio corazón, cosas que Dios no había dicho ni les había mandado. Ellos aseguraban que habría paz,..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/02/dia-245-plan-de-lectura/"
 ---

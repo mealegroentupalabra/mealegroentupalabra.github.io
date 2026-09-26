@@ -5,7 +5,7 @@ slug: "dia-260-plan-de-lectura"
 category: "Daniel"
 categories: ["Daniel", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "judá", "juicio", "justicia", "profecía", "profetas", "reino", "reyes"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2023/09/jorge-fernandez-srrlz1veipy-unsplash.jpg"
+image: "/assets/images/posts/jorge-fernandez-srrlz1veipy-unsplash.jpg"
 summary: "Daniel 7-9. Daniel tuvo sueños y visiones durante el reinado de Belsasar sobre los reinos futuros y el tiempo del fin, cuando Dios entregará el reino a uno con apariencia de..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/17/dia-260-plan-de-lectura/"
 ---

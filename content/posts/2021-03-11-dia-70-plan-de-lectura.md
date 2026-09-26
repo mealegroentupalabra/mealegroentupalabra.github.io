@@ -5,7 +5,7 @@ slug: "dia-70-plan-de-lectura"
 category: "Josué"
 categories: ["Josué", "La Biblia en un Año"]
 tags: ["biblia", "israel", "milagro", "obediencia", "sacerdotes", "tierra"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/03/thomas-vogel-hmnwxpzrx1m-unsplash.jpg"
+image: "/assets/images/posts/thomas-vogel-hmnwxpzrx1m-unsplash.jpg"
 summary: "Josué 1-4. Dios habló a Josué y le ordenó prepararse y preparar al pueblo para pasar el Jordán hacia la tierra prometida. Dios les había entregado la tierra, pero ellos debían..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/11/dia-70-plan-de-lectura/"
 ---

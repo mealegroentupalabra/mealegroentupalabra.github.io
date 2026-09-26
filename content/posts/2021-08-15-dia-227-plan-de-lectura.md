@@ -5,7 +5,7 @@ slug: "dia-227-plan-de-lectura"
 category: "Jeremías"
 categories: ["Jeremías", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "israel", "judá", "juicio", "justicia", "obediencia", "pecado", "profecía"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2023/06/crying-african-man-ga92e0ff5d_1280.jpg"
+image: "/assets/images/posts/crying-african-man-ga92e0ff5d_1280.jpg"
 summary: "Jeremías 10-13. Dios le habló a la nación de Israel por medio de Jeremías mandándoles que no siguieran el camino vano de las demás naciones, porque ellas se hacían ídolos de..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/15/dia-227-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-99-plan-de-lectura"
 category: "2 Samuel"
 categories: ["2 Samuel", "La Biblia en un Año"]
 tags: ["batalla", "biblia", "israel", "juicio", "pecado", "reino", "reyes"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/04/guy-g69f42cfe8_1280.jpg"
+image: "/assets/images/posts/guy-g69f42cfe8_1280.jpg"
 summary: "2 Samuel 16-18. Cuando David huyó de Jerusalén, mientras él iba por el camino, algunos salieron para mostrarle su lealtad y apoyo, y otros para maldecirlo."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/09/dia-99-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-172-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["adoración", "alabanza", "biblia", "confianza", "Dios", "esperanza", "fe", "oración", "perdón", "victoria"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/06/animals-gcd73ecdb0_1280.jpg"
+image: "/assets/images/posts/animals-gcd73ecdb0_1280.jpg"
 summary: "Salmos 40-45. David alabó a Dios por su liberación, porque esperó pacientemente en él y Dios le fue propicio. Por eso afirmó que el hombre que confía en el Señor es..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/21/dia-172-plan-de-lectura/"
 ---

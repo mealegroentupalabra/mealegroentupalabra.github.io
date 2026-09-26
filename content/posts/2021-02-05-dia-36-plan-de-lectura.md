@@ -5,7 +5,7 @@ slug: "dia-36-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Levítico"]
 tags: ["biblia", "desierto", "gloria", "ley", "presencia", "purificación", "sacerdotes", "sacrificio", "santidad", "tabernáculo", "templo"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/04/hands-4903050_1280.jpg"
+image: "/assets/images/posts/hands-4903050_1280.jpg"
 summary: "Levítico 14-15. A través de Moisés, Dios instruyó a los sacerdotes sobre el procedimiento que deben seguir para analizar los distintos casos de lepra y determinar si la persona o..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/05/dia-36-plan-de-lectura/"
 ---

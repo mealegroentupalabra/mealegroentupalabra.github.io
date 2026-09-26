@@ -5,7 +5,7 @@ slug: "dia-248-plan-de-lectura"
 category: "Ezequiel"
 categories: ["Ezequiel", "La Biblia en un Año"]
 tags: ["biblia", "cautividad", "Dios", "israel", "judá", "juicio", "justicia", "pecado"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2023/07/carlos-felipe-ramirez-mesa-ziorzh4hkmc-unsplash.jpg"
+image: "/assets/images/posts/carlos-felipe-ramirez-mesa-ziorzh4hkmc-unsplash.jpg"
 summary: "Ezequiel 21-22. Dios dijo que desenvainaría su espada contra Jerusalén y que quitaría de ella al justo y al impío. De la misma manera haría contra los amonitas."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/05/dia-248-plan-de-lectura/"
 ---

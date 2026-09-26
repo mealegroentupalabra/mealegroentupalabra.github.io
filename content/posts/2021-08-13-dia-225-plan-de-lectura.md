@@ -5,7 +5,7 @@ slug: "dia-225-plan-de-lectura"
 category: "Jeremías"
 categories: ["Jeremías", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "guerra", "israel", "judá", "juicio", "justicia", "pecado"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/09/horse-g027aa5d24_1280.jpg"
+image: "/assets/images/posts/horse-g027aa5d24_1280.jpg"
 summary: "Jeremías 4-6. Jeremías dijo que Dios le pidió a su pueblo que se volviera a él, que le entregaran su corazón. A él le dolían las fibras de su corazón porque escuchaba el sonido de..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/13/dia-225-plan-de-lectura/"
 ---

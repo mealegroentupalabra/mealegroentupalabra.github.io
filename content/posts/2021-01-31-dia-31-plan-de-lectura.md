@@ -5,7 +5,7 @@ slug: "dia-31-plan-de-lectura"
 category: "Éxodo"
 categories: ["Éxodo", "La Biblia en un Año"]
 tags: ["biblia", "desierto", "gloria", "ley", "presencia", "sacerdotes", "tabernáculo", "templo"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/04/tabernacle-4768976_1280.jpg"
+image: "/assets/images/posts/tabernacle-4768976_1280.jpg"
 summary: "Éxodo 39-40. Los artesanos hicieron las vestiduras sacerdotales tal como Dios lo había ordenado a Moisés. De esa manera, fue acabada toda la obra del tabernáculo. Luego,..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/31/dia-31-plan-de-lectura/"
 ---

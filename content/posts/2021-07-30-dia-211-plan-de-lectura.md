@@ -5,7 +5,7 @@ slug: "dia-211-plan-de-lectura"
 category: "Isaías"
 categories: ["Isaías", "La Biblia en un Año"]
 tags: ["alabanza", "biblia", "confianza", "Dios", "esperanza", "juicio", "pecado", "perdón", "profecía", "reino", "reyes"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/08/dave-herring-wzsaeynb-vi-unsplash.jpg"
+image: "/assets/images/posts/dave-herring-wzsaeynb-vi-unsplash.jpg"
 summary: "Isaías 9-12. No habría para siempre oscuridad para la que se encontraba en tinieblas, porque un niño nacería cuyo nombre es Admirable. Su reino de paz no tendría fin, aunque aún..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/30/dia-211-plan-de-lectura/"
 ---

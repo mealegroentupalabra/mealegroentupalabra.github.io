@@ -5,7 +5,7 @@ slug: "dia-123-plan-de-lectura"
 category: "1 Crónicas"
 categories: ["1 Crónicas", "La Biblia en un Año"]
 tags: ["biblia", "cautividad", "genealogía", "israel", "juicio"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/05/arbol-genealogico.jpg"
+image: "/assets/images/posts/arbol-genealogico.jpg"
 summary: "1 Crónicas 7-8. Continúa la genealogía de los otros hijos de Israel: Isacar, Benjamín, Neftalí, Manasés, Efraín y Aser."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/03/dia-123-plan-de-lectura/"
 ---

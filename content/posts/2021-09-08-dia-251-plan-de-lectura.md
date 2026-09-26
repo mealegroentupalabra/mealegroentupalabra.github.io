@@ -5,7 +5,7 @@ slug: "dia-251-plan-de-lectura"
 category: "Ezequiel"
 categories: ["Ezequiel", "La Biblia en un Año"]
 tags: ["biblia", "cautividad", "Dios", "juicio", "justicia", "naciones", "pecado"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2023/08/egypt-4909321_1280.jpg"
+image: "/assets/images/posts/egypt-4909321_1280.jpg"
 summary: "Ezequiel 28-30. Dios anunció su juicio contra el arrogante rey de Tiro, que por sus riquezas y prosperidad se llamaba a sí mismo Dios. Por ello, él sería derribado hasta el polvo...."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/08/dia-251-plan-de-lectura/"
 ---

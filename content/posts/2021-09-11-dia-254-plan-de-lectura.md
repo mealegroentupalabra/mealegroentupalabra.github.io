@@ -5,7 +5,7 @@ slug: "dia-254-plan-de-lectura"
 category: "Ezequiel"
 categories: ["Ezequiel", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "esperanza", "israel", "justicia", "naciones", "pacto", "pecado"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2023/09/bone-664596_1280.jpg"
+image: "/assets/images/posts/bone-664596_1280.jpg"
 summary: "Ezequiel 37-39. Dios mandó a Ezequiel que profetizara sobre muchos huesos secos para que estos fueran restaurados y vivificados. Los huesos secos son el pueblo de Israel, sobre..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/11/dia-254-plan-de-lectura/"
 ---

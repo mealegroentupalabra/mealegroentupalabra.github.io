@@ -5,7 +5,7 @@ slug: "dia-78-plan-de-lectura"
 category: "Jueces"
 categories: ["Jueces", "La Biblia en un Año"]
 tags: ["batalla", "biblia", "israel", "liberación", "misericordia", "obediencia", "pecado", "tierra"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/03/reiseuhu-_uccesmgirq-unsplash.jpg"
+image: "/assets/images/posts/reiseuhu-_uccesmgirq-unsplash.jpg"
 summary: "Jueces 3-5. Los israelitas celebraron matrimonios con los cananeos e hicieron lo malo ante los ojos de Jehová olvidándose de Dios y sirviendo a dioses falsos. Por esta razón, Dios..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/19/dia-78-plan-de-lectura/"
 ---

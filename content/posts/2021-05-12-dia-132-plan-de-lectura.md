@@ -5,7 +5,7 @@ slug: "dia-132-plan-de-lectura"
 category: "2 Crónicas"
 categories: ["2 Crónicas", "La Biblia en un Año"]
 tags: ["biblia", "fuego", "gloria", "israel", "reyes", "sacerdotes", "sacrificio", "servicio", "templo", "tierra"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/05/sky-690293_1280.jpg"
+image: "/assets/images/posts/sky-690293_1280.jpg"
 summary: "2 Crónicas 6-8. Salomón habló en alta voz al pueblo para expresar la fidelidad de Dios en el cumplimiento de su promesa a David en relación con la construcción del templo y de la..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/12/dia-132-plan-de-lectura/"
 ---

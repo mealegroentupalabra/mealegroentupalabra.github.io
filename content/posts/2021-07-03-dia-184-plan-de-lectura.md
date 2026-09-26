@@ -5,7 +5,7 @@ slug: "dia-184-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["alabanza", "biblia", "Dios", "esperanza", "fidelidad", "israel", "justicia", "misericordia", "perdón", "reino", "salvación"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/07/jennie-razumnaya-xrelr7ctym4-unsplash.jpg"
+image: "/assets/images/posts/jennie-razumnaya-xrelr7ctym4-unsplash.jpg"
 summary: "Salmos 103-105. David habló de la bondad de Dios al no tratarle a él ni a Israel conforme a lo que merecían por la multitud de sus pecados. De hecho, fue todo lo contrario, porque..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/03/dia-184-plan-de-lectura/"
 ---

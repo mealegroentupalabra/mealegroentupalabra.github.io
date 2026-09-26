@@ -5,7 +5,7 @@ slug: "dia-4-plan-de-lectura"
 category: "Génesis"
 categories: ["Génesis", "La Biblia en un Año"]
 tags: ["biblia", "descendencia", "fe", "pacto", "plan", "promesa"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/03/tare-3571224_1280.jpg"
+image: "/assets/images/posts/tare-3571224_1280.jpg"
 summary: "Génesis 12-15. En Babel, Dios esparció a la humanidad por sobre toda la tierra. Les dio diferentes idiomas y les prefijó los límites de su habitación (Hechos 17:26). Luego, de..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/04/dia-4-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-113-plan-de-lectura"
 category: "2 Reyes"
 categories: ["2 Reyes", "La Biblia en un Año"]
 tags: ["biblia", "israel", "milagro", "misericordia", "poder", "profetas", "reyes"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/04/axe-5469741_1280.jpg"
+image: "/assets/images/posts/axe-5469741_1280.jpg"
 summary: "2 Reyes 6-8. Eliseo continuó con su actividad como profeta. En una ocasión recuperó de manera milagrosa un hacha que había caído al río. También, Dios revelaba a Eliseo los planes..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/23/dia-113-plan-de-lectura/"
 ---

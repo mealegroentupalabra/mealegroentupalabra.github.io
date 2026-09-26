@@ -5,7 +5,7 @@ slug: "dia-134-plan-de-lectura"
 category: "2 Crónicas"
 categories: ["2 Crónicas", "La Biblia en un Año"]
 tags: ["biblia", "fe", "guerra", "israel", "obediencia", "reyes", "tierra"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/05/jon-tyson-rn21q4rmse4-unsplash.jpg"
+image: "/assets/images/posts/jon-tyson-rn21q4rmse4-unsplash.jpg"
 summary: "2 Crónicas 13-17. Abías sucedió a Roboam en el trono de Judá. Durante su breve reinado hubo guerra entre el reino de Israel y el de Judá, pero Abías y el pueblo que con él estaba..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/14/dia-134-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-3-plan-de-lectura"
 category: "Génesis"
 categories: ["Génesis", "La Biblia en un Año"]
 tags: ["biblia", "juicio", "maldad", "pacto"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/03/ziggurat-1322582_1280.jpg"
+image: "/assets/images/posts/ziggurat-1322582_1280.jpg"
 summary: "Génesis 8-11. Dios salvó a Noé y a su familia, junto con los animales, introduciéndolos en el arca. Después de permanecer en el arca por aproximadamente un año, las aguas..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/03/dia-3-plan-de-lectura/"
 ---

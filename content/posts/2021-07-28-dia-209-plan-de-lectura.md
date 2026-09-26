@@ -5,7 +5,7 @@ slug: "dia-209-plan-de-lectura"
 category: "Isaías"
 categories: ["Isaías", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "esperanza", "pecado", "perdón", "reino", "reyes"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/04/sunset-189912_1280.jpg"
+image: "/assets/images/posts/sunset-189912_1280.jpg"
 summary: "Isaías 1-4. Estas son las visiones de Isaías hijo de Amoz acerca de Jerusalén y Judá, las cuales tuvo desde el reinado de Uzías hasta el reinado de Ezequías (2 Reyes 15-20). En..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/28/dia-209-plan-de-lectura/"
 ---

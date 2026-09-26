@@ -5,7 +5,7 @@ slug: "disfruta-nuestra-nueva-app-movil-gratuita"
 category: "Planes de Lectura"
 categories: ["Planes de Lectura"]
 tags: ["app", "movil"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2026/06/app-movil-maetp-2.jpg"
+image: "/assets/images/posts/app-movil-maetp-2.jpg"
 summary: "Me Alegro En Tu Palabra es una aplicación diseñada para acompañarte en la lectura completa de la Biblia, avanzando capítulo por capítulo y permitiéndote visualizar claramente tu..."
 original_url: "https://mealegroentupalabra.wordpress.com/2026/06/10/disfruta-nuestra-nueva-app-movil-gratuita/"
 ---
@@ -20,7 +20,7 @@ original_url: "https://mealegroentupalabra.wordpress.com/2026/06/10/disfruta-nue
 <p class="wp-block-paragraph"><strong>Me Alegro En Tu Palabra</strong> es una aplicación diseñada para acompañarte en la lectura completa de la Biblia, avanzando capítulo por capítulo y permitiéndote visualizar claramente tu progreso. La intención es que puedas desarrollar una relación más profunda con Dios mediante la lectura de la Palabra.</p>
 <div aria-hidden="true" class="wp-block-spacer" style="height:40px"></div>
 <h2 class="wp-block-heading">Características principales</h2>
-<figure class="wp-block-image alignright size-large is-resized"><img alt="" class="wp-image-2541" src="https://mealegroentupalabra.wordpress.com/wp-content/uploads/2026/06/app-screenshot-maetp-edited.jpg" style="aspect-ratio:0.5167533849270547;width:487px;height:auto"/></figure>
+<figure class="wp-block-image alignright size-large is-resized"><img alt="" class="wp-image-2541" src="/assets/images/posts/app-screenshot-maetp-edited.jpg" style="aspect-ratio:0.5167533849270547;width:487px;height:auto"/></figure>
 <h3 class="wp-block-heading">📖 Lectura diaria organizada</h3>
 <p class="wp-block-paragraph">La aplicación te guiará a través de un plan estructurado para recorrer toda la Biblia capítulo por capítulo, evitando la incertidumbre de no saber qué leer cada día.</p>
 <h3 class="wp-block-heading">📊 Seguimiento de progreso</h3>
@@ -49,4 +49,4 @@ original_url: "https://mealegroentupalabra.wordpress.com/2026/06/10/disfruta-nue
 </div></figure>
 <div aria-hidden="true" class="wp-block-spacer" style="height:40px"></div>
 <h3 class="wp-block-heading">¡Lee, aprende, crece y alégrate en la Palabra de Dios!</h3>
-<figure class="wp-block-image aligncenter size-full is-resized"><a href="https://iglesiabautistasumapaz.org/assets/apks/plan-lectura-release.apk" rel="noopener" target="_blank"><img alt="" class="wp-image-2546" src="https://mealegroentupalabra.wordpress.com/wp-content/uploads/2026/06/descargar-android.png" style="width:355px;height:auto"/></a></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><a href="https://iglesiabautistasumapaz.org/assets/apks/plan-lectura-release.apk" rel="noopener" target="_blank"><img alt="" class="wp-image-2546" src="/assets/images/posts/descargar-android.png" style="width:355px;height:auto"/></a></figure>

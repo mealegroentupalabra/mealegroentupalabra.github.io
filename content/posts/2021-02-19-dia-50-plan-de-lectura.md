@@ -5,7 +5,7 @@ slug: "dia-50-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Números"]
 tags: ["biblia", "confianza", "desierto", "juicio", "ley", "sacerdotes", "servicio"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/10/robert-harkness-j9frwj1wjf8-unsplash.jpg"
+image: "/assets/images/posts/robert-harkness-j9frwj1wjf8-unsplash.jpg"
 summary: "Números 18-20. Dios dijo a Aarón que él y sus descendientes contarían con los levitas para ministrar en los asuntos del tabernáculo. Aarón los dirigiría para el servicio del..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/19/dia-50-plan-de-lectura/"
 ---

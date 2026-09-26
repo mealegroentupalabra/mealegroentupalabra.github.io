@@ -5,7 +5,7 @@ slug: "dia-256-plan-de-lectura"
 category: "Ezequiel"
 categories: ["Ezequiel", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "esperanza", "israel", "profetas", "templo"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2023/09/israel-2186381_1280.jpg"
+image: "/assets/images/posts/israel-2186381_1280.jpg"
 summary: "Ezequiel 43-45. La gloria de Dios se manifestó una vez más a Ezequiel, de la misma manera que la había visto al principio, junto al río Quebar. Esta vez, la gloria del Señor venía..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/13/dia-256-plan-de-lectura/"
 ---

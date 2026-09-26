@@ -5,7 +5,7 @@ slug: "dia-193-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["adoración", "alabanza", "biblia", "confianza", "Dios", "fidelidad", "israel", "juicio", "justicia", "misericordia"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/07/guitar-g060fb38e5_1280.jpg"
+image: "/assets/images/posts/guitar-g060fb38e5_1280.jpg"
 summary: "Salmos 146-150. El salmista invitó a todos en el cielo y en la tierra a alabar al Señor presentando muchas razones por las que debemos hacerlo. Alaben al Señor, dijo, porque es..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/12/dia-193-plan-de-lectura/"
 ---

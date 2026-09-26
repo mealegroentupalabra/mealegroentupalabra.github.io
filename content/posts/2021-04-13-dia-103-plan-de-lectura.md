@@ -5,7 +5,7 @@ slug: "dia-103-plan-de-lectura"
 category: "1 Reyes"
 categories: ["1 Reyes", "La Biblia en un Año"]
 tags: ["adoración", "biblia", "fidelidad", "israel", "reino", "reyes", "sabiduría"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/04/pexels-nitin-arya-1029141.jpg"
+image: "/assets/images/posts/pexels-nitin-arya-1029141.jpg"
 summary: "1 Reyes 3-5. Mientras Salomón estaba involucrado en la edificación de la casa de Dios, como le fue encomendado por David, tomó a la hija de Faraón por esposa. Salomón amó a Dios y..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/13/dia-103-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-161-plan-de-lectura"
 category: "Job"
 categories: ["Job", "La Biblia en un Año"]
 tags: ["biblia", "confianza", "fe", "justicia", "providencia", "prueba", "sufrimiento"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/06/pexels-ekaterina-bolovtsova-6077181.jpg"
+image: "/assets/images/posts/pexels-ekaterina-bolovtsova-6077181.jpg"
 summary: "Job 32-34. Cuando Elifaz, Bildad y Zofar cesaron de hablar, Eliú tomó la palabra. Este joven estaba muy enojado con Job y con sus amigos. Con Job porque se justificaba a sí mismo,..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/10/dia-161-plan-de-lectura/"
 ---

@@ -187,7 +187,9 @@
     }
   }
 
-  // --- Sorting Controls (Más recientes / Más antiguas) ---
+  // --- Sorting Controls (Más recientes / Más antiguas con persistencia) ---
+  const SORT_PREF_KEY = 'maetp_sort_order';
+
   function initSortControls() {
     const toggle = document.getElementById('sortToggle');
     if (!toggle) return;
@@ -195,17 +197,38 @@
     if (!grid) return;
     const cards = Array.from(grid.querySelectorAll('.post-card'));
 
+    function applyOrder(order, save = false) {
+      toggle.querySelectorAll('.sort-btn').forEach(b => {
+        b.classList.toggle('active', b.getAttribute('data-order') === order);
+      });
+      cards.sort((a, b) => {
+        const tA = parseInt(a.getAttribute('data-timestamp') || a.getAttribute('data-day') || '0', 10);
+        const tB = parseInt(b.getAttribute('data-timestamp') || b.getAttribute('data-day') || '0', 10);
+        return order === 'asc' ? (tA - tB) : (tB - tA);
+      });
+      cards.forEach(card => grid.appendChild(card));
+      if (save) {
+        try {
+          localStorage.setItem(SORT_PREF_KEY, order);
+        } catch (e) {}
+      }
+    }
+
+    // Check saved preference or default to 'desc' (Más recientes)
+    let savedOrder = 'desc';
+    try {
+      savedOrder = localStorage.getItem(SORT_PREF_KEY) || 'desc';
+    } catch (e) {}
+
+    // Apply saved preference if it's 'asc'
+    if (savedOrder === 'asc') {
+      applyOrder('asc', false);
+    }
+
     toggle.querySelectorAll('.sort-btn').forEach(btn => {
       btn.addEventListener('click', () => {
-        toggle.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
         const order = btn.getAttribute('data-order');
-        cards.sort((a, b) => {
-          const tA = parseInt(a.getAttribute('data-timestamp') || a.getAttribute('data-day') || '0', 10);
-          const tB = parseInt(b.getAttribute('data-timestamp') || b.getAttribute('data-day') || '0', 10);
-          return order === 'asc' ? (tA - tB) : (tB - tA);
-        });
-        cards.forEach(card => grid.appendChild(card));
+        applyOrder(order, true);
       });
     });
   }

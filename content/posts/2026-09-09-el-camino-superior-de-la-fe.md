@@ -5,7 +5,7 @@ slug: "el-camino-superior-de-la-fe"
 category: "Planes de Lectura"
 categories: ["Planes de Lectura"]
 tags: ["confianza", "fe", "obediencia", "patriarcas", "promesa", "testimonio"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2026/07/el-camino-superior-de-la-fe-youversion-1440x810-1.jpg"
+image: "/assets/images/posts/el-camino-superior-de-la-fe-youversion-1440x810-1.jpg"
 summary: "¡Ya está disponible en YouVersion el nuevo plan de lectura bíblica “El camino superior de la fe”! Me complace enormemente compartir con ustedes la publicación de este plan de..."
 original_url: "https://mealegroentupalabra.wordpress.com/2026/09/09/el-camino-superior-de-la-fe/"
 ---

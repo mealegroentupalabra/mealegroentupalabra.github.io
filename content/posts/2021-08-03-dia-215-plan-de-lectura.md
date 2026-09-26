@@ -5,7 +5,7 @@ slug: "dia-215-plan-de-lectura"
 category: "Isaías"
 categories: ["Isaías", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "esperanza", "juicio", "naciones", "profecía", "reino", "salvación"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/08/war-desert-guns-gunshow-163347.jpeg"
+image: "/assets/images/posts/war-desert-guns-gunshow-163347.jpeg"
 summary: "Isaías 28-30. Isaías habló de Efraín, y de cómo en el futuro Dios sería corona de gloria y diadema de hermosura a los que queden de su pueblo. Pero en el tiempo en que Isaías les..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/03/dia-215-plan-de-lectura/"
 ---

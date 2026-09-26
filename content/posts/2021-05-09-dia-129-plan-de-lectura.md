@@ -5,7 +5,7 @@ slug: "dia-129-plan-de-lectura"
 category: "1 Crónicas"
 categories: ["1 Crónicas", "La Biblia en un Año"]
 tags: ["biblia", "israel", "reyes", "sacerdotes", "templo"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/05/psalter-4406088_1280.jpg"
+image: "/assets/images/posts/psalter-4406088_1280.jpg"
 summary: "1 Crónicas 25-27. David organizó a los levitas para el ministerio en el templo y distribuyó los turnos en los que serviría cada uno de ellos. Estableció músicos, porteros,..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/09/dia-129-plan-de-lectura/"
 ---

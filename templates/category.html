@@ -18,8 +18,8 @@
         <span>Artículos en esta sección: <strong>{{ posts | length }}</strong></span>
       </div>
       <div class="sort-toggle-group" id="sortToggle">
-        <button type="button" class="sort-btn {% if category_slug != 'la-biblia-en-un-ano' and category_slug != 'planes-de-lectura' %}active{% endif %}" data-order="desc">Más recientes</button>
-        <button type="button" class="sort-btn {% if category_slug == 'la-biblia-en-un-ano' or category_slug == 'planes-de-lectura' %}active{% endif %}" data-order="asc">Más antiguas</button>
+        <button type="button" class="sort-btn active" data-order="desc">Más recientes</button>
+        <button type="button" class="sort-btn" data-order="asc">Más antiguas</button>
       </div>
     </div>
     {% endif %}

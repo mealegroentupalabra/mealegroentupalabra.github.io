@@ -5,7 +5,7 @@ slug: "dia-57-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Números"]
 tags: ["biblia", "desierto", "israel", "ley", "tierra"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/02/robert-bye-v_fvsz7i1su-unsplash.jpg"
+image: "/assets/images/posts/robert-bye-v_fvsz7i1su-unsplash.jpg"
 summary: "Números 35-36. Mientras el pueblo aún estaba en las llanuras de Moab, Dios les mandó a través de Moisés que cuando tomaran posesión de la tierra, dieran a los levitas ciudades con..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/26/dia-57-plan-de-lectura/"
 ---

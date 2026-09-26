@@ -5,7 +5,7 @@ slug: "dia-145-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Nehemías"]
 tags: ["biblia", "judá", "obediencia", "reconstrucción", "restauración"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/05/pexels-pixabay-51343.jpg"
+image: "/assets/images/posts/pexels-pixabay-51343.jpg"
 summary: "Nehemías 4-6. Nehemías continuó la construcción de los muros a pesar de la intromisión, del sabotaje y de las amenazas de Sanbalat y de otros más que no querían ver la obra..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/25/dia-145-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-62-plan-de-lectura"
 category: "Deuteronomio"
 categories: ["Deuteronomio", "La Biblia en un Año"]
 tags: ["biblia", "desierto", "fidelidad", "israel", "misericordia", "obediencia", "tierra"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/03/jordan-ge4c0d4ea3_1280.jpg"
+image: "/assets/images/posts/jordan-ge4c0d4ea3_1280.jpg"
 summary: "Deuteronomio 11-13. Moisés le dijo al pueblo una vez más que debían amar al Señor y guardar sus mandamientos, que no olvidaran los grandes hechos de Dios para sacarlos de Egipto,..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/03/dia-62-plan-de-lectura/"
 ---

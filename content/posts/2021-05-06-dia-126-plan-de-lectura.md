@@ -5,7 +5,7 @@ slug: "dia-126-plan-de-lectura"
 category: "1 Crónicas"
 categories: ["1 Crónicas", "La Biblia en un Año"]
 tags: ["biblia", "israel", "judá", "pacto", "promesa", "reyes", "simiente", "templo"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/05/igor-rodrigues-ug2af0-hmne-unsplash.jpg"
+image: "/assets/images/posts/igor-rodrigues-ug2af0-hmne-unsplash.jpg"
 summary: "1 Crónicas 15-17. David hizo casas para sí en su ciudad y preparó un lugar para el arca de Dios, e hizo traer el arca por medio de los levitas, quienes según la ley de Moisés..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/06/dia-126-plan-de-lectura/"
 ---

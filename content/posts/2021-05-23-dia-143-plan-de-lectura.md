@@ -5,7 +5,7 @@ slug: "dia-143-plan-de-lectura"
 category: "Esdras"
 categories: ["Esdras", "La Biblia en un Año"]
 tags: ["biblia", "judá", "obediencia", "oración", "reconstrucción", "restauración"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/05/jerusalem-4218941_1280.jpg"
+image: "/assets/images/posts/jerusalem-4218941_1280.jpg"
 summary: "Esdras 8-10. Esdras reunió a los que vendrían con él junto al río Ahava para ayunar y pedir el favor de Dios durante el viaje. Emprendieron luego el viaje y el Señor les ayudó..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/23/dia-143-plan-de-lectura/"
 ---

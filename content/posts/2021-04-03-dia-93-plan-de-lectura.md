@@ -5,7 +5,7 @@ slug: "dia-93-plan-de-lectura"
 category: "1 Samuel"
 categories: ["1 Samuel", "La Biblia en un Año"]
 tags: ["batalla", "biblia", "confianza", "pecado", "reino", "reyes", "victoria"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/04/sword-g0a6469d6d_1920.jpg"
+image: "/assets/images/posts/sword-g0a6469d6d_1920.jpg"
 summary: "1 Samuel 25-27. Samuel, el último de los jueces murió y todo Israel lo lloró. Mientras tanto, David se fue al desierto de Parán donde tuvo un altercado con Nabal. Cuando él se..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/03/dia-93-plan-de-lectura/"
 ---

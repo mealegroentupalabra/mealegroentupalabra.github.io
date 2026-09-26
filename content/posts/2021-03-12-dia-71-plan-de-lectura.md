@@ -5,7 +5,7 @@ slug: "dia-71-plan-de-lectura"
 category: "Josué"
 categories: ["Josué", "La Biblia en un Año"]
 tags: ["biblia", "conquista", "israel", "milagro", "obediencia", "sacerdotes", "tierra"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/03/david-mclenachan-11kq2vltje8-unsplash.jpg"
+image: "/assets/images/posts/david-mclenachan-11kq2vltje8-unsplash.jpg"
 summary: "Josué 5-8. Josué circuncidó a los israelitas después de cruzar el Jordán, y luego celebraron la Pascua y comieron del fruto de la tierra prometida. Después que comieron de lo que..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/12/dia-71-plan-de-lectura/"
 ---

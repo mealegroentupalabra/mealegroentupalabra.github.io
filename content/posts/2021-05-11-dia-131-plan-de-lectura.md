@@ -5,7 +5,7 @@ slug: "dia-131-plan-de-lectura"
 category: "2 Crónicas"
 categories: ["2 Crónicas", "La Biblia en un Año"]
 tags: ["biblia", "israel", "reyes", "sacerdotes", "servicio", "templo"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/05/sander-crombach-d_so1trfkjk-unsplash-1.jpg"
+image: "/assets/images/posts/sander-crombach-d_so1trfkjk-unsplash-1.jpg"
 summary: "2 Crónicas 1-5. Después de la muerte de David, Salomón fue afirmado en su reino y Dios estaba con él. Entonces Salomón fue a Gabaón para adorar allí y Dios se le apareció en..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/11/dia-131-plan-de-lectura/"
 ---

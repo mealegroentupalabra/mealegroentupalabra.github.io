@@ -5,7 +5,7 @@ slug: "dia-210-plan-de-lectura"
 category: "Isaías"
 categories: ["Isaías", "La Biblia en un Año"]
 tags: ["biblia", "confianza", "Dios", "esperanza", "pecado", "perdón", "profecía", "reino", "reyes", "santidad"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/08/cross-g18161ab09_1280.jpg"
+image: "/assets/images/posts/cross-g18161ab09_1280.jpg"
 summary: "Isaías 5-8. El Señor plantó a Israel en la tierra prometida, lo bendijo y lo cuidó, hizo todo lo que se había de hacer con su pueblo pero éste no dio buen fruto, sino que estuvo..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/29/dia-210-plan-de-lectura/"
 ---

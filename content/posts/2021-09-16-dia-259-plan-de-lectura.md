@@ -5,7 +5,7 @@ slug: "dia-259-plan-de-lectura"
 category: "Daniel"
 categories: ["Daniel", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "esperanza", "idolatría", "judá", "juicio", "profecía", "profetas", "reyes"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2023/09/ai-generated-7829596_1280.jpg"
+image: "/assets/images/posts/ai-generated-7829596_1280.jpg"
 summary: "Daniel 4-6. Nabucodonosor tuvo un nuevo sueño, el cual Daniel interpretó para él. Éste le dijo que Dios había decretado que Nabucodonosor perdería su razón durante siete años..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/16/dia-259-plan-de-lectura/"
 ---

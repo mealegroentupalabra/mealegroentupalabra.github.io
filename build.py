@@ -356,13 +356,6 @@ class SiteBuilder:
                 tags_map[t_slug]["count"] += 1
                 tags_map[t_slug]["posts"].append(p)
 
-        # Sort reading plan categories in chronological day order (Day 1 -> 276)
-        for plan_slug in ("la-biblia-en-un-ano", "planes-de-lectura"):
-            if plan_slug in categories_map:
-                categories_map[plan_slug]["posts"].sort(
-                    key=lambda p: (p.get("day_number") is None, p.get("day_number") or 0, p["date"])
-                )
-
         categories_list = sorted(categories_map.values(), key=lambda c: -c["count"])
         
         # Calculate tag cloud font sizes
@@ -565,8 +558,6 @@ class SiteBuilder:
             page_posts = list(categories_map.get(matched_cat_slug, {}).get("posts", []))
             if not page_posts and pg["slug"] in categories_map:
                 page_posts = list(categories_map[pg["slug"]]["posts"])
-            if pg["slug"] in ("la-biblia-en-un-ano", "planes-de-lectura") or matched_cat_slug in ("la-biblia-en-un-ano", "planes-de-lectura"):
-                page_posts.sort(key=lambda p: (p.get("day_number") is None, p.get("day_number") or 0, p["date"]))
             
             html_out = page_tmpl.render(
                 page=pg,

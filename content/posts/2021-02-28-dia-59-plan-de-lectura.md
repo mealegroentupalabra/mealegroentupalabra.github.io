@@ -5,7 +5,7 @@ slug: "dia-59-plan-de-lectura"
 category: "Deuteronomio"
 categories: ["Deuteronomio", "La Biblia en un Año"]
 tags: ["atributos", "biblia", "desierto", "fidelidad", "israel", "misericordia", "obediencia", "tierra"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/02/crete-g749f8655b_1280.jpg"
+image: "/assets/images/posts/crete-g749f8655b_1280.jpg"
 summary: "Deuteronomio 3-4. Moisés continuó su discurso y les recordó la batalla contra Og el rey de Basán y sobre cómo Dios lo entregó en sus manos. Luego, Dios les entregó la tierra..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/28/dia-59-plan-de-lectura/"
 ---

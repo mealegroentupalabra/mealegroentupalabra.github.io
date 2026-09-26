@@ -5,7 +5,7 @@ slug: "dia-67-plan-de-lectura"
 category: "Deuteronomio"
 categories: ["Deuteronomio", "La Biblia en un Año"]
 tags: ["bendición", "biblia", "israel", "ley", "maldición", "obediencia"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/03/bendicion-maldicion.jpg"
+image: "/assets/images/posts/bendicion-maldicion.jpg"
 summary: "Deuteronomio 28-29. Moisés continuó presentando las maravillosas bendiciones que vendrían a Israel si ellos guardaban los mandamientos, pero si los olvidaban, dejando al Señor y..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/08/dia-67-plan-de-lectura/"
 ---

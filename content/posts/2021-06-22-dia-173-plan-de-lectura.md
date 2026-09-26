@@ -5,7 +5,7 @@ slug: "dia-173-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["adoración", "alabanza", "biblia", "confianza", "Dios", "esperanza", "juicio", "oración"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/05/pexels-jerusalen.jpg"
+image: "/assets/images/posts/pexels-jerusalen.jpg"
 summary: "Salmos 46-50. Los hijos de Coré reflexionan poéticamente sobre Dios, su reino y su ciudad santa. Para ellos Dios es el amparo de Israel, su refugio y su fortaleza, aún si la..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/22/dia-173-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-175-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["adoración", "alabanza", "biblia", "confianza", "desierto", "Dios", "esperanza", "juicio", "oración", "pecado"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/10/pexels-pixabay-60013.jpg"
+image: "/assets/images/posts/pexels-pixabay-60013.jpg"
 summary: "Salmos 58-65. David describió a los impíos como maquinadores de maldades, violentos y con una lengua llena de veneno, y le pidió a Dios que los juzgara y los castigara. Cuando el..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/24/dia-175-plan-de-lectura/"
 ---

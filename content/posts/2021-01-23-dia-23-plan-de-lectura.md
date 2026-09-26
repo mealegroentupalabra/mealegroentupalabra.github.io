@@ -5,7 +5,7 @@ slug: "dia-23-plan-de-lectura"
 category: "Éxodo"
 categories: ["Éxodo", "La Biblia en un Año"]
 tags: ["batalla", "biblia", "desierto", "plan", "poder", "presencia", "provisión", "victoria"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/04/youhana-nassif-u-or3fvmlam-unsplash.jpg"
+image: "/assets/images/posts/youhana-nassif-u-or3fvmlam-unsplash.jpg"
 summary: "Éxodo 16-18. Después de tan grande liberación de parte del Señor, los israelitas se quejaron contra Dios por falta de agua y de pan. Esta actitud quejumbrosa sería característica..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/23/dia-23-plan-de-lectura/"
 ---

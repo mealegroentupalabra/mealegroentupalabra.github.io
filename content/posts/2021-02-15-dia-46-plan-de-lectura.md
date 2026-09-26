@@ -5,7 +5,7 @@ slug: "dia-46-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Números"]
 tags: ["biblia", "desierto", "ley", "ofrenda", "sacerdotes", "voto"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/09/tabernaculo14.jpg"
+image: "/assets/images/posts/tabernaculo14.jpg"
 summary: "Números 8-10. Dios dio instrucciones a Moisés sobre la manera en que los levitas serían consagrados para el servicio en el tabernáculo y le recordó que él había tomado a los..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/15/dia-46-plan-de-lectura/"
 ---

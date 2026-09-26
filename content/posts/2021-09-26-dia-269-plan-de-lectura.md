@@ -5,7 +5,7 @@ slug: "dia-269-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Nahúm"]
 tags: ["biblia", "Dios", "israel", "judá", "justicia", "naciones", "pecado", "profetas"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2023/11/assyria-1827296_1280.jpg"
+image: "/assets/images/posts/assyria-1827296_1280_705399.jpg"
 summary: "Nahúm 1-3. Nahúm profetizó el final de Nínive, la ciudad sanguinaria y llena de mentira. Dijo que sería destruida del todo y que sus maldades, que había hecho contra muchos..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/26/dia-269-plan-de-lectura/"
 ---

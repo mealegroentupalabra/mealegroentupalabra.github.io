@@ -5,7 +5,7 @@ slug: "dia-64-plan-de-lectura"
 category: "Deuteronomio"
 categories: ["Deuteronomio", "La Biblia en un Año"]
 tags: ["biblia", "desierto", "israel", "ley", "obediencia", "profetas"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/03/gavel-g96c586c2a_1280.jpg"
+image: "/assets/images/posts/gavel-g96c586c2a_1280.jpg"
 summary: "Deuteronomio 17-20. Moisés siguió recordando los mandamientos de Dios. Algunas de estos mandatos fueron: todo aquel que adorare a dioses falsos debía morir; cuando los jueces..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/05/dia-64-plan-de-lectura/"
 ---

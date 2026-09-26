@@ -5,7 +5,7 @@ slug: "dia-15-plan-de-lectura"
 category: "Génesis"
 categories: ["Génesis", "La Biblia en un Año"]
 tags: ["biblia", "egipto", "plan", "protección", "providencia", "provisión"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/04/tutankhamen-2336122_1280.jpg"
+image: "/assets/images/posts/tutankhamen-2336122_1280.jpg"
 summary: "Génesis 43-45. Los hermanos de José vinieron una vez por trigo y José los llamó espías, y por ello les pidió una prueba de que no lo eran. Ellos debían traer a Benjamín, su..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/15/dia-15-plan-de-lectura/"
 ---

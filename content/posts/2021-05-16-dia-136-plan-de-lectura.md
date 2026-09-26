@@ -5,7 +5,7 @@ slug: "dia-136-plan-de-lectura"
 category: "2 Crónicas"
 categories: ["2 Crónicas", "La Biblia en un Año"]
 tags: ["biblia", "fe", "guerra", "israel", "juicio", "justicia", "obediencia", "profetas", "reyes", "traición", "trono"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/05/pro-church-media-3e3avpvlpao-unsplash-1.jpg"
+image: "/assets/images/posts/pro-church-media-3e3avpvlpao-unsplash-1.jpg"
 summary: "2 Crónicas 21-24. Joram hijo de Josafat se sentó en el trono de Judá, e hizo lo malo ante los ojos de Jehová porque su mujer Atalía, la hija de Acab y Jezabel, lo aconsejaba;..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/16/dia-136-plan-de-lectura/"
 ---

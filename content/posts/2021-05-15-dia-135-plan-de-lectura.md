@@ -5,7 +5,7 @@ slug: "dia-135-plan-de-lectura"
 category: "2 Crónicas"
 categories: ["2 Crónicas", "La Biblia en un Año"]
 tags: ["biblia", "fe", "guerra", "israel", "obediencia", "profetas", "reyes", "tierra"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/05/alliance-4261357_1920.jpg"
+image: "/assets/images/posts/alliance-4261357_1920.jpg"
 summary: "2 Crónicas 18-20. Josafat rey de Judá contrajo parentesco con Acab rey de Israel y vino para visitar a Acab, el cual lo recibió con un gran banquete. Estando allí, Acab le propuso..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/15/dia-135-plan-de-lectura/"
 ---

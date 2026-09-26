@@ -5,7 +5,7 @@ slug: "dia-270-plan-de-lectura"
 category: "Habacuc"
 categories: ["Habacuc", "La Biblia en un Año", "Sofonías"]
 tags: ["biblia", "Dios", "israel", "judá", "justicia", "naciones", "pecado", "profetas"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/09/fig-tree-2160603_1280.jpg"
+image: "/assets/images/posts/fig-tree-2160603_1280.jpg"
 summary: "Habacuc 1-3; Sofonías 1-3. Habacuc le preguntó a Dios: ¿Hasta cuándo clamaré a ti y no oirás, y daré voces y no salvarás? Dios respondió que traería a los caldeos, una nación..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/27/dia-270-plan-de-lectura/"
 ---

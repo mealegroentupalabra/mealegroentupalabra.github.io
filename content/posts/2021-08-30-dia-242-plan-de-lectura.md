@@ -5,7 +5,7 @@ slug: "dia-242-plan-de-lectura"
 category: "Ezequiel"
 categories: ["Ezequiel", "La Biblia en un Año"]
 tags: ["biblia", "cautividad", "Dios", "exilio", "gloria", "israel", "judá"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2023/07/marc-olivier-jodoin-tstnu7h4uee-unsplash.jpg"
+image: "/assets/images/posts/marc-olivier-jodoin-tstnu7h4uee-unsplash.jpg"
 summary: "Ezequiel 1-4. La gloria de Dios se manifestó al profeta Ezequiel mientras éste estaba con los cautivos de Judá junto al rio Quebar. Durante la visión, él escuchó a uno que le..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/30/dia-242-plan-de-lectura/"
 ---

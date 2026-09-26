@@ -5,7 +5,7 @@ slug: "dia-246-plan-de-lectura"
 category: "Ezequiel"
 categories: ["Ezequiel", "La Biblia en un Año"]
 tags: ["biblia", "cautividad", "Dios", "fidelidad", "idolatría", "israel", "judá", "pecado"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2023/07/hand-ge886ac815_1280.jpg"
+image: "/assets/images/posts/hand-ge886ac815_1280.jpg"
 summary: "Ezequiel 16-17. Dios habló por medio de Ezequiel acerca de su profundo dolor al ser traicionado por su esposa Israel. Él la había amado y cuidado desde temprana edad, y había..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/03/dia-246-plan-de-lectura/"
 ---

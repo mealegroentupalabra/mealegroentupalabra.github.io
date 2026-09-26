@@ -5,7 +5,7 @@ slug: "dia-180-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["alabanza", "biblia", "confianza", "Dios", "israel", "juicio", "justicia", "misericordia", "salvación", "templo"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/06/grapes-gfbd4a646c_1280.jpg"
+image: "/assets/images/posts/grapes-gfbd4a646c_1280.jpg"
 summary: "Salmos 80-85. Asaf reflexionó con un hermoso poema sobre la situación actual de Israel. Ellos eran una vid que Dios trajo de Egipto, la plantó en la tierra prometida, desarraigo..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/29/dia-180-plan-de-lectura/"
 ---

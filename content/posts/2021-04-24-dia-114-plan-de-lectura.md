@@ -5,7 +5,7 @@ slug: "dia-114-plan-de-lectura"
 category: "2 Reyes"
 categories: ["2 Reyes", "La Biblia en un Año"]
 tags: ["biblia", "fidelidad", "israel", "justicia", "misericordia", "profetas", "reyes", "venganza"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/04/pexels-sora-shimazaki-5668473.jpg"
+image: "/assets/images/posts/pexels-sora-shimazaki-5668473.jpg"
 summary: "2 Reyes 9-11. Eliseo envió a uno de los hijos de los profetas a Ramot de Galaad para ungir a Jehú como el nuevo rey de Israel, y el profeta lo hizo tal como se le había indicado."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/24/dia-114-plan-de-lectura/"
 ---

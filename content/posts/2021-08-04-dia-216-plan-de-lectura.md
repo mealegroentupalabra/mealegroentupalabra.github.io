@@ -5,7 +5,7 @@ slug: "dia-216-plan-de-lectura"
 category: "Isaías"
 categories: ["Isaías", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "esperanza", "juicio", "naciones", "profecía", "reino", "salvación"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/08/pexels-photo-1146708.jpeg"
+image: "/assets/images/posts/pexels-photo-1146708.jpeg"
 summary: "Isaías 31-35. Ante la amenaza de una invasión extranjera, Israel decidió confiar en Egipto e hizo alianza con ellos rechazando la ayuda del Señor (Isaías 30:1-5). Él les recuerda..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/04/dia-216-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-32-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Levítico"]
 tags: ["biblia", "desierto", "gloria", "ley", "ofrenda", "presencia", "sacerdotes", "sacrificio", "tabernáculo", "templo"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/04/lamb-1305613_1280.jpg"
+image: "/assets/images/posts/lamb-1305613_1280.jpg"
 summary: "Levítico 1-4. Dios llamó a Moisés desde el tabernáculo y le dio nuevas instrucciones para los israelitas. Les indicó cómo debían presentar los holocaustos, las ofrendas de cereal,..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/01/dia-32-plan-de-lectura/"
 ---

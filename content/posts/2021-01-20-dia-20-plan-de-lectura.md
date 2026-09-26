@@ -5,7 +5,7 @@ slug: "dia-20-plan-de-lectura"
 category: "Éxodo"
 categories: ["Éxodo", "La Biblia en un Año"]
 tags: ["biblia", "egipto", "esclavitud", "juicio", "maldad", "plan", "poder"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/04/exodo-plagas-1.jpg"
+image: "/assets/images/posts/exodo-plagas-1.jpg"
 summary: "Éxodo 7-9. Dios le dio instrucciones a Moisés y a Aarón y ellos hicieron como el Señor les ordenó, se presentaron delante del Faraón y le pidieron la liberación de los israelitas...."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/20/dia-20-plan-de-lectura/"
 ---

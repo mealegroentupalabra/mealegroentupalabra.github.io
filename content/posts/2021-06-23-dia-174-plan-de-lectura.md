@@ -5,7 +5,7 @@ slug: "dia-174-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["adoración", "alabanza", "biblia", "confianza", "Dios", "esperanza", "juicio", "oración", "pecado", "perdón"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/06/hands-gf2fa858ea_1280.jpg"
+image: "/assets/images/posts/hands-gf2fa858ea_1280.jpg"
 summary: "Salmos 51-57. David confesó su pecado a Dios luego que pecó con Betsabé y mató a Urías heteo. Él suplicó por un corazón limpio y sabía que solo Dios podía dárselo, y también..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/23/dia-174-plan-de-lectura/"
 ---

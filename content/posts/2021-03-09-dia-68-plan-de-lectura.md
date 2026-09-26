@@ -5,7 +5,7 @@ slug: "dia-68-plan-de-lectura"
 category: "Deuteronomio"
 categories: ["Deuteronomio", "La Biblia en un Año"]
 tags: ["bendición", "biblia", "israel", "ley", "maldición", "obediencia", "pacto", "promesa"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/03/wine-g426723427_1280.jpg"
+image: "/assets/images/posts/wine-g426723427_1280.jpg"
 summary: "Deuteronomio 30-31. Moisés continuó presentando el pacto que Dios haría con los israelitas en las llanuras de Moab de la siguiente manera: después que los israelitas hayan..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/09/dia-68-plan-de-lectura/"
 ---

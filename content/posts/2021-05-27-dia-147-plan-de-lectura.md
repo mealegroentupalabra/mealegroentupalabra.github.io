@@ -5,7 +5,7 @@ slug: "dia-147-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Nehemías"]
 tags: ["biblia", "genealogía", "israel", "judá", "ley", "obediencia", "oración", "reconstrucción", "restauración"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/05/torah-4299038_1280.jpg"
+image: "/assets/images/posts/torah-4299038_1280.jpg"
 summary: "Nehemías 8-9. Todo el pueblo se juntó en Jerusalén. Esdras trajo el libro de la ley de Moisés y lo leyó a oídos de todos los que podían entender en el pueblo, tanto hombres como..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/27/dia-147-plan-de-lectura/"
 ---

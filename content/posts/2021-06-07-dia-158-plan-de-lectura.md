@@ -5,7 +5,7 @@ slug: "dia-158-plan-de-lectura"
 category: "Job"
 categories: ["Job", "La Biblia en un Año"]
 tags: ["biblia", "confianza", "fe", "justicia", "providencia", "prueba", "sufrimiento"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/06/thomas-claeys-baj8whkl3ni-unsplash.jpg"
+image: "/assets/images/posts/thomas-claeys-baj8whkl3ni-unsplash.jpg"
 summary: "Job 21-23. A Job le parece increíble que los malvados se encuentren tan bien, que puedan ver a sus hijos establecerse y ver crecer a sus nietos, que disfruten de bienestar y los..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/07/dia-158-plan-de-lectura/"
 ---

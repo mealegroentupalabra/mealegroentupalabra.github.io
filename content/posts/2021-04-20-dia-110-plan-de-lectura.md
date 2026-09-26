@@ -5,7 +5,7 @@ slug: "dia-110-plan-de-lectura"
 category: "1 Reyes"
 categories: ["1 Reyes", "La Biblia en un Año"]
 tags: ["adoración", "biblia", "israel", "judá", "juicio", "justicia", "maldad", "profetas", "reino", "reyes"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/04/arrow-1557473_1280.jpg"
+image: "/assets/images/posts/arrow-1557473_1280.jpg"
 summary: "1 Reyes 21-22. Pasado algún tiempo, Acab quiso comprar la viña de un hombre llamado Nabot, pero éste no quiso entregársela porque era la heredad de sus padres. Así que Jezabel, la..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/20/dia-110-plan-de-lectura/"
 ---

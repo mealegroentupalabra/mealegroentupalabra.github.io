@@ -5,7 +5,7 @@ slug: "dia-204-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Proverbios"]
 tags: ["biblia", "Dios", "maldad", "obediencia", "pecado", "reyes", "sabiduría"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/08/annie-spratt-m0dul38r49y-unsplash.jpg"
+image: "/assets/images/posts/annie-spratt-m0dul38r49y-unsplash.jpg"
 summary: "Proverbios 30-31. Finalmente, encontramos las palabras de Agur (que son identificadas como profecía) y las del rey Lemuel, las cuales le transmitió su madre. Agur habla de su..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/23/dia-204-plan-de-lectura/"
 ---

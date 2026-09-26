@@ -5,7 +5,7 @@ slug: "dia-207-plan-de-lectura"
 category: "Eclesiastés"
 categories: ["Eclesiastés", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "justicia", "obediencia", "reyes", "sabiduría"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/07/sunset-570881_1280.jpg"
+image: "/assets/images/posts/sunset-570881_1280.jpg"
 summary: "Eclesiastés 9-12. El Predicador dijo que a todos los hombres, sin importar si son justos o impíos, sabios o necios, les suceden las mismas cosas; especialmente, que a ambos les..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/26/dia-207-plan-de-lectura/"
 ---

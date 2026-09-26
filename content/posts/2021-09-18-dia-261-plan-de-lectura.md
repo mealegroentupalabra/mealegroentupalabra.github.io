@@ -5,7 +5,7 @@ slug: "dia-261-plan-de-lectura"
 category: "Daniel"
 categories: ["Daniel", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "esperanza", "judá", "juicio", "justicia", "opresión", "profecía", "profetas", "reino", "reyes"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2023/09/time-699965_1280.jpg"
+image: "/assets/images/posts/time-699965_1280.jpg"
 summary: "Daniel 10-12. Durante el reinado de Ciro el Persa, Daniel tuvo una nueva visión. En ella, un mensajero de parte de Dios vino para mostrar a Daniel los próximos sucesos."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/18/dia-261-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-234-plan-de-lectura"
 category: "Jeremías"
 categories: ["Jeremías", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "israel", "judá", "juicio", "obediencia", "profecía"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2023/06/brave-1839294_1280.jpg"
+image: "/assets/images/posts/brave-1839294_1280.jpg"
 summary: "Jeremías 35-37. Dios usó como ejemplo de obediencia a los hijos de Recab, el cuál había mandado a su hijos que no tomaran vino y que vivieran en tiendas. Si la palabra de Recab..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/22/dia-234-plan-de-lectura/"
 ---

@@ -1,0 +1,1809 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estudio Editorial — Me Alegro En Tu Palabra</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <style>
+    :root {
+      --editor-sidebar-width: 380px;
+      --editor-header-height: 64px;
+      --editor-bg: var(--bg-body);
+      --editor-surface: var(--bg-surface);
+      --editor-border: var(--border-light);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--editor-bg);
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      overflow-x: hidden;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Full-Width Studio Top Navigation */
+    .studio-header {
+      height: var(--editor-header-height);
+      background: var(--editor-surface);
+      border-bottom: 1px solid var(--editor-border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 1.25rem;
+      z-index: 50;
+      flex-shrink: 0;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .studio-brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .studio-brand img {
+      width: 36px;
+      height: 36px;
+      border-radius: var(--radius-sm);
+    }
+
+    .studio-title-group h1 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--primary);
+      line-height: 1.2;
+    }
+
+    .studio-title-group span {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    .studio-actions-group {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .view-switcher {
+      display: inline-flex;
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-full);
+      padding: 3px;
+      gap: 2px;
+    }
+
+    .view-btn {
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      font-family: inherit;
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 0.35rem 0.8rem;
+      border-radius: var(--radius-full);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      transition: all 0.2s ease;
+    }
+
+    .view-btn:hover {
+      color: var(--text-main);
+    }
+
+    .view-btn.active {
+      background: var(--bg-surface);
+      color: var(--primary);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .studio-status-pill {
+      font-size: 0.78rem;
+      font-weight: 600;
+      padding: 0.3rem 0.7rem;
+      border-radius: var(--radius-full);
+      background: var(--bg-subtle);
+      color: var(--text-muted);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .studio-status-pill.unsaved {
+      color: var(--gold);
+      background: var(--gold-bg);
+    }
+
+    .studio-status-pill.saved {
+      color: #16a34a;
+      background: rgba(22, 163, 74, 0.1);
+    }
+
+    .btn-studio-save {
+      background: var(--primary);
+      color: #ffffff;
+      border: none;
+      border-radius: var(--radius-full);
+      padding: 0.5rem 1.25rem;
+      font-size: 0.88rem;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      box-shadow: 0 2px 6px rgba(26, 54, 93, 0.2);
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .btn-studio-save:hover {
+      background: var(--primary-hover);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(26, 54, 93, 0.3);
+    }
+
+    .btn-studio-save:active {
+      transform: scale(0.97);
+    }
+
+    .btn-studio-save:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .btn-drawer-toggle {
+      background: var(--bg-surface);
+      border: 1.5px solid var(--border-light);
+      color: var(--text-main);
+      padding: 0.45rem 0.95rem;
+      border-radius: var(--radius-full);
+      font-family: inherit;
+      font-size: 0.84rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      transition: all 0.2s ease;
+    }
+
+    .btn-drawer-toggle:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .btn-new-post {
+      background: var(--gold-bg);
+      border: 1.5px solid var(--gold-border);
+      color: var(--gold);
+      padding: 0.45rem 0.95rem;
+      border-radius: var(--radius-full);
+      font-family: inherit;
+      font-size: 0.84rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: all 0.2s ease;
+    }
+
+    .btn-new-post:hover {
+      background: var(--gold);
+      color: #ffffff;
+    }
+
+    /* Main Studio Canvas */
+    .studio-body {
+      flex: 1;
+      display: flex;
+      overflow: hidden;
+      position: relative;
+    }
+
+    /* Left Sidebar: Metadata Panel */
+    .studio-sidebar {
+      width: var(--editor-sidebar-width);
+      min-width: 320px;
+      max-width: 440px;
+      background: var(--editor-surface);
+      border-right: 1px solid var(--editor-border);
+      overflow-y: auto;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      flex-shrink: 0;
+      transition: width 0.2s ease, transform 0.2s ease;
+    }
+
+    .studio-sidebar.collapsed {
+      width: 0;
+      min-width: 0;
+      padding: 0;
+      overflow: hidden;
+      border-right: none;
+    }
+
+    .panel-section-title {
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 700;
+      color: var(--text-light);
+      margin-bottom: 0.4rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+
+    .form-label {
+      font-size: 0.84rem;
+      font-weight: 600;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .form-input {
+      width: 100%;
+      padding: 0.65rem 0.85rem;
+      background: var(--bg-body);
+      border: 1.5px solid var(--border-light);
+      border-radius: var(--radius-md);
+      color: var(--text-main);
+      font-family: inherit;
+      font-size: 0.92rem;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .form-input:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px var(--primary-light);
+      background: var(--bg-surface);
+    }
+
+    /* Category Multi-Selector */
+    .cat-selector-box {
+      border: 1.5px solid var(--border-light);
+      border-radius: var(--radius-md);
+      padding: 0.65rem;
+      background: var(--bg-body);
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .cat-search-input {
+      width: 100%;
+      padding: 0.4rem 0.65rem;
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-sm);
+      background: var(--bg-surface);
+      color: var(--text-main);
+      font-size: 0.82rem;
+      outline: none;
+    }
+
+    .cat-chips-container {
+      max-height: 145px;
+      overflow-y: auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      padding-top: 0.25rem;
+    }
+
+    .cat-chip {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-full);
+      padding: 0.25rem 0.65rem;
+      font-size: 0.76rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      user-select: none;
+      transition: all 0.15s ease;
+    }
+
+    .cat-chip:hover {
+      border-color: var(--primary);
+      color: var(--text-main);
+    }
+
+    .cat-chip.selected {
+      background: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+      font-weight: 600;
+    }
+
+    .cat-chip .chip-count {
+      font-size: 0.68rem;
+      opacity: 0.75;
+    }
+
+    .new-cat-row {
+      display: flex;
+      gap: 0.35rem;
+      margin-top: 0.25rem;
+    }
+
+    .new-cat-input {
+      flex: 1;
+      padding: 0.35rem 0.6rem;
+      font-size: 0.8rem;
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-sm);
+      background: var(--bg-surface);
+      color: var(--text-main);
+    }
+
+    .btn-add-cat {
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-sm);
+      padding: 0 0.6rem;
+      font-size: 0.78rem;
+      font-weight: 600;
+      cursor: pointer;
+      color: var(--text-main);
+    }
+
+    /* Tag Multi-Selector */
+    .tag-selector-box {
+      border: 1.5px solid var(--border-light);
+      border-radius: var(--radius-md);
+      padding: 0.65rem;
+      background: var(--bg-body);
+    }
+
+    .selected-tags-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      margin-bottom: 0.5rem;
+      min-height: 28px;
+    }
+
+    .selected-tag-pill {
+      background: var(--primary-light);
+      color: var(--primary);
+      border: 1px solid rgba(26, 54, 93, 0.2);
+      border-radius: var(--radius-full);
+      padding: 0.2rem 0.6rem;
+      font-size: 0.78rem;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .selected-tag-pill button {
+      background: transparent;
+      border: none;
+      color: inherit;
+      cursor: pointer;
+      font-size: 0.85rem;
+      line-height: 1;
+      padding: 0;
+    }
+
+    .tag-input-row {
+      display: flex;
+      gap: 0.35rem;
+    }
+
+    .tag-suggestions {
+      margin-top: 0.6rem;
+    }
+
+    .tag-suggestions-title {
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: var(--text-light);
+      margin-bottom: 0.3rem;
+    }
+
+    .tag-suggestions-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+      max-height: 75px;
+      overflow-y: auto;
+    }
+
+    .tag-sug-chip {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-full);
+      padding: 0.15rem 0.5rem;
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      cursor: pointer;
+    }
+
+    .tag-sug-chip:hover {
+      border-color: var(--gold);
+      color: var(--gold);
+    }
+
+    /* Image Upload Dropzone */
+    .image-dropzone {
+      border: 2px dashed var(--border-light);
+      border-radius: var(--radius-md);
+      padding: 1.25rem 1rem;
+      text-align: center;
+      background: var(--bg-body);
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .image-dropzone:hover, .image-dropzone.dragover {
+      border-color: var(--primary);
+      background: var(--primary-light);
+    }
+
+    .dropzone-preview {
+      position: relative;
+      width: 100%;
+      height: 140px;
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      margin-bottom: 0.5rem;
+      background: #000000;
+    }
+
+    .dropzone-preview img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .dropzone-preview-actions {
+      position: absolute;
+      top: 6px;
+      right: 6px;
+      display: flex;
+      gap: 4px;
+    }
+
+    .dropzone-action-btn {
+      background: rgba(0, 0, 0, 0.7);
+      color: #ffffff;
+      border: none;
+      border-radius: var(--radius-sm);
+      padding: 0.25rem 0.5rem;
+      font-size: 0.75rem;
+      cursor: pointer;
+    }
+
+    /* Right Main Editor Canvas */
+    .studio-main-canvas {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      background: var(--editor-surface);
+    }
+
+    /* Formatting Rich Toolbar */
+    .rich-toolbar {
+      height: 48px;
+      background: var(--editor-surface);
+      border-bottom: 1px solid var(--editor-border);
+      display: flex;
+      align-items: center;
+      padding: 0 1rem;
+      gap: 0.35rem;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      flex-shrink: 0;
+    }
+
+    .toolbar-group {
+      display: flex;
+      align-items: center;
+      gap: 2px;
+      padding-right: 0.5rem;
+      margin-right: 0.5rem;
+      border-right: 1px solid var(--border-light);
+    }
+
+    .tb-btn {
+      background: transparent;
+      border: 1px solid transparent;
+      border-radius: var(--radius-sm);
+      width: 32px;
+      height: 32px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-main);
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 0.88rem;
+      font-weight: 600;
+      transition: all 0.15s ease;
+    }
+
+    .tb-btn:hover {
+      background: var(--bg-subtle);
+      border-color: var(--border-light);
+      color: var(--primary);
+    }
+
+    .tb-btn.special-scripture {
+      width: auto;
+      padding: 0 0.65rem;
+      background: var(--gold-bg);
+      border-color: var(--gold-border);
+      color: var(--gold);
+      font-size: 0.8rem;
+      gap: 0.3rem;
+    }
+
+    .tb-btn.special-scripture:hover {
+      background: var(--gold);
+      color: #ffffff;
+    }
+
+    /* Split Workspace */
+    .canvas-workspaces {
+      flex: 1;
+      display: flex;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .workspace-pane {
+      height: 100%;
+      overflow-y: auto;
+      position: relative;
+    }
+
+    .editor-pane {
+      flex: 1;
+      border-right: 1px solid var(--editor-border);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .content-textarea {
+      width: 100%;
+      flex: 1;
+      padding: 1.5rem 2rem;
+      border: none;
+      outline: none;
+      resize: none;
+      font-family: ui-monospace, 'SF Mono', Menlo, Monaco, Consolas, monospace;
+      font-size: 1rem;
+      line-height: 1.75;
+      background: var(--editor-surface);
+      color: var(--text-main);
+    }
+
+    .preview-pane {
+      flex: 1;
+      background: var(--bg-body);
+      padding: 2.5rem 3rem;
+      overflow-y: auto;
+    }
+
+    .preview-article-shell {
+      max-width: 760px;
+      margin: 0 auto;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-lg);
+      padding: 3rem 3.5rem;
+      box-shadow: var(--shadow-sm);
+    }
+
+    /* Card Preview Pane */
+    .card-preview-shell {
+      max-width: 380px;
+      margin: 3rem auto;
+    }
+
+    /* Drawer of Existing Articles */
+    .articles-drawer-backdrop {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(4px);
+      z-index: 100;
+      display: none;
+      opacity: 0;
+      transition: opacity 0.25s ease;
+    }
+
+    .articles-drawer-backdrop.active {
+      display: block;
+      opacity: 1;
+    }
+
+    .articles-drawer {
+      position: fixed;
+      top: 0;
+      left: -480px;
+      width: 480px;
+      max-width: 90vw;
+      height: 100vh;
+      background: var(--editor-surface);
+      border-right: 1px solid var(--editor-border);
+      box-shadow: var(--shadow-lg);
+      z-index: 101;
+      display: flex;
+      flex-direction: column;
+      transition: left 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .articles-drawer.active {
+      left: 0;
+    }
+
+    .drawer-header {
+      padding: 1.25rem 1.5rem;
+      border-bottom: 1px solid var(--editor-border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .drawer-search-bar {
+      padding: 1rem 1.5rem;
+      border-bottom: 1px solid var(--editor-border);
+      background: var(--bg-body);
+    }
+
+    .drawer-list {
+      flex: 1;
+      overflow-y: auto;
+      padding: 0.5rem 0;
+    }
+
+    .drawer-item {
+      padding: 0.9rem 1.5rem;
+      border-bottom: 1px solid var(--border-light);
+      cursor: pointer;
+      transition: background 0.15s ease;
+    }
+
+    .drawer-item:hover {
+      background: var(--bg-subtle);
+    }
+
+    .drawer-item.current {
+      background: var(--primary-light);
+      border-left: 4px solid var(--primary);
+    }
+
+    .drawer-item-title {
+      font-weight: 600;
+      font-size: 0.95rem;
+      margin-bottom: 0.25rem;
+      color: var(--text-main);
+    }
+
+    .drawer-item-meta {
+      font-size: 0.76rem;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    /* Modal for Scripture / Link / Image Insert */
+    .studio-modal-backdrop {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.45);
+      backdrop-filter: blur(4px);
+      z-index: 150;
+      display: none;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .studio-modal-backdrop.active {
+      display: flex;
+    }
+
+    .studio-modal {
+      background: var(--editor-surface);
+      border: 1px solid var(--editor-border);
+      border-radius: var(--radius-lg);
+      padding: 1.75rem;
+      width: 500px;
+      max-width: 92vw;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .modal-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: var(--text-main);
+    }
+
+    .modal-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 0.5rem;
+      margin-top: 1.25rem;
+    }
+
+    /* Responsive View Adjustments */
+    [data-view="editor"] .editor-pane { flex: 1; border-right: none; }
+    [data-view="editor"] .preview-pane { display: none; }
+
+    [data-view="preview"] .editor-pane { display: none; }
+    [data-view="preview"] .preview-pane { flex: 1; display: block; }
+
+    [data-view="card"] .editor-pane { display: none; }
+    [data-view="card"] .preview-pane { flex: 1; display: flex; align-items: center; justify-content: center; }
+
+    [data-view="split"] .editor-pane { flex: 1; display: flex; }
+    [data-view="split"] .preview-pane { flex: 1; display: block; }
+  </style>
+</head>
+<body data-view="split">
+
+  <!-- Top Studio Application Bar -->
+  <header class="studio-header">
+    <div style="display: flex; align-items: center; gap: 1rem;">
+      <a href="/" class="studio-brand" target="_blank" title="Ver blog en vivo">
+        <img src="/assets/images/logo.png" alt="Logo" width="36" height="36">
+        <div class="studio-title-group">
+          <h1>Me Alegro En Tu Palabra</h1>
+          <span id="currentEditingBadge">Nuevo Artículo (Borrador)</span>
+        </div>
+      </a>
+
+      <button type="button" class="btn-drawer-toggle" id="openDrawerBtn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
+        <span>Artículos (<span id="articlesCountBadge">...</span>)</span>
+      </button>
+
+      <button type="button" class="btn-new-post" id="newPostBtn">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+        <span>＋ Nuevo</span>
+      </button>
+    </div>
+
+    <!-- Center: View Switcher -->
+    <div class="view-switcher">
+      <button type="button" class="view-btn active" data-mode="split" title="Ver editor y vista previa lado a lado">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"></rect><line x1="12" y1="3" x2="12" y2="21"></line></svg>
+        <span>Dividido</span>
+      </button>
+      <button type="button" class="view-btn" data-mode="editor" title="Editor a pantalla completa">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+        <span>Solo Editor</span>
+      </button>
+      <button type="button" class="view-btn" data-mode="preview" title="Vista previa del artículo completo">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        <span>Vista Previa</span>
+      </button>
+      <button type="button" class="view-btn" data-mode="card" title="Previsualizar tarjeta en la portada">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M3 9h18"></path><path d="M9 21V9"></path></svg>
+        <span>Tarjeta</span>
+      </button>
+    </div>
+
+    <!-- Right: Stats, Theme, Save Button -->
+    <div class="studio-actions-group">
+      <div class="studio-status-pill" id="statsPill">
+        <span>0 palabras</span> • <span>~1 min</span>
+      </div>
+
+      <div class="studio-status-pill saved" id="statusPill">
+        <span>Listo</span>
+      </div>
+
+      <!-- Theme Toggle Button -->
+      <button class="icon-btn theme-toggle-btn" id="themeToggleBtn" aria-label="Cambiar tema">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+
+      <!-- Sidebar Toggle -->
+      <button class="icon-btn" id="toggleSidebarBtn" title="Alternar panel de metadatos">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"></rect><line x1="9" y1="3" x2="9" y2="21"></line></svg>
+      </button>
+
+      <!-- Save Button -->
+      <button type="button" class="btn-studio-save" id="saveBtn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path><polyline points="17 21 17 13 7 13 7 21"></polyline><polyline points="7 3 7 8 15 8"></polyline></svg>
+        <span>Guardar (Ctrl+S)</span>
+      </button>
+
+      <a id="viewLiveLink" href="/" target="_blank" class="icon-btn" style="display: none;" title="Abrir artículo en el blog">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+      </a>
+    </div>
+  </header>
+
+  <!-- Studio Workspace -->
+  <div class="studio-body">
+
+    <!-- Left Sidebar: Article Settings & Metadata -->
+    <aside class="studio-sidebar" id="studioSidebar">
+      <div class="panel-section-title">
+        <span>Metadatos del Artículo</span>
+      </div>
+
+      <!-- Title Input -->
+      <div class="form-group">
+        <label class="form-label" for="postTitle">
+          <span>Título del Artículo *</span>
+        </label>
+        <input type="text" id="postTitle" class="form-input" placeholder="Ej: La Paz que Sobrepasa Todo Entendimiento" required>
+      </div>
+
+      <!-- Slug -->
+      <div class="form-group">
+        <label class="form-label" for="postSlug">
+          <span>Identificador (Slug)</span>
+        </label>
+        <input type="text" id="postSlug" class="form-input" placeholder="la-paz-que-sobrepasa-todo-entendimiento">
+      </div>
+
+      <!-- Categories Multi-Selector -->
+      <div class="form-group">
+        <label class="form-label">
+          <span>Categorías (<span id="catSelectedCount">0</span> seleccionadas) *</span>
+        </label>
+        <div class="cat-selector-box">
+          <input type="text" id="catSearchInput" class="cat-search-input" placeholder="🔍 Buscar entre las 44 categorías...">
+          <div class="cat-chips-container" id="catChipsContainer">
+            <!-- Dynamically populated categories -->
+          </div>
+          <div class="new-cat-row">
+            <input type="text" id="newCatInput" class="new-cat-input" placeholder="＋ Otra categoría...">
+            <button type="button" class="btn-add-cat" id="addCatBtn">Agregar</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tags Component -->
+      <div class="form-group">
+        <label class="form-label">
+          <span>Etiquetas / Temas</span>
+        </label>
+        <div class="tag-selector-box">
+          <div class="selected-tags-row" id="selectedTagsRow">
+            <!-- Selected tag pills -->
+          </div>
+          <div class="tag-input-row">
+            <input type="text" id="tagInput" class="form-input" placeholder="Escribe y presiona Enter..." list="allTagsDatalist" style="padding: 0.4rem 0.65rem; font-size: 0.85rem;">
+            <datalist id="allTagsDatalist"></datalist>
+          </div>
+          <div class="tag-suggestions">
+            <div class="tag-suggestions-title">Frecuentes del blog:</div>
+            <div class="tag-suggestions-list" id="popularTagsContainer">
+              <!-- Popular tags populated dynamically -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Featured Image Upload -->
+      <div class="form-group">
+        <label class="form-label">
+          <span>Imagen Destacada</span>
+          <span style="font-size: 0.72rem; color: var(--text-muted); cursor: pointer;" id="toggleManualUrlBtn">Pegar URL</span>
+        </label>
+        
+        <div class="image-dropzone" id="imageDropzone">
+          <input type="file" id="fileInput" accept="image/*" style="display: none;">
+          <div id="dropzoneEmpty">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="color: var(--text-light); margin-bottom: 0.35rem;"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+            <p style="font-size: 0.82rem; font-weight: 600;">Haz clic o arrastra una imagen aquí</p>
+            <p style="font-size: 0.74rem; color: var(--text-muted);">Sube JPG, PNG, WEBP directamente al proyecto</p>
+          </div>
+          <div id="dropzoneLoaded" style="display: none;">
+            <div class="dropzone-preview">
+              <img id="previewImageEl" src="" alt="Vista previa">
+              <div class="dropzone-preview-actions">
+                <button type="button" class="dropzone-action-btn" id="changeImgBtn">Cambiar</button>
+                <button type="button" class="dropzone-action-btn" id="removeImgBtn" style="background: rgba(220, 38, 38, 0.85);">Quitar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <input type="text" id="manualImageUrl" class="form-input" placeholder="/assets/images/posts/imagen.jpg o https://..." style="display: none; font-size: 0.82rem; margin-top: 0.35rem;">
+      </div>
+
+      <!-- Summary -->
+      <div class="form-group">
+        <div class="form-label">
+          <span>Resumen / Extracto</span>
+          <button type="button" id="autoSummaryBtn" style="background: transparent; border: none; color: var(--primary); font-size: 0.74rem; font-weight: 600; cursor: pointer;">Auto-generar</button>
+        </div>
+        <textarea id="postSummary" class="form-input" rows="3" placeholder="Breve introducción para tarjetas y redes sociales..." style="resize: vertical; font-size: 0.86rem;"></textarea>
+      </div>
+    </aside>
+
+    <!-- Main Canvas -->
+    <main class="studio-main-canvas">
+      <!-- Rich Text Formatting Toolbar -->
+      <div class="rich-toolbar">
+        <div class="toolbar-group">
+          <button type="button" class="tb-btn" onclick="formatText('**', '**')" title="Negrita (Ctrl+B)"><strong>B</strong></button>
+          <button type="button" class="tb-btn" onclick="formatText('*', '*')" title="Cursiva (Ctrl+I)"><em>I</em></button>
+          <button type="button" class="tb-btn" onclick="formatText('<u>', '</u>')" title="Subrayado"><u>U</u></button>
+          <button type="button" class="tb-btn" onclick="formatText('~~', '~~')" title="Tachado"><del>S</del></button>
+        </div>
+
+        <div class="toolbar-group">
+          <button type="button" class="tb-btn" onclick="formatLine('## ')" title="Encabezado 2">H2</button>
+          <button type="button" class="tb-btn" onclick="formatLine('### ')" title="Encabezado 3">H3</button>
+          <button type="button" class="tb-btn" onclick="formatLine('> ')" title="Cita normal">❝</button>
+        </div>
+
+        <div class="toolbar-group">
+          <button type="button" class="tb-btn special-scripture" onclick="openScriptureModal()" title="Insertar tarjeta sagrada de Versículo Bíblico">
+            <span>📖 Cita Bíblica</span>
+          </button>
+        </div>
+
+        <div class="toolbar-group">
+          <button type="button" class="tb-btn" onclick="formatLine('- ')" title="Lista con viñetas">• List</button>
+          <button type="button" class="tb-btn" onclick="formatLine('1. ')" title="Lista numerada">1. List</button>
+        </div>
+
+        <div class="toolbar-group">
+          <button type="button" class="tb-btn" onclick="openLinkModal()" title="Insertar enlace">🔗</button>
+          <button type="button" class="tb-btn" onclick="triggerBodyImageUpload()" title="Subir e insertar imagen en el contenido">🖼️</button>
+          <input type="file" id="bodyImageFileInput" accept="image/*" style="display: none;">
+          <button type="button" class="tb-btn" onclick="insertSyntax('```\\n', '\\n```')" title="Bloque de código">&lt;/&gt;</button>
+          <button type="button" class="tb-btn" onclick="insertDivider()" title="Línea divisoria">―</button>
+        </div>
+
+        <div style="margin-left: auto; display: flex; align-items: center; gap: 0.35rem;">
+          <span style="font-size: 0.76rem; color: var(--text-light);">Editor enriquecido</span>
+        </div>
+      </div>
+
+      <!-- Workspaces View (Split / Full Editor / Preview / Card) -->
+      <div class="canvas-workspaces">
+        <!-- Editor Pane -->
+        <div class="workspace-pane editor-pane" id="editorPane">
+          <textarea id="postContent" class="content-textarea" placeholder="Escribe aquí tu reflexión o estudio bíblico... Puedes usar Markdown, HTML y las herramientas superiores."></textarea>
+        </div>
+
+        <!-- Preview Pane -->
+        <div class="workspace-pane preview-pane" id="previewPane">
+          <!-- Full Post Rendered View -->
+          <div class="preview-article-shell" id="fullPreviewArticleShell">
+            <header style="margin-bottom: 2rem; text-align: center;">
+              <div id="previewCategoriesRow" style="display: flex; gap: 0.4rem; justify-content: center; margin-bottom: 0.75rem;"></div>
+              <h1 id="previewTitle" class="post-title" style="font-size: 2.2rem; margin-bottom: 0.5rem;">Título del Artículo</h1>
+              <p id="previewDateReading" style="color: var(--text-muted); font-size: 0.9rem;">Fecha de hoy • 1 min de lectura</p>
+            </header>
+            <div id="previewImageWrapper" style="margin-bottom: 2rem; border-radius: var(--radius-md); overflow: hidden; display: none;">
+              <img id="previewFeaturedImg" src="" style="width: 100%; max-height: 420px; object-fit: cover;">
+            </div>
+            <div class="post-content" id="renderedPostContent">
+              <p style="color: var(--text-light); font-style: italic;">El contenido del artículo se renderizará aquí en tiempo real...</p>
+            </div>
+          </div>
+
+          <!-- Card View (Only shown in Card Mode) -->
+          <div class="card-preview-shell" id="cardPreviewShell" style="display: none;">
+            <article class="post-card">
+              <div class="card-media" id="cardMediaPreview" style="display: none;">
+                <img id="cardImageEl" src="" alt="Vista previa de tarjeta">
+              </div>
+              <div class="card-body">
+                <div class="meta-row">
+                  <span class="category-badge" id="cardCatBadge">Reflexiones</span>
+                  <span>•</span>
+                  <span>Hoy</span>
+                </div>
+                <h3 class="card-title">
+                  <a href="#" id="cardTitleLink">Título del Artículo</a>
+                </h3>
+                <p class="card-excerpt" id="cardExcerptEl">Resumen breve del artículo aparecerá aquí...</p>
+                <div class="card-footer">
+                  <span id="cardReadingTime">⏱️ 1 min</span>
+                  <span style="color: var(--primary); font-weight: 600; font-size: 0.82rem;">Leer &rarr;</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Drawer: List of 293 Existing Articles -->
+  <div class="articles-drawer-backdrop" id="drawerBackdrop"></div>
+  <aside class="articles-drawer" id="articlesDrawer">
+    <div class="drawer-header">
+      <h2 style="font-size: 1.15rem; font-weight: 700;">Artículos del Blog</h2>
+      <button class="icon-btn" id="closeDrawerBtn" style="width: 32px; height: 32px;">&times;</button>
+    </div>
+    <div class="drawer-search-bar">
+      <input type="text" id="drawerSearchInput" class="form-input" placeholder="🔍 Buscar por título o categoría..." style="font-size: 0.88rem;">
+    </div>
+    <div class="drawer-list" id="drawerList">
+      <div style="padding: 2rem; text-align: center; color: var(--text-muted);">Cargando artículos...</div>
+    </div>
+  </aside>
+
+  <!-- Modal: Scripture Callout Inserter -->
+  <div class="studio-modal-backdrop" id="scriptureModalBackdrop">
+    <div class="studio-modal">
+      <h3 class="modal-title">📖 Insertar Cita Bíblica</h3>
+      <div class="form-group" style="margin-bottom: 1rem;">
+        <label class="form-label" for="scriptureText">Texto del Pasaje Bíblico</label>
+        <textarea id="scriptureText" class="form-input" rows="3" placeholder="Ej: Lámpara es a mis pies tu palabra, y lumbrera a mi camino."></textarea>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="scriptureCite">Referencia / Cita</label>
+        <input type="text" id="scriptureCite" class="form-input" placeholder="Ej: Salmo 119:105 (RVR1960)">
+      </div>
+      <div class="modal-actions">
+        <button type="button" class="btn-drawer-toggle" onclick="closeScriptureModal()">Cancelar</button>
+        <button type="button" class="btn-studio-save" onclick="confirmInsertScripture()">Insertar Cita</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Link Inserter -->
+  <div class="studio-modal-backdrop" id="linkModalBackdrop">
+    <div class="studio-modal">
+      <h3 class="modal-title">🔗 Insertar Enlace</h3>
+      <div class="form-group" style="margin-bottom: 1rem;">
+        <label class="form-label" for="linkText">Texto del Enlace</label>
+        <input type="text" id="linkText" class="form-input" placeholder="Ej: YouVersion Bible App">
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="linkUrl">URL de Destino</label>
+        <input type="url" id="linkUrl" class="form-input" placeholder="https://...">
+      </div>
+      <div class="modal-actions">
+        <button type="button" class="btn-drawer-toggle" onclick="closeLinkModal()">Cancelar</button>
+        <button type="button" class="btn-studio-save" onclick="confirmInsertLink()">Insertar Enlace</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-msg" id="studioToast"></div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    (function () {
+      'use strict';
+
+      // State
+      let allArticles = [];
+      let allCategories = [];
+      let allTags = [];
+      let selectedCategories = new Set();
+      let selectedTags = new Set();
+      let currentFilename = null;
+      let isUnsaved = false;
+
+      // DOM Elements
+      const postTitle = document.getElementById('postTitle');
+      const postSlug = document.getElementById('postSlug');
+      const postSummary = document.getElementById('postSummary');
+      const postContent = document.getElementById('postContent');
+      const manualImageUrl = document.getElementById('manualImageUrl');
+      const currentEditingBadge = document.getElementById('currentEditingBadge');
+      const statusPill = document.getElementById('statusPill');
+      const statsPill = document.getElementById('statsPill');
+      const viewLiveLink = document.getElementById('viewLiveLink');
+      const saveBtn = document.getElementById('saveBtn');
+
+      // Theme toggle
+      const themeToggleBtn = document.getElementById('themeToggleBtn');
+      function initTheme() {
+        const saved = localStorage.getItem('maetp_theme') || 'light';
+        document.documentElement.setAttribute('data-theme', saved);
+        updateThemeIcon(saved);
+      }
+      function toggleTheme() {
+        const cur = document.documentElement.getAttribute('data-theme') || 'light';
+        const next = cur === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', next);
+        localStorage.setItem('maetp_theme', next);
+        updateThemeIcon(next);
+      }
+      function updateThemeIcon(t) {
+        if (!themeToggleBtn) return;
+        themeToggleBtn.innerHTML = t === 'dark'
+          ? `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>`
+          : `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>`;
+      }
+      themeToggleBtn.addEventListener('click', toggleTheme);
+      initTheme();
+
+      // View Switcher (Split, Editor, Preview, Card)
+      document.querySelectorAll('.view-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          const mode = btn.getAttribute('data-mode');
+          document.body.setAttribute('data-view', mode);
+
+          if (mode === 'card') {
+            document.getElementById('fullPreviewArticleShell').style.display = 'none';
+            document.getElementById('cardPreviewShell').style.display = 'block';
+          } else {
+            document.getElementById('fullPreviewArticleShell').style.display = 'block';
+            document.getElementById('cardPreviewShell').style.display = 'none';
+          }
+          updatePreview();
+        });
+      });
+
+      // Toggle Sidebar
+      const toggleSidebarBtn = document.getElementById('toggleSidebarBtn');
+      const studioSidebar = document.getElementById('studioSidebar');
+      toggleSidebarBtn.addEventListener('click', () => {
+        studioSidebar.classList.toggle('collapsed');
+      });
+
+      // Show Toast Notification
+      function showToast(msg, isError = false) {
+        const toast = document.getElementById('studioToast');
+        toast.innerHTML = msg;
+        toast.style.background = isError ? '#dc2626' : 'var(--primary)';
+        toast.classList.add('show');
+        setTimeout(() => toast.classList.remove('show'), 3800);
+      }
+
+      // Mark Unsaved
+      function markDirty() {
+        isUnsaved = true;
+        statusPill.className = 'studio-status-pill unsaved';
+        statusPill.innerHTML = '● Cambios sin guardar';
+      }
+
+      function markClean() {
+        isUnsaved = false;
+        statusPill.className = 'studio-status-pill saved';
+        statusPill.innerHTML = '✓ Guardado';
+      }
+
+      // Auto-Slug generator
+      function generateSlug(text) {
+        return text.toLowerCase().trim()
+          .replace(/[áàäâ]/g, 'a')
+          .replace(/[éèëê]/g, 'e')
+          .replace(/[íìïî]/g, 'i')
+          .replace(/[óòöô]/g, 'o')
+          .replace(/[úùüû]/g, 'u')
+          .replace(/[ñ]/g, 'n')
+          .replace(/[^a-z0-9]+/g, '-')
+          .replace(/^-+|-+$/g, '');
+      }
+
+      postTitle.addEventListener('input', () => {
+        if (!currentFilename) {
+          postSlug.value = generateSlug(postTitle.value);
+        }
+        markDirty();
+        updatePreview();
+      });
+
+      postSlug.addEventListener('input', markDirty);
+      postSummary.addEventListener('input', () => { markDirty(); updatePreview(); });
+      postContent.addEventListener('input', () => {
+        markDirty();
+        updatePreview();
+      });
+
+      // Auto-Summary Generator
+      document.getElementById('autoSummaryBtn').addEventListener('click', () => {
+        const text = postContent.value.replace(/<[^>]+>/g, '').replace(/[#*_~`>]/g, '').trim();
+        const firstPara = text.split('\n\n')[0] || '';
+        if (firstPara) {
+          postSummary.value = firstPara.slice(0, 180).trim() + (firstPara.length > 180 ? '...' : '');
+          markDirty();
+          updatePreview();
+        }
+      });
+
+      // Categories Management
+      function renderCategoryChips(filter = '') {
+        const container = document.getElementById('catChipsContainer');
+        container.innerHTML = '';
+        const normFilter = filter.toLowerCase().trim();
+
+        allCategories.forEach(cat => {
+          if (normFilter && !cat.name.toLowerCase().includes(normFilter)) return;
+          const isSelected = selectedCategories.has(cat.name);
+          const chip = document.createElement('div');
+          chip.className = `cat-chip ${isSelected ? 'selected' : ''}`;
+          chip.innerHTML = `<span>${cat.name}</span> <span class="chip-count">${cat.count || ''}</span>`;
+          chip.addEventListener('click', () => {
+            if (selectedCategories.has(cat.name)) {
+              selectedCategories.delete(cat.name);
+            } else {
+              selectedCategories.add(cat.name);
+            }
+            updateCategoryState();
+            markDirty();
+            updatePreview();
+          });
+          container.appendChild(chip);
+        });
+      }
+
+      function updateCategoryState() {
+        document.getElementById('catSelectedCount').textContent = selectedCategories.size;
+        renderCategoryChips(document.getElementById('catSearchInput').value);
+      }
+
+      document.getElementById('catSearchInput').addEventListener('input', (e) => {
+        renderCategoryChips(e.target.value);
+      });
+
+      document.getElementById('addCatBtn').addEventListener('click', () => {
+        const val = document.getElementById('newCatInput').value.trim();
+        if (val) {
+          if (!allCategories.some(c => c.name.toLowerCase() === val.toLowerCase())) {
+            allCategories.unshift({ name: val, count: 0 });
+          }
+          selectedCategories.add(val);
+          document.getElementById('newCatInput').value = '';
+          updateCategoryState();
+          markDirty();
+          updatePreview();
+        }
+      });
+
+      // Tags Management
+      function updateTagsUI() {
+        const row = document.getElementById('selectedTagsRow');
+        row.innerHTML = '';
+        selectedTags.forEach(tag => {
+          const pill = document.createElement('span');
+          pill.className = 'selected-tag-pill';
+          pill.innerHTML = `<span>#${tag}</span><button type="button" data-tag="${tag}">&times;</button>`;
+          pill.querySelector('button').addEventListener('click', () => {
+            selectedTags.delete(tag);
+            updateTagsUI();
+            markDirty();
+          });
+          row.appendChild(pill);
+        });
+      }
+
+      const tagInput = document.getElementById('tagInput');
+      tagInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ',') {
+          e.preventDefault();
+          const val = tagInput.value.replace(/#/g, '').replace(/,/g, '').trim();
+          if (val) {
+            selectedTags.add(val);
+            tagInput.value = '';
+            updateTagsUI();
+            markDirty();
+          }
+        }
+      });
+
+      function renderPopularTags() {
+        const container = document.getElementById('popularTagsContainer');
+        container.innerHTML = '';
+        const datalist = document.getElementById('allTagsDatalist');
+        datalist.innerHTML = '';
+
+        allTags.forEach((t, i) => {
+          const opt = document.createElement('option');
+          opt.value = t.name;
+          datalist.appendChild(opt);
+
+          if (i < 20) {
+            const chip = document.createElement('span');
+            chip.className = 'tag-sug-chip';
+            chip.textContent = `#${t.name}`;
+            chip.addEventListener('click', () => {
+              selectedTags.add(t.name);
+              updateTagsUI();
+              markDirty();
+            });
+            container.appendChild(chip);
+          }
+        });
+      }
+
+      // Featured Image Upload & Preview
+      const fileInput = document.getElementById('fileInput');
+      const dropzone = document.getElementById('imageDropzone');
+      const dropzoneEmpty = document.getElementById('dropzoneEmpty');
+      const dropzoneLoaded = document.getElementById('dropzoneLoaded');
+      const previewImageEl = document.getElementById('previewImageEl');
+
+      dropzone.addEventListener('click', (e) => {
+        if (e.target.id === 'removeImgBtn' || e.target.id === 'changeImgBtn') return;
+        fileInput.click();
+      });
+
+      document.getElementById('changeImgBtn').addEventListener('click', () => fileInput.click());
+      document.getElementById('removeImgBtn').addEventListener('click', () => {
+        setFeaturedImage('');
+        markDirty();
+        updatePreview();
+      });
+
+      ['dragenter', 'dragover'].forEach(name => {
+        dropzone.addEventListener(name, (e) => { e.preventDefault(); dropzone.classList.add('dragover'); });
+      });
+      ['dragleave', 'drop'].forEach(name => {
+        dropzone.addEventListener(name, (e) => { e.preventDefault(); dropzone.classList.remove('dragover'); });
+      });
+
+      dropzone.addEventListener('drop', (e) => {
+        if (e.dataTransfer.files && e.dataTransfer.files[0]) {
+          uploadImageFile(e.dataTransfer.files[0]);
+        }
+      });
+
+      fileInput.addEventListener('change', () => {
+        if (fileInput.files && fileInput.files[0]) {
+          uploadImageFile(fileInput.files[0]);
+        }
+      });
+
+      async function uploadImageFile(file) {
+        showToast('Subiendo imagen...');
+        const reader = new FileReader();
+        reader.onload = async () => {
+          try {
+            const base64Data = reader.result.split(',')[1];
+            const resp = await fetch('/api/upload-image', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ filename: file.name, data: base64Data })
+            });
+            const res = await resp.json();
+            if (res.success) {
+              setFeaturedImage(res.url);
+              showToast('✓ Imagen cargada con éxito');
+              markDirty();
+              updatePreview();
+            } else {
+              showToast('Error al subir imagen: ' + (res.error || ''), true);
+            }
+          } catch (err) {
+            showToast('Error de conexión al subir imagen.', true);
+          }
+        };
+        reader.readAsDataURL(file);
+      }
+
+      function setFeaturedImage(url) {
+        manualImageUrl.value = url;
+        if (url) {
+          previewImageEl.src = url;
+          dropzoneEmpty.style.display = 'none';
+          dropzoneLoaded.style.display = 'block';
+        } else {
+          previewImageEl.src = '';
+          dropzoneEmpty.style.display = 'block';
+          dropzoneLoaded.style.display = 'none';
+        }
+      }
+
+      document.getElementById('toggleManualUrlBtn').addEventListener('click', () => {
+        manualImageUrl.style.display = manualImageUrl.style.display === 'none' ? 'block' : 'none';
+      });
+
+      manualImageUrl.addEventListener('input', () => {
+        setFeaturedImage(manualImageUrl.value.trim());
+        markDirty();
+        updatePreview();
+      });
+
+      // Body Image Upload Trigger
+      window.triggerBodyImageUpload = function () {
+        document.getElementById('bodyImageFileInput').click();
+      };
+      document.getElementById('bodyImageFileInput').addEventListener('change', async (e) => {
+        const file = e.target.files[0];
+        if (!file) return;
+        showToast('Subiendo imagen para el cuerpo...');
+        const reader = new FileReader();
+        reader.onload = async () => {
+          try {
+            const base64Data = reader.result.split(',')[1];
+            const resp = await fetch('/api/upload-image', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ filename: file.name, data: base64Data })
+            });
+            const res = await resp.json();
+            if (res.success) {
+              insertSyntax(`\\n![Descripción de la imagen](${res.url})\\n`, '');
+              showToast('✓ Imagen insertada en el texto');
+            }
+          } catch (err) {
+            showToast('Error al subir imagen.', true);
+          }
+        };
+        reader.readAsDataURL(file);
+      });
+
+      // Formatting Helpers
+      window.insertSyntax = function (before, after) {
+        const start = postContent.selectionStart;
+        const end = postContent.selectionEnd;
+        const sel = postContent.value.substring(start, end);
+        postContent.value = postContent.value.substring(0, start) + before + sel + after + postContent.value.substring(end);
+        postContent.focus();
+        postContent.selectionStart = start + before.length;
+        postContent.selectionEnd = end + before.length;
+        postContent.dispatchEvent(new Event('input'));
+      };
+
+      window.formatText = function (b, a) { insertSyntax(b, a); };
+
+      window.formatLine = function (prefix) {
+        const start = postContent.selectionStart;
+        const lineStart = postContent.value.lastIndexOf('\n', start - 1) + 1;
+        postContent.value = postContent.value.substring(0, lineStart) + prefix + postContent.value.substring(lineStart);
+        postContent.focus();
+        postContent.dispatchEvent(new Event('input'));
+      };
+
+      window.insertDivider = function () {
+        insertSyntax('\n\n---\n\n', '');
+      };
+
+      // Scripture Modal
+      const scriptureModal = document.getElementById('scriptureModalBackdrop');
+      window.openScriptureModal = function () { scriptureModal.classList.add('active'); document.getElementById('scriptureText').focus(); };
+      window.closeScriptureModal = function () { scriptureModal.classList.remove('active'); };
+      window.confirmInsertScripture = function () {
+        const txt = document.getElementById('scriptureText').value.trim();
+        const cite = document.getElementById('scriptureCite').value.trim() || 'Referencia Bíblica';
+        if (txt) {
+          const cardSnippet = `\n<div class="scripture-card">\n  <blockquote>\n    «${txt}»\n    <cite class="scripture-cite">${cite}</cite>\n  </blockquote>\n</div>\n`;
+          insertSyntax(cardSnippet, '');
+          document.getElementById('scriptureText').value = '';
+          document.getElementById('scriptureCite').value = '';
+          closeScriptureModal();
+        }
+      };
+
+      // Link Modal
+      const linkModal = document.getElementById('linkModalBackdrop');
+      window.openLinkModal = function () {
+        const sel = postContent.value.substring(postContent.selectionStart, postContent.selectionEnd);
+        document.getElementById('linkText').value = sel || '';
+        document.getElementById('linkUrl').value = '';
+        linkModal.classList.add('active');
+        document.getElementById(sel ? 'linkUrl' : 'linkText').focus();
+      };
+      window.closeLinkModal = function () { linkModal.classList.remove('active'); };
+      window.confirmInsertLink = function () {
+        const txt = document.getElementById('linkText').value.trim() || 'Enlace';
+        const url = document.getElementById('linkUrl').value.trim();
+        if (url) {
+          insertSyntax(`[${txt}](${url})`, '');
+          closeLinkModal();
+        }
+      };
+
+      // Update Live Preview & Stats
+      function updatePreview() {
+        const title = postTitle.value.trim() || 'Título del Artículo';
+        const content = postContent.value;
+        const summary = postSummary.value.trim() || (content.slice(0, 160) + '...');
+        const imgUrl = manualImageUrl.value.trim();
+
+        // Stats
+        const words = (content.trim().match(/\S+/g) || []).length;
+        const readTime = Math.max(1, Math.ceil(words / 200));
+        statsPill.textContent = `${words} palabras • ~${readTime} min`;
+
+        // Full Preview
+        document.getElementById('previewTitle').textContent = title;
+        document.getElementById('previewDateReading').textContent = `Hoy • ${readTime} min de lectura`;
+
+        const previewImgWrapper = document.getElementById('previewImageWrapper');
+        if (imgUrl) {
+          previewImgWrapper.style.display = 'block';
+          document.getElementById('previewFeaturedImg').src = imgUrl;
+        } else {
+          previewImgWrapper.style.display = 'none';
+        }
+
+        const catRow = document.getElementById('previewCategoriesRow');
+        catRow.innerHTML = '';
+        selectedCategories.forEach(c => {
+          const badge = document.createElement('span');
+          badge.className = 'category-badge';
+          badge.textContent = c;
+          catRow.appendChild(badge);
+        });
+
+        // Render Markdown content
+        if (window.marked) {
+          document.getElementById('renderedPostContent').innerHTML = marked.parse(content);
+        } else {
+          document.getElementById('renderedPostContent').innerText = content;
+        }
+
+        // Card Preview
+        document.getElementById('cardTitleLink').textContent = title;
+        document.getElementById('cardExcerptEl').textContent = summary;
+        document.getElementById('cardReadingTime').textContent = `⏱️ ${readTime} min`;
+        const firstCat = Array.from(selectedCategories)[0] || 'Reflexiones';
+        document.getElementById('cardCatBadge').textContent = firstCat;
+
+        const cardMedia = document.getElementById('cardMediaPreview');
+        if (imgUrl) {
+          cardMedia.style.display = 'block';
+          document.getElementById('cardImageEl').src = imgUrl;
+        } else {
+          cardMedia.style.display = 'none';
+        }
+      }
+
+      // Load Taxonomies and Articles from Server
+      async function loadInitialData() {
+        try {
+          const [taxResp, postsResp] = await Promise.all([
+            fetch('/api/taxonomies'),
+            fetch('/api/posts')
+          ]);
+
+          const taxData = await taxResp.json();
+          allCategories = taxData.categories || [];
+          allTags = taxData.tags || [];
+
+          allArticles = await postsResp.json();
+          document.getElementById('articlesCountBadge').textContent = allArticles.length;
+
+          renderCategoryChips();
+          renderPopularTags();
+          renderArticlesDrawer(allArticles);
+        } catch (err) {
+          console.error('Error loading initial data:', err);
+        }
+      }
+
+      // Drawer of Existing Articles
+      const drawer = document.getElementById('articlesDrawer');
+      const drawerBackdrop = document.getElementById('drawerBackdrop');
+      document.getElementById('openDrawerBtn').addEventListener('click', () => {
+        drawer.classList.add('active');
+        drawerBackdrop.classList.add('active');
+        document.getElementById('drawerSearchInput').focus();
+      });
+
+      function closeDrawer() {
+        drawer.classList.remove('active');
+        drawerBackdrop.classList.remove('active');
+      }
+      document.getElementById('closeDrawerBtn').addEventListener('click', closeDrawer);
+      drawerBackdrop.addEventListener('click', closeDrawer);
+
+      function renderArticlesDrawer(list) {
+        const container = document.getElementById('drawerList');
+        container.innerHTML = '';
+        if (list.length === 0) {
+          container.innerHTML = '<div style="padding: 2rem; text-align: center; color: var(--text-muted);">No se encontraron artículos.</div>';
+          return;
+        }
+
+        list.forEach(item => {
+          const el = document.createElement('div');
+          el.className = `drawer-item ${currentFilename === item.filename ? 'current' : ''}`;
+          el.innerHTML = `
+            <div class="drawer-item-title">${item.title}</div>
+            <div class="drawer-item-meta">
+              <span class="category-badge" style="font-size: 0.7rem; padding: 0.15rem 0.5rem;">${item.category}</span>
+              <span>•</span>
+              <time>${item.date || ''}</time>
+            </div>
+          `;
+          el.addEventListener('click', () => {
+            loadArticleForEditing(item.filename);
+            closeDrawer();
+          });
+          container.appendChild(el);
+        });
+      }
+
+      document.getElementById('drawerSearchInput').addEventListener('input', (e) => {
+        const q = e.target.value.toLowerCase().trim();
+        const filtered = allArticles.filter(a => 
+          a.title.toLowerCase().includes(q) || 
+          (a.category && a.category.toLowerCase().includes(q)) ||
+          (a.categories && a.categories.some(c => c.toLowerCase().includes(q))) ||
+          (a.date && a.date.includes(q))
+        );
+        renderArticlesDrawer(filtered);
+      });
+
+      // Load specific article for editing
+      async function loadArticleForEditing(filename) {
+        if (isUnsaved && !confirm('Tienes cambios sin guardar. ¿Deseas descartarlos y abrir este artículo?')) {
+          return;
+        }
+
+        showToast('Cargando artículo...');
+        try {
+          const resp = await fetch(`/api/post?file=${encodeURIComponent(filename)}`);
+          const post = await resp.json();
+
+          currentFilename = post.filename;
+          currentEditingBadge.textContent = `Editando: ${post.title}`;
+          postTitle.value = post.title || '';
+          postSlug.value = post.slug || '';
+          postSummary.value = post.summary || '';
+          postContent.value = post.content || '';
+
+          // Set categories
+          selectedCategories.clear();
+          (post.categories || [post.category || 'Reflexiones']).forEach(c => selectedCategories.add(c));
+          updateCategoryState();
+
+          // Set tags
+          selectedTags.clear();
+          (post.tags || []).forEach(t => selectedTags.add(t));
+          updateTagsUI();
+
+          // Set image
+          setFeaturedImage(post.image || '');
+
+          viewLiveLink.href = `/posts/${post.slug}/`;
+          viewLiveLink.style.display = 'inline-flex';
+
+          markClean();
+          updatePreview();
+          showToast(`✓ Artículo cargado: ${post.title}`);
+        } catch (err) {
+          showToast('Error al cargar artículo.', true);
+        }
+      }
+
+      // New Post Button
+      document.getElementById('newPostBtn').addEventListener('click', () => {
+        if (isUnsaved && !confirm('Tienes cambios sin guardar. ¿Deseas descartarlos para crear un nuevo artículo?')) {
+          return;
+        }
+        currentFilename = null;
+        currentEditingBadge.textContent = 'Nuevo Artículo (Borrador)';
+        postTitle.value = '';
+        postSlug.value = '';
+        postSummary.value = '';
+        postContent.value = '';
+        selectedCategories.clear();
+        selectedCategories.add('Reflexiones');
+        updateCategoryState();
+        selectedTags.clear();
+        updateTagsUI();
+        setFeaturedImage('');
+        viewLiveLink.style.display = 'none';
+        markClean();
+        updatePreview();
+        showToast('Nuevo borrador en blanco');
+        postTitle.focus();
+      });
+
+      // Save / Publish
+      async function saveCurrentPost() {
+        const title = postTitle.value.trim();
+        if (!title) {
+          showToast('El título del artículo es obligatorio.', true);
+          postTitle.focus();
+          return;
+        }
+
+        saveBtn.disabled = true;
+        statusPill.className = 'studio-status-pill';
+        statusPill.textContent = '⏳ Compilando blog...';
+
+        const payload = {
+          filename: currentFilename || '',
+          title: title,
+          slug: postSlug.value.trim() || generateSlug(title),
+          categories: Array.from(selectedCategories),
+          tags: Array.from(selectedTags),
+          summary: postSummary.value.trim(),
+          image: manualImageUrl.value.trim(),
+          content: postContent.value
+        };
+
+        try {
+          const resp = await fetch('/api/save-post', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+          });
+          const res = await resp.json();
+          if (res.success) {
+            currentFilename = res.filename;
+            currentEditingBadge.textContent = `Editando: ${title}`;
+            viewLiveLink.href = res.url;
+            viewLiveLink.style.display = 'inline-flex';
+            markClean();
+            showToast(`✓ ¡Artículo ${res.is_new ? 'publicado' : 'actualizado'} con éxito! <a href="${res.url}" target="_blank" style="color: #ffffff; text-decoration: underline; margin-left: 8px;">Ver en vivo ↗</a>`);
+            // Refresh articles list
+            const pResp = await fetch('/api/posts');
+            allArticles = await pResp.json();
+            document.getElementById('articlesCountBadge').textContent = allArticles.length;
+            renderArticlesDrawer(allArticles);
+          } else {
+            statusPill.className = 'studio-status-pill unsaved';
+            statusPill.textContent = 'Error';
+            showToast('Error al guardar: ' + (res.error || ''), true);
+          }
+        } catch (err) {
+          statusPill.className = 'studio-status-pill unsaved';
+          statusPill.textContent = 'Error';
+          showToast('Error de conexión con el servidor.', true);
+        } finally {
+          saveBtn.disabled = false;
+        }
+      }
+
+      saveBtn.addEventListener('click', saveCurrentPost);
+
+      // Keyboard Shortcut: Ctrl+S / Cmd+S
+      window.addEventListener('keydown', (e) => {
+        if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 's') {
+          e.preventDefault();
+          saveCurrentPost();
+        }
+      });
+
+      // Window unload protection
+      window.addEventListener('beforeunload', (e) => {
+        if (isUnsaved) {
+          e.preventDefault();
+          e.returnValue = '';
+        }
+      });
+
+      // Initialize
+      loadInitialData();
+    })();
+  </script>
+</body>
+</html>

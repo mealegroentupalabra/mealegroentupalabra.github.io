@@ -5,7 +5,7 @@ slug: "dia-33-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Levítico"]
 tags: ["biblia", "desierto", "gloria", "ley", "ofrenda", "presencia", "sacerdotes", "sacrificio", "tabernáculo", "templo"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/04/bread-4183107_1280.jpg"
+image: "/assets/images/posts/bread-4183107_1280.jpg"
 summary: "Levítico 5-7. Dios instruyó al pueblo a través de Moisés sobre las ofrendas para expiar el pecado. Debían traer una hembra de los rebaños para expiación, y si no tenían suficiente..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/02/dia-33-plan-de-lectura/"
 ---

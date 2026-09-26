@@ -5,7 +5,7 @@ slug: "dia-83-plan-de-lectura"
 category: "Jueces"
 categories: ["Jueces", "La Biblia en un Año"]
 tags: ["ídolos", "batalla", "biblia", "israel", "liberación", "obediencia", "pecado", "sacerdotes", "tabernáculo"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/03/jesus-5382512_1280.jpg"
+image: "/assets/images/posts/jesus-5382512_1280.jpg"
 summary: "Jueces 16-18. También, un hombre del monte de Efraín llamado Micaía tuvo un altar para sus dioses en su casa, y consagró a uno de sus propios hijos como sacerdote. También..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/24/dia-83-plan-de-lectura/"
 ---

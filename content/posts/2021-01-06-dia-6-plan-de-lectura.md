@@ -5,7 +5,7 @@ slug: "dia-6-plan-de-lectura"
 category: "Génesis"
 categories: ["Génesis", "La Biblia en un Año"]
 tags: ["biblia", "descendencia", "fe", "pacto", "plan", "promesa", "simiente", "tierra"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/03/israel-2779389_1280.jpg"
+image: "/assets/images/posts/israel-2779389_1280.jpg"
 summary: "Génesis 19-21. Abraham recibió la visita de tres personas. Dos de ellos descendieron a Sodoma y a Gomorra para sacar a Lot, el sobrino de Abraham, y a su familia antes que la..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/06/dia-6-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-232-plan-de-lectura"
 category: "Jeremías"
 categories: ["Jeremías", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "esperanza", "israel", "judá", "profecía", "promesa"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2023/06/mohamed-nohassi-odxb5oig_ia-unsplash.jpg"
+image: "/assets/images/posts/mohamed-nohassi-odxb5oig_ia-unsplash.jpg"
 summary: "Jeremías 30-31. Dios habló del gran día que vendrá, será un tiempo de aflicción para Israel, pero será librado de ella. En aquel tiempo, Dios traerá a todos los esparcidos de su..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/20/dia-232-plan-de-lectura/"
 ---

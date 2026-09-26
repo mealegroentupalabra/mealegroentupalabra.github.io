@@ -5,7 +5,7 @@ slug: "dia-140-plan-de-lectura"
 category: "2 Crónicas"
 categories: ["2 Crónicas", "La Biblia en un Año"]
 tags: ["biblia", "exilio", "fe", "guerra", "israel", "juicio", "obediencia", "reyes"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/05/mesopotamian-2189138_1280.jpg"
+image: "/assets/images/posts/mesopotamian-2189138_1280.jpg"
 summary: "2 Crónicas 35-36. Josías celebró la pascua con los de Judá e Israel en el año dieciocho de su reinado conforme a lo ordenado en la ley de Moisés. Nunca fue celebrada una pascua..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/20/dia-140-plan-de-lectura/"
 ---

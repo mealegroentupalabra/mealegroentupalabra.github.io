@@ -5,7 +5,7 @@ slug: "dia-253-plan-de-lectura"
 category: "Ezequiel"
 categories: ["Ezequiel", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "israel", "juicio", "justicia", "naciones", "pacto", "pecado", "reyes"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/09/wadirum-4168545_1280.jpg"
+image: "/assets/images/posts/wadirum-4168545_1280.jpg"
 summary: "Ezequiel 34-36. Dios llamó la atención de los pastores de Israel pero también de sus ovejas. Los unos y los otros habían sido desleales, los pastores no protegiendo al rebaño y..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/10/dia-253-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-160-plan-de-lectura"
 category: "Job"
 categories: ["Job", "La Biblia en un Año"]
 tags: ["biblia", "confianza", "fe", "justicia", "providencia", "prueba", "sufrimiento"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/06/pexels-pixabay-45842.jpg"
+image: "/assets/images/posts/pexels-pixabay-45842.jpg"
 summary: "Job 29-31. Job recordó su antigua condición, cuando Dios le cuidaba y sustentaba, cuando era reconocido y respetado; pero también mencionó como ahora se había convertido en el..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/09/dia-160-plan-de-lectura/"
 ---

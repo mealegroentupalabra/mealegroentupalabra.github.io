@@ -5,7 +5,7 @@ slug: "dia-178-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["alabanza", "biblia", "confianza", "Dios", "israel", "juicio", "justicia", "maldad", "oración"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/06/umit-bulut-qbtc7zwjb64-unsplash.jpg"
+image: "/assets/images/posts/umit-bulut-qbtc7zwjb64-unsplash.jpg"
 summary: "Salmos 74-77. Asaf se preguntaba por qué Dios había desechado a su pueblo y por qué estaba enojado con ellos, y le pidió a Dios que no se olvidara de su pueblo que rescató de..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/27/dia-178-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-221-plan-de-lectura"
 category: "Isaías"
 categories: ["Isaías", "La Biblia en un Año"]
 tags: ["biblia", "confianza", "Dios", "esperanza", "israel", "naciones", "promesa", "salvación"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2022/08/nathan-dumlao-kdxqbavebwi-unsplash.jpg"
+image: "/assets/images/posts/nathan-dumlao-kdxqbavebwi-unsplash.jpg"
 summary: "Isaías 54-58. Dios expresa palabras de amor para su pueblo: aunque por un tiempo breve les hubo repudiado por sus faltas, los recogería con grandes misericordias. Ya no tendrían..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/09/dia-221-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-255-plan-de-lectura"
 category: "Ezequiel"
 categories: ["Ezequiel", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "esperanza", "israel", "templo"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2023/09/levi-meir-clancy-bpj6pd4inbo-unsplash.jpg"
+image: "/assets/images/posts/levi-meir-clancy-bpj6pd4inbo-unsplash.jpg"
 summary: "Ezequiel 40-42. Dios llevó a Ezequiel en visiones a la tierra de Israel y lo puso sobre un monte muy alto, en el cual había un edificio parecido a una gran ciudad. Allí, un varón..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/12/dia-255-plan-de-lectura/"
 ---

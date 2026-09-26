@@ -5,7 +5,7 @@ slug: "dia-10-plan-de-lectura"
 category: "Génesis"
 categories: ["Génesis", "La Biblia en un Año"]
 tags: ["biblia", "fidelidad", "pacto", "promesa", "protección", "rivalidad"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/04/pexels-arthouse-studio-4335848.jpg"
+image: "/assets/images/posts/pexels-arthouse-studio-4335848.jpg"
 summary: "Génesis 30-31. Jacob llegó a la casa de Labán, el hermano de su madre, y allí trabajó para él por varios años para ganar sus dos esposas. De la misma manera que Jacob había..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/10/dia-10-plan-de-lectura/"
 ---

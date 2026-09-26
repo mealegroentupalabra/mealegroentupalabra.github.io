@@ -5,7 +5,7 @@ slug: "dia-28-plan-de-lectura"
 category: "Éxodo"
 categories: ["Éxodo", "La Biblia en un Año"]
 tags: ["biblia", "desierto", "juicio", "ley", "presencia", "sacerdotes", "tabernáculo", "templo"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/04/moises-872422_1280.jpg"
+image: "/assets/images/posts/moises-872422_1280.jpg"
 summary: "Éxodo 30-32. Dios dio instrucciones adicionales a Moisés en relación con el mobiliario del tabernáculo, el censo del pueblo, el aceite de la unción y el día de reposo. También,..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/28/dia-28-plan-de-lectura/"
 ---

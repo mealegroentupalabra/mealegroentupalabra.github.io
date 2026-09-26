@@ -5,7 +5,7 @@ slug: "dia-236-plan-de-lectura"
 category: "Jeremías"
 categories: ["Jeremías", "La Biblia en un Año"]
 tags: ["biblia", "confianza", "Dios", "israel", "judá", "juicio", "obediencia", "profecía"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2023/06/kyle-smith-siz66vf4fka-unsplash.jpg"
+image: "/assets/images/posts/kyle-smith-siz66vf4fka-unsplash.jpg"
 summary: "Jeremías 42-45. Todo el pueblo que estaba con Johanán en Gerut-quimam pidió a Jeremías que le preguntara a Dios qué debían hacer y se comprometieron a obedecer lo que Dios les..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/24/dia-236-plan-de-lectura/"
 ---

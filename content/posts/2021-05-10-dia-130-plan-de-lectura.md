@@ -5,7 +5,7 @@ slug: "dia-130-plan-de-lectura"
 category: "1 Crónicas"
 categories: ["1 Crónicas", "La Biblia en un Año"]
 tags: ["biblia", "israel", "reyes", "sacerdotes", "servicio", "templo", "trono"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/05/gold-163519_1280.jpg"
+image: "/assets/images/posts/gold-163519_1280.jpg"
 summary: "1 Crónicas 28-29. David reunió a los principales de Israel, los jefes de las tribus, los jefes de las divisiones militares, y otros jefes del ejército junto con los..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/10/dia-130-plan-de-lectura/"
 ---

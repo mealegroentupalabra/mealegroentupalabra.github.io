@@ -5,7 +5,7 @@ slug: "dia-24-plan-de-lectura"
 category: "Éxodo"
 categories: ["Éxodo", "La Biblia en un Año"]
 tags: ["biblia", "desierto", "ley", "pacto", "poder", "presencia", "victoria"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/04/moses-2628535_1280.jpg"
+image: "/assets/images/posts/moses-2628535_1280.jpg"
 summary: "Éxodo 19-21. Pasados tres meses de la salida de los israelitas de Egipto llegaron al desierto del Sinaí y acamparon allí. Dios le habló a Moisés desde el monte y le dio..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/24/dia-24-plan-de-lectura/"
 ---

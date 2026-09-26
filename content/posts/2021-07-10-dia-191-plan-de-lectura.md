@@ -5,7 +5,7 @@ slug: "dia-191-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["alabanza", "biblia", "confianza", "Dios", "fidelidad", "israel", "juicio", "justicia", "misericordia", "obediencia"]
-image: "https://mealegroentupalabra.wordpress.com/wp-content/uploads/2021/04/kingdom-6196975_1280.jpg"
+image: "/assets/images/posts/kingdom-6196975_1280.jpg"
 summary: "Salmos 133-139. Los dos últimos salmos graduales nos hablan de lo bueno que es que los hermanos habiten juntos y en armonía, e invitan a que los que guardan la casa del Señor por..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/10/dia-191-plan-de-lectura/"
 ---
