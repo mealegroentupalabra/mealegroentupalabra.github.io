@@ -956,6 +956,20 @@
         </div>
         <textarea id="postSummary" class="form-input" rows="3" placeholder="Breve introducción para tarjetas y redes sociales..." style="resize: vertical; font-size: 0.86rem;"></textarea>
       </div>
+
+      <!-- Featured Post Switch -->
+      <div class="form-group" style="margin-top: 0.25rem;">
+        <label style="display: flex; align-items: center; justify-content: space-between; cursor: pointer; background: var(--bg-body); padding: 0.65rem 0.85rem; border-radius: var(--radius-md); border: 1.5px solid var(--border-light); transition: border-color 0.2s ease;">
+          <span style="display: flex; align-items: center; gap: 0.5rem; font-weight: 600; font-size: 0.84rem; color: var(--text-main);">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--gold);"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            <span>Fijar como Destacado</span>
+          </span>
+          <input type="checkbox" id="postFeatured" style="width: 17px; height: 17px; accent-color: var(--primary); cursor: pointer;">
+        </label>
+        <span style="font-size: 0.72rem; color: var(--text-light); margin-top: 0.15rem; display: block;">
+          Aparece en el banner superior de la portada. Si ninguno se fija, se muestra el más reciente automáticamente.
+        </span>
+      </div>
     </aside>
 
     <!-- Main Canvas -->
@@ -1228,6 +1242,7 @@
 
       postSlug.addEventListener('input', markDirty);
       postSummary.addEventListener('input', () => { markDirty(); updatePreview(); });
+      document.getElementById('postFeatured').addEventListener('change', markDirty);
       postContent.addEventListener('input', () => {
         markDirty();
         updatePreview();
@@ -1633,10 +1648,12 @@
         list.forEach(item => {
           const el = document.createElement('div');
           el.className = `drawer-item ${currentFilename === item.filename ? 'current' : ''}`;
+          const featBadge = item.featured ? '<span style="background: rgba(217, 119, 6, 0.15); color: #d97706; padding: 0.12rem 0.45rem; border-radius: 999px; font-size: 0.68rem; font-weight: 700; border: 1px solid rgba(217, 119, 6, 0.3);">★ Destacado</span>' : '';
           el.innerHTML = `
             <div class="drawer-item-title">${item.title}</div>
             <div class="drawer-item-meta">
               <span class="category-badge" style="font-size: 0.7rem; padding: 0.15rem 0.5rem;">${item.category}</span>
+              ${featBadge}
               <span>•</span>
               <time>${item.date || ''}</time>
             </div>
@@ -1678,6 +1695,9 @@
           postSummary.value = post.summary || '';
           postContent.value = post.content || '';
 
+          // Set featured
+          document.getElementById('postFeatured').checked = Boolean(post.featured);
+
           // Set categories
           selectedCategories.clear();
           (post.categories || [post.category || 'Reflexiones']).forEach(c => selectedCategories.add(c));
@@ -1713,6 +1733,7 @@
         postSlug.value = '';
         postSummary.value = '';
         postContent.value = '';
+        document.getElementById('postFeatured').checked = false;
         selectedCategories.clear();
         selectedCategories.add('Reflexiones');
         updateCategoryState();
@@ -1745,6 +1766,7 @@
           slug: postSlug.value.trim() || generateSlug(title),
           categories: Array.from(selectedCategories),
           tags: Array.from(selectedTags),
+          featured: document.getElementById('postFeatured').checked,
           summary: postSummary.value.trim(),
           image: manualImageUrl.value.trim(),
           content: postContent.value

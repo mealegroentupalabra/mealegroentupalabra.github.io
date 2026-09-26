@@ -95,6 +95,9 @@ def get_all_posts():
                 if isinstance(tags, str):
                     tags = [t.strip() for t in tags.split(",") if t.strip()]
 
+                featured_val = fm.get("featured", False)
+                is_featured = bool(featured_val) and str(featured_val).lower() not in ("false", "0", "no")
+
                 posts.append({
                     "filename": fpath.name,
                     "title": title,
@@ -104,7 +107,8 @@ def get_all_posts():
                     "categories": categories,
                     "tags": tags,
                     "image": fm.get("image", ""),
-                    "summary": fm.get("summary", "")
+                    "summary": fm.get("summary", ""),
+                    "featured": is_featured
                 })
         except Exception:
             pass
@@ -134,6 +138,9 @@ def get_post_by_file(filename):
         if isinstance(tags, str):
             tags = [t.strip() for t in tags.split(",") if t.strip()]
 
+        featured_val = fm.get("featured", False)
+        is_featured = bool(featured_val) and str(featured_val).lower() not in ("false", "0", "no")
+
         return {
             "filename": clean_fn,
             "title": fm.get("title", ""),
@@ -144,6 +151,7 @@ def get_post_by_file(filename):
             "tags": tags,
             "image": fm.get("image", ""),
             "summary": fm.get("summary", ""),
+            "featured": is_featured,
             "content": body
         }
     return {
@@ -225,6 +233,19 @@ def save_post_data(data):
             fpath = POSTS_DIR / filename
         is_new = True
 
+    featured = bool(data.get("featured", False))
+    if featured:
+        # If this post is set as featured, unmark any other post
+        for other_path in POSTS_DIR.glob("*.md"):
+            if other_path.name != filename:
+                try:
+                    c = other_path.read_text(encoding="utf-8")
+                    if re.search(r'(?m)^featured:\s*(true|True|yes|1)', c):
+                        new_c = re.sub(r'(?m)^featured:\s*(true|True|yes|1)\s*\n?', '', c)
+                        other_path.write_text(new_c, encoding="utf-8")
+                except Exception:
+                    pass
+
     frontmatter = [
         "---",
         f'title: "{title.replace("\"", "\\\"")}"',
@@ -234,6 +255,9 @@ def save_post_data(data):
         f'categories: {json.dumps(categories, ensure_ascii=False)}',
         f'tags: {json.dumps(tags, ensure_ascii=False)}',
     ]
+
+    if featured:
+        frontmatter.append("featured: true")
 
     if image:
         frontmatter.append(f'image: "{image}"')

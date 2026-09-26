@@ -255,6 +255,9 @@ class SiteBuilder:
 
             image = fm.get("image", "")
 
+            featured_val = fm.get("featured", False)
+            is_featured = bool(featured_val) and str(featured_val).lower() not in ("false", "0", "no")
+
             reading_time = calculate_reading_time(plain_text)
             date_formatted = format_date_es(dt)
             date_rfc822 = format_date_rfc822(dt)
@@ -278,6 +281,7 @@ class SiteBuilder:
                 "day_number": day_number,
                 "tags": tags,
                 "image": image,
+                "featured": is_featured,
                 "summary": summary,
                 "content_html": content_html,
                 "plain_text": plain_text,
@@ -439,24 +443,40 @@ class SiteBuilder:
         # Render Home Page with Pagination
         index_tmpl = self.jinja_env.get_template("index.html")
         per_page = self.config.get("posts_per_page", 12)
+
+        # Determine featured post:
+        # 1. Search for any post explicitly marked with featured: True (newest first among them if multiple)
+        # 2. Fallback to posts[0] (most recent post)
+        explicit_featured = [p for p in posts if p.get("featured")]
+        if explicit_featured:
+            featured_post = explicit_featured[0]
+        else:
+            featured_post = posts[0] if posts else None
+
+        # Build grid_pool excluding the featured post so it does not appear duplicated in the regular grid
+        grid_pool = [p for p in posts if p["slug"] != featured_post["slug"]] if featured_post else list(posts)
+
+        first_page_count = (per_page - 1) if featured_post else per_page
+        remaining_after_p1 = max(0, len(grid_pool) - first_page_count)
+        total_pages = 1 + math.ceil(remaining_after_p1 / per_page) if remaining_after_p1 > 0 else 1
         total_posts = len(posts)
-        total_pages = max(1, math.ceil(total_posts / per_page))
 
         for page_num in range(1, total_pages + 1):
-            start_idx = (page_num - 1) * per_page
-            end_idx = start_idx + per_page
-            page_posts = posts[start_idx:end_idx]
-
-            featured_post = posts[0] if page_num == 1 and posts else None
-            # If on page 1, we show featured post + remaining posts for the page
-            grid_posts = page_posts[1:] if (page_num == 1 and featured_post) else page_posts
+            if page_num == 1:
+                page_featured = featured_post
+                grid_posts = grid_pool[:first_page_count]
+            else:
+                page_featured = None
+                start_idx = first_page_count + (page_num - 2) * per_page
+                end_idx = start_idx + per_page
+                grid_posts = grid_pool[start_idx:end_idx]
 
             prev_url = f"{self.config.get('base_path', '')}/" if page_num == 2 else f"{self.config.get('base_path', '')}/pagina/{page_num - 1}/"
             next_url = f"{self.config.get('base_path', '')}/pagina/{page_num + 1}/"
 
             html_out = index_tmpl.render(
                 posts=grid_posts,
-                featured_post=featured_post,
+                featured_post=page_featured,
                 page_num=page_num,
                 total_pages=total_pages,
                 total_posts=total_posts,
