@@ -21,7 +21,7 @@ from jinja2 import Environment, FileSystemLoader
 from markdown_it import MarkdownIt
 
 # Initialize Markdown parser
-md_parser = MarkdownIt("commonmark").enable("table").enable("strikethrough")
+md_parser = MarkdownIt("commonmark", {"breaks": True}).enable("table").enable("strikethrough")
 
 MESES_ES = [
     "", "enero", "febrero", "marzo", "abril", "mayo", "junio",
@@ -145,10 +145,7 @@ class SiteBuilder:
         return f"{base}/posts/{path}/"
 
     def render_content(self, body_text):
-        if body_text.strip().startswith("<") and "</" in body_text:
-            rendered = body_text
-        else:
-            rendered = md_parser.render(body_text)
+        rendered = md_parser.render(body_text)
 
         soup = BeautifulSoup(rendered, "html.parser")
 

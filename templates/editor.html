@@ -996,8 +996,8 @@
         </div>
 
         <div class="toolbar-group">
-          <button type="button" class="tb-btn" onclick="formatLine('- ')" title="Lista con viñetas">• List</button>
-          <button type="button" class="tb-btn" onclick="formatLine('1. ')" title="Lista numerada">1. List</button>
+          <button type="button" class="tb-btn" onclick="formatBulletList()" title="Lista con viñetas (selecciona texto o escribe">• List</button>
+          <button type="button" class="tb-btn" onclick="formatNumberedList()" title="Lista numerada (1, 2, 3...)">1. List</button>
         </div>
 
         <div class="toolbar-group">
@@ -1126,6 +1126,13 @@
   <script>
     (function () {
       'use strict';
+
+      if (window.marked) {
+        marked.setOptions({
+          breaks: true,
+          gfm: true
+        });
+      }
 
       // State
       let allArticles = [];
@@ -1502,6 +1509,148 @@
         postContent.focus();
         postContent.dispatchEvent(new Event('input'));
       };
+
+      window.formatNumberedList = function () {
+        const start = postContent.selectionStart;
+        const end = postContent.selectionEnd;
+        const val = postContent.value;
+
+        if (start !== end) {
+          const sel = val.substring(start, end);
+          const lines = sel.split('\n');
+          const isAlreadyNumbered = lines.every(l => /^\s*\d+\.\s+/.test(l));
+          
+          let newLines;
+          if (isAlreadyNumbered) {
+            newLines = lines.map(l => l.replace(/^\s*\d+\.\s+/, ''));
+          } else {
+            newLines = lines.map((l, idx) => {
+              const clean = l.replace(/^\s*([*\-+]|\d+\.)\s+/, '');
+              return `${idx + 1}. ${clean}`;
+            });
+          }
+          const replacement = newLines.join('\n');
+          postContent.setRangeText(replacement, start, end, 'select');
+        } else {
+          const lineStart = val.lastIndexOf('\n', start - 1) + 1;
+          let lineEnd = val.indexOf('\n', start);
+          if (lineEnd === -1) lineEnd = val.length;
+          const currentLine = val.substring(lineStart, lineEnd);
+
+          if (/^\s*\d+\.\s+/.test(currentLine)) {
+            const unnumbered = currentLine.replace(/^\s*\d+\.\s+/, '');
+            postContent.setRangeText(unnumbered, lineStart, lineEnd, 'end');
+          } else {
+            const clean = currentLine.replace(/^\s*([*\-+])\s+/, '');
+            const numbered = `1. ${clean}`;
+            postContent.setRangeText(numbered, lineStart, lineEnd, 'end');
+          }
+        }
+        postContent.focus();
+        postContent.dispatchEvent(new Event('input'));
+      };
+
+      window.formatBulletList = function () {
+        const start = postContent.selectionStart;
+        const end = postContent.selectionEnd;
+        const val = postContent.value;
+
+        if (start !== end) {
+          const sel = val.substring(start, end);
+          const lines = sel.split('\n');
+          const isAlreadyBulleted = lines.every(l => /^\s*-\s+/.test(l));
+
+          let newLines;
+          if (isAlreadyBulleted) {
+            newLines = lines.map(l => l.replace(/^\s*-\s+/, ''));
+          } else {
+            newLines = lines.map(l => {
+              const clean = l.replace(/^\s*([*\-+]|\d+\.)\s+/, '');
+              return `- ${clean}`;
+            });
+          }
+          const replacement = newLines.join('\n');
+          postContent.setRangeText(replacement, start, end, 'select');
+        } else {
+          const lineStart = val.lastIndexOf('\n', start - 1) + 1;
+          let lineEnd = val.indexOf('\n', start);
+          if (lineEnd === -1) lineEnd = val.length;
+          const currentLine = val.substring(lineStart, lineEnd);
+
+          if (/^\s*-\s+/.test(currentLine)) {
+            const unbulleted = currentLine.replace(/^\s*-\s+/, '');
+            postContent.setRangeText(unbulleted, lineStart, lineEnd, 'end');
+          } else {
+            const clean = currentLine.replace(/^\s*([*\-+])\s+/, '');
+            const bulleted = `- ${clean}`;
+            postContent.setRangeText(bulleted, lineStart, lineEnd, 'end');
+          }
+        }
+        postContent.focus();
+        postContent.dispatchEvent(new Event('input'));
+      };
+
+      // Smart Enter & Tab handling for lists in textarea
+      postContent.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') {
+          const start = this.selectionStart;
+          const val = this.value;
+          const lineStart = val.lastIndexOf('\n', start - 1) + 1;
+          const currentLine = val.substring(lineStart, start);
+
+          // Check for numbered list: e.g. "1. ", "2. "
+          const numMatch = currentLine.match(/^(\s*)(\d+)\.\s*(.*)$/);
+          if (numMatch) {
+            e.preventDefault();
+            const indent = numMatch[1];
+            const num = parseInt(numMatch[2], 10);
+            const textAfter = numMatch[3].trim();
+
+            if (!textAfter) {
+              // Line was just "1. " -> erase list marker and leave blank line
+              const before = val.substring(0, lineStart);
+              const after = val.substring(start);
+              this.value = before + after;
+              this.selectionStart = this.selectionEnd = lineStart;
+            } else {
+              // Insert next number e.g. "\n2. "
+              const nextMarker = `\n${indent}${num + 1}. `;
+              document.execCommand('insertText', false, nextMarker);
+            }
+            this.dispatchEvent(new Event('input'));
+            return;
+          }
+
+          // Check for bullet list: e.g. "- ", "* "
+          const bulletMatch = currentLine.match(/^(\s*)([-*])\s*(.*)$/);
+          if (bulletMatch) {
+            e.preventDefault();
+            const indent = bulletMatch[1];
+            const bullet = bulletMatch[2];
+            const textAfter = bulletMatch[3].trim();
+
+            if (!textAfter) {
+              // Line was just "- " -> erase list marker and leave blank line
+              const before = val.substring(0, lineStart);
+              const after = val.substring(start);
+              this.value = before + after;
+              this.selectionStart = this.selectionEnd = lineStart;
+            } else {
+              // Insert next bullet
+              const nextMarker = `\n${indent}${bullet} `;
+              document.execCommand('insertText', false, nextMarker);
+            }
+            this.dispatchEvent(new Event('input'));
+            return;
+          }
+        }
+
+        // Tab indentation
+        if (e.key === 'Tab') {
+          e.preventDefault();
+          document.execCommand('insertText', false, '  ');
+        }
+      });
 
       window.insertDivider = function () {
         insertSyntax('\n\n---\n\n', '');
