@@ -33,7 +33,7 @@
   <!-- Fonts & Stylesheet -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="/assets/css/style.css?v=aea6640f">
+  <link rel="stylesheet" href="/assets/css/style.css?v=9039fbcf">
 
   <!-- Google Analytics GA4 -->
   
@@ -554,7 +554,12 @@
     var refTagger = {
       settings: {
         bibleVersion: "RVR60",
+        bibleReader: "biblia",
         roundCorners: true,
+        tagChapters: true,
+        caseInsensitive: true,
+        linksOpenNewWindow: true,
+        observeAutomatically: true,
         socialSharing: [],
         customStyle: {
           heading: {
@@ -574,10 +579,16 @@
       var n = d.querySelector('[nonce]');
       refTagger.settings.nonce = n && (n.nonce || n.getAttribute('nonce'));
       var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
-      g.src = 'https://api.reftagger.com/v2/RefTagger.js';
+      g.src = 'https://api.reftagger.com/v2/RefTagger.es.js';
       g.nonce = refTagger.settings.nonce;
       s.parentNode.insertBefore(g, s);
     }(document, 'script'));
+
+    window.addEventListener('DOMContentLoaded', function() {
+      if (window.refTagger && typeof window.refTagger.tag === 'function') {
+        window.refTagger.tag();
+      }
+    });
   </script>
   
 

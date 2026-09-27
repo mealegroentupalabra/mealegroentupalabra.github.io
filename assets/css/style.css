@@ -920,12 +920,13 @@ img {
 
 /* Scripture Callout Card */
 .scripture-card, blockquote.scripture-quote {
+  display: flow-root;
+  box-sizing: border-box;
   background: var(--gold-bg);
   border-left: 4px solid var(--gold);
   border-radius: 0 var(--radius-md) var(--radius-md) 0;
   padding: 1.4rem 1.6rem;
   margin: 2rem 0;
-  position: relative;
 }
 
 .scripture-card blockquote {
@@ -951,7 +952,8 @@ img {
 blockquote,
 .post-content blockquote,
 .wp-block-quote {
-  position: relative;
+  display: flow-root;
+  box-sizing: border-box;
   background: var(--bg-subtle);
   border-left: 4px solid var(--primary);
   border-radius: 0 var(--radius-md) var(--radius-md) 0;
@@ -963,7 +965,6 @@ blockquote,
   line-height: 1.75;
   color: var(--text-main);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
-  box-sizing: border-box;
 }
 
 [data-theme="dark"] blockquote,
@@ -1269,14 +1270,18 @@ blockquote,
 }
 
 /* Alineación de imágenes y elementos multimedia dentro del cuerpo del artículo */
-.post-content figure {
+.post-content figure,
+.post-content .wp-block-image {
   margin: 0;
 }
 
-.post-content figure img {
+.post-content figure img,
+.post-content .wp-block-image img,
+.post-content img {
   display: block;
   width: 100%;
-  height: auto;
+  max-width: 100% !important;
+  height: auto !important;
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
 }
@@ -1295,6 +1300,8 @@ blockquote,
 .post-content img.alignright,
 .post-content figure.align-right,
 .post-content figure.alignright,
+.post-content .wp-block-image.alignright,
+.post-content .wp-block-image.align-right,
 .post-content figure.video-wrapper.align-right,
 .post-content .video-container.align-right {
   float: right;
@@ -1302,12 +1309,16 @@ blockquote,
   margin: 0.5rem 0 1.5rem 1.75rem;
   border-radius: var(--radius-md);
   clear: right;
+  position: relative;
+  z-index: 2;
 }
 
 .post-content img.align-left,
 .post-content img.alignleft,
 .post-content figure.align-left,
 .post-content figure.alignleft,
+.post-content .wp-block-image.alignleft,
+.post-content .wp-block-image.align-left,
 .post-content figure.video-wrapper.align-left,
 .post-content .video-container.align-left {
   float: left;
@@ -1315,12 +1326,16 @@ blockquote,
   margin: 0.5rem 1.75rem 1.5rem 0;
   border-radius: var(--radius-md);
   clear: left;
+  position: relative;
+  z-index: 2;
 }
 
 .post-content img.align-center,
 .post-content img.aligncenter,
 .post-content figure.align-center,
 .post-content figure.aligncenter,
+.post-content .wp-block-image.aligncenter,
+.post-content .wp-block-image.align-center,
 .post-content figure.video-wrapper.align-center,
 .post-content .video-container.align-center {
   display: block;
@@ -1381,6 +1396,10 @@ blockquote,
   .post-content figure.alignright,
   .post-content figure.align-left,
   .post-content figure.alignleft,
+  .post-content .wp-block-image.alignright,
+  .post-content .wp-block-image.align-right,
+  .post-content .wp-block-image.alignleft,
+  .post-content .wp-block-image.align-left,
   .post-content figure.video-wrapper.align-left,
   .post-content figure.video-wrapper.align-right,
   .post-content .video-container.align-left,
@@ -2156,5 +2175,38 @@ ul.wp-block-social-links {
 .wp-block-image.aligncenter img {
   display: block !important;
   margin: 0 auto !important;
+}
+
+/* Logos RefTagger Bible Links */
+.rtBibleRef {
+  color: var(--primary) !important;
+  text-decoration: underline !important;
+  text-decoration-color: var(--primary-light) !important;
+  text-underline-offset: 3px !important;
+  font-weight: 500 !important;
+  cursor: pointer !important;
+  transition: color 0.15s ease, text-decoration-color 0.15s ease !important;
+}
+
+.rtBibleRef:hover {
+  color: var(--gold) !important;
+  text-decoration-color: var(--gold) !important;
+}
+
+[data-theme="dark"] .rtBibleRef {
+  color: var(--primary-light) !important;
+  text-decoration-color: rgba(96, 165, 250, 0.4) !important;
+}
+
+[data-theme="dark"] .rtBibleRef:hover {
+  color: var(--gold-light) !important;
+  text-decoration-color: var(--gold-light) !important;
+}
+
+cite .rtBibleRef,
+.scripture-cite .rtBibleRef,
+.pull-quote-cite .rtBibleRef {
+  color: inherit !important;
+  font-weight: inherit !important;
 }
 
