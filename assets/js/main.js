@@ -235,24 +235,27 @@
 
   // --- Pull Quotes Social Sharing ---
   function initPullQuoteSharing(root = document) {
-    const pullQuotes = root.querySelectorAll('.pull-quote');
-    if (!pullQuotes.length) return;
+    const quotes = root.querySelectorAll('.pull-quote, .post-content blockquote:not(.scripture-card blockquote), .post-content .wp-block-quote');
+    if (!quotes.length) return;
 
     const pageUrl = window.location.href;
-    const pageTitle = document.title ? document.title.split('—')[0].trim() : 'Me Alegro En Tu Palabra';
+    const pageTitle = (typeof postTitle !== 'undefined' && postTitle && postTitle.value && postTitle.value.trim())
+      || (document.title ? document.title.split('—')[0].trim() : 'Me Alegro En Tu Palabra');
 
-    pullQuotes.forEach(quoteEl => {
+    quotes.forEach(quoteEl => {
       if (quoteEl.querySelector('.quote-share-bar')) return;
 
-      const citeEl = quoteEl.querySelector('cite, .pull-quote-cite');
-      const citeText = citeEl ? citeEl.innerText.trim() : '';
+      const citeEl = quoteEl.querySelector('cite, .pull-quote-cite, .scripture-cite');
+      const citeText = citeEl ? citeEl.textContent.trim() : '';
 
-      // Get text excluding cite
+      // Get text excluding cite and existing bars
       let clone = quoteEl.cloneNode(true);
-      let cloneCite = clone.querySelector('cite, .pull-quote-cite');
+      let cloneCite = clone.querySelector('cite, .pull-quote-cite, .scripture-cite');
       if (cloneCite) cloneCite.remove();
-      let rawText = clone.innerText.trim().replace(/^«|»$/g, '').trim();
+      let cloneBar = clone.querySelector('.quote-share-bar');
+      if (cloneBar) cloneBar.remove();
 
+      let rawText = (clone.textContent || '').trim().replace(/^«|»$/g, '').trim();
       if (!rawText) return;
 
       // Friendly formatted text for social sharing
@@ -267,7 +270,7 @@
       const bar = document.createElement('div');
       bar.className = 'quote-share-bar';
       bar.innerHTML = `
-        <span class="quote-share-label">Compartir:</span>
+        <span class="quote-share-label">Compartir</span>
         <div class="quote-share-actions">
           <a href="${twUrl}" target="_blank" rel="noopener nofollow" class="quote-share-btn twitter" title="Compartir en X / Twitter" aria-label="Compartir en X">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
@@ -310,7 +313,7 @@
   }
 
   // --- Global Event Attachments ---
-  document.addEventListener('DOMContentLoaded', () => {
+  function initAll() {
     initTheme();
     initMobileMenu();
     initReadingProgress();
@@ -321,7 +324,13 @@
     document.querySelectorAll('.theme-toggle-btn').forEach(btn => {
       btn.addEventListener('click', toggleTheme);
     });
-  });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initAll);
+  } else {
+    initAll();
+  }
 
   // Listen for OS theme changes
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
