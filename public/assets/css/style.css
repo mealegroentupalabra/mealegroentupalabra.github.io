@@ -1064,6 +1064,109 @@ blockquote {
   text-align: center;
 }
 
+/* Quote Social Sharing Bar */
+.quote-share-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding-top: 0.65rem;
+  border-top: 1px dashed var(--border-light);
+  font-family: var(--font-sans);
+  font-style: normal;
+  font-size: 0.75rem;
+  opacity: 0.95;
+  clear: both;
+}
+
+.pull-quote.align-left .quote-share-bar,
+.pull-quote.alignleft .quote-share-bar {
+  justify-content: flex-start;
+}
+
+.pull-quote.align-center .quote-share-bar,
+.pull-quote.aligncenter .quote-share-bar {
+  justify-content: center;
+}
+
+.quote-share-label {
+  color: var(--text-light);
+  font-size: 0.72rem;
+  font-weight: 500;
+  margin-right: 0.2rem;
+}
+
+.quote-share-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.quote-share-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  padding: 0;
+}
+
+.quote-share-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+.quote-share-btn.twitter:hover {
+  background: #000000;
+  border-color: #000000;
+  color: #ffffff;
+}
+
+[data-theme="dark"] .quote-share-btn.twitter:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+  color: #000000;
+}
+
+.quote-share-btn.whatsapp:hover {
+  background: #25d366;
+  border-color: #25d366;
+  color: #ffffff;
+}
+
+.quote-share-btn.facebook:hover {
+  background: #1877f2;
+  border-color: #1877f2;
+  color: #ffffff;
+}
+
+.quote-share-btn.copy:hover {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #ffffff;
+}
+
+.quote-share-btn.copy.copied {
+  background: #16a34a !important;
+  border-color: #16a34a !important;
+  color: #ffffff !important;
+}
+
+@media print {
+  .quote-share-bar {
+    display: none !important;
+  }
+}
+
 /* Alineación de imágenes dentro del cuerpo del artículo */
 .post-content img.align-right,
 .post-content figure.align-right {

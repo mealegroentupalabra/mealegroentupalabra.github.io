@@ -204,12 +204,12 @@ def save_post_data(data):
 
     filename = data.get("filename", "").strip()
     now = datetime.now()
+    existing_fm = {}
 
     if filename and (POSTS_DIR / filename).exists():
         # Updating existing post
         fpath = POSTS_DIR / filename
         # Read existing date if available
-        existing_fm = {}
         try:
             raw_c = fpath.read_text(encoding="utf-8")
             parts = raw_c.split("---", 2)
@@ -218,13 +218,34 @@ def save_post_data(data):
         except Exception:
             pass
 
-        date_str = str(existing_fm.get("date")) if existing_fm.get("date") else now.strftime("%Y-%m-%d %H:%M:%S")
+        custom_date = str(data.get("date", "")).strip()
+        if custom_date:
+            date_str = custom_date.replace("T", " ")
+            if len(date_str) == 10:
+                date_str += " 12:00:00"
+            elif len(date_str) == 16:
+                date_str += ":00"
+        elif existing_fm.get("date"):
+            date_str = str(existing_fm.get("date"))
+        else:
+            date_str = now.strftime("%Y-%m-%d %H:%M:%S")
+
         slug = existing_fm.get("slug") or data.get("slug") or slugify(title)
         is_new = False
     else:
         # Creating brand new post
-        date_str = now.strftime("%Y-%m-%d %H:%M:%S")
-        date_prefix = now.strftime("%Y-%m-%d")
+        custom_date = str(data.get("date", "")).strip()
+        if custom_date:
+            date_str = custom_date.replace("T", " ")
+            if len(date_str) == 10:
+                date_str += " 12:00:00"
+            elif len(date_str) == 16:
+                date_str += ":00"
+            date_prefix = date_str[:10]
+        else:
+            date_str = now.strftime("%Y-%m-%d %H:%M:%S")
+            date_prefix = now.strftime("%Y-%m-%d")
+
         slug = data.get("slug") or slugify(title)
         filename = f"{date_prefix}-{slug}.md"
         fpath = POSTS_DIR / filename

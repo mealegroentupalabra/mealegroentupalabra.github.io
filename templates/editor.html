@@ -609,6 +609,8 @@
       border-right: 1px solid var(--editor-border);
       display: flex;
       flex-direction: column;
+      overflow: hidden;
+      background: var(--editor-surface);
     }
 
     .content-textarea {
@@ -623,6 +625,25 @@
       line-height: 1.75;
       background: var(--editor-surface);
       color: var(--text-main);
+      overflow-y: auto;
+    }
+
+    .editor-bottom-bar {
+      height: 32px;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0 1.25rem;
+      background: var(--editor-surface);
+      border-top: 1px solid var(--editor-border);
+      font-size: 0.74rem;
+      color: var(--text-muted);
+      flex-shrink: 0;
+      user-select: none;
+    }
+
+    .editor-stat-dot {
+      opacity: 0.4;
     }
 
     .preview-pane {
@@ -896,6 +917,18 @@
         <input type="text" id="postSlug" class="form-input" placeholder="la-paz-que-sobrepasa-todo-entendimiento">
       </div>
 
+      <!-- Publication Date -->
+      <div class="form-group">
+        <div class="form-label">
+          <label for="postDate" style="cursor: pointer;"><span>Fecha de Publicación *</span></label>
+          <button type="button" id="setDateNowBtn" style="background: transparent; border: none; color: var(--primary); font-size: 0.74rem; font-weight: 600; cursor: pointer;">Establecer Hoy</button>
+        </div>
+        <input type="datetime-local" id="postDate" class="form-input" style="font-size: 0.86rem;">
+        <span style="font-size: 0.72rem; color: var(--text-muted); margin-top: 0.25rem; display: block;">
+          Permite fijar fechas del 2021 para el plan de lectura o programar publicaciones.
+        </span>
+      </div>
+
       <!-- Categories Multi-Selector -->
       <div class="form-group">
         <label class="form-label">
@@ -989,53 +1022,58 @@
 
     <!-- Main Canvas -->
     <main class="studio-main-canvas">
-      <!-- Rich Text Formatting Toolbar -->
-      <div class="rich-toolbar">
-        <div class="toolbar-group">
-          <button type="button" class="tb-btn" onclick="formatText('**', '**')" title="Negrita (Ctrl+B)"><strong>B</strong></button>
-          <button type="button" class="tb-btn" onclick="formatText('*', '*')" title="Cursiva (Ctrl+I)"><em>I</em></button>
-          <button type="button" class="tb-btn" onclick="formatText('<u>', '</u>')" title="Subrayado"><u>U</u></button>
-          <button type="button" class="tb-btn" onclick="formatText('~~', '~~')" title="Tachado"><del>S</del></button>
-        </div>
-
-        <div class="toolbar-group">
-          <button type="button" class="tb-btn" onclick="formatLine('## ')" title="Encabezado 2">H2</button>
-          <button type="button" class="tb-btn" onclick="formatLine('### ')" title="Encabezado 3">H3</button>
-          <button type="button" class="tb-btn" onclick="formatLine('> ')" title="Cita normal">❝</button>
-        </div>
-
-        <div class="toolbar-group">
-          <button type="button" class="tb-btn special-scripture" onclick="openScriptureModal()" title="Insertar tarjeta sagrada de Versículo Bíblico">
-            <span>📖 Cita Bíblica</span>
-          </button>
-          <button type="button" class="tb-btn special-pullquote" onclick="openPullQuoteModal()" title="Resaltar porción o cita del artículo (alineada a derecha, izquierda o centro)">
-            <span>💬 Cita Destacada</span>
-          </button>
-        </div>
-
-        <div class="toolbar-group">
-          <button type="button" class="tb-btn" onclick="formatBulletList()" title="Lista con viñetas (selecciona texto o escribe">• List</button>
-          <button type="button" class="tb-btn" onclick="formatNumberedList()" title="Lista numerada (1, 2, 3...)">1. List</button>
-        </div>
-
-        <div class="toolbar-group">
-          <button type="button" class="tb-btn" onclick="openLinkModal()" title="Insertar enlace">🔗</button>
-          <button type="button" class="tb-btn" onclick="triggerBodyImageUpload()" title="Subir e insertar imagen en el contenido">🖼️</button>
-          <input type="file" id="bodyImageFileInput" accept="image/*" style="display: none;">
-          <button type="button" class="tb-btn" onclick="insertSyntax('```\\n', '\\n```')" title="Bloque de código">&lt;/&gt;</button>
-          <button type="button" class="tb-btn" onclick="insertDivider()" title="Línea divisoria">―</button>
-        </div>
-
-        <div style="margin-left: auto; display: flex; align-items: center; gap: 0.35rem;">
-          <span style="font-size: 0.76rem; color: var(--text-light);">Editor enriquecido</span>
-        </div>
-      </div>
-
       <!-- Workspaces View (Split / Full Editor / Preview / Card) -->
       <div class="canvas-workspaces">
-        <!-- Editor Pane -->
+        <!-- Editor Pane (With dedicated docked toolbar and stats) -->
         <div class="workspace-pane editor-pane" id="editorPane">
+          <!-- Rich Text Formatting Toolbar (Docked permanently on Editor) -->
+          <div class="rich-toolbar">
+            <div class="toolbar-group">
+              <button type="button" class="tb-btn" onclick="formatText('**', '**')" title="Negrita (Ctrl+B)"><strong>B</strong></button>
+              <button type="button" class="tb-btn" onclick="formatText('*', '*')" title="Cursiva (Ctrl+I)"><em>I</em></button>
+              <button type="button" class="tb-btn" onclick="formatText('<u>', '</u>')" title="Subrayado"><u>U</u></button>
+              <button type="button" class="tb-btn" onclick="formatText('~~', '~~')" title="Tachado"><del>S</del></button>
+            </div>
+
+            <div class="toolbar-group">
+              <button type="button" class="tb-btn" onclick="formatLine('## ')" title="Encabezado 2">H2</button>
+              <button type="button" class="tb-btn" onclick="formatLine('### ')" title="Encabezado 3">H3</button>
+              <button type="button" class="tb-btn" onclick="formatLine('> ')" title="Cita normal">❝</button>
+            </div>
+
+            <div class="toolbar-group">
+              <button type="button" class="tb-btn special-scripture" onclick="openScriptureModal()" title="Insertar tarjeta sagrada de Versículo Bíblico">
+                <span>📖 Cita Bíblica</span>
+              </button>
+              <button type="button" class="tb-btn special-pullquote" onclick="openPullQuoteModal()" title="Resaltar porción o cita del artículo (con botones para compartir)">
+                <span>💬 Cita Destacada</span>
+              </button>
+            </div>
+
+            <div class="toolbar-group">
+              <button type="button" class="tb-btn" onclick="formatBulletList()" title="Lista con viñetas">• Lista</button>
+              <button type="button" class="tb-btn" onclick="formatNumberedList()" title="Lista numerada">1. Lista</button>
+            </div>
+
+            <div class="toolbar-group">
+              <button type="button" class="tb-btn" onclick="openLinkModal()" title="Insertar enlace">🔗</button>
+              <button type="button" class="tb-btn" onclick="triggerBodyImageUpload()" title="Subir e insertar imagen en el contenido">🖼️</button>
+              <input type="file" id="bodyImageFileInput" accept="image/*" style="display: none;">
+              <button type="button" class="tb-btn" onclick="insertSyntax('```\\n', '\\n```')" title="Bloque de código">&lt;/&gt;</button>
+              <button type="button" class="tb-btn" onclick="insertDivider()" title="Línea divisoria">―</button>
+            </div>
+          </div>
+
           <textarea id="postContent" class="content-textarea" placeholder="Escribe aquí tu reflexión o estudio bíblico... Puedes usar Markdown, HTML y las herramientas superiores."></textarea>
+
+          <!-- Bottom Editor Status Bar -->
+          <div class="editor-bottom-bar" id="editorBottomBar">
+            <div class="editor-stat-item"><span id="wordCountLabel">0</span> palabras</div>
+            <div class="editor-stat-dot">•</div>
+            <div class="editor-stat-item"><span id="charCountLabel">0</span> caracteres</div>
+            <div class="editor-stat-dot">•</div>
+            <div class="editor-stat-item">⏱️ <span id="readingTimeLabel">1 min</span> de lectura</div>
+          </div>
         </div>
 
         <!-- Preview Pane -->
@@ -1210,6 +1248,8 @@
       // DOM Elements
       const postTitle = document.getElementById('postTitle');
       const postSlug = document.getElementById('postSlug');
+      const postDate = document.getElementById('postDate');
+      const setDateNowBtn = document.getElementById('setDateNowBtn');
       const postSummary = document.getElementById('postSummary');
       const postContent = document.getElementById('postContent');
       const manualImageUrl = document.getElementById('manualImageUrl');
@@ -1218,6 +1258,36 @@
       const statsPill = document.getElementById('statsPill');
       const viewLiveLink = document.getElementById('viewLiveLink');
       const saveBtn = document.getElementById('saveBtn');
+
+      // Date formatting helpers
+      function formatForDateTimeInput(dateStr) {
+        if (!dateStr) return '';
+        const s = String(dateStr).trim().replace(' ', 'T');
+        return s.substring(0, 16);
+      }
+
+      function getCurrentDateTimeLocal() {
+        const now = new Date();
+        const pad = (n) => String(n).padStart(2, '0');
+        return `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}T${pad(now.getHours())}:${pad(now.getMinutes())}`;
+      }
+
+      function formatFriendlyDate(dateStr) {
+        if (!dateStr) return 'Hoy';
+        try {
+          const d = new Date(dateStr.replace(' ', 'T'));
+          if (isNaN(d.getTime())) return dateStr;
+          const months = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'];
+          return `${d.getDate()} de ${months[d.getMonth()]} de ${d.getFullYear()}`;
+        } catch (e) {
+          return dateStr;
+        }
+      }
+
+      // Initialize default date
+      if (postDate && !postDate.value) {
+        postDate.value = getCurrentDateTimeLocal();
+      }
 
       // Theme toggle
       const themeToggleBtn = document.getElementById('themeToggleBtn');
@@ -1312,6 +1382,20 @@
       });
 
       postSlug.addEventListener('input', markDirty);
+      if (setDateNowBtn) {
+        setDateNowBtn.addEventListener('click', () => {
+          postDate.value = getCurrentDateTimeLocal();
+          markDirty();
+          updatePreview();
+          showToast('Fecha establecida a hoy');
+        });
+      }
+      if (postDate) {
+        postDate.addEventListener('input', () => {
+          markDirty();
+          updatePreview();
+        });
+      }
       postSummary.addEventListener('input', () => { markDirty(); updatePreview(); });
       document.getElementById('postFeatured').addEventListener('change', markDirty);
       postContent.addEventListener('input', () => {
@@ -1789,6 +1873,76 @@
         }
       };
 
+      // Pull Quotes Social Sharing Bar Generator
+      function initPullQuoteSharing(root = document) {
+        const pullQuotes = root.querySelectorAll('.pull-quote');
+        if (!pullQuotes.length) return;
+
+        const pageUrl = window.location.href;
+        const pageTitle = (postTitle && postTitle.value.trim()) || document.title.split('—')[0].trim();
+
+        pullQuotes.forEach(quoteEl => {
+          if (quoteEl.querySelector('.quote-share-bar')) return;
+
+          const citeEl = quoteEl.querySelector('cite, .pull-quote-cite');
+          const citeText = citeEl ? citeEl.innerText.trim() : '';
+
+          let clone = quoteEl.cloneNode(true);
+          let cloneCite = clone.querySelector('cite, .pull-quote-cite');
+          if (cloneCite) cloneCite.remove();
+          let rawText = clone.innerText.trim().replace(/^«|»$/g, '').trim();
+          if (!rawText) return;
+
+          const quoteWithCite = citeText ? `«${rawText}» (${citeText})` : `«${rawText}»`;
+          const encodedUrl = encodeURIComponent(pageUrl);
+          const waUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(quoteWithCite + '\n\n' + pageUrl)}`;
+          const twUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(quoteWithCite)}&url=${encodedUrl}`;
+          const fbUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}&quote=${encodeURIComponent(quoteWithCite)}`;
+
+          const bar = document.createElement('div');
+          bar.className = 'quote-share-bar';
+          bar.innerHTML = `
+            <span class="quote-share-label">Compartir:</span>
+            <div class="quote-share-actions">
+              <a href="${twUrl}" target="_blank" rel="noopener nofollow" class="quote-share-btn twitter" title="Compartir en X / Twitter" aria-label="Compartir en X">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              </a>
+              <a href="${waUrl}" target="_blank" rel="noopener nofollow" class="quote-share-btn whatsapp" title="Compartir en WhatsApp" aria-label="Compartir en WhatsApp">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.301-.15-1.78-.879-2.056-.98-.276-.1-.477-.15-.678.15-.2.301-.778.98-.954 1.18-.175.201-.351.226-.652.075-.301-.15-1.272-.469-2.423-1.496-.896-.799-1.501-1.786-1.677-2.087-.175-.301-.019-.464.132-.614.136-.135.301-.351.452-.527.15-.175.201-.3.301-.5.101-.201.05-.376-.025-.526-.075-.15-.678-1.631-.929-2.233-.244-.586-.492-.507-.678-.516-.176-.008-.376-.01-.577-.01s-.527.075-.803.376c-.276.301-1.054 1.029-1.054 2.508 0 1.479 1.079 2.908 1.229 3.109.15.201 2.124 3.243 5.145 4.549.718.311 1.279.497 1.716.636.721.23 1.377.197 1.895.12.577-.086 1.78-.727 2.031-1.429.251-.702.251-1.304.176-1.429-.076-.125-.276-.201-.577-.351zM12 2C6.477 2 2 6.477 2 12c0 1.891.524 3.662 1.435 5.176L2 22l4.981-1.396A9.957 9.957 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+              </a>
+              <a href="${fbUrl}" target="_blank" rel="noopener nofollow" class="quote-share-btn facebook" title="Compartir en Facebook" aria-label="Compartir en Facebook">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z"/></svg>
+              </a>
+              <button type="button" class="quote-share-btn copy" title="Copiar cita en formato amigable" aria-label="Copiar cita">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          `;
+
+          const copyBtn = bar.querySelector('.quote-share-btn.copy');
+          if (copyBtn) {
+            copyBtn.addEventListener('click', async (e) => {
+              e.preventDefault();
+              const copyText = `${quoteWithCite}\n\n${pageTitle}\n${pageUrl}`;
+              try {
+                await navigator.clipboard.writeText(copyText);
+                copyBtn.classList.add('copied');
+                copyBtn.innerHTML = `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
+                showToast('✓ Cita copiada en formato amigable');
+                setTimeout(() => {
+                  copyBtn.classList.remove('copied');
+                  copyBtn.innerHTML = `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>`;
+                }, 2500);
+              } catch (err) {
+                showToast('No se pudo copiar');
+              }
+            });
+          }
+
+          quoteEl.appendChild(bar);
+        });
+      }
+
       // Update Live Preview & Stats
       function updatePreview() {
         const title = postTitle.value.trim() || 'Título del Artículo';
@@ -1796,14 +1950,23 @@
         const summary = postSummary.value.trim() || (content.slice(0, 160) + '...');
         const imgUrl = manualImageUrl.value.trim();
 
-        // Stats
+        // Stats calculation
         const words = (content.trim().match(/\S+/g) || []).length;
+        const chars = content.length;
         const readTime = Math.max(1, Math.ceil(words / 200));
         statsPill.textContent = `${words} palabras • ~${readTime} min`;
 
+        const wordCountLabel = document.getElementById('wordCountLabel');
+        const charCountLabel = document.getElementById('charCountLabel');
+        const readingTimeLabel = document.getElementById('readingTimeLabel');
+        if (wordCountLabel) wordCountLabel.textContent = words.toLocaleString();
+        if (charCountLabel) charCountLabel.textContent = chars.toLocaleString();
+        if (readingTimeLabel) readingTimeLabel.textContent = `${readTime} min`;
+
         // Full Preview
         document.getElementById('previewTitle').textContent = title;
-        document.getElementById('previewDateReading').textContent = `Hoy • ${readTime} min de lectura`;
+        const displayDate = postDate && postDate.value ? formatFriendlyDate(postDate.value) : 'Hoy';
+        document.getElementById('previewDateReading').textContent = `${displayDate} • ${readTime} min de lectura`;
 
         const previewImgWrapper = document.getElementById('previewImageWrapper');
         if (imgUrl) {
@@ -1823,11 +1986,15 @@
         });
 
         // Render Markdown content
+        const renderedEl = document.getElementById('renderedPostContent');
         if (window.marked) {
-          document.getElementById('renderedPostContent').innerHTML = marked.parse(content);
+          renderedEl.innerHTML = marked.parse(content);
         } else {
-          document.getElementById('renderedPostContent').innerText = content;
+          renderedEl.innerText = content;
         }
+
+        // Initialize social sharing buttons on pull quotes in preview!
+        initPullQuoteSharing(renderedEl);
 
         // Card Preview
         document.getElementById('cardTitleLink').textContent = title;
@@ -1940,6 +2107,7 @@
           currentEditingBadge.textContent = `Editando: ${post.title}`;
           postTitle.value = post.title || '';
           postSlug.value = post.slug || '';
+          postDate.value = formatForDateTimeInput(post.date) || getCurrentDateTimeLocal();
           postSummary.value = post.summary || '';
           postContent.value = post.content || '';
 
@@ -1980,6 +2148,7 @@
         currentEditingBadge.textContent = 'Nuevo Artículo (Borrador)';
         postTitle.value = '';
         postSlug.value = '';
+        postDate.value = getCurrentDateTimeLocal();
         postSummary.value = '';
         postContent.value = '';
         document.getElementById('postFeatured').checked = false;
@@ -2013,6 +2182,7 @@
           filename: currentFilename || '',
           original_url: currentOriginalUrl || '',
           title: title,
+          date: postDate ? postDate.value.trim() : '',
           slug: postSlug.value.trim() || generateSlug(title),
           categories: Array.from(selectedCategories),
           tags: Array.from(selectedTags),

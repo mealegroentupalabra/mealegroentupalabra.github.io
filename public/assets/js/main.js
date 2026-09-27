@@ -233,6 +233,82 @@
     });
   }
 
+  // --- Pull Quotes Social Sharing ---
+  function initPullQuoteSharing(root = document) {
+    const pullQuotes = root.querySelectorAll('.pull-quote');
+    if (!pullQuotes.length) return;
+
+    const pageUrl = window.location.href;
+    const pageTitle = document.title ? document.title.split('—')[0].trim() : 'Me Alegro En Tu Palabra';
+
+    pullQuotes.forEach(quoteEl => {
+      if (quoteEl.querySelector('.quote-share-bar')) return;
+
+      const citeEl = quoteEl.querySelector('cite, .pull-quote-cite');
+      const citeText = citeEl ? citeEl.innerText.trim() : '';
+
+      // Get text excluding cite
+      let clone = quoteEl.cloneNode(true);
+      let cloneCite = clone.querySelector('cite, .pull-quote-cite');
+      if (cloneCite) cloneCite.remove();
+      let rawText = clone.innerText.trim().replace(/^«|»$/g, '').trim();
+
+      if (!rawText) return;
+
+      // Friendly formatted text for social sharing
+      const quoteWithCite = citeText ? `«${rawText}» (${citeText})` : `«${rawText}»`;
+
+      // Build sharing URLs
+      const encodedUrl = encodeURIComponent(pageUrl);
+      const waUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(quoteWithCite + '\n\n' + pageUrl)}`;
+      const twUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(quoteWithCite)}&url=${encodedUrl}`;
+      const fbUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}&quote=${encodeURIComponent(quoteWithCite)}`;
+
+      const bar = document.createElement('div');
+      bar.className = 'quote-share-bar';
+      bar.innerHTML = `
+        <span class="quote-share-label">Compartir:</span>
+        <div class="quote-share-actions">
+          <a href="${twUrl}" target="_blank" rel="noopener nofollow" class="quote-share-btn twitter" title="Compartir en X / Twitter" aria-label="Compartir en X">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="${waUrl}" target="_blank" rel="noopener nofollow" class="quote-share-btn whatsapp" title="Compartir en WhatsApp" aria-label="Compartir en WhatsApp">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.301-.15-1.78-.879-2.056-.98-.276-.1-.477-.15-.678.15-.2.301-.778.98-.954 1.18-.175.201-.351.226-.652.075-.301-.15-1.272-.469-2.423-1.496-.896-.799-1.501-1.786-1.677-2.087-.175-.301-.019-.464.132-.614.136-.135.301-.351.452-.527.15-.175.201-.3.301-.5.101-.201.05-.376-.025-.526-.075-.15-.678-1.631-.929-2.233-.244-.586-.492-.507-.678-.516-.176-.008-.376-.01-.577-.01s-.527.075-.803.376c-.276.301-1.054 1.029-1.054 2.508 0 1.479 1.079 2.908 1.229 3.109.15.201 2.124 3.243 5.145 4.549.718.311 1.279.497 1.716.636.721.23 1.377.197 1.895.12.577-.086 1.78-.727 2.031-1.429.251-.702.251-1.304.176-1.429-.076-.125-.276-.201-.577-.351zM12 2C6.477 2 2 6.477 2 12c0 1.891.524 3.662 1.435 5.176L2 22l4.981-1.396A9.957 9.957 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+          </a>
+          <a href="${fbUrl}" target="_blank" rel="noopener nofollow" class="quote-share-btn facebook" title="Compartir en Facebook" aria-label="Compartir en Facebook">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z"/></svg>
+          </a>
+          <button type="button" class="quote-share-btn copy" title="Copiar cita en formato amigable" aria-label="Copiar cita">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+          </button>
+        </div>
+      `;
+
+      const copyBtn = bar.querySelector('.quote-share-btn.copy');
+      if (copyBtn) {
+        copyBtn.addEventListener('click', async (e) => {
+          e.preventDefault();
+          const copyText = `${quoteWithCite}\n\n${pageTitle}\n${pageUrl}`;
+          try {
+            await navigator.clipboard.writeText(copyText);
+            copyBtn.classList.add('copied');
+            copyBtn.innerHTML = `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
+            showToast('✓ Cita copiada en formato amigable');
+            setTimeout(() => {
+              copyBtn.classList.remove('copied');
+              copyBtn.innerHTML = `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>`;
+            }, 2500);
+            if (typeof gtag === 'function') gtag('event', 'share', { method: 'copy_quote' });
+          } catch (err) {
+            showToast('No se pudo copiar');
+          }
+        });
+      }
+
+      quoteEl.appendChild(bar);
+    });
+  }
+
   // --- Global Event Attachments ---
   document.addEventListener('DOMContentLoaded', () => {
     initTheme();
@@ -240,6 +316,7 @@
     initReadingProgress();
     initShareButtons();
     initSortControls();
+    initPullQuoteSharing();
 
     document.querySelectorAll('.theme-toggle-btn').forEach(btn => {
       btn.addEventListener('click', toggleTheme);
@@ -256,6 +333,7 @@
   // Expose global helpers
   window.maetp = {
     showToast,
-    toggleTheme
+    toggleTheme,
+    initPullQuoteSharing
   };
 })();
