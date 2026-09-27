@@ -235,7 +235,7 @@
 
   // --- Pull Quotes Social Sharing ---
   function initPullQuoteSharing(root = document) {
-    const quotes = root.querySelectorAll('.pull-quote, .post-content blockquote:not(.scripture-card blockquote), .post-content .wp-block-quote');
+    const quotes = root.querySelectorAll('.with-share, [data-share="true"]');
     if (!quotes.length) return;
 
     const pageUrl = window.location.href;

@@ -1233,6 +1233,12 @@
         <label class="form-label" for="scriptureCite">Referencia / Cita</label>
         <input type="text" id="scriptureCite" class="form-input" placeholder="Ej: Salmo 119:105 (RVR1960)">
       </div>
+      <div class="form-group" style="margin-top: 0.75rem;">
+        <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer; font-size: 0.85rem; font-weight: 500; color: var(--text-main);">
+          <input type="checkbox" id="scriptureIncludeShare" style="width: 16px; height: 16px; accent-color: var(--primary);">
+          <span>Incluir botones para compartir en redes sociales</span>
+        </label>
+      </div>
       <div class="modal-actions">
         <button type="button" class="btn-drawer-toggle" onclick="closeScriptureModal()">Cancelar</button>
         <button type="button" class="btn-studio-save" onclick="confirmInsertScripture()">Insertar Cita</button>
@@ -1276,6 +1282,13 @@
       <div class="form-group">
         <label class="form-label" for="pullQuoteCite">Etiqueta o referencia (opcional)</label>
         <input type="text" id="pullQuoteCite" class="form-input" placeholder="Ej: Idea Clave, Reflexión, o déjalo vacío">
+      </div>
+
+      <div class="form-group" style="margin-top: 0.75rem;">
+        <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer; font-size: 0.85rem; font-weight: 500; color: var(--text-main);">
+          <input type="checkbox" id="pullQuoteIncludeShare" style="width: 16px; height: 16px; accent-color: var(--primary);">
+          <span>Incluir botones para compartir en redes sociales</span>
+        </label>
       </div>
 
       <div class="modal-actions">
@@ -2152,16 +2165,23 @@
 
       // Scripture Modal
       const scriptureModal = document.getElementById('scriptureModalBackdrop');
-      window.openScriptureModal = function () { scriptureModal.classList.add('active'); document.getElementById('scriptureText').focus(); };
+      window.openScriptureModal = function () {
+        if (document.getElementById('scriptureIncludeShare')) document.getElementById('scriptureIncludeShare').checked = false;
+        scriptureModal.classList.add('active');
+        document.getElementById('scriptureText').focus();
+      };
       window.closeScriptureModal = function () { scriptureModal.classList.remove('active'); };
       window.confirmInsertScripture = function () {
         const txt = document.getElementById('scriptureText').value.trim();
         const cite = document.getElementById('scriptureCite').value.trim() || 'Referencia Bíblica';
+        const withShare = document.getElementById('scriptureIncludeShare') ? document.getElementById('scriptureIncludeShare').checked : false;
         if (txt) {
-          const cardSnippet = `\n<div class="scripture-card">\n  <blockquote>\n    «${txt}»\n    <cite class="scripture-cite">${cite}</cite>\n  </blockquote>\n</div>\n`;
+          const shareClass = withShare ? ' with-share' : '';
+          const cardSnippet = `\n<div class="scripture-card${shareClass}">\n  <blockquote>\n    «${txt}»\n    <cite class="scripture-cite">${cite}</cite>\n  </blockquote>\n</div>\n`;
           insertSyntax(cardSnippet, '');
           document.getElementById('scriptureText').value = '';
           document.getElementById('scriptureCite').value = '';
+          if (document.getElementById('scriptureIncludeShare')) document.getElementById('scriptureIncludeShare').checked = false;
           closeScriptureModal();
         }
       };
@@ -2172,6 +2192,7 @@
         const sel = postContent.value.substring(postContent.selectionStart, postContent.selectionEnd).trim();
         document.getElementById('pullQuoteText').value = sel || '';
         document.getElementById('pullQuoteCite').value = '';
+        if (document.getElementById('pullQuoteIncludeShare')) document.getElementById('pullQuoteIncludeShare').checked = false;
         pullQuoteModal.classList.add('active');
         document.getElementById('pullQuoteText').focus();
       };
@@ -2187,8 +2208,10 @@
         const alignRadio = document.querySelector('input[name="pullQuoteAlign"]:checked');
         const align = alignRadio ? alignRadio.value : 'align-right';
         const cite = document.getElementById('pullQuoteCite').value.trim();
+        const withShare = document.getElementById('pullQuoteIncludeShare') ? document.getElementById('pullQuoteIncludeShare').checked : false;
+        const shareClass = withShare ? ' with-share' : '';
 
-        let snippet = `\n<blockquote class="pull-quote ${align}">\n  «${txt}»`;
+        let snippet = `\n<blockquote class="pull-quote ${align}${shareClass}">\n  «${txt}»`;
         if (cite) {
           snippet += `\n  <cite class="pull-quote-cite">${cite}</cite>`;
         }
@@ -2197,6 +2220,7 @@
         insertSyntax(snippet, '');
         document.getElementById('pullQuoteText').value = '';
         document.getElementById('pullQuoteCite').value = '';
+        if (document.getElementById('pullQuoteIncludeShare')) document.getElementById('pullQuoteIncludeShare').checked = false;
         closePullQuoteModal();
       };
 
@@ -2221,7 +2245,7 @@
 
       // Pull Quotes Social Sharing Bar Generator
       function initPullQuoteSharing(root = document) {
-        const quotes = root.querySelectorAll('.pull-quote, #renderedPostContent blockquote:not(.scripture-card blockquote), #renderedPostContent .wp-block-quote');
+        const quotes = root.querySelectorAll('.with-share, [data-share="true"]');
         if (!quotes.length) return;
 
         const pageUrl = window.location.href;

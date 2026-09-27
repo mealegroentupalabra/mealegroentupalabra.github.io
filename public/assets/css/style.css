@@ -948,12 +948,72 @@ img {
   letter-spacing: 0.02em;
 }
 
-blockquote {
-  border-left: 3px solid var(--border-light);
-  padding-left: 1.25rem;
-  margin: 1.75rem 0;
+blockquote,
+.post-content blockquote,
+.wp-block-quote {
+  position: relative;
+  background: var(--bg-subtle);
+  border-left: 4px solid var(--primary);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  padding: 1.25rem 1.6rem;
+  margin: 1.85rem 0;
+  font-family: var(--font-serif);
+  font-size: 1.12rem;
   font-style: italic;
-  color: var(--text-muted);
+  line-height: 1.75;
+  color: var(--text-main);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+  box-sizing: border-box;
+}
+
+[data-theme="dark"] blockquote,
+[data-theme="dark"] .post-content blockquote,
+[data-theme="dark"] .wp-block-quote {
+  background: var(--bg-surface);
+  border-left-color: var(--primary-light);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.post-content blockquote p,
+.wp-block-quote p {
+  margin-bottom: 0.85rem;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+.post-content blockquote p:last-child,
+.wp-block-quote p:last-child {
+  margin-bottom: 0;
+}
+
+.post-content blockquote cite,
+.wp-block-quote cite {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.84rem;
+  font-style: normal;
+  font-weight: 600;
+  color: var(--gold);
+  margin-top: 0.85rem;
+  text-align: right;
+  letter-spacing: 0.02em;
+}
+
+/* Evitar que blockquotes anidados dentro de scripture-card hereden estilos de caja */
+.scripture-card blockquote {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  font-family: var(--font-serif);
+  font-size: 1.18rem;
+  font-style: italic;
+  line-height: 1.7;
+  color: var(--text-main);
 }
 
 /* ==========================================================================
@@ -1087,8 +1147,13 @@ blockquote {
 
 .pull-quote.align-center .quote-share-bar,
 .pull-quote.aligncenter .quote-share-bar,
-.post-content blockquote .quote-share-bar {
+.post-content blockquote.with-share .quote-share-bar {
   justify-content: center;
+}
+
+.scripture-card.with-share .quote-share-bar {
+  border-top-color: var(--gold-border);
+  justify-content: flex-end;
 }
 
 .quote-share-label {

@@ -10,7 +10,7 @@ summary: "Hay una cosa que todos nosotros buscamos con ansias. Cuando la obtenem
 original_url: "https://mealegroentupalabra.wordpress.com/2026/06/16/victoria-en-cristo/"
 ---
 
-<div class="s c r i p t u r e - c a r d"><blockquote><p>Mas gracias sean dadas a Dios, que nos da la victoria por medio de nuestro Señor Jesucristo.</p><cite class="s c r i p t u r e - c i t e">1 corintios 15:57</cite></blockquote></div>
+<div class="scripture-card"><blockquote><p>Mas gracias sean dadas a Dios, que nos da la victoria por medio de nuestro Señor Jesucristo.</p><cite class="scripture-cite">1 corintios 15:57</cite></blockquote></div>
 <p class="wp-block-paragraph">Hay una cosa que todos nosotros buscamos con ansias. Cuando la obtenemos decimos que es muy dulce. Cuando no la obtenemos usamos su antónimo y la calificamos de amarga. Los frutos de ella los lucimos con orgullo, a veces en el cuello, o en la cabeza, o los expresamos con una simple sonrisa y una gran satisfacción. Lo contrario a ella nos hace esconder el rostro de la pura vergüenza. ¿Ya todos sabemos de qué se trata? Se trata de la <strong>victoria</strong>.</p>
 <p class="wp-block-paragraph">La palabra victoria hace referencia a una superioridad o ventaja que se consigue del contrario en una disputa o lid. Así, en esta vida estamos en constante disputa, pero debes saber que no es el deseo de Dios que vivamos derrotados o vencidos por todo aquello que le es contrario, él no quiere que seamos esclavos porque no nos creo para ello. Él quiere que seamos libres y que disfrutemos la plenitud de la vida que preparó para nosotros.</p>
 <p class="wp-block-paragraph">Por ello, lo primero que aprendemos de este texto es que…</p>

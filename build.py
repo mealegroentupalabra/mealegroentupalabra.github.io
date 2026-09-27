@@ -17,6 +17,7 @@ from pathlib import Path
 import html
 from bs4 import BeautifulSoup
 import yaml
+import hashlib
 from jinja2 import Environment, FileSystemLoader
 from markdown_it import MarkdownIt
 
@@ -73,6 +74,15 @@ class SiteBuilder:
             loader=FileSystemLoader("templates"),
             autoescape=True
         )
+        def get_asset_hash(rel_path):
+            p = Path(rel_path)
+            if p.exists() and p.is_file():
+                try:
+                    return hashlib.md5(p.read_bytes()).hexdigest()[:8]
+                except Exception:
+                    pass
+            return "1.0"
+
         self.jinja_env.globals.update({
             "site_title": self.config.get("site_title", "Me Alegro En Tu Palabra"),
             "site_tagline": self.config.get("site_tagline", ""),
@@ -84,6 +94,9 @@ class SiteBuilder:
             "google_analytics": self.config.get("google_analytics", ""),
             "reftagger": self.config.get("reftagger", {"enabled": True, "bible_version": "RVR60", "round_corners": True}),
             "current_year": datetime.now().year,
+            "css_version": get_asset_hash("assets/css/style.css"),
+            "js_version": get_asset_hash("assets/js/main.js"),
+            "search_js_version": get_asset_hash("assets/js/search.js"),
         })
 
     def load_config(self):
@@ -145,6 +158,7 @@ class SiteBuilder:
         return f"{base}/posts/{path}/"
 
     def render_content(self, body_text):
+        body_text = body_text.replace("s c r i p t u r e - c a r d", "scripture-card").replace("s c r i p t u r e - c i t e", "scripture-cite")
         rendered = md_parser.render(body_text)
 
         soup = BeautifulSoup(rendered, "html.parser")

@@ -10,7 +10,7 @@ summary: "El tiempo y las palabras son dos recursos valiosos de cuya sabia admin
 original_url: "https://mealegroentupalabra.wordpress.com/2026/08/18/usa-bien-tu-tiempo-sazona-bien-tus-palabras/"
 ---
 
-<div class="s c r i p t u r e - c a r d"><blockquote><p>5 Andad sabiamente para con los de afuera, redimiendo el tiempo. 6 Sea vuestra palabra siempre con gracia, sazonada con sal, para que sepáis cómo debéis responder a cada uno.</p><cite class="s c r i p t u r e - c i t e">Colosenses 4:5-6</cite></blockquote></div>
+<div class="scripture-card"><blockquote><p>5 Andad sabiamente para con los de afuera, redimiendo el tiempo. 6 Sea vuestra palabra siempre con gracia, sazonada con sal, para que sepáis cómo debéis responder a cada uno.</p><cite class="scripture-cite">Colosenses 4:5-6</cite></blockquote></div>
 <p class="wp-block-paragraph">El tiempo y las palabras son dos recursos valiosos de cuya sabia administración dependerán muchas cosas en nuestra vida. La Biblia nos exhorta vez tras vez a hacer un uso adecuado de nuestro tiempo y nos llama a ser sumamente cuidadosos con lo que hablamos. De hecho, un cierto pasaje de la Escritura nos advierte contra el peligro de la lengua, la cual está llena de veneno mortal.</p>
 <p class="wp-block-paragraph">Por ello, el pasaje principal de esta reflexión nos da algunos conceptos muy valiosos que necesitamos considerar en relación con este tema. Hablemos primero acerca del tiempo.</p>
 <h2 class="wp-block-heading">Usa bien tu tiempo</h2>
