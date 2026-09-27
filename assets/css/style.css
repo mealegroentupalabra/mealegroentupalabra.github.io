@@ -74,8 +74,8 @@
   --border-light: #24334f;
   --border-card: #202f48;
   
-  --link-color: #60a5fa;       /* Bright readable sky blue in dark mode */
-  --link-underline: rgba(96, 165, 250, 0.45);
+  --link-color: #93c5fd;       /* Bright readable sky blue in dark mode */
+  --link-underline: rgba(147, 197, 253, 0.55);
   
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
   --shadow-md: 0 4px 14px rgba(0, 0, 0, 0.4);
@@ -842,8 +842,8 @@ img {
 }
 
 /* Editorial Hyperlinks in Post and Page Content */
-.post-content a:not(.rtRef):not(.share-btn):not(.tag-badge):not(.category-badge):not(.card-media),
-.page-content a:not(.rtRef):not(.share-btn):not(.tag-badge):not(.category-badge) {
+.post-content a:not(.rtBibleRef):not(.share-btn):not(.tag-badge):not(.category-badge):not(.card-media),
+.page-content a:not(.rtBibleRef):not(.share-btn):not(.tag-badge):not(.category-badge) {
   color: var(--link-color);
   font-weight: 500;
   text-decoration: underline;
@@ -855,11 +855,24 @@ img {
   transition: color 0.15s ease, text-decoration-color 0.15s ease, background-color 0.15s ease;
 }
 
-.post-content a:not(.rtRef):not(.share-btn):not(.tag-badge):not(.category-badge):not(.card-media):hover,
-.page-content a:not(.rtRef):not(.share-btn):not(.tag-badge):not(.category-badge):hover {
+.post-content a:not(.rtBibleRef):not(.share-btn):not(.tag-badge):not(.category-badge):not(.card-media):hover,
+.page-content a:not(.rtBibleRef):not(.share-btn):not(.tag-badge):not(.category-badge):hover {
   color: var(--gold);
   text-decoration-color: var(--gold);
   background-color: var(--gold-bg);
+}
+
+[data-theme="dark"] .post-content a:not(.rtBibleRef):not(.share-btn):not(.tag-badge):not(.category-badge):not(.card-media),
+[data-theme="dark"] .page-content a:not(.rtBibleRef):not(.share-btn):not(.tag-badge):not(.category-badge) {
+  color: #93c5fd;
+  text-decoration-color: rgba(147, 197, 253, 0.55);
+}
+
+[data-theme="dark"] .post-content a:not(.rtBibleRef):not(.share-btn):not(.tag-badge):not(.category-badge):not(.card-media):hover,
+[data-theme="dark"] .page-content a:not(.rtBibleRef):not(.share-btn):not(.tag-badge):not(.category-badge):hover {
+  color: #fbbf24;
+  text-decoration-color: #fbbf24;
+  background-color: rgba(245, 158, 11, 0.2);
 }
 
 /* Category & Page Toolbar / Sorting Controls */
@@ -2194,13 +2207,13 @@ ul.wp-block-social-links {
 }
 
 [data-theme="dark"] .rtBibleRef {
-  color: var(--primary-light) !important;
-  text-decoration-color: rgba(96, 165, 250, 0.4) !important;
+  color: #93c5fd !important;
+  text-decoration-color: rgba(147, 197, 253, 0.55) !important;
 }
 
 [data-theme="dark"] .rtBibleRef:hover {
-  color: var(--gold-light) !important;
-  text-decoration-color: var(--gold-light) !important;
+  color: #fbbf24 !important;
+  text-decoration-color: #fbbf24 !important;
 }
 
 cite .rtBibleRef,
@@ -2209,4 +2222,227 @@ cite .rtBibleRef,
   color: inherit !important;
   font-weight: inherit !important;
 }
+
+/* ==========================================================================
+   Logos RefTagger - Popup Tooltip Styling
+   Harmonized with "Me Alegro En Tu Palabra" editorial theme
+   ========================================================================== */
+
+/* Main Container & Frame */
+.rtTooltip {
+  width: 520px !important;
+  max-width: min(94vw, 520px) !important;
+  z-index: 99999 !important;
+  filter: drop-shadow(0 14px 28px rgba(26, 54, 93, 0.16)) drop-shadow(0 4px 8px rgba(0, 0, 0, 0.06));
+}
+
+.rtTooltip .rtContainer {
+  background: var(--bg-surface) !important;
+  border: 1px solid var(--border-light) !important;
+  border-radius: var(--radius-md) !important;
+  box-shadow: none !important;
+  overflow: hidden !important;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Header: Deep navy biblical banner with gold bottom border */
+.rtTooltip .rtTooltipHeader {
+  background: var(--primary) !important;
+  color: #ffffff !important;
+  font-family: var(--font-sans) !important;
+  font-size: 0.95rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.02em !important;
+  height: auto !important;
+  line-height: 1.4 !important;
+  padding: 0.85rem 1.25rem !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  border-bottom: 2px solid var(--gold) !important;
+}
+
+/* Neutralize any links inside header so they don't trigger mouseover popups or lose contrast */
+.rtTooltip .rtTooltipHeader * {
+  color: #ffffff !important;
+}
+
+.rtTooltip .rtTooltipHeader a,
+.rtTooltip .rtTooltipHeader .rtBibleRef {
+  color: #ffffff !important;
+  text-decoration: none !important;
+  pointer-events: none !important;
+  cursor: default !important;
+  border: none !important;
+  background: transparent !important;
+  font-weight: 700 !important;
+}
+
+.rtTooltip .rtTooltipHeader .rtTooltipReference {
+  color: #ffffff !important;
+  font-weight: 700 !important;
+}
+
+.rtTooltip .rtTooltipHeader .rtTooltipVersion {
+  color: rgba(255, 255, 255, 0.85) !important;
+  font-size: 0.8rem !important;
+  font-weight: 600 !important;
+  margin-left: 0.35rem !important;
+  text-transform: uppercase !important;
+}
+
+/* Body: Warm, elegant serif reading typography with larger, readable font */
+.rtTooltip .rtTooltipBody {
+  background: var(--bg-surface) !important;
+  color: var(--text-main) !important;
+  font-family: var(--font-serif) !important;
+  font-size: 1.34rem !important;
+  line-height: 1.82 !important;
+  padding: 1.4rem 1.55rem 0.95rem !important;
+  min-height: 60px !important;
+}
+
+/* Verse & Chapter numbers in gold/amber badge */
+.rtTooltip .rtTooltipBody .ch-ref,
+.rtTooltip .rtTooltipBody .verse-ref {
+  font-family: var(--font-sans) !important;
+  font-size: 0.86rem !important;
+  font-weight: 700 !important;
+  color: var(--gold) !important;
+  margin-right: 0.35rem !important;
+  padding: 0.12rem 0.42rem !important;
+  background: var(--gold-bg) !important;
+  border-radius: var(--radius-sm) !important;
+  vertical-align: baseline !important;
+  position: relative !important;
+  top: -2px !important;
+  display: inline-block !important;
+  line-height: 1.2 !important;
+}
+
+/* Footer: Clean, modern metadata & action bar */
+.rtTooltip .rtTooltipFooter {
+  background: var(--bg-subtle) !important;
+  border-top: 1px solid var(--border-light) !important;
+  padding: 0.65rem 1.25rem !important;
+  font-family: var(--font-sans) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  min-height: 38px !important;
+}
+
+/* "Leer más" link */
+.rtTooltip .rtTooltipFooter .rtTooltipMoreLink,
+.rtTooltip .rtTooltipMoreLink {
+  color: var(--gold) !important;
+  font-family: var(--font-sans) !important;
+  font-size: 0.85rem !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.25rem !important;
+  float: right !important;
+  transition: color 0.15s ease !important;
+}
+
+.rtTooltip .rtTooltipFooter .rtTooltipMoreLink:hover,
+.rtTooltip .rtTooltipMoreLink:hover {
+  color: var(--gold-hover) !important;
+  text-decoration: underline !important;
+}
+
+/* Logos / Biblia brand link */
+.rtTooltip .rtTooltipBrandLink,
+.rtTooltip .rtTooltipBrandLink a {
+  color: var(--text-light) !important;
+  font-size: 0.68rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.05em !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
+.rtTooltip .rtTooltipBrandLink a:hover {
+  color: var(--text-muted) !important;
+}
+
+.rtTooltip .rtTooltipBrandLink .rtTooltipLogosIcon path {
+  fill: var(--text-light) !important;
+}
+
+/* --------------------------------------------------------------------------
+   Dark Mode Adaptation for RefTagger Tooltip
+   -------------------------------------------------------------------------- */
+[data-theme="dark"] .rtTooltip {
+  filter: drop-shadow(0 16px 36px rgba(0, 0, 0, 0.65)) drop-shadow(0 4px 12px rgba(0, 0, 0, 0.4));
+}
+
+[data-theme="dark"] .rtTooltip .rtContainer {
+  background: var(--bg-surface) !important;
+  border-color: var(--border-card) !important;
+}
+
+[data-theme="dark"] .rtTooltip .rtTooltipHeader {
+  background: var(--bg-surface-elevated) !important;
+  border-bottom: 2px solid var(--gold) !important;
+}
+
+[data-theme="dark"] .rtTooltip .rtTooltipHeader * {
+  color: #93c5fd !important;
+}
+
+[data-theme="dark"] .rtTooltip .rtTooltipHeader a,
+[data-theme="dark"] .rtTooltip .rtTooltipHeader .rtBibleRef {
+  color: #93c5fd !important;
+  pointer-events: none !important;
+  cursor: default !important;
+}
+
+[data-theme="dark"] .rtTooltip .rtTooltipHeader .rtTooltipReference {
+  color: #93c5fd !important;
+}
+
+[data-theme="dark"] .rtTooltip .rtTooltipHeader .rtTooltipVersion {
+  color: var(--text-muted) !important;
+}
+
+[data-theme="dark"] .rtTooltip .rtTooltipBody {
+  background: var(--bg-surface) !important;
+  color: var(--text-main) !important;
+}
+
+[data-theme="dark"] .rtTooltip .rtTooltipBody .ch-ref,
+[data-theme="dark"] .rtTooltip .rtTooltipBody .verse-ref {
+  color: var(--gold) !important;
+  background: var(--gold-bg) !important;
+}
+
+[data-theme="dark"] .rtTooltip .rtTooltipFooter {
+  background: var(--bg-subtle) !important;
+  border-top-color: var(--border-card) !important;
+}
+
+[data-theme="dark"] .rtTooltip .rtTooltipFooter .rtTooltipMoreLink,
+[data-theme="dark"] .rtTooltip .rtTooltipMoreLink {
+  color: var(--gold) !important;
+}
+
+[data-theme="dark"] .rtTooltip .rtTooltipFooter .rtTooltipMoreLink:hover,
+[data-theme="dark"] .rtTooltip .rtTooltipMoreLink:hover {
+  color: var(--gold-hover) !important;
+}
+
+[data-theme="dark"] .rtTooltip .rtTooltipBrandLink,
+[data-theme="dark"] .rtTooltip .rtTooltipBrandLink a {
+  color: var(--text-light) !important;
+}
+
+[data-theme="dark"] .rtTooltip .rtTooltipBrandLink .rtTooltipLogosIcon path {
+  fill: var(--text-light) !important;
+}
+
 
