@@ -166,9 +166,6 @@
         <div>
           &copy; {{ current_year }} <strong>{{ site_title }}</strong> por <a href="{{ author.social.linktree }}" target="_blank" rel="noopener" style="text-decoration: underline;">{{ author.name }}</a>.
         </div>
-        <div>
-          Recursos: <a href="https://bibleproject.com/" target="_blank" rel="noopener">Proyecto Biblia</a> y <a href="https://studylight.org/" target="_blank" rel="noopener">Study Light</a>.
-        </div>
       </div>
     </div>
   </footer>
@@ -217,50 +214,8 @@
   <script src="{{ base_path }}/assets/js/main.js?v={{ js_version }}"></script>
   <script src="{{ base_path }}/assets/js/search.js?v={{ search_js_version }}"></script>
 
-  <!-- Logos RefTagger for Bible References -->
-  {% if reftagger and reftagger.enabled %}
-  <script>
-    var refTagger = {
-      settings: {
-        bibleVersion: "{{ reftagger.bible_version or 'RVR60' }}",
-        bibleReader: "biblia",
-        roundCorners: {{ 'true' if reftagger.round_corners else 'false' }},
-        tagChapters: true,
-        caseInsensitive: true,
-        linksOpenNewWindow: true,
-        observeAutomatically: false,
-        noSearchClassNames: ["rtTooltip", "rtContainer", "rtTooltipHeader", "rtTooltipBody", "rtTooltipFooter"],
-        socialSharing: [],
-        customStyle: {
-          heading: {
-            backgroundColor: "#1a365d",
-            color: "#ffffff"
-          },
-          body: {
-            color: "#1e293b",
-            moreLink: {
-              color: "#b45309"
-            }
-          }
-        }
-      }
-    };
-    (function(d, t) {
-      var n = d.querySelector('[nonce]');
-      refTagger.settings.nonce = n && (n.nonce || n.getAttribute('nonce'));
-      var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
-      g.src = 'https://api.reftagger.com/v2/RefTagger.es.js';
-      g.nonce = refTagger.settings.nonce;
-      s.parentNode.insertBefore(g, s);
-    }(document, 'script'));
-
-    window.addEventListener('DOMContentLoaded', function() {
-      if (window.refTagger && typeof window.refTagger.tag === 'function') {
-        window.refTagger.tag();
-      }
-    });
-  </script>
-  {% endif %}
+  <!-- Logos RefTagger for Bible References (only loaded on posts) -->
+  {% block reftagger %}{% endblock %}
 
   {% block scripts %}{% endblock %}
 </body>

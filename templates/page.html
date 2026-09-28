@@ -4,57 +4,88 @@
 {% block description %}{{ page.summary or site_description }}{% endblock %}
 
 {% block content %}
-<article style="padding: 3rem 0 4rem;">
-  <div class="container-narrow">
-    <header style="text-align: center; margin-bottom: 2.5rem;">
-      <h1 class="post-title">{{ page.title }}</h1>
-    </header>
+<header class="page-hero-header">
+  <div class="container">
+    {% if page.slug == 'reflexiones' %}
+    <div class="hero-verse-pill">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+      </svg>
+      <span>Reflexiones y Estudios</span>
+    </div>
+    {% elif page.slug == 'planes-de-lectura' %}
+    <div class="hero-verse-pill">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+      </svg>
+      <span>Crecimiento Espiritual</span>
+    </div>
+    {% elif page.slug == 'la-biblia-en-un-ano' %}
+    <div class="hero-verse-pill">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+        <line x1="16" y1="2" x2="16" y2="6"></line>
+        <line x1="8" y1="2" x2="8" y2="6"></line>
+        <line x1="3" y1="10" x2="21" y2="10"></line>
+      </svg>
+      <span>Plan de Lectura Anual</span>
+    </div>
+    {% endif %}
+    
+    <h1 class="page-title">{{ page.title }}</h1>
+  </div>
+</header>
 
+<section class="page-content-section" style="padding-bottom: 4rem;">
+  <div class="container-narrow">
     <div class="post-content">
       {{ page.content_html | safe }}
     </div>
-
-    <!-- If this page is associated with a category, list its posts -->
-    {% if page_posts %}
-    <div style="margin-top: 3.5rem; padding-top: 2rem; border-top: 1px solid var(--border-light);">
-      <div class="category-toolbar">
-        <h2 style="font-family: var(--font-serif); font-size: 1.4rem; margin: 0;">Publicaciones en {{ page.title }} ({{ page_posts | length }})</h2>
-        {% if page_posts | length > 1 %}
-        <div class="sort-toggle-group" id="sortToggle">
-          <button type="button" class="sort-btn active" data-order="desc">Más recientes</button>
-          <button type="button" class="sort-btn" data-order="asc">Más antiguas</button>
-        </div>
-        {% endif %}
-      </div>
-      
-      <div class="posts-grid">
-        {% for post in page_posts %}
-        <article class="post-card" data-timestamp="{{ post.timestamp }}" data-day="{{ post.day_number or 0 }}">
-          {% if post.image %}
-          <a href="{{ post.url }}" class="card-media">
-            <img src="{{ post.image }}" alt="{{ post.title }}" loading="lazy">
-          </a>
-          {% endif %}
-          <div class="card-body">
-            <div class="meta-row">
-              <span class="category-badge">{{ post.category }}</span>
-              <span>•</span>
-              <time datetime="{{ post.date }}">{{ post.date_formatted }}</time>
-            </div>
-            <h3 class="card-title">
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </h3>
-            <p class="card-excerpt">{{ post.summary }}</p>
-            <div class="card-footer">
-              <span style="font-size: 0.78rem; color: var(--text-light);">⏱️ {{ post.reading_time }}</span>
-              <a href="{{ post.url }}" style="color: var(--primary); font-weight: 600; font-size: 0.82rem;">Leer &rarr;</a>
-            </div>
-          </div>
-        </article>
-        {% endfor %}
-      </div>
-    </div>
-    {% endif %}
   </div>
-</article>
+
+  <!-- If this page is associated with a category, list its posts -->
+  {% if page_posts %}
+  <div class="container page-posts-wrap" style="margin-top: 3.5rem; padding-top: 2.5rem; border-top: 1px solid var(--border-light);">
+    <div class="category-toolbar">
+      <div class="category-toolbar-title">
+        <span>Publicaciones en <strong>{{ page.title }}</strong>: <strong>{{ page_posts | length }}</strong></span>
+      </div>
+      {% if page_posts | length > 1 %}
+      <div class="sort-toggle-group" id="sortToggle">
+        <button type="button" class="sort-btn active" data-order="desc">Más recientes</button>
+        <button type="button" class="sort-btn" data-order="asc">Más antiguas</button>
+      </div>
+      {% endif %}
+    </div>
+    
+    <div class="posts-grid">
+      {% for post in page_posts %}
+      <article class="post-card" data-timestamp="{{ post.timestamp }}" data-day="{{ post.day_number or 0 }}">
+        {% if post.image %}
+        <a href="{{ post.url }}" class="card-media">
+          <img src="{{ post.image }}" alt="{{ post.title }}" loading="lazy">
+        </a>
+        {% endif %}
+        <div class="card-body">
+          <div class="meta-row">
+            <span class="category-badge">{{ post.category }}</span>
+            <span>•</span>
+            <time datetime="{{ post.date }}">{{ post.date_formatted }}</time>
+          </div>
+          <h3 class="card-title">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </h3>
+          <p class="card-excerpt">{{ post.summary }}</p>
+          <div class="card-footer">
+            <span style="font-size: 0.78rem; color: var(--text-light);">⏱️ {{ post.reading_time }}</span>
+            <a href="{{ post.url }}" style="color: var(--primary); font-weight: 600; font-size: 0.82rem;">Leer &rarr;</a>
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+</section>
 {% endblock %}

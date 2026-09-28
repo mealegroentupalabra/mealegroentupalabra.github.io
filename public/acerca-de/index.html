@@ -33,7 +33,7 @@
   <!-- Fonts & Stylesheet -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="/assets/css/style.css?v=de0a854e">
+  <link rel="stylesheet" href="/assets/css/style.css?v=349f4ba6">
 
   <!-- Google Analytics GA4 -->
   
@@ -123,12 +123,16 @@
   <!-- Main Content -->
   <main id="main-content">
     
-<article style="padding: 3rem 0 4rem;">
-  <div class="container-narrow">
-    <header style="text-align: center; margin-bottom: 2.5rem;">
-      <h1 class="post-title">Acerca de</h1>
-    </header>
+<header class="page-hero-header">
+  <div class="container">
+    
+    
+    <h1 class="page-title">Acerca de</h1>
+  </div>
+</header>
 
+<section class="page-content-section" style="padding-bottom: 4rem;">
+  <div class="container-narrow">
     <div class="post-content">
       <div class="about-hero-card">
 <div class="about-avatar-wrap">
@@ -166,11 +170,11 @@
 <p>Este sitio web redirige a recursos de: <a href="https://bibleproject.com/" rel="noreferrer noopener" target="_blank">Proyecto Biblia</a> y <a href="https://studylight.org/pastoral-resources/bible-maps-archive.html" rel="noreferrer noopener" target="_blank">Study Light</a>, y utiliza imágenes de <a href="https://pixabay.com/" rel="noreferrer noopener" target="_blank">Pixabay</a>, <a href="https://www.pexels.com/es-es/" rel="noreferrer noopener" target="_blank">Pexels</a> y <a href="https://unsplash.com/" rel="noreferrer noopener" target="_blank">Unsplash</a>. Algunas imágenes son generadas con IA.</p>
 </div>
     </div>
-
-    <!-- If this page is associated with a category, list its posts -->
-    
   </div>
-</article>
+
+  <!-- If this page is associated with a category, list its posts -->
+  
+</section>
 
   </main>
 
@@ -235,9 +239,6 @@
         <div>
           &copy; 2026 <strong>Me Alegro En Tu Palabra</strong> por <a href="https://linktr.ee/alemormez" target="_blank" rel="noopener" style="text-decoration: underline;">Alejandro Morales</a>.
         </div>
-        <div>
-          Recursos: <a href="https://bibleproject.com/" target="_blank" rel="noopener">Proyecto Biblia</a> y <a href="https://studylight.org/" target="_blank" rel="noopener">Study Light</a>.
-        </div>
       </div>
     </div>
   </footer>
@@ -283,52 +284,10 @@
   <div class="toast-msg" role="status" aria-live="polite"></div>
 
   <!-- Scripts -->
-  <script src="/assets/js/main.js?v=0c60a75a"></script>
+  <script src="/assets/js/main.js?v=ab3c2ef9"></script>
   <script src="/assets/js/search.js?v=2dd65533"></script>
 
-  <!-- Logos RefTagger for Bible References -->
-  
-  <script>
-    var refTagger = {
-      settings: {
-        bibleVersion: "RVR60",
-        bibleReader: "biblia",
-        roundCorners: true,
-        tagChapters: true,
-        caseInsensitive: true,
-        linksOpenNewWindow: true,
-        observeAutomatically: false,
-        noSearchClassNames: ["rtTooltip", "rtContainer", "rtTooltipHeader", "rtTooltipBody", "rtTooltipFooter"],
-        socialSharing: [],
-        customStyle: {
-          heading: {
-            backgroundColor: "#1a365d",
-            color: "#ffffff"
-          },
-          body: {
-            color: "#1e293b",
-            moreLink: {
-              color: "#b45309"
-            }
-          }
-        }
-      }
-    };
-    (function(d, t) {
-      var n = d.querySelector('[nonce]');
-      refTagger.settings.nonce = n && (n.nonce || n.getAttribute('nonce'));
-      var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
-      g.src = 'https://api.reftagger.com/v2/RefTagger.es.js';
-      g.nonce = refTagger.settings.nonce;
-      s.parentNode.insertBefore(g, s);
-    }(document, 'script'));
-
-    window.addEventListener('DOMContentLoaded', function() {
-      if (window.refTagger && typeof window.refTagger.tag === 'function') {
-        window.refTagger.tag();
-      }
-    });
-  </script>
+  <!-- Logos RefTagger for Bible References (only loaded on posts) -->
   
 
   

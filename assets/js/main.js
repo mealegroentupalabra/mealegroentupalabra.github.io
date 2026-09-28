@@ -56,20 +56,57 @@
     const nav = document.querySelector('.site-nav');
     if (!toggleBtn || !nav) return;
 
-    toggleBtn.addEventListener('click', () => {
-      nav.classList.toggle('mobile-active');
-      const isExpanded = nav.classList.contains('mobile-active');
-      toggleBtn.setAttribute('aria-expanded', isExpanded);
-      toggleBtn.innerHTML = isExpanded 
-        ? `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>`
-        : `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>`;
+    function openMenu() {
+      nav.classList.add('mobile-active');
+      toggleBtn.setAttribute('aria-expanded', 'true');
+      toggleBtn.setAttribute('aria-label', 'Cerrar menú');
+      toggleBtn.innerHTML = `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>`;
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeMenu() {
+      nav.classList.remove('mobile-active');
+      toggleBtn.setAttribute('aria-expanded', 'false');
+      toggleBtn.setAttribute('aria-label', 'Abrir menú');
+      toggleBtn.innerHTML = `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>`;
+      document.body.style.overflow = '';
+    }
+
+    toggleBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      if (nav.classList.contains('mobile-active')) {
+        closeMenu();
+      } else {
+        openMenu();
+      }
     });
 
     // Close when clicking nav links on mobile
     nav.querySelectorAll('.nav-link').forEach(link => {
       link.addEventListener('click', () => {
-        nav.classList.remove('mobile-active');
+        closeMenu();
       });
+    });
+
+    // Close on click outside
+    document.addEventListener('click', (e) => {
+      if (nav.classList.contains('mobile-active') && !nav.contains(e.target) && !toggleBtn.contains(e.target)) {
+        closeMenu();
+      }
+    });
+
+    // Close on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && nav.classList.contains('mobile-active')) {
+        closeMenu();
+      }
+    });
+
+    // Reset if window is resized to desktop width
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 1040 && nav.classList.contains('mobile-active')) {
+        closeMenu();
+      }
     });
   }
 
@@ -187,26 +224,109 @@
     }
   }
 
-  // --- Sorting Controls (Más recientes / Más antiguas con persistencia) ---
+  // --- Progressive Scroll Loading for Large Card Grids & Sorting ---
   const SORT_PREF_KEY = 'maetp_sort_order';
 
-  function initSortControls() {
-    const toggle = document.getElementById('sortToggle');
-    if (!toggle) return;
+  function initProgressiveGrid() {
     const grid = document.querySelector('.posts-grid');
     if (!grid) return;
-    const cards = Array.from(grid.querySelectorAll('.post-card'));
 
-    function applyOrder(order, save = false) {
-      toggle.querySelectorAll('.sort-btn').forEach(b => {
-        b.classList.toggle('active', b.getAttribute('data-order') === order);
+    let cards = Array.from(grid.querySelectorAll('.post-card'));
+    if (!cards.length) return;
+
+    const toggle = document.getElementById('sortToggle');
+    const CHUNK_SIZE = 18;
+
+    let observer = null;
+    let currentCount = 0;
+    let sortedCards = [...cards];
+
+    let statusContainer = document.querySelector('.grid-scroll-status');
+    if (!statusContainer && cards.length > CHUNK_SIZE) {
+      statusContainer = document.createElement('div');
+      statusContainer.className = 'grid-scroll-status';
+      grid.parentNode.insertBefore(statusContainer, grid.nextSibling);
+    }
+
+    function renderNextChunk() {
+      if (currentCount >= sortedCards.length) {
+        showFinished();
+        return;
+      }
+      const nextBatch = sortedCards.slice(currentCount, currentCount + CHUNK_SIZE);
+      nextBatch.forEach(c => {
+        c.removeAttribute('data-staged');
+        c.classList.add('card-revealing');
       });
-      cards.sort((a, b) => {
+      currentCount += nextBatch.length;
+
+      if (currentCount >= sortedCards.length) {
+        showFinished();
+      }
+    }
+
+    function showFinished() {
+      if (observer) {
+        observer.disconnect();
+        observer = null;
+      }
+      if (statusContainer) {
+        statusContainer.innerHTML = `<div class="grid-end-indicator">Mostrando todas las ${sortedCards.length} publicaciones</div>`;
+      }
+    }
+
+    function applyOrderAndRefresh(order, save = false) {
+      if (toggle) {
+        toggle.querySelectorAll('.sort-btn').forEach(b => {
+          b.classList.toggle('active', b.getAttribute('data-order') === order);
+        });
+      }
+
+      sortedCards.sort((a, b) => {
         const tA = parseInt(a.getAttribute('data-timestamp') || a.getAttribute('data-day') || '0', 10);
         const tB = parseInt(b.getAttribute('data-timestamp') || b.getAttribute('data-day') || '0', 10);
         return order === 'asc' ? (tA - tB) : (tB - tA);
       });
-      cards.forEach(card => grid.appendChild(card));
+
+      if (sortedCards.length > CHUNK_SIZE) {
+        currentCount = 0;
+        sortedCards.forEach((c, idx) => {
+          if (idx < CHUNK_SIZE) {
+            c.removeAttribute('data-staged');
+          } else {
+            c.setAttribute('data-staged', 'true');
+          }
+          c.classList.remove('card-revealing');
+          grid.appendChild(c);
+        });
+        currentCount = Math.min(CHUNK_SIZE, sortedCards.length);
+
+        if (statusContainer) {
+          statusContainer.innerHTML = `
+            <div class="grid-scroll-loader">
+              <span class="spinner-dots"><span></span><span></span><span></span></span>
+              <span>Cargando más publicaciones...</span>
+            </div>
+          `;
+        }
+
+        if (observer) observer.disconnect();
+        if ('IntersectionObserver' in window && statusContainer) {
+          observer = new IntersectionObserver((entries) => {
+            if (entries[0].isIntersecting) {
+              renderNextChunk();
+            }
+          }, { rootMargin: '450px 0px', threshold: 0.01 });
+          observer.observe(statusContainer);
+        } else {
+          sortedCards.forEach(c => c.removeAttribute('data-staged'));
+          showFinished();
+        }
+      } else {
+        // Less than CHUNK_SIZE (e.g. index pagination)
+        sortedCards.forEach(card => grid.appendChild(card));
+      }
+
       if (save) {
         try {
           localStorage.setItem(SORT_PREF_KEY, order);
@@ -214,23 +334,22 @@
       }
     }
 
-    // Check saved preference or default to 'desc' (Más recientes)
+    // Read stored preference
     let savedOrder = 'desc';
     try {
       savedOrder = localStorage.getItem(SORT_PREF_KEY) || 'desc';
     } catch (e) {}
 
-    // Apply saved preference if it's 'asc'
-    if (savedOrder === 'asc') {
-      applyOrder('asc', false);
-    }
+    applyOrderAndRefresh(savedOrder, false);
 
-    toggle.querySelectorAll('.sort-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const order = btn.getAttribute('data-order');
-        applyOrder(order, true);
+    if (toggle) {
+      toggle.querySelectorAll('.sort-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const order = btn.getAttribute('data-order');
+          applyOrderAndRefresh(order, true);
+        });
       });
-    });
+    }
   }
 
   // --- Pull Quotes Social Sharing ---
@@ -318,7 +437,7 @@
     initMobileMenu();
     initReadingProgress();
     initShareButtons();
-    initSortControls();
+    initProgressiveGrid();
     initPullQuoteSharing();
 
     document.querySelectorAll('.theme-toggle-btn').forEach(btn => {
