@@ -599,6 +599,18 @@ class SiteBuilder:
             (p_dir / "index.html").write_text(html_out, encoding="utf-8")
         print(f"Rendered {len(pages)} static pages.")
 
+        # Render 404 Page (Error 404 - Página no encontrada)
+        try:
+            tmpl_404 = self.jinja_env.get_template("404.html")
+            html_404 = tmpl_404.render(
+                canonical_url=f"{self.config.get('site_url')}{self.config.get('base_path', '')}/404.html",
+                current_path="404.html"
+            )
+            (out_dir / "404.html").write_text(html_404, encoding="utf-8")
+            print("Rendered 404.html.")
+        except Exception as e:
+            print(f"Warning: Could not render 404.html: {e}")
+
         # Render RSS Feed
         feed_tmpl = self.jinja_env.get_template("feed.xml")
         feed_out = feed_tmpl.render(
