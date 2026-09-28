@@ -20,5 +20,5 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/01/01/la-aventura-
 <ul class="wp-block-list">
 <li>¿Quieres ver cuáles son <a href="/posts/los-primeros-pasos/">los primeros pasos</a>?</li>
 <li>¿Quieres empezar ya con el <a href="/posts/dia-1-plan-de-lectura/">día 1 del plan de lectura</a>?</li>
-<li>¿Quieres ver el <a href="/planes-de-lectura/">plan de lectura completo</a>?</li>
+<li>¿Quieres ver el <a href="/la-biblia-en-un-ano/">plan de lectura completo</a>?</li>
 </ul>

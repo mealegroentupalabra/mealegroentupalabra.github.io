@@ -21,5 +21,5 @@ original_url: "https://mealegroentupalabra.wordpress.com/2021/01/01/los-primeros
 <h2 class="wp-block-heading">Pasos para empezar:</h2>
 <ol class="wp-block-list">
 <li><strong>Instala un aplicación de la Biblia.</strong> La aplicación te hará más fácil realizar la lectura, subrayar versículos, compartir los textos que te llaman la atención, escribir notas y compartirlas con otros. Yo te recomiendo la aplicación de <a href="https://www.bible.com/" rel="noreferrer noopener" target="_blank">Youversion,</a> pero si prefieres otra, está bien.</li>
-<li><strong>Empieza ahora mismo.</strong> Si estás empezando el primero de enero de este año, dirígete al <a href="/planes-de-lectura/">Bosquejo del Plan de Lectura</a> y sigue el orden que allí se encuentra. Sino, puedes empezar en el <a href="/posts/dia-1-plan-de-lectura/">Día 1 del Plan de Lectura</a>.</li>
+<li><strong>Empieza ahora mismo.</strong> Si estás empezando el primero de enero de este año, dirígete al <a href="/la-biblia-en-un-ano/">Bosquejo del Plan de Lectura</a> y sigue el orden que allí se encuentra. Sino, puedes empezar en el <a href="/posts/dia-1-plan-de-lectura/">Día 1 del Plan de Lectura</a>.</li>
 </ol>
