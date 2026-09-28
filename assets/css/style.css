@@ -2019,7 +2019,11 @@ blockquote,
   }
 
   .mobile-menu-toggle {
-    display: inline-flex;
+    display: inline-flex !important;
+    flex-shrink: 0 !important;
+  }
+  .header-actions {
+    flex-shrink: 0 !important;
   }
   .search-trigger .kbd-hint {
     display: none;
@@ -2040,6 +2044,77 @@ blockquote,
   }
   .post-navigation {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .site-header .container {
+    padding-left: 0.85rem;
+    padding-right: 0.85rem;
+  }
+  .header-inner {
+    gap: 0.5rem;
+  }
+  .site-logo {
+    width: 36px;
+    height: 36px;
+  }
+  .site-brand {
+    gap: 0.5rem;
+    min-width: 0;
+    flex-shrink: 1;
+    overflow: hidden;
+  }
+  .brand-text {
+    min-width: 0;
+    overflow: hidden;
+  }
+  .brand-title {
+    font-size: clamp(0.92rem, 3.6vw, 1.15rem);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    flex-shrink: 0 !important;
+  }
+  .icon-btn,
+  .search-trigger {
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0 !important;
+  }
+  .mobile-menu-toggle {
+    display: inline-flex !important;
+    flex-shrink: 0 !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .site-header .container {
+    padding-left: 0.55rem;
+    padding-right: 0.55rem;
+  }
+  .header-inner {
+    gap: 0.35rem;
+  }
+  .site-logo {
+    width: 32px;
+    height: 32px;
+  }
+  .brand-title {
+    font-size: 0.88rem;
+  }
+  .header-actions {
+    gap: 0.25rem;
+  }
+  .icon-btn,
+  .search-trigger {
+    width: 35px;
+    height: 35px;
   }
 }
 
