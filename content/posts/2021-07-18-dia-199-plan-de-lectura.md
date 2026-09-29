@@ -5,7 +5,7 @@ slug: "dia-199-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Proverbios"]
 tags: ["biblia", "Dios", "justicia", "ley", "maldad", "misericordia", "sabiduría"]
-image: "/assets/images/posts/2021/07/honey-5043708_1280.jpg"
+image: "/assets/images/posts/2021/07/honey-5043708_1280.webp"
 summary: "Proverbios 16-18. Salomón dice que los pensamientos y las decisiones del hombre están en su propia mano, pero que el Señor tiene potestad sobre ellos. Así afirma el dominio de..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/18/dia-199-plan-de-lectura/"
 ---

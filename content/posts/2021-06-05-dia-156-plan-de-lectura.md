@@ -5,7 +5,7 @@ slug: "dia-156-plan-de-lectura"
 category: "Job"
 categories: ["Job", "La Biblia en un Año"]
 tags: ["biblia", "confianza", "fe", "justicia", "providencia", "prueba", "sufrimiento"]
-image: "/assets/images/posts/2021/06/man-g31d53c5b9_1280.jpg"
+image: "/assets/images/posts/2021/06/man-g31d53c5b9_1280.webp"
 summary: "Job 14-16. Elifaz le pidió a Job que dejara de hablar tantas necedades, que por eso estaba en esa condición. Por su parte, Job le reprochó a sus amigos su actitud, y les hizo ver..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/05/dia-156-plan-de-lectura/"
 ---

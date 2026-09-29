@@ -5,7 +5,7 @@ slug: "dia-43-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Números"]
 tags: ["biblia", "desierto", "sacerdotes", "tabernáculo"]
-image: "/assets/images/posts/2021/02/menorah-5100275_1280.jpg"
+image: "/assets/images/posts/2021/02/menorah-5100275_1280.webp"
 summary: "Números 3-4. Dios designó a la tribu de Leví para servir en el ministerio del tabernáculo de reunión bajo la dirección de Aarón y de sus descendientes. Aarón y sus hijos también..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/12/dia-43-plan-de-lectura/"
 ---

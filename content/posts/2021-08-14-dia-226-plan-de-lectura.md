@@ -5,7 +5,7 @@ slug: "dia-226-plan-de-lectura"
 category: "Jeremías"
 categories: ["Jeremías", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "israel", "judá", "juicio", "justicia", "pecado"]
-image: "/assets/images/posts/2021/08/hammer-gb680dfed8_1280.jpg"
+image: "/assets/images/posts/2021/08/hammer-gb680dfed8_1280.webp"
 summary: "Jeremías 7-9. Dios envió a Jeremías a proclamar desde la puerta del templo a todos los que se acercaban para adorar a Dios que no pensaran que por el hecho de que Dios hubiese..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/14/dia-226-plan-de-lectura/"
 ---

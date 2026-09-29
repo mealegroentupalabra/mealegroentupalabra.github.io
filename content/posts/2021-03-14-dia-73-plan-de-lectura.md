@@ -5,7 +5,7 @@ slug: "dia-73-plan-de-lectura"
 category: "Josué"
 categories: ["Josué", "La Biblia en un Año"]
 tags: ["batalla", "biblia", "conquista", "israel", "milagro", "obediencia", "tierra", "victoria"]
-image: "/assets/images/posts/2021/03/eli-levit-ut1ijd53zwq-unsplash.jpg"
+image: "/assets/images/posts/2021/03/eli-levit-ut1ijd53zwq-unsplash.webp"
 summary: "Josué 12-15. Josué ya estaba avanzado en edad cuando Dios le dijo que aún quedaba tierra por poseer. Sin embargo, él le mandó repartir todo el país entre las tribus restantes para..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/14/dia-73-plan-de-lectura/"
 ---

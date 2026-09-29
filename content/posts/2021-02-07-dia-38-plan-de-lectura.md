@@ -5,7 +5,7 @@ slug: "dia-38-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Levítico"]
 tags: ["biblia", "desierto", "gloria", "juicio", "ley", "presencia", "purificación", "sacerdotes", "sacrificio", "santidad", "tabernáculo", "templo"]
-image: "/assets/images/posts/2021/02/dim-hou-bjd3khntikg-unsplash.jpg"
+image: "/assets/images/posts/2021/02/dim-hou-bjd3khntikg-unsplash.webp"
 summary: "Levítico 19-21. Dios continuó dando un conjunto de normas para el pueblo a través de Moisés. Dios quería un pueblo santo porque él es santo. Algunos de las normas entregadas en..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/07/dia-38-plan-de-lectura/"
 ---

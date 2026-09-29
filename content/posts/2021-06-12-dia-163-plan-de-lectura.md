@@ -5,7 +5,7 @@ slug: "dia-163-plan-de-lectura"
 category: "Job"
 categories: ["Job", "La Biblia en un Año"]
 tags: ["biblia", "confianza", "Dios", "fe", "justicia", "providencia", "prueba", "sabiduría", "sufrimiento"]
-image: "/assets/images/posts/2021/06/hd-wallpaper-g857d2e81f_1280.jpg"
+image: "/assets/images/posts/2021/06/hd-wallpaper-g857d2e81f_1280.webp"
 summary: "Job 38-39. El Señor respondió a Job desde un torbellino y lo hizo desafiándolo con muchas preguntas: ¿Dónde estabas cuando creaba todas las cosas? ¿Quién gobierna sobre el turbión..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/12/dia-163-plan-de-lectura/"
 ---

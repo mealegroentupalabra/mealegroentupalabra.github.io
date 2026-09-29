@@ -5,7 +5,7 @@ slug: "dia-53-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Números"]
 tags: ["biblia", "confianza", "desierto", "israel", "juicio", "provisión", "tierra"]
-image: "/assets/images/posts/2021/02/numbers-4014181_1920.jpg"
+image: "/assets/images/posts/2021/02/numbers-4014181_1920.webp"
 summary: "Números 26-27. Mientras los israelitas permanecían en las llanuras de Moab, Dios ordenó a Moisés y a Eleazar tomar el censo de toda la congregación e indicó que de acuerdo al..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/22/dia-53-plan-de-lectura/"
 ---

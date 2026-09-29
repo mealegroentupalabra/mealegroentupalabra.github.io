@@ -5,7 +5,7 @@ slug: "dia-41-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Levítico"]
 tags: ["biblia", "desierto", "ley", "presencia", "sacerdotes", "santidad", "tabernáculo", "templo"]
-image: "/assets/images/posts/2021/02/vlad-kiselov-rgr-7-g4wvs-unsplash.jpg"
+image: "/assets/images/posts/2021/02/vlad-kiselov-rgr-7-g4wvs-unsplash.webp"
 summary: "Levítico 26-27. Dios habló a Moisés sobre las las bendiciones de la obediencia y de las consecuencias de la desobediencia. Si obedecen podrán disfrutar de lo mejor de la tierra,..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/10/dia-41-plan-de-lectura/"
 ---

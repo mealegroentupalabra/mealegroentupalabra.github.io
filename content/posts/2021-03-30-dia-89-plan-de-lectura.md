@@ -5,7 +5,7 @@ slug: "dia-89-plan-de-lectura"
 category: "1 Samuel"
 categories: ["1 Samuel", "La Biblia en un Año"]
 tags: ["batalla", "biblia", "obediencia", "oración", "pecado", "profetas", "reino", "reyes"]
-image: "/assets/images/posts/2021/03/ricardo-cruz-pkmfzmvhsnk-unsplash.jpg"
+image: "/assets/images/posts/2021/03/ricardo-cruz-pkmfzmvhsnk-unsplash.webp"
 summary: "1 Samuel 13-14. En su segundo año de reinado, los filisteos se reunieron para pelear contra Israel, eran tan numerosos que que el pueblo se intimidó, de tal manera que algunos se..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/30/dia-89-plan-de-lectura/"
 ---

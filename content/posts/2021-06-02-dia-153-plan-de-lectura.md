@@ -5,7 +5,7 @@ slug: "dia-153-plan-de-lectura"
 category: "Job"
 categories: ["Job", "La Biblia en un Año"]
 tags: ["biblia", "confianza", "fe", "justicia", "providencia", "prueba", "sufrimiento"]
-image: "/assets/images/posts/2021/06/depression-g21a3ad6eb_1280.jpg"
+image: "/assets/images/posts/2021/06/depression-g21a3ad6eb_1280.webp"
 summary: "Job 5-7. Job maldijo el día en que nació y se lamentó profundamente. Entonces, su amigo Elifaz respondió sugiriendo que Job debió haber hecho algo para estar en dicha condición,..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/02/dia-153-plan-de-lectura/"
 ---

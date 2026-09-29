@@ -5,7 +5,7 @@ slug: "dia-2-plan-de-lectura"
 category: "Génesis"
 categories: ["Génesis", "La Biblia en un Año"]
 tags: ["biblia", "creación", "juicio", "maldad"]
-image: "/assets/images/posts/2021/01/pexels-bella-white-622072-1.jpg"
+image: "/assets/images/posts/2021/01/pexels-bella-white-622072-1.webp"
 summary: "Génesis 4-7. Debido a su desobediencia, el ser humano (Adán y Eva) fue expulsado del huerto. De inmediato, empezaron a aparecer los vestigios de la nueva condición humana caída:..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/02/dia-2-plan-de-lectura/"
 ---

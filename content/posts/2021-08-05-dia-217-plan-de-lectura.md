@@ -5,7 +5,7 @@ slug: "dia-217-plan-de-lectura"
 category: "Isaías"
 categories: ["Isaías", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "esperanza", "juicio", "naciones", "profecía", "reino", "salvación"]
-image: "/assets/images/posts/2021/08/pexels-photo-3771115.jpeg"
+image: "/assets/images/posts/2021/08/pexels-photo-3771115.webp"
 summary: "Isaías 36-39. El rey de Asiria peleó contra Judá y conquistó sus ciudades fortificadas. Luego envió al Rabsaces con un gran ejército contra Jerusalén para tomarla, pero Ezequías..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/05/dia-217-plan-de-lectura/"
 ---

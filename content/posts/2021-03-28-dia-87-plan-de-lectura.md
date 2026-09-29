@@ -5,7 +5,7 @@ slug: "dia-87-plan-de-lectura"
 category: "1 Samuel"
 categories: ["1 Samuel", "La Biblia en un Año"]
 tags: ["batalla", "biblia", "gracia", "obediencia", "oración", "pecado", "sacerdotes", "tabernáculo"]
-image: "/assets/images/posts/2021/02/igor-rodrigues-ug2af0-hmne-unsplash.jpg"
+image: "/assets/images/posts/2021/02/igor-rodrigues-ug2af0-hmne-unsplash.webp"
 summary: "1 Samuel 4-8. Salió Israel para enfrentar a los filisteos y éstos le derrotaron. Por esto, enviaron a Silo a traer el arca del pacto para que les ayudara en la batalla contra sus..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/28/dia-87-plan-de-lectura/"
 ---

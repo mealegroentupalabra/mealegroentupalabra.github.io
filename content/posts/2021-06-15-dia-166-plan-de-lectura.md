@@ -5,7 +5,7 @@ slug: "dia-166-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["adoración", "biblia", "confianza", "Dios", "fe", "justicia", "oración"]
-image: "/assets/images/posts/2021/06/pexels-nastyasensei-335393.jpg"
+image: "/assets/images/posts/2021/06/pexels-nastyasensei-335393.webp"
 summary: "Salmos 9-16. David alaba a Dios por sus maravillas, porque él le ha librado de sus adversarios y quebrantó a las naciones enemigas. El Señor no desampara a los que confían en él y..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/15/dia-166-plan-de-lectura/"
 ---

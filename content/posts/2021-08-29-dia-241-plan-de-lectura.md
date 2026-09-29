@@ -5,7 +5,7 @@ slug: "dia-241-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Lamentaciones"]
 tags: ["biblia", "Dios", "judá", "juicio", "justicia", "pecado", "venganza"]
-image: "/assets/images/posts/2021/08/jewish-cemetery-gc1ac4c311_1280.jpg"
+image: "/assets/images/posts/2021/08/jewish-cemetery-gc1ac4c311_1280.webp"
 summary: "Lamentaciones 3-5. El autor de estas lamentaciones habla de su profunda tristeza por la situación de Jerusalén. Lo que pasó con los bebés, los niños, las doncellas y los ancianos..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/29/dia-241-plan-de-lectura/"
 ---

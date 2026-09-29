@@ -5,7 +5,7 @@ slug: "dia-76-plan-de-lectura"
 category: "Josué"
 categories: ["Josué", "La Biblia en un Año"]
 tags: ["biblia", "fidelidad", "israel", "ley", "obediencia", "promesa", "tierra"]
-image: "/assets/images/posts/2021/03/bradley-lembach-zzi48beurow-unsplash-e1647490890417.jpg"
+image: "/assets/images/posts/2021/03/bradley-lembach-zzi48beurow-unsplash-e1647490890417.webp"
 summary: "Josué 22-24. Las tribus de Ruben, Gad y la Mitad de Manases se separaron del resto de los israelitas para regresar a la tierra que habían recibido al otro lado del Jordán y Josué..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/17/dia-76-plan-de-lectura/"
 ---

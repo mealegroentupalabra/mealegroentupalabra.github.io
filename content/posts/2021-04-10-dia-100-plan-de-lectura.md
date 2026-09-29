@@ -5,7 +5,7 @@ slug: "dia-100-plan-de-lectura"
 category: "2 Samuel"
 categories: ["2 Samuel", "La Biblia en un Año"]
 tags: ["batalla", "biblia", "israel", "juicio", "pecado", "reino", "reyes"]
-image: "/assets/images/posts/2021/04/pexels-joseph-ruwa-4038397.jpg"
+image: "/assets/images/posts/2021/04/pexels-joseph-ruwa-4038397.webp"
 summary: "2 Samuel 19-21. El rey David regresó a Jerusalén acompañado de su séquito y los varones de Judá y de Israel vinieron a recibirlo y a ayudarle a pasar el Jordán junto con su..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/10/dia-100-plan-de-lectura/"
 ---

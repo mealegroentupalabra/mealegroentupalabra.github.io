@@ -5,7 +5,7 @@ slug: "dia-154-plan-de-lectura"
 category: "Job"
 categories: ["Job", "La Biblia en un Año"]
 tags: ["biblia", "confianza", "fe", "justicia", "providencia", "prueba", "sufrimiento"]
-image: "/assets/images/posts/2021/06/hands-gf2fa858ea_1280.jpg"
+image: "/assets/images/posts/2021/06/hands-gf2fa858ea_1280.webp"
 summary: "Job 8-10. Bildad le dice a Job que todo esto le sucede porque es pecador y afirma que tiene que arrepentirse porque Dios no castigaría al justo. Pero Job insiste en que él es..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/03/dia-154-plan-de-lectura/"
 ---

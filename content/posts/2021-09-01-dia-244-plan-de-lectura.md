@@ -5,7 +5,7 @@ slug: "dia-244-plan-de-lectura"
 category: "Ezequiel"
 categories: ["Ezequiel", "La Biblia en un Año"]
 tags: ["biblia", "cautividad", "Dios", "exilio", "gloria", "idolatría", "israel", "judá", "juicio", "templo"]
-image: "/assets/images/posts/2021/09/fantasy-ge9849df9a_1280.jpg"
+image: "/assets/images/posts/2021/09/fantasy-ge9849df9a_1280.webp"
 summary: "Ezequiel 9-12. Ezequiel fue llevado por el Espíritu de Dios en visiones a Jerusalén y al templo. Allí volvió a ver la manifestación de la gloria de Dios, como la había visto antes..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/01/dia-244-plan-de-lectura/"
 ---

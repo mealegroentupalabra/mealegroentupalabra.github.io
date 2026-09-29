@@ -6,7 +6,7 @@ date: 2021-03-20T00:24:31+00:00
 
 <div class="about-hero-card">
   <div class="about-avatar-wrap">
-    <img src="/assets/images/posts/2021/03/me-alegro-en-tu-palabra-logo-3.png" alt="Me Alegro En Tu Palabra" class="about-avatar" width="140" height="140" loading="lazy">
+    <img src="/assets/images/posts/2021/03/me-alegro-en-tu-palabra-logo-3.webp" alt="Me Alegro En Tu Palabra" class="about-avatar" width="140" height="140" loading="lazy">
   </div>
   <h1 class="about-author-name">Alejandro Morales</h1>
   <p class="about-author-slogan">Yo me alegro en la Palabra de Dios porque en ella puedo ver la gloria de Dios en la faz de Jesucristo.</p>
@@ -33,7 +33,7 @@ date: 2021-03-20T00:24:31+00:00
   <p><strong><a href="https://www.facebook.com/mealegroentupalabra" target="_blank" rel="noopener">Me Alegro En Tu Palabra</a></strong> por <a href="https://linktr.ee/alemormez" target="_blank" rel="noopener">Alejandro Morales</a> se distribuye bajo una <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="noreferrer noopener" target="_blank">Licencia Creative Commons Atribución-NoComercial 4.0 Internacional</a>.</p>
   <div class="about-license-badge">
     <a href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">
-      <img alt="Licencia Creative Commons" height="31" width="88" loading="lazy" src="/assets/images/posts/2021/03/image.png">
+      <img alt="Licencia Creative Commons" height="31" width="88" loading="lazy" src="/assets/images/posts/2021/03/image.webp">
     </a>
   </div>
 </div>

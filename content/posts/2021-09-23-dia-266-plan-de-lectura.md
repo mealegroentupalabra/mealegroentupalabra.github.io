@@ -5,7 +5,7 @@ slug: "dia-266-plan-de-lectura"
 category: "Abdías"
 categories: ["Abdías", "Amós", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "israel", "judá", "juicio", "justicia", "naciones", "pecado", "profecía"]
-image: "/assets/images/posts/2021/09/petra-6294051_1280.jpg"
+image: "/assets/images/posts/2021/09/petra-6294051_1280.webp"
 summary: "Amós 6-9; Abdías 1. Amós continuó anunciando el juicio del Señor contra Israel, pero un sacerdote de Bet-el llamado Amasías intentó impedir que él lo siguiera haciendo. Por causa..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/23/dia-266-plan-de-lectura/"
 ---

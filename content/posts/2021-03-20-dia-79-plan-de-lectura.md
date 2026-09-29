@@ -5,7 +5,7 @@ slug: "dia-79-plan-de-lectura"
 category: "Jueces"
 categories: ["Jueces", "La Biblia en un Año"]
 tags: ["batalla", "biblia", "israel", "liberación", "misericordia", "obediencia", "pecado", "tierra"]
-image: "/assets/images/posts/2021/03/amphora-170621_1280.jpg"
+image: "/assets/images/posts/2021/03/amphora-170621_1280.webp"
 summary: "Jueces 6-7. El pueblo de Israel volvió a hacer lo malo ante los ojos del Señor y fueron sometidos por el pueblo de Madián por siete años. Cuando subían los madianitas, los..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/20/dia-79-plan-de-lectura/"
 ---

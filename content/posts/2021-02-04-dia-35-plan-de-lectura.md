@@ -5,7 +5,7 @@ slug: "dia-35-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Levítico"]
 tags: ["biblia", "desierto", "gloria", "ley", "ofrenda", "presencia", "sacerdotes", "sacrificio", "tabernáculo", "templo"]
-image: "/assets/images/posts/2021/02/charcuterie-338498_1280.jpg"
+image: "/assets/images/posts/2021/02/charcuterie-338498_1280.webp"
 summary: "Levítico 11-13. Dios dio instrucciones a Moisés sobre los animales que los israelitas podían comer clasificándolos en animales limpios e inmundos. También dio instrucciones acerca..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/04/dia-35-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-247-plan-de-lectura"
 category: "Ezequiel"
 categories: ["Ezequiel", "La Biblia en un Año"]
 tags: ["biblia", "cautividad", "Dios", "israel", "judá", "justicia", "pecado", "perdón"]
-image: "/assets/images/posts/2021/09/jack-sharp-optesfuzwoq-unsplash.jpg"
+image: "/assets/images/posts/2021/09/jack-sharp-optesfuzwoq-unsplash.webp"
 summary: "Ezequiel 18-20. Algunos del pueblo utilizaban el refrán: “Los padres comieron las uvas agrias, y los dientes de los hijos tienen la dentera”. Sin embargo, Dios advirtió que esto..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/04/dia-247-plan-de-lectura/"
 ---

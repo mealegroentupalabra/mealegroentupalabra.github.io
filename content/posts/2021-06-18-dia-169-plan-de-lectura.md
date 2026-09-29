@@ -5,7 +5,7 @@ slug: "dia-169-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["adoración", "alabanza", "biblia", "confianza", "Dios", "esperanza", "fe", "oración", "perdón", "victoria"]
-image: "/assets/images/posts/2021/06/meadow-g4dad26830_1280.jpg"
+image: "/assets/images/posts/2021/06/meadow-g4dad26830_1280.webp"
 summary: "Salmos 26-31. David habló sobre su fe y su integridad, él no fue amigo de hombres hipócritas ni participó en sus pecados. Por eso con confianza pidió que Dios examinara su corazón..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/18/dia-169-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-181-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["alabanza", "biblia", "confianza", "Dios", "fidelidad", "israel", "juicio", "justicia", "misericordia", "pacto", "salvación", "templo"]
-image: "/assets/images/posts/2021/06/meiying-ng-orwkd-iwgqg-unsplash.jpg"
+image: "/assets/images/posts/2021/06/meiying-ng-orwkd-iwgqg-unsplash.webp"
 summary: "Salmos 86-89. El salmista habló de Jerusalén. Lo que hace especial a esta ciudad es que Dios hizo reposar su nombre sobre ella, Dios la escogió para manifestar su gloria. Por eso..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/30/dia-181-plan-de-lectura/"
 ---

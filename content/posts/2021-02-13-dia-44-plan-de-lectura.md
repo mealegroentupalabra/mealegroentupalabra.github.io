@@ -5,7 +5,7 @@ slug: "dia-44-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Números"]
 tags: ["biblia", "desierto", "ley", "sacerdotes", "voto"]
-image: "/assets/images/posts/2021/02/eye-4421552_1280.jpg"
+image: "/assets/images/posts/2021/02/eye-4421552_1280.webp"
 summary: "Números 5-6. Dios ordenó que todos aquellos que estuvieran ritualmente impuros debían salir del campamento. También dio instrucciones sobre la restitución de un daño, sobre el..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/13/dia-44-plan-de-lectura/"
 ---

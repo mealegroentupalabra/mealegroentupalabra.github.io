@@ -5,7 +5,7 @@ slug: "dia-86-plan-de-lectura"
 category: "1 Samuel"
 categories: ["1 Samuel", "La Biblia en un Año"]
 tags: ["alabanza", "biblia", "fidelidad", "gracia", "obediencia", "oración", "providencia", "provisión", "sacerdotes", "voto"]
-image: "/assets/images/posts/2021/03/bebe-4485458_1280.jpg"
+image: "/assets/images/posts/2021/03/bebe-4485458_1280.webp"
 summary: "1 Samuel 1-3. Elcana tenía dos mujeres llamadas Ana y Penina, y esta última molestaba a Ana debido a que ella no podía tener hijos. Esta familia subía todos los años para adorar a..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/27/dia-86-plan-de-lectura/"
 ---

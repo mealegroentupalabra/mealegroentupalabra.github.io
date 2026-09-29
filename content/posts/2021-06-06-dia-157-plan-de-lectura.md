@@ -5,7 +5,7 @@ slug: "dia-157-plan-de-lectura"
 category: "Job"
 categories: ["Job", "La Biblia en un Año"]
 tags: ["biblia", "confianza", "fe", "justicia", "providencia", "prueba", "sufrimiento"]
-image: "/assets/images/posts/2021/06/jeremy-perkins-7fosjvtutac-unsplash.jpg"
+image: "/assets/images/posts/2021/06/jeremy-perkins-7fosjvtutac-unsplash.webp"
 summary: "Job 17-20. Los amigos de Job le responden cada vez con más dureza, recordándole que Dios pagará a los malos con desgracia, y que él es uno de ellos."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/06/dia-157-plan-de-lectura/"
 ---

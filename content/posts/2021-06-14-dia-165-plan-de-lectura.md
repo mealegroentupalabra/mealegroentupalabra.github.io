@@ -5,7 +5,7 @@ slug: "dia-165-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["adoración", "biblia", "confianza", "Dios", "fe", "justicia", "maldad", "oración"]
-image: "/assets/images/posts/2021/06/rains-gd089a7acc_1280.jpg"
+image: "/assets/images/posts/2021/06/rains-gd089a7acc_1280.webp"
 summary: "Salmos 1-8. El libro de los Salmos empieza mostrando la diferencia entre el justo y el malo, y qué es lo que hace esa diferencia. Luego explora el reinado futuro del rey Mesías y..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/14/dia-165-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-49-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Números"]
 tags: ["biblia", "desierto", "incredulidad", "juicio", "ley", "pecado", "rivalidad", "sacerdotes"]
-image: "/assets/images/posts/2021/02/igor-rodrigues-ug2af0-hmne-unsplash.jpg"
+image: "/assets/images/posts/2021/02/igor-rodrigues-ug2af0-hmne-unsplash.webp"
 summary: "Números 16-17. Un levita llamado Coré junto con algunos otros hombres del pueblo se levantaron contra Moisés y Aarón desafiando el hecho de que Dios los había escogido."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/18/dia-49-plan-de-lectura/"
 ---

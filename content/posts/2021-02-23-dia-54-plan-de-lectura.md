@@ -5,7 +5,7 @@ slug: "dia-54-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Números"]
 tags: ["biblia", "desierto", "fiestas", "israel", "ofrenda", "sacerdotes", "sacrificio", "santidad", "servicio", "tabernáculo"]
-image: "/assets/images/posts/2021/02/pexels-fauxels-3184183.jpg"
+image: "/assets/images/posts/2021/02/pexels-fauxels-3184183.webp"
 summary: "Números 28-30. Dios mandó al pueblo a ofrecer los sacrificios y a celebrar las fiestas en el tiempo señalado. Debían presentar las ofrendas diarias, las del día de reposo y las..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/23/dia-54-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-56-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Números"]
 tags: ["biblia", "desierto", "israel", "juicio", "justicia", "obediencia", "provisión", "tierra"]
-image: "/assets/images/posts/2021/02/dave-herring-tarr7ys2f3q-unsplash.jpg"
+image: "/assets/images/posts/2021/02/dave-herring-tarr7ys2f3q-unsplash.webp"
 summary: "Números 33-34. Moisés hizo un recuento de los lugares por los que los israelitas pasaron en su camino a la tierra prometida. Por su parte, Dios le dijo al pueblo a través de..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/25/dia-56-plan-de-lectura/"
 ---

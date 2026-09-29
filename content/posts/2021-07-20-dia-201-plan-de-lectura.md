@@ -5,7 +5,7 @@ slug: "dia-201-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Proverbios"]
 tags: ["biblia", "confianza", "Dios", "justicia", "maldad", "obediencia", "pecado", "sabiduría"]
-image: "/assets/images/posts/2021/07/pexels-melimeraki-art-6484192.jpg"
+image: "/assets/images/posts/2021/07/pexels-melimeraki-art-6484192.webp"
 summary: "Proverbios 22-23. Salomón nos pide que escuchemos sus consejos, que los guardemos en nuestro interior y que los tengamos en nuestros labios. Él ha dejado estas instrucciones para..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/20/dia-201-plan-de-lectura/"
 ---

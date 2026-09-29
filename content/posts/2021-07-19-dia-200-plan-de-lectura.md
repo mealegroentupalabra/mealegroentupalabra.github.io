@@ -5,7 +5,7 @@ slug: "dia-200-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Proverbios"]
 tags: ["biblia", "confianza", "Dios", "justicia", "maldad", "misericordia", "obediencia", "recompensa", "sabiduría"]
-image: "/assets/images/posts/2021/07/plank-729441_1280.jpg"
+image: "/assets/images/posts/2021/07/plank-729441_1280.webp"
 summary: "Proverbios 19-21. Salomón continúa presentándonos sus consejos de sabiduría. Él nos habla de la ira del hombre, de la pereza, del falso testimonio y de la generosidad, entre otros..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/19/dia-200-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-11-plan-de-lectura"
 category: "Génesis"
 categories: ["Génesis", "La Biblia en un Año"]
 tags: ["biblia", "confianza", "fe", "fidelidad", "pacto", "perdón", "promesa", "protección"]
-image: "/assets/images/posts/2021/01/desert-4944794_1280.jpg"
+image: "/assets/images/posts/2021/01/desert-4944794_1280.webp"
 summary: "Génesis 32-34. El próximo desafío para Jacob fue el de enfrentar a su hermano Esaú después de todo lo que le había hecho. Por supuesto, Jacob tenía miedo y esperaba lo peor, pero..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/11/dia-11-plan-de-lectura/"
 ---

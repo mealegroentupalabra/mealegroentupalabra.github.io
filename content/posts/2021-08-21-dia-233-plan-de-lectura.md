@@ -5,7 +5,7 @@ slug: "dia-233-plan-de-lectura"
 category: "Jeremías"
 categories: ["Jeremías", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "esperanza", "israel", "judá", "pacto", "profecía", "promesa"]
-image: "/assets/images/posts/2021/08/real-estate-6688945_1280.jpg"
+image: "/assets/images/posts/2021/08/real-estate-6688945_1280.webp"
 summary: "Jeremías 32-34. En el año décimo del reinado de Sedequías, que a su vez era el año decimoctavo de Nabucodonosor, la ciudad de Jerusalén estaba rodeada por el ejército Babilonio y..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/21/dia-233-plan-de-lectura/"
 ---

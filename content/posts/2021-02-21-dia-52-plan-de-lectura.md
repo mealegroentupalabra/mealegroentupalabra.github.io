@@ -5,7 +5,7 @@ slug: "dia-52-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Números"]
 tags: ["bendición", "biblia", "confianza", "desierto", "israel", "juicio", "profecía", "profetas", "provisión"]
-image: "/assets/images/posts/2021/02/seif-amr-lunnwltzovi-unsplash.jpg"
+image: "/assets/images/posts/2021/02/seif-amr-lunnwltzovi-unsplash.webp"
 summary: "Números 23-25. Aunque Balac el rey de Moab hizo traer a Balaam para que maldijera a Israel, éste no pudo hacer nada en contra de ellos. En lugar de maldecirlos, Balaam bendijo a..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/21/dia-52-plan-de-lectura/"
 ---

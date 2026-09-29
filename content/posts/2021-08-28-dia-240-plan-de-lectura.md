@@ -5,7 +5,7 @@ slug: "dia-240-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Lamentaciones"]
 tags: ["biblia", "Dios", "judá", "juicio", "justicia", "pecado", "venganza"]
-image: "/assets/images/posts/2021/08/dave-herring-b9d_jrowiys-unsplash.jpg"
+image: "/assets/images/posts/2021/08/dave-herring-b9d_jrowiys-unsplash.webp"
 summary: "Lamentaciones 1-2. Jerusalén se lamentó y gimió dolorosamente por su quebranto, pero ella supo que sus rebeliones contra Dios le habían traido ese mal. Fue en busca de sus..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/28/dia-240-plan-de-lectura/"
 ---

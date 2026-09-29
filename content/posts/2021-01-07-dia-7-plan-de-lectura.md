@@ -5,7 +5,7 @@ slug: "dia-7-plan-de-lectura"
 category: "Génesis"
 categories: ["Génesis", "La Biblia en un Año"]
 tags: ["biblia", "fe", "obediencia", "pacto", "promesa", "sacrificio", "simiente", "tierra"]
-image: "/assets/images/posts/2021/01/abraham-1260073_1280.jpg"
+image: "/assets/images/posts/2021/01/abraham-1260073_1280.webp"
 summary: "Génesis 22-24. Pasado un tiempo, Dios probó a Abraham pidiéndole que ofreciera a Isaac como sacrificio. Por supuesto, esto implicaría que Isaac debía morir, pero, ¿qué sentido..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/07/dia-7-plan-de-lectura/"
 ---

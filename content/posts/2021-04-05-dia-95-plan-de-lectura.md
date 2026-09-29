@@ -5,7 +5,7 @@ slug: "dia-95-plan-de-lectura"
 category: "2 Samuel"
 categories: ["2 Samuel", "La Biblia en un Año"]
 tags: ["batalla", "biblia", "profetas", "reino", "reyes", "victoria"]
-image: "/assets/images/posts/2021/04/pexels-pixabay-260024.jpg"
+image: "/assets/images/posts/2021/04/pexels-pixabay-260024.webp"
 summary: "2 Samuel 1-3. David oyó de la muerte de Saúl y de Jonatán y se lamentó profundamente por ellos; incluso les compuso una canción de lamento. Luego, David subió de Siclag a Hebrón,..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/05/dia-95-plan-de-lectura/"
 ---

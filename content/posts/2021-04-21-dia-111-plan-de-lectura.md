@@ -5,7 +5,7 @@ slug: "dia-111-plan-de-lectura"
 category: "2 Reyes"
 categories: ["2 Reyes", "La Biblia en un Año"]
 tags: ["biblia", "fuego", "israel", "judá", "justicia", "poder", "profetas", "reyes"]
-image: "/assets/images/posts/2021/04/fire-horse-2492947_1280.jpg"
+image: "/assets/images/posts/2021/04/fire-horse-2492947_1280.webp"
 summary: "2 Reyes 1-3. Ocozías se cayó por una ventana quedando en muy mal estado, y envió a sus siervos a preguntar si sanaría a Baal-zebub dios de Ecrón. Entonces el profeta Elías,..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/21/dia-111-plan-de-lectura/"
 ---

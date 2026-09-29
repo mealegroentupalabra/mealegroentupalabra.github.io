@@ -5,7 +5,7 @@ slug: "dia-167-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["adoración", "batalla", "biblia", "confianza", "Dios", "fe", "justicia", "oración", "victoria"]
-image: "/assets/images/posts/2021/06/goat-gdc48dc837_1280.jpg"
+image: "/assets/images/posts/2021/06/goat-gdc48dc837_1280.webp"
 summary: "Salmos 17-20. David oró por la protección de Dios contra los malvados y violentos. Mientras ellos eran arrogantes, David buscaba a Dios con humildad y se apartaba de ellos...."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/16/dia-167-plan-de-lectura/"
 ---

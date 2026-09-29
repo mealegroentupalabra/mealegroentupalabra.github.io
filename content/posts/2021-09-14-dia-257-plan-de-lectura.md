@@ -5,7 +5,7 @@ slug: "dia-257-plan-de-lectura"
 category: "Ezequiel"
 categories: ["Ezequiel", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "esperanza", "israel", "profetas", "templo"]
-image: "/assets/images/posts/2021/09/pexels-haley-black-2102625.jpg"
+image: "/assets/images/posts/2021/09/pexels-haley-black-2102625.webp"
 summary: "Ezequiel 46-48. Dios entregó más instrucciones sobre el uso del templo y dio indicaciones sobre la distribución de la tierra prometida entre las tribus de Israel. Una porción de..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/14/dia-257-plan-de-lectura/"
 ---

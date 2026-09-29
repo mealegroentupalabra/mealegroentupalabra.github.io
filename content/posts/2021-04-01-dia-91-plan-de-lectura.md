@@ -5,7 +5,7 @@ slug: "dia-91-plan-de-lectura"
 category: "1 Samuel"
 categories: ["1 Samuel", "La Biblia en un Año"]
 tags: ["batalla", "biblia", "confianza", "pecado", "reino", "reyes", "victoria"]
-image: "/assets/images/posts/2021/04/arrow-1557473_1280.jpg"
+image: "/assets/images/posts/2021/04/arrow-1557473_1280.webp"
 summary: "1 Samuel 18-20. Después de la muerte de Goliat, David se quedó con Saúl y éste lo puso sobre hombres de guerra para que los dirigiera. En ese tiempo, David y Jonatán trabaron una..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/01/dia-91-plan-de-lectura/"
 ---

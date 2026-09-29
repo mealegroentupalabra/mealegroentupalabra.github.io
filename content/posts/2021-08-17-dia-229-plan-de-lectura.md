@@ -5,7 +5,7 @@ slug: "dia-229-plan-de-lectura"
 category: "Jeremías"
 categories: ["Jeremías", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "israel", "judá", "juicio", "justicia", "opresión", "oración", "pecado"]
-image: "/assets/images/posts/2021/08/earl-wilcox-vuhywznkm84-unsplash-1.jpg"
+image: "/assets/images/posts/2021/08/earl-wilcox-vuhywznkm84-unsplash-1.webp"
 summary: "Jeremías 18-22. Dios le dijo a Jeremías que su pueblo era como la vasija que se deshace en las manos del alfarero. Él los arrancaría, derribaría y destruiría pero también los..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/17/dia-229-plan-de-lectura/"
 ---

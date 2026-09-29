@@ -5,7 +5,7 @@ slug: "dia-115-plan-de-lectura"
 category: "2 Reyes"
 categories: ["2 Reyes", "La Biblia en un Año"]
 tags: ["batalla", "biblia", "fidelidad", "guerra", "israel", "judá", "justicia", "liberación", "misericordia", "profetas", "reyes", "tierra", "venganza"]
-image: "/assets/images/posts/2021/03/sword-790815_1280.jpg"
+image: "/assets/images/posts/2021/03/sword-790815_1280.webp"
 summary: "2 Reyes 12-14. Joás empezó a reinar cuando tenía siete años y reinó cuarenta años en Jerusalén, e hizo lo bueno ante los ojos de Dios mientras estuvo bajo la tutela del sacerdote..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/25/dia-115-plan-de-lectura/"
 ---

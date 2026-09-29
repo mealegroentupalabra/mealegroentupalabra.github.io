@@ -5,7 +5,7 @@ slug: "dia-19-plan-de-lectura"
 category: "Éxodo"
 categories: ["Éxodo", "La Biblia en un Año"]
 tags: ["biblia", "dificultades", "egipto", "esclavitud", "fidelidad", "misericordia", "plan", "providencia"]
-image: "/assets/images/posts/2021/01/pexels-david-mceachan-71241.jpg"
+image: "/assets/images/posts/2021/01/pexels-david-mceachan-71241.webp"
 summary: "Éxodo 4-6. Después de porfiar con Dios, finalmente Moisés obedeció y se dirigió a Egipto. Dios envió a Aarón, su hermano, a encontrarlo en el desierto para que fuese su vocero..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/19/dia-19-plan-de-lectura/"
 ---

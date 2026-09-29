@@ -5,7 +5,7 @@ slug: "dia-190-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["alabanza", "biblia", "confianza", "Dios", "esperanza", "fidelidad", "israel", "justicia", "misericordia", "obediencia", "pacto", "pecado", "poder"]
-image: "/assets/images/posts/2021/07/levi-meir-clancy-eejzrxr-7xa-unsplash.jpg"
+image: "/assets/images/posts/2021/07/levi-meir-clancy-eejzrxr-7xa-unsplash.webp"
 summary: "Salmos 126-132. El salmista miró hacia el futuro deleitándose y regocijándose en el día cuando Dios hará cesar la cautividad de Sion. Él vio risas, alegría y alabanza en aquel..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/09/dia-190-plan-de-lectura/"
 ---

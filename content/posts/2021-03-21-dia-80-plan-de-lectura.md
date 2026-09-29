@@ -5,7 +5,7 @@ slug: "dia-80-plan-de-lectura"
 category: "Jueces"
 categories: ["Jueces", "La Biblia en un Año"]
 tags: ["batalla", "biblia", "israel", "liberación", "misericordia", "obediencia", "pecado", "tierra"]
-image: "/assets/images/posts/2021/03/payton-tuttle-hvpfbq-psgq-unsplash.jpg"
+image: "/assets/images/posts/2021/03/payton-tuttle-hvpfbq-psgq-unsplash.webp"
 summary: "Jueces 8-9. Gedeón derrotó completamente a los reyes de Madián, es decir, a Zeba y Zalmuna. Después, los israelitas pidieron a Gedeón que fuera su rey, pero él se negó diciendo..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/21/dia-80-plan-de-lectura/"
 ---

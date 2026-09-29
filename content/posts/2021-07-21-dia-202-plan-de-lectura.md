@@ -5,7 +5,7 @@ slug: "dia-202-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Proverbios"]
 tags: ["biblia", "Dios", "maldad", "obediencia", "pecado", "sabiduría"]
-image: "/assets/images/posts/2021/07/man-5522892_1280.jpg"
+image: "/assets/images/posts/2021/07/man-5522892_1280.webp"
 summary: "Proverbios 24-26. Los siguientes proverbios de Salomón fueron recopilados por hombres del rey Ezequías. En ellos encontramos consejo acerca del trato con los reyes, de la..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/21/dia-202-plan-de-lectura/"
 ---

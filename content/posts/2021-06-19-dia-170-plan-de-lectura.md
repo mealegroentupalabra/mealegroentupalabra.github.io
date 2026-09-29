@@ -5,7 +5,7 @@ slug: "dia-170-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["adoración", "alabanza", "biblia", "confianza", "Dios", "esperanza", "fe", "oración", "perdón", "victoria"]
-image: "/assets/images/posts/2021/06/hand-g247d0e837_1280-1.jpg"
+image: "/assets/images/posts/2021/06/hand-g247d0e837_1280-1.webp"
 summary: "Salmos 32-35. David reflexionó sobre la bienaventuranza del hombre cuyos pecados son perdonados. Él lo experimentó porque pecó gravemente, pero al confesar su falta, el Señor le..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/19/dia-170-plan-de-lectura/"
 ---

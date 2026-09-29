@@ -5,7 +5,7 @@ slug: "dia-139-plan-de-lectura"
 category: "2 Crónicas"
 categories: ["2 Crónicas", "La Biblia en un Año"]
 tags: ["ídolos", "biblia", "fe", "guerra", "idolatría", "israel", "juicio", "obediencia", "reyes"]
-image: "/assets/images/posts/2021/05/art-3234985_1280.jpg"
+image: "/assets/images/posts/2021/05/art-3234985_1280.webp"
 summary: "2 Crónicas 32-34. Senaquerib rey de Asiria vino contra Judá, la invadió y acampó contra varias de las ciudades fortificadas. También envió sus siervos a Jerusalén para pedir su..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/19/dia-139-plan-de-lectura/"
 ---

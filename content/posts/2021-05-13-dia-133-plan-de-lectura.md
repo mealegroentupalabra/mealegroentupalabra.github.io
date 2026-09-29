@@ -5,7 +5,7 @@ slug: "dia-133-plan-de-lectura"
 category: "2 Crónicas"
 categories: ["2 Crónicas", "La Biblia en un Año"]
 tags: ["biblia", "israel", "reino", "reyes", "tierra"]
-image: "/assets/images/posts/2021/05/jackson-simmer-vqg809b-sre-unsplash.jpg"
+image: "/assets/images/posts/2021/05/jackson-simmer-vqg809b-sre-unsplash.webp"
 summary: "2 Crónicas 9-12. La fama de Salomón se extendió por muchos reinos, de modo que todos los reyes querían escuchar de su sabiduría. Fue así que vino la reina de Sabá con presentes..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/13/dia-133-plan-de-lectura/"
 ---

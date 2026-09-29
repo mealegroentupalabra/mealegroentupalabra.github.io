@@ -5,7 +5,7 @@ slug: "dia-27-plan-de-lectura"
 category: "Éxodo"
 categories: ["Éxodo", "La Biblia en un Año"]
 tags: ["biblia", "desierto", "ley", "presencia", "sacerdotes", "tabernáculo", "templo"]
-image: "/assets/images/posts/2021/01/pexels-engin-akyurt-1487713.jpg"
+image: "/assets/images/posts/2021/01/pexels-engin-akyurt-1487713.webp"
 summary: "Éxodo 28-29. Aún estando Moisés en el monte, Dios le indicó que había escogido a Aarón y a sus hijos para que fueran sus sacerdotes, y que debía hacer para ellos unas vestiduras..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/27/dia-27-plan-de-lectura/"
 ---

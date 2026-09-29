@@ -5,7 +5,7 @@ slug: "dia-63-plan-de-lectura"
 category: "Deuteronomio"
 categories: ["Deuteronomio", "La Biblia en un Año"]
 tags: ["biblia", "desierto", "fidelidad", "israel", "ley", "misericordia", "obediencia", "tierra"]
-image: "/assets/images/posts/2021/03/don-gd8b537964_1280.jpg"
+image: "/assets/images/posts/2021/03/don-gd8b537964_1280.webp"
 summary: "Deuteronomio 14-16. Moisés repasó con la nueva generación algunas ordenanzas que Dios ya había entregado a los israelitas. Les habló de los animales limpios e inmundos, de la ley..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/04/dia-63-plan-de-lectura/"
 ---

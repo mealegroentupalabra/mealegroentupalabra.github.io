@@ -5,7 +5,7 @@ slug: "dia-186-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["alabanza", "biblia", "Dios", "esperanza", "fidelidad", "israel", "misericordia", "pacto", "pecado"]
-image: "/assets/images/posts/2021/07/man-gc88517cd0_1280.jpg"
+image: "/assets/images/posts/2021/07/man-gc88517cd0_1280.webp"
 summary: "Salmos 108-114. David manifestó su decisión de alabar a Dios por su misericordia y su verdad, que son tan grandes que llegan hasta los cielos. También habló del dominio de Dios..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/05/dia-186-plan-de-lectura/"
 ---

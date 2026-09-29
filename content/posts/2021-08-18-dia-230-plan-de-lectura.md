@@ -5,7 +5,7 @@ slug: "dia-230-plan-de-lectura"
 category: "Jeremías"
 categories: ["Jeremías", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "israel", "judá", "juicio", "justicia", "profetas"]
-image: "/assets/images/posts/2021/08/terry-vlisidis-0dhiwrspv74-unsplash.jpg"
+image: "/assets/images/posts/2021/08/terry-vlisidis-0dhiwrspv74-unsplash.webp"
 summary: "Jeremías 23-25. Dios dijo que los líderes de Israel, que debían cuidar y guiar al pueblo con justicia, lo habían dispersado y espantado, pero que él mismo los recogería de los..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/18/dia-230-plan-de-lectura/"
 ---

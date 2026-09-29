@@ -5,7 +5,7 @@ slug: "dia-88-plan-de-lectura"
 category: "1 Samuel"
 categories: ["1 Samuel", "La Biblia en un Año"]
 tags: ["batalla", "biblia", "obediencia", "oración", "pecado", "reino", "reyes"]
-image: "/assets/images/posts/2021/03/markus-spiske-kp1bubr2j4a-unsplash.jpg"
+image: "/assets/images/posts/2021/03/markus-spiske-kp1bubr2j4a-unsplash.webp"
 summary: "1 Samuel 9-12. Dios le indicó a Samuel quién sería el que gobernaría a su pueblo, sería Saúl el hijo de Cis de la tribu de Benjamín. Éste era joven, hermoso y más alto que todos..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/29/dia-88-plan-de-lectura/"
 ---

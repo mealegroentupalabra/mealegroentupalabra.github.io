@@ -5,7 +5,7 @@ slug: "la-aventura-empieza-aqui"
 category: "Introducción"
 categories: ["Introducción"]
 tags: ["biblia", "Dios"]
-image: "/assets/images/posts/2021/01/pexels-luis-quintero-2294873-2.jpg"
+image: "/assets/images/posts/2021/01/pexels-luis-quintero-2294873-2.webp"
 summary: "Si te preguntara de qué trata la Biblia, ¿Cuál sería tu respuesta? Quizá que se trata de un manual de vida, o de un libro de historias antiguas muy interesantes, o de relatos que..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/01/la-aventura-empieza-aqui/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-112-plan-de-lectura"
 category: "2 Reyes"
 categories: ["2 Reyes", "La Biblia en un Año"]
 tags: ["biblia", "fuego", "israel", "justicia", "milagro", "misericordia", "poder", "profetas", "reyes"]
-image: "/assets/images/posts/2021/04/pexels-vansh-sharma-3692053.jpg"
+image: "/assets/images/posts/2021/04/pexels-vansh-sharma-3692053.webp"
 summary: "2 Reyes 4-5. Eliseo realizó varios milagros. Los dos primeros fueron en beneficio de dos mujeres, una de ellas era una viuda pobre y la otra una mujer estéril. También ayudó a los..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/22/dia-112-plan-de-lectura/"
 ---

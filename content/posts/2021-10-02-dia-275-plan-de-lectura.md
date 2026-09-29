@@ -5,7 +5,7 @@ slug: "dia-275-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Mateo"]
 tags: ["bendición", "biblia", "Dios", "genealogía", "gentiles", "israel", "naciones", "profetas", "promesa", "reino", "restauración", "reyes", "sacerdotes"]
-image: "/assets/images/posts/2021/10/baptism-7015333_1280.jpg"
+image: "/assets/images/posts/2021/10/baptism-7015333_1280.webp"
 summary: "Mateo 1-4. Pasaron cuatro siglos desde que la última voz profética registrada en las Escrituras alzó su voz para anunciar la venida del Señor. Ese día dichoso finalmente había..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/10/02/dia-275-plan-de-lectura/"
 ---

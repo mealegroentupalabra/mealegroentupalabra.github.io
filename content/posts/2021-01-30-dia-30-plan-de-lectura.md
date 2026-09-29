@@ -5,7 +5,7 @@ slug: "dia-30-plan-de-lectura"
 category: "Éxodo"
 categories: ["Éxodo", "La Biblia en un Año"]
 tags: ["atributos", "biblia", "desierto", "gloria", "ley", "presencia", "sacerdotes", "tabernáculo", "templo"]
-image: "/assets/images/posts/2021/01/handicraft-4388501_1280.jpg"
+image: "/assets/images/posts/2021/01/handicraft-4388501_1280.webp"
 summary: "Éxodo 36-38. Bezaleel, Aholiab y los otros artesanos recibieron de Moisés la ofrenda que el pueblo había separado para la obra del santuario (el tabernáculo). Tal fue la ofrenda,..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/30/dia-30-plan-de-lectura/"
 ---

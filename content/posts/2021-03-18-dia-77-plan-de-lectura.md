@@ -5,7 +5,7 @@ slug: "dia-77-plan-de-lectura"
 category: "Jueces"
 categories: ["Jueces", "La Biblia en un Año"]
 tags: ["biblia", "fidelidad", "israel", "ley", "obediencia", "promesa", "tierra"]
-image: "/assets/images/posts/2021/02/octavian-dan-ywu3pg6l1ue-unsplash.jpg"
+image: "/assets/images/posts/2021/02/octavian-dan-ywu3pg6l1ue-unsplash.webp"
 summary: "Jueces 1-2. Después de la muerte de Josué, las tribus de Israel emprendieron batallas contra los cananeos que aún se encontraban en sus territorios para tomar posesión completa de..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/18/dia-77-plan-de-lectura/"
 ---

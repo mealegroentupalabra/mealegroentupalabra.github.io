@@ -5,7 +5,7 @@ slug: "dia-146-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Nehemías"]
 tags: ["biblia", "genealogía", "israel", "judá", "obediencia", "reconstrucción", "restauración"]
-image: "/assets/images/posts/2021/05/david-holifield-kltv_kh0j7g-unsplash.jpg"
+image: "/assets/images/posts/2021/05/david-holifield-kltv_kh0j7g-unsplash.webp"
 summary: "Nehemías 7. Una vez concluida la edificación del muro, Nehemías le asignó a su hermano Hanani, y a Hananías, el cuidado de las puertas de Jerusalén. También estableció guardas por..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/26/dia-146-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-118-plan-de-lectura"
 category: "2 Reyes"
 categories: ["2 Reyes", "La Biblia en un Año"]
 tags: ["biblia", "cautividad", "judá", "juicio", "justicia", "profecía", "profetas", "reyes", "tierra"]
-image: "/assets/images/posts/2021/04/guy-2617866_1280.jpg"
+image: "/assets/images/posts/2021/04/guy-2617866_1280.webp"
 summary: "2 Reyes 20-22. En aquellos días, el rey Ezequías enfermó de muerte, y oró y lloró delante de Dios y él escuchó su súplica y le concedió quince años más de vida. También vinieron..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/28/dia-118-plan-de-lectura/"
 ---

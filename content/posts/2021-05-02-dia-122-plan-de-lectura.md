@@ -5,7 +5,7 @@ slug: "dia-122-plan-de-lectura"
 category: "1 Crónicas"
 categories: ["1 Crónicas", "La Biblia en un Año"]
 tags: ["biblia", "cautividad", "genealogía", "israel", "juicio", "profecía", "sacerdotes", "templo"]
-image: "/assets/images/posts/2021/05/diana-polekhina-7a79gn3azmm-unsplash.jpg"
+image: "/assets/images/posts/2021/05/diana-polekhina-7a79gn3azmm-unsplash.webp"
 summary: "1 Crónicas 6. En esta sección se presenta la genealogía de los descendientes de Leví, los cuales tenían la responsabilidad del servicio del santuario y del sacerdocio Aarónico."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/02/dia-122-plan-de-lectura/"
 ---

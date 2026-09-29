@@ -5,7 +5,7 @@ slug: "dia-96-plan-de-lectura"
 category: "2 Samuel"
 categories: ["2 Samuel", "La Biblia en un Año"]
 tags: ["batalla", "biblia", "israel", "profetas", "reino", "reyes", "templo", "victoria"]
-image: "/assets/images/posts/2021/04/jerusalem-g1488f82d0_1280.jpg"
+image: "/assets/images/posts/2021/04/jerusalem-g1488f82d0_1280.webp"
 summary: "2 Samuel 4-7. Después del asesinato de Is-boset, David fue ungido por rey sobre todo Israel y Judá. Luego conquistó a Jerusalén, la cual se encontraba en poder de los jebuseos, y..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/06/dia-96-plan-de-lectura/"
 ---

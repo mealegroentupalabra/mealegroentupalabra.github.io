@@ -5,7 +5,7 @@ slug: "dia-13-plan-de-lectura"
 category: "Génesis"
 categories: ["Génesis", "La Biblia en un Año"]
 tags: ["biblia", "dificultades", "egipto", "fidelidad", "pacto", "plan", "promesa", "protección", "providencia", "rivalidad"]
-image: "/assets/images/posts/2021/01/egypt-1291004_1280.jpg"
+image: "/assets/images/posts/2021/01/egypt-1291004_1280.webp"
 summary: "Génesis 38-40. Judá, se apartó de sus hermanos y se llegó a la hija de Súa con la cuál tuvo tres hijos; a dos de ellos le quitó la vida el Señor porque procedieron con maldad ante..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/13/dia-13-plan-de-lectura/"
 ---

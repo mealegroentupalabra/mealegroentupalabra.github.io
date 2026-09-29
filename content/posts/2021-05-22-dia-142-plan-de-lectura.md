@@ -5,7 +5,7 @@ slug: "dia-142-plan-de-lectura"
 category: "Esdras"
 categories: ["Esdras", "La Biblia en un Año"]
 tags: ["biblia", "judá", "reconstrucción", "restauración"]
-image: "/assets/images/posts/2021/05/forum-romanum-883849_1280-1.jpg"
+image: "/assets/images/posts/2021/05/forum-romanum-883849_1280-1.webp"
 summary: "Esdras 4-7. Los enemigos del pueblo de Judá y de Benjamín se opusieron a la edificación de la casa de Dios en Jerusalén, y lograron detener la construcción por un tiempo. Pero..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/05/22/dia-142-plan-de-lectura/"
 ---

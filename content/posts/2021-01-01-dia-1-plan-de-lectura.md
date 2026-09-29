@@ -5,7 +5,7 @@ slug: "dia-1-plan-de-lectura"
 category: "Génesis"
 categories: ["Génesis", "La Biblia en un Año"]
 tags: ["biblia", "creación", "obediencia"]
-image: "/assets/images/posts/2021/01/mountains-5946500_1280.jpg"
+image: "/assets/images/posts/2021/01/mountains-5946500_1280.webp"
 summary: "Génesis 1-3. La historia de la Biblia empieza con Dios. Él es un ser eterno, de gran poder y creatividad que por seis días consecutivos trajo a la existencia todas las cosas. La..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/01/dia-1-plan-de-lectura/"
 ---

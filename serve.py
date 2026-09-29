@@ -154,11 +154,14 @@ class BlogRequestHandler(http.server.SimpleHTTPRequestHandler):
                 if not base64_str:
                     raise ValueError("No se enviaron datos de imagen.")
 
-                image_bytes = base64.b64decode(base64_str)
+                from PIL import Image, ImageOps
+                import io
 
                 clean_name = re.sub(r'[^a-zA-Z0-9._-]', '_', filename)
-                if not clean_name or "." not in clean_name:
-                    clean_name = f"upload_{datetime.now().strftime('%Y%m%d_%H%M%S')}.jpg"
+                stem = os.path.splitext(clean_name)[0]
+                if not stem:
+                    stem = f"upload_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+                clean_name = f"{stem}.webp"
 
                 now = datetime.now()
                 year_str = now.strftime('%Y')
@@ -170,16 +173,26 @@ class BlogRequestHandler(http.server.SimpleHTTPRequestHandler):
 
                 # Avoid accidental overwrite
                 if dest_file.exists():
-                    base_n, ext_n = os.path.splitext(clean_name)
-                    clean_name = f"{base_n}_{now.strftime('%H%M%S')}{ext_n}"
+                    clean_name = f"{stem}_{now.strftime('%H%M%S')}.webp"
                     dest_file = dest_dir / clean_name
 
-                dest_file.write_bytes(image_bytes)
+                # Optimize and convert to WebP
+                with Image.open(io.BytesIO(image_bytes)) as img:
+                    img = ImageOps.exif_transpose(img)
+                    w, h = img.size
+                    max_w = 1400
+                    if w > max_w:
+                        new_h = int(h * (max_w / w))
+                        img = img.resize((max_w, new_h), Image.Resampling.LANCZOS)
+                    if img.mode in ('RGBA', 'LA') or (img.mode == 'P' and 'transparency' in img.info):
+                        img.save(dest_file, 'WEBP', quality=85, method=6)
+                    else:
+                        img.convert('RGB').save(dest_file, 'WEBP', quality=82, method=6)
 
                 # Also write immediately to public/ so it can be previewed/served without full rebuild
                 public_file = Path(f"public/assets/images/posts/{year_str}/{month_str}") / clean_name
                 public_file.parent.mkdir(parents=True, exist_ok=True)
-                public_file.write_bytes(image_bytes)
+                public_file.write_bytes(dest_file.read_bytes())
 
                 url = f"/assets/images/posts/{year_str}/{month_str}/{clean_name}"
                 self.send_response(200)

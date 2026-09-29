@@ -5,7 +5,7 @@ slug: "dia-223-plan-de-lectura"
 category: "Isaías"
 categories: ["Isaías", "La Biblia en un Año"]
 tags: ["biblia", "Dios", "esperanza", "israel", "juicio", "justicia", "naciones", "promesa", "salvación"]
-image: "/assets/images/posts/2021/08/galaxy-g487a56ab4_1280.jpg"
+image: "/assets/images/posts/2021/08/galaxy-g487a56ab4_1280.webp"
 summary: "Isaías 64-66. Isaías clama para que el Señor traspase los cielos y descienda como lo hizo antaño cuando rescató a su pueblo de Egipto con proezas. Él sabe que la razón por la que..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/11/dia-223-plan-de-lectura/"
 ---

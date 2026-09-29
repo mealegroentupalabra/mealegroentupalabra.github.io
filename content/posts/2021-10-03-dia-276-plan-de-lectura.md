@@ -5,7 +5,7 @@ slug: "dia-276-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Mateo"]
 tags: ["bendición", "biblia", "Dios", "enseñanza", "jesus", "justicia", "obediencia", "promesa", "reino", "reyes"]
-image: "/assets/images/posts/2021/10/religious-8789823_1280.jpg"
+image: "/assets/images/posts/2021/10/religious-8789823_1280.webp"
 summary: "Mateo 5-6. En la etapa inicial de su ministerio Jesús reunió a algunos seguidores y con ellos recorrió la región de Galilea enseñando en las sinagogas, predicando públicamente el..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/10/03/dia-276-plan-de-lectura/"
 ---

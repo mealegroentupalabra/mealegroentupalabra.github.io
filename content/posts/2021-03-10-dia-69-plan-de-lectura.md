@@ -5,7 +5,7 @@ slug: "dia-69-plan-de-lectura"
 category: "Deuteronomio"
 categories: ["Deuteronomio", "La Biblia en un Año"]
 tags: ["bendición", "biblia", "israel", "ley", "obediencia", "pacto", "profecía", "promesa"]
-image: "/assets/images/posts/2021/03/accolade-creative-wlicsye4bv4-unsplash.jpg"
+image: "/assets/images/posts/2021/03/accolade-creative-wlicsye4bv4-unsplash.webp"
 summary: "Deuteronomio 32-34. Moisés enseñó a los israelitas el cántico que Dios les dio por testimonio de su futura rebelión. Este cántico expresa la maravillosa bondad de Dios con un..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/03/10/dia-69-plan-de-lectura/"
 ---

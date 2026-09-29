@@ -5,7 +5,7 @@ slug: "dia-219-plan-de-lectura"
 category: "Isaías"
 categories: ["Isaías", "La Biblia en un Año"]
 tags: ["atributos", "ídolos", "biblia", "Dios", "esperanza", "idolatría", "naciones", "reino", "salvación"]
-image: "/assets/images/posts/2021/08/pexels-photo-844297.jpeg"
+image: "/assets/images/posts/2021/08/pexels-photo-844297.webp"
 summary: "Isaías 45-48. Dios escogió a Ciro para someter naciones debajo de él por amor a Israel, para que él ordenara reconstruir Jerusalén y al templo. Lo estableció como rey para que se..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/08/07/dia-219-plan-de-lectura/"
 ---

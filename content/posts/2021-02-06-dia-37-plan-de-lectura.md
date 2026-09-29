@@ -5,7 +5,7 @@ slug: "dia-37-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Levítico"]
 tags: ["biblia", "desierto", "expiación", "gloria", "ley", "presencia", "purificación", "sacerdotes", "sacrificio", "santidad", "tabernáculo", "templo"]
-image: "/assets/images/posts/2021/02/animal-4628961_1280.jpg"
+image: "/assets/images/posts/2021/02/animal-4628961_1280.webp"
 summary: "Levítico 16-18. Dios instruyó a Moisés en relación con la celebración de un día especial llamado “El Día de la Expiación”. Éste sería celebrado una vez cada año. En él, el sumo..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/06/dia-37-plan-de-lectura/"
 ---

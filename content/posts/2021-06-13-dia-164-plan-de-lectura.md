@@ -5,7 +5,7 @@ slug: "dia-164-plan-de-lectura"
 category: "Job"
 categories: ["Job", "La Biblia en un Año"]
 tags: ["biblia", "confianza", "Dios", "fe", "justicia", "providencia", "sabiduría"]
-image: "/assets/images/posts/2021/06/tornado-g12b37dc3d_1280.jpg"
+image: "/assets/images/posts/2021/06/tornado-g12b37dc3d_1280.webp"
 summary: "Job 40-42. El Señor respondió a Job desde un torbellino. Mediante una serie de preguntas sobre la extraordinaria obra de la creación y sobre los actos poderosos y sabios de Dios,..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/13/dia-164-plan-de-lectura/"
 ---

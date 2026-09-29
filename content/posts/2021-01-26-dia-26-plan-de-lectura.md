@@ -5,7 +5,7 @@ slug: "dia-26-plan-de-lectura"
 category: "Éxodo"
 categories: ["Éxodo", "La Biblia en un Año"]
 tags: ["biblia", "desierto", "ley", "presencia", "tabernáculo", "templo"]
-image: "/assets/images/posts/2021/01/blueprint-964630_1280.jpg"
+image: "/assets/images/posts/2021/01/blueprint-964630_1280.webp"
 summary: "Éxodo 25-27. Moisés estuvo cuarenta días y cuarenta noches en la cima del monte con el Señor. Estando allí, Dios le dio las instrucciones para la construcción del tabernáculo. Lo..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/26/dia-26-plan-de-lectura/"
 ---

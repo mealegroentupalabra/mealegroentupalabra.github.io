@@ -5,7 +5,7 @@ slug: "dia-183-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["alabanza", "biblia", "Dios", "fidelidad", "israel", "juicio", "justicia", "misericordia", "reino", "salvación"]
-image: "/assets/images/posts/2021/07/jean-wimmerlin-85b3iu8fkty-unsplash.jpg"
+image: "/assets/images/posts/2021/07/jean-wimmerlin-85b3iu8fkty-unsplash.webp"
 summary: "Salmos 96-102. Los salmistas nos transportan al tiempo cuando Dios gobierne sobre toda la creación. Por eso, todos en el cielo y en la tierra estarán invitados a alabar a Dios,..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/02/dia-183-plan-de-lectura/"
 ---

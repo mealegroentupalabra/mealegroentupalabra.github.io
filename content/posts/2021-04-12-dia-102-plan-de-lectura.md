@@ -5,7 +5,7 @@ slug: "dia-102-plan-de-lectura"
 category: "1 Reyes"
 categories: ["1 Reyes", "La Biblia en un Año"]
 tags: ["adoración", "alabanza", "biblia", "fidelidad", "israel", "promesa", "reino", "reyes"]
-image: "/assets/images/posts/2021/03/markus-spiske-kp1bubr2j4a-unsplash.jpg"
+image: "/assets/images/posts/2021/03/markus-spiske-kp1bubr2j4a-unsplash.webp"
 summary: "1 Reyes 1-2. Adonías se autoproclamó rey sobre Israel, aunque Salomón era quien había sido escogido por David. Por esto, David ordenó que Salomón fuese ungido como rey y que se..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/04/12/dia-102-plan-de-lectura/"
 ---

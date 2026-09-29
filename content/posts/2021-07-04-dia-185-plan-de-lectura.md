@@ -5,7 +5,7 @@ slug: "dia-185-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["alabanza", "biblia", "Dios", "esperanza", "fidelidad", "israel", "misericordia", "pacto", "pecado", "perdón", "salvación"]
-image: "/assets/images/posts/2021/07/nikko-macaspac-6snbwyfwuhk-unsplash.jpg"
+image: "/assets/images/posts/2021/07/nikko-macaspac-6snbwyfwuhk-unsplash.webp"
 summary: "Salmos 106-107. El salmista empezó reconociendo la bondad y misericordia de Dios, para luego adentrarse en un repaso poético de la historia de la constante rebeldía de Israel..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/04/dia-185-plan-de-lectura/"
 ---

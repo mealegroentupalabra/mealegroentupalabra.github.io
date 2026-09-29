@@ -5,7 +5,7 @@ slug: "dia-177-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["adoración", "alabanza", "biblia", "confianza", "Dios", "justicia", "maldad", "oración", "reyes"]
-image: "/assets/images/posts/2021/06/contemplation-gf3491bdf3_1280.jpg"
+image: "/assets/images/posts/2021/06/contemplation-gf3491bdf3_1280.webp"
 summary: "Salmos 70-73. David oró por el juicio de Dios contra los malvados y para que los que buscan a Dios se regocijen en él y lo alaben. Él pidió para que el Señor no tardara en..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/06/26/dia-177-plan-de-lectura/"
 ---

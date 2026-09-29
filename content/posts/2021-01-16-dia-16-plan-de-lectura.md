@@ -5,7 +5,7 @@ slug: "dia-16-plan-de-lectura"
 category: "Génesis"
 categories: ["Génesis", "La Biblia en un Año"]
 tags: ["biblia", "egipto", "genealogía", "plan", "protección", "providencia", "provisión"]
-image: "/assets/images/posts/2021/01/pexels-anthony-beck-4493205.jpg"
+image: "/assets/images/posts/2021/01/pexels-anthony-beck-4493205.webp"
 summary: "Génesis 46-47. Dios le mostró a Jacob que debía descender a Egipto sin temor y Jacob así lo hizo yendo allá con su familia y con todo lo que tenía, y cuando llegó, José los..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/01/16/dia-16-plan-de-lectura/"
 ---

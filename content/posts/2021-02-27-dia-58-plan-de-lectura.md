@@ -5,7 +5,7 @@ slug: "dia-58-plan-de-lectura"
 category: "Deuteronomio"
 categories: ["Deuteronomio", "La Biblia en un Año"]
 tags: ["biblia", "desierto", "fe", "israel", "obediencia", "tierra"]
-image: "/assets/images/posts/2021/02/taylor-wilcox-zhy7-yagg2u-unsplash.jpg"
+image: "/assets/images/posts/2021/02/taylor-wilcox-zhy7-yagg2u-unsplash.webp"
 summary: "Deuteronomio 1-2. Moisés habló a los israelitas estando en las llanuras de Moab, frente a Jericó, al este del Jordán, y les recordó su proceder desde que salieron del desierto del..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/02/27/dia-58-plan-de-lectura/"
 ---

@@ -5,7 +5,7 @@ slug: "dia-182-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Salmos"]
 tags: ["alabanza", "biblia", "confianza", "Dios", "fidelidad", "israel", "juicio", "justicia", "misericordia", "protección", "salvación"]
-image: "/assets/images/posts/2021/07/pexels-leif-blessing-7001090.jpg"
+image: "/assets/images/posts/2021/07/pexels-leif-blessing-7001090.webp"
 summary: "Salmos 90-95. Moisés reflexionó acerca de la eternidad de Dios y de la brevedad de la vida humana. Si la vida del hombre es tan breve, ¿Por qué Dios insiste en probarlo y llamarle..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/07/01/dia-182-plan-de-lectura/"
 ---

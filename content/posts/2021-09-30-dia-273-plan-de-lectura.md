@@ -5,7 +5,7 @@ slug: "dia-273-plan-de-lectura"
 category: "La Biblia en un Año"
 categories: ["La Biblia en un Año", "Zacarías"]
 tags: ["biblia", "Dios", "israel", "judá", "justicia", "naciones", "profetas", "reino", "restauración"]
-image: "/assets/images/posts/2021/09/jumping-game-5384962_1280.jpg"
+image: "/assets/images/posts/2021/09/jumping-game-5384962_1280.webp"
 summary: "Zacarías 8-14. Dios habló por medio de Zacarías diciendo que él había restaurado a Sion y que moraría allí, en Jerusalén. Jerusalén sería la Ciudad de la Verdad y Sion el Monte de..."
 original_url: "https://mealegroentupalabra.wordpress.com/2021/09/30/dia-273-plan-de-lectura/"
 ---
