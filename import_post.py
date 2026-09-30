@@ -113,7 +113,7 @@ def transform_url(url):
         return f'/etiqueta/{m_tag.group(1)}/'
 
     # Post links with date: YYYY/MM/DD/slug -> /posts/slug/
-    m_post = re.match(r'^\d{4}/\d{2}/\d{2}/([^/]+)', path)
+    m_post = re.match(r'^\d{4}/\d{2}/\d{2}/([^/]+)(?:/.*)?$', path)
     if m_post:
         return f'/posts/{m_post.group(1)}/'
 
@@ -250,6 +250,11 @@ def clean_and_transform_post_content(raw_html, dt):
 
     # 3. Process and download all inline images to WebP
     for img in soup.find_all("img"):
+        # Remove all WordPress metadata and tracking attributes (e.g. data-permalink, data-orig-file, data-large-file, data-attachment-id)
+        for attr in list(img.attrs.keys()):
+            if attr.startswith("data-"):
+                del img[attr]
+
         src = img.get("src", "")
         if src.startswith("http"):
             local_webp = download_and_optimize_image(src, dt)
@@ -257,6 +262,13 @@ def clean_and_transform_post_content(raw_html, dt):
             if img.has_attr("srcset"):
                 # Simplify srcset to local WebP
                 img["srcset"] = f"{local_webp} 768w"
+
+        # If wrapped in an <a> tag pointing to WordPress attachment/media or the image itself, unwrap it
+        parent = img.parent
+        if parent and parent.name == "a":
+            href = parent.get("href", "")
+            if "wordpress.com" in href or "wp-content" in href or href == src:
+                parent.unwrap()
 
     # 4. Remove timeline bubbles & unwrap timeline items if reading plan
     for hr in soup.find_all("hr", class_=lambda c: c and "wp-block-coblocks-dynamic-separator" in c):
@@ -281,6 +293,10 @@ def clean_and_transform_post_content(raw_html, dt):
 
     # 5. Clean inline styles and empty paragraphs
     for el in soup.find_all(True):
+        for attr in list(el.attrs.keys()):
+            if attr.startswith("data-"):
+                del el[attr]
+
         if el.has_attr("style"):
             style = el["style"]
             if "wp--preset" in style or "background-color:#eee" in style or "background-color:#eeeeee" in style:
