@@ -221,12 +221,15 @@ def clean_and_transform_post_content(raw_html, dt):
                 img["srcset"] = f"{local_webp} 768w"
 
     # 4. Remove timeline bubbles & unwrap timeline items if reading plan
+    for hr in soup.find_all("hr", class_=lambda c: c and "wp-block-coblocks-dynamic-separator" in c):
+        hr.decompose()
+
     for bubble in soup.find_all("div", class_=lambda c: c and ("timeline-item__bubble" in c or "timeline-item__dot" in c)):
         bubble.decompose()
 
     for ul in soup.find_all("ul", class_=lambda c: c and "wp-block-jetpack-timeline" in c):
         ul.name = "div"
-        ul["class"] = "reading-plan-flow"
+        ul["class"] = ["reading-plan-flow"]
 
     for li in soup.find_all("li", class_=lambda c: c and "wp-block-jetpack-timeline-item" in c):
         li.name = "div"
