@@ -108,6 +108,35 @@ class BlogRequestHandler(http.server.SimpleHTTPRequestHandler):
                 self.wfile.write(json.dumps({"error": str(e)}).encode("utf-8"))
             return
 
+        # API: Recent WordPress posts for quick import
+        if url_path == "/api/wp-recent-posts":
+            try:
+                import html
+                from import_post import fetch_json, API_BASE, get_existing_slugs
+                data = fetch_json(f"{API_BASE}/posts?number=6")
+                posts = data.get("posts", [])
+                existing_slugs = get_existing_slugs()
+                simplified = []
+                for p in posts:
+                    pslug = p.get("slug", "")
+                    simplified.append({
+                        "title": html.unescape(p.get("title", "")),
+                        "slug": pslug,
+                        "date": p.get("date", "")[:10],
+                        "url": p.get("URL", ""),
+                        "is_imported": pslug in existing_slugs
+                    })
+                self.send_response(200)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.end_headers()
+                self.wfile.write(json.dumps({"success": True, "posts": simplified}, ensure_ascii=False).encode("utf-8"))
+            except Exception as e:
+                self.send_response(500)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.end_headers()
+                self.wfile.write(json.dumps({"success": False, "error": str(e)}).encode("utf-8"))
+            return
+
         super().do_GET()
 
     def do_POST(self):
@@ -199,6 +228,32 @@ class BlogRequestHandler(http.server.SimpleHTTPRequestHandler):
                 self.send_header("Content-Type", "application/json; charset=utf-8")
                 self.end_headers()
                 self.wfile.write(json.dumps({"success": True, "url": url}).encode("utf-8"))
+            except Exception as e:
+                self.send_response(400)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.end_headers()
+                self.wfile.write(json.dumps({"success": False, "error": str(e)}).encode("utf-8"))
+            return
+
+        # API: Import post from WordPress
+        if url_path == "/api/import-wp-post":
+            content_length = int(self.headers.get("Content-Length", 0))
+            post_data = self.rfile.read(content_length).decode("utf-8") if content_length > 0 else "{}"
+            try:
+                data = json.loads(post_data) if post_data else {}
+                url_or_slug = data.get("url_or_slug", "").strip()
+                from import_post import import_post_by_slug_or_url, import_latest
+                if not url_or_slug or data.get("latest"):
+                    res = import_latest()
+                    if not res:
+                        raise ValueError("No hay artículos nuevos pendientes en WordPress.")
+                else:
+                    res = import_post_by_slug_or_url(url_or_slug)
+
+                self.send_response(200)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.end_headers()
+                self.wfile.write(json.dumps(res, ensure_ascii=False).encode("utf-8"))
             except Exception as e:
                 self.send_response(400)
                 self.send_header("Content-Type", "application/json; charset=utf-8")

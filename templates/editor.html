@@ -921,6 +921,11 @@
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
         <span>＋ Nuevo</span>
       </button>
+
+      <button type="button" class="btn-import-wp" id="importWpBtn" onclick="openImportWpModal()" style="background: rgba(245, 158, 11, 0.12); color: var(--gold); border: 1px solid var(--gold); padding: 0.45rem 0.85rem; border-radius: var(--radius-md); font-size: 0.84rem; font-weight: 600; cursor: pointer; display: inline-flex; align-items: center; gap: 0.4rem;" title="Importar artículo publicado en mealegroentupalabra.wordpress.com">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+        <span>📥 Importar WP</span>
+      </button>
     </div>
 
     <!-- Center: View Switcher -->
@@ -1437,6 +1442,44 @@
       <div class="modal-actions">
         <button type="button" class="btn-drawer-toggle" onclick="closeVideoModal()">Cancelar</button>
         <button type="button" class="btn-studio-save" onclick="confirmInsertVideo()">Insertar Video</button>
+      </div>
+    </div>
+  <!-- Modal: Import from WordPress -->
+  <div class="studio-modal-backdrop" id="importWpModalBackdrop">
+    <div class="studio-modal" style="max-width: 580px;">
+      <div class="modal-header">
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+          <span style="font-size: 1.3rem;">📥</span>
+          <h3>Importar Artículo de WordPress</h3>
+        </div>
+        <button type="button" class="btn-drawer-toggle" onclick="closeImportWpModal()" style="padding: 0.25rem 0.5rem;">✕</button>
+      </div>
+
+      <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1.25rem; line-height: 1.5;">
+        Importa artículos de <strong>mealegroentupalabra.wordpress.com</strong> con todas sus imágenes optimizadas a WebP, bloques limpios y citas bíblicas formateadas.
+      </p>
+
+      <div class="form-group" style="margin-bottom: 1.25rem;">
+        <label class="form-label" for="wpImportInput">Pega la URL o slug del artículo</label>
+        <div style="display: flex; gap: 0.5rem;">
+          <input type="text" id="wpImportInput" class="form-input" placeholder="Ej: https://mealegroentupalabra.wordpress.com/2026/09/29/aprende-a-vivir-contento/ o aprende-a-vivir-contento">
+          <button type="button" class="btn-studio-save" id="btnExecuteWpImport" onclick="executeWpImport()">Importar</button>
+        </div>
+      </div>
+
+      <div style="border-top: 1px solid var(--border-light); padding-top: 1rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+          <span style="font-size: 0.82rem; font-weight: 600; color: var(--text-muted);">Publicaciones recientes en WordPress:</span>
+          <button type="button" onclick="loadWpRecentPosts()" style="background: none; border: none; font-size: 0.78rem; color: var(--primary); cursor: pointer; text-decoration: underline;">↻ Refrescar</button>
+        </div>
+        <div id="wpRecentPostsList" style="display: flex; flex-direction: column; gap: 0.5rem; max-height: 240px; overflow-y: auto;">
+          <span style="font-size: 0.8rem; color: var(--text-light); text-align: center; padding: 1rem;">Cargando publicaciones de WordPress...</span>
+        </div>
+      </div>
+
+      <div class="modal-actions" style="margin-top: 1.25rem;">
+        <button type="button" class="btn-drawer-toggle" onclick="closeImportWpModal()">Cerrar</button>
+        <button type="button" class="btn-drawer-toggle" onclick="importLatestWpPost()" style="color: var(--gold); border-color: var(--gold); font-weight: 600;">⚡ Importar el más reciente</button>
       </div>
     </div>
   </div>
@@ -1993,6 +2036,127 @@
         insertSyntax(snippet, '');
         closeVideoModal();
         showToast('✓ Video insertado correctamente');
+      };
+
+      // WordPress Import Modal Logic
+      window.openImportWpModal = function () {
+        document.getElementById('importWpModalBackdrop').classList.add('active');
+        const input = document.getElementById('wpImportInput');
+        if (input) input.value = '';
+        loadWpRecentPosts();
+      };
+
+      window.closeImportWpModal = function () {
+        document.getElementById('importWpModalBackdrop').classList.remove('active');
+      };
+
+      window.loadWpRecentPosts = async function () {
+        const container = document.getElementById('wpRecentPostsList');
+        if (!container) return;
+        container.innerHTML = '<span style="font-size: 0.8rem; color: var(--text-light); text-align: center; padding: 0.75rem;">Consultando artículos en WordPress...</span>';
+
+        try {
+          const resp = await fetch('/api/wp-recent-posts');
+          const data = await resp.json();
+          if (!data.success || !data.posts || data.posts.length === 0) {
+            container.innerHTML = '<span style="font-size: 0.8rem; color: var(--text-light); text-align: center; padding: 0.75rem;">No se encontraron artículos en WordPress.</span>';
+            return;
+          }
+
+          container.innerHTML = '';
+          data.posts.forEach(p => {
+            const item = document.createElement('div');
+            item.style.cssText = 'display: flex; align-items: center; justify-content: space-between; padding: 0.6rem 0.75rem; background: var(--bg-subtle); border-radius: var(--radius-sm); border: 1px solid var(--border-light); gap: 0.5rem;';
+
+            const info = document.createElement('div');
+            info.style.cssText = 'min-width: 0; flex: 1;';
+            info.innerHTML = `
+              <div style="font-size: 0.88rem; font-weight: 600; color: var(--text-main); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${p.title}</div>
+              <div style="font-size: 0.74rem; color: var(--text-muted); display: flex; gap: 0.5rem; align-items: center; margin-top: 2px;">
+                <span>📅 ${p.date}</span>
+                ${p.is_imported ? '<span style="color: #16a34a; font-weight: 500;">✓ Ya importado</span>' : '<span style="color: var(--gold); font-weight: 600;">⭐ Nuevo</span>'}
+              </div>
+            `;
+
+            const btn = document.createElement('button');
+            btn.type = 'button';
+            btn.style.cssText = p.is_imported
+              ? 'background: var(--bg-surface); border: 1px solid var(--border-light); font-size: 0.78rem; padding: 0.3rem 0.6rem; border-radius: var(--radius-sm); cursor: pointer; color: var(--text-muted);'
+              : 'background: var(--primary); color: #fff; border: none; font-size: 0.78rem; padding: 0.3rem 0.75rem; border-radius: var(--radius-sm); cursor: pointer; font-weight: 600;';
+            btn.textContent = p.is_imported ? 'Reimportar' : 'Importar';
+            btn.onclick = () => executeWpImport(p.slug);
+
+            item.appendChild(info);
+            item.appendChild(btn);
+            container.appendChild(item);
+          });
+        } catch (err) {
+          container.innerHTML = `<span style="font-size: 0.8rem; color: #ef4444; text-align: center; padding: 0.75rem;">Error al conectar con WordPress: ${err.message}</span>`;
+        }
+      };
+
+      window.executeWpImport = async function (explicitSlug) {
+        const input = document.getElementById('wpImportInput');
+        const target = explicitSlug || (input ? input.value.trim() : '');
+        if (!target) {
+          showToast('Por favor introduce una URL o slug a importar.', true);
+          return;
+        }
+
+        const btn = document.getElementById('btnExecuteWpImport');
+        if (btn) {
+          btn.disabled = true;
+          btn.textContent = 'Importando...';
+        }
+        showToast('Descargando de WordPress y optimizando a WebP...');
+
+        try {
+          const resp = await fetch('/api/import-wp-post', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ url_or_slug: target })
+          });
+          const res = await resp.json();
+
+          if (res.success) {
+            closeImportWpModal();
+            await loadPostsList();
+            await loadPost(res.filename);
+            showToast(`✓ ¡Artículo "${res.title}" importado con éxito! <a href="${res.url}" target="_blank" style="color: #ffffff; text-decoration: underline; margin-left: 8px;">Ver en vivo ↗</a>`);
+          } else {
+            showToast('Error al importar: ' + (res.error || ''), true);
+          }
+        } catch (err) {
+          showToast('Error de conexión al importar: ' + err.message, true);
+        } finally {
+          if (btn) {
+            btn.disabled = false;
+            btn.textContent = 'Importar';
+          }
+        }
+      };
+
+      window.importLatestWpPost = async function () {
+        showToast('Buscando e importando el artículo más reciente...');
+        try {
+          const resp = await fetch('/api/import-wp-post', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ latest: true })
+          });
+          const res = await resp.json();
+
+          if (res.success) {
+            closeImportWpModal();
+            await loadPostsList();
+            await loadPost(res.filename);
+            showToast(`✓ ¡Artículo "${res.title}" importado con éxito! <a href="${res.url}" target="_blank" style="color: #ffffff; text-decoration: underline; margin-left: 8px;">Ver en vivo ↗</a>`);
+          } else {
+            showToast('Aviso: ' + (res.error || ''), true);
+          }
+        } catch (err) {
+          showToast('Error al importar: ' + err.message, true);
+        }
       };
 
       // Formatting Helpers
