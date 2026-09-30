@@ -1,0 +1,52 @@
+name: Sincronizar Automáticamente desde WordPress
+
+on:
+  schedule:
+    # Se ejecuta automáticamente cada 6 horas (a las 00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Permite ejecutar la sincronización con un botón desde la pestaña Actions en GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  sync-wordpress:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Sincronizar publicaciones nuevas de WordPress
+        run: |
+          python import_post.py --sync
+
+      - name: Verificar si hay nuevos artículos
+        id: check_changes
+        run: |
+          if [ -n "$(git status --porcelain content/ assets/images/)" ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Guardar y subir nuevos artículos al repositorio
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/ assets/images/
+          git commit -m "chore(sync): auto-importar publicaciones nuevas desde WordPress"
+          git push origin master

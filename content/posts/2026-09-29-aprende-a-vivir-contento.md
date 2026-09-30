@@ -9,6 +9,7 @@ image: "/assets/images/posts/2026/09/luan_aqua-girl-7008608_1280.webp"
 summary: "Contentamiento es, básicamente, el estar satisfecho con lo que se tiene. Este viene cuando entendemos que todo lo que tenemos es un regalo y que no merecemos nada. Viene cuando..."
 original_url: "https://mealegroentupalabra.wordpress.com/2026/09/29/aprende-a-vivir-contento/"
 ---
+
 <div class="scripture-card"><blockquote><p>10 En gran manera me gocé en el Señor de que ya al fin habéis revivido vuestro cuidado de mí; de lo cual también estabais solícitos, pero os faltaba la oportunidad. 11 No lo digo porque tenga escasez, pues he aprendido a contentarme, cualquiera que sea mi situación. 12 Sé vivir humildemente, y sé tener abundancia; en todo y por todo estoy enseñado, así para estar saciado como para tener hambre, así para tener abundancia como para padecer necesidad. 13 Todo lo puedo en Cristo que me fortalece.</p><cite class="scripture-cite">Filipenses 4:10-13</cite></blockquote></div>
 <p class="wp-block-paragraph">El corazón del hombre es como un barril sin fondo, pues recibe, recibe y recibe, pero jamás está completamente lleno y, por lo tanto, no se sacia. Frecuentemente, los seres humanos experimentan insatisfacción en algún área de su vida, o en la totalidad de ella. Algunos tienen problemas para aceptar su apariencia física: están insatisfechos por el color de su cabello, por el tono de su piel, por el color de sus ojos o por alguna carencia que ellos consideran que tienen.</p>
 <p class="wp-block-paragraph">Otros están insatisfechos por su trabajo, porque quizá no llena sus expectativas a nivel profesional, o porque el pago recibido no es suficiente.</p>
@@ -44,30 +45,30 @@ original_url: "https://mealegroentupalabra.wordpress.com/2026/09/29/aprende-a-vi
 <p class="wp-block-paragraph">Por lo tanto, teniendo esto en mente, hay algunos consejos prácticos que podemos seguir para aprender contentamiento:</p>
 <p class="wp-block-paragraph">En primer lugar, debemos recordar que estamos completos en Cristo, y que no hay nada que nos haga falta que no esté en Cristo, ya que en él Dios ha provisto para nosotros todo lo necesario, tanto para nuestra vida espiritual como para nuestra vida física, tanto para nuestra vida futura como para nuestra vida presente. Todas las bendiciones que Dios tiene reservadas para nosotros nos las entrega por medio de Cristo. </p>
 <blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph">31 ¿Qué, pues, diremos a esto? Si Dios es por nosotros, ¿quién contra nosotros? 32 El que no escatimó ni a su propio Hijo, sino que lo entregó por todos nosotros, ¿cómo no nos dará también con él todas las cosas?</p>
-<cite>Romanos 8:31-32</cite>
+<p class="wp-block-paragraph"><em>31 ¿Qué, pues, diremos a esto? Si Dios es por nosotros, ¿quién contra nosotros? 32 El que no escatimó ni a su propio Hijo, sino que lo entregó por todos nosotros, ¿cómo no nos dará también con él todas las cosas?</em></p>
+<cite class="scripture-cite">Romanos 8:31-32</cite>
 </blockquote>
 <p class="wp-block-paragraph">En segundo lugar, seamos agradecidos con Dios por las pruebas de la vida, porque son el medio que Dios usa para enseñarnos a confiar en él y a estar satisfechos, aunque desde el punto de vista humano, arraigado en el aquí y en el ahora, no haya razones para ello. Debemos aprender a ver las pruebas desde la perspectiva de Dios, a aceptar con fe lo que dice la Escritura en cuanto a todo lo que Dios logra en nuestras vidas por medio de ellas.</p>
 <blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph">2 Hermanos míos, tened por sumo gozo cuando os halléis en diversas pruebas, 3 sabiendo que la prueba de vuestra fe produce paciencia. 4 Mas tenga la paciencia su obra completa, para que seáis perfectos y cabales, sin que os falte cosa alguna.</p>
-<cite>Santiago 1:2-4</cite>
+<p class="wp-block-paragraph"><em>2 Hermanos míos, tened por sumo gozo cuando os halléis en diversas pruebas, 3 sabiendo que la prueba de vuestra fe produce paciencia. 4 Mas tenga la paciencia su obra completa, para que seáis perfectos y cabales, sin que os falte cosa alguna.</em></p>
+<cite class="scripture-cite">Santiago 1:2-4</cite>
 </blockquote>
 <p class="wp-block-paragraph">En tercer lugar, seamos agradecidos con Dios por las cosas que él nos ha dado en lugar de estar pensando con inquietud en lo que no tenemos. El contar las bendiciones que sí tenemos nos ayudará a valorarlas y, en consecuencia, a amar más al Dios generoso de quien provienen todas ellas.</p>
 <figure class="wp-block-image alignright size-large is-resized"><img alt="" class="wp-image-2923" data-attachment-id="2923" data-comments-opened="1" data-image-caption="" data-image-description="" data-image-meta='{"orientation":"1"}' data-image-title="esten-contentos-cita-4" data-large-file="https://mealegroentupalabra.wordpress.com/wp-content/uploads/2026/09/esten-contentos-cita-4.jpg?w=768" data-orig-file="https://mealegroentupalabra.wordpress.com/wp-content/uploads/2026/09/esten-contentos-cita-4.jpg" data-orig-size="1792,2390" data-permalink="https://mealegroentupalabra.wordpress.com/2026/09/29/aprende-a-vivir-contento/esten-contentos-cita-4/" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/assets/images/posts/2026/09/esten-contentos-cita-4.webp" srcset="/assets/images/posts/2026/09/esten-contentos-cita-4.webp 768w" style="aspect-ratio:0.7500061291034348;width:446px;height:auto" width="768"/></figure>
 <blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph">6 Pero gran ganancia es la piedad acompañada de contentamiento; 7 porque nada hemos traído a este mundo, y sin duda nada podremos sacar. 8 Así que, teniendo sustento y abrigo, estemos contentos con esto. 9 Porque los que quieren enriquecerse caen en tentación y lazo, y en muchas codicias necias y dañosas, que hunden a los hombres en destrucción y perdición; 10 porque raíz de todos los males es el amor al dinero, el cual codiciando algunos, se extraviaron de la fe, y fueron traspasados de muchos dolores.</p>
-<cite>1 Timoteo 6:6-10</cite>
+<p class="wp-block-paragraph"><em>6 Pero gran ganancia es la piedad acompañada de contentamiento; 7 porque nada hemos traído a este mundo, y sin duda nada podremos sacar. 8 Así que, teniendo sustento y abrigo, estemos contentos con esto. 9 Porque los que quieren enriquecerse caen en tentación y lazo, y en muchas codicias necias y dañosas, que hunden a los hombres en destrucción y perdición; 10 porque raíz de todos los males es el amor al dinero, el cual codiciando algunos, se extraviaron de la fe, y fueron traspasados de muchos dolores.</em></p>
+<cite class="scripture-cite">1 Timoteo 6:6-10</cite>
 </blockquote>
 <p class="wp-block-paragraph">En cuarto lugar, tengamos la seguridad de que Dios siempre proveerá lo que necesitamos. Él lo ha prometido y, como él es confiable, su promesa es más que segura. Nunca nos dejará ni nos desamparará.</p>
 <blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph">5 Sean vuestras costumbres sin avaricia, contentos con lo que tenéis ahora; porque él dijo: No te desampararé, ni te dejaré; 6 de manera que podemos decir confiadamente:</p>
-<p class="wp-block-paragraph">El Señor es mi ayudador; no temeré<br/>Lo que me pueda hacer el hombre.</p>
-<cite>Hebreos 13:5-6</cite>
+<p class="wp-block-paragraph">5 <em>Sean vuestras costumbres sin avaricia, contentos con lo que tenéis ahora; porque él dijo: No te desampararé, ni te dejaré; 6 de manera que podemos decir confiadamente: </em></p>
+<p class="wp-block-paragraph"><em>El Señor es mi ayudador; no temeré </em><br/><em>Lo que me pueda hacer el hombre.</em></p>
+<cite class="scripture-cite">Hebreos 13:5-6</cite>
 </blockquote>
 <p class="wp-block-paragraph">En quinto lugar, pongamos nuestra mirada en las cosas del reino de Dios por encima de las cosas de esta tierra. Si las cosas celestiales están en nuestros corazones podemos sobrellevar incluso la pérdida de todo lo que hoy tenemos. Debemos recordar que aquello que hoy tenemos, y que llamamos nuestro, no nos pertenece en verdad, ya que todo es de Dios y para Dios. Si algo tenemos es porque él generosamente nos permite disfrutarlo.</p>
 <blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph">34 Porque de los presos también os compadecisteis, y el despojo de vuestros bienes sufristeis con gozo, sabiendo que tenéis en vosotros una mejor y perdurable herencia en los cielos. 35 No perdáis, pues, vuestra confianza, que tiene grande galardón; 36 porque os es necesaria la paciencia, para que habiendo hecho la voluntad de Dios, obtengáis la promesa.</p>
-<cite>Hebreos 10:34-36</cite>
+<p class="wp-block-paragraph"><em>34 Porque de los presos también os compadecisteis, y el despojo de vuestros bienes sufristeis con gozo, sabiendo que tenéis en vosotros una mejor y perdurable herencia en los cielos. 35 No perdáis, pues, vuestra confianza, que tiene grande galardón; 36 porque os es necesaria la paciencia, para que habiendo hecho la voluntad de Dios, obtengáis la promesa.</em></p>
+<cite class="scripture-cite">Hebreos 10:34-36</cite>
 </blockquote>
 <p class="wp-block-paragraph">Y finalmente, no perdamos de vista la esperanza que albergamos como creyentes en Cristo y por la cual no seremos avergonzados jamás. Porque por esa esperanza podemos soportar cualquier carencia o adversidad presente, confiando en que un día todo, incluidos los más ardientes anhelos de nuestros corazones, será suplido por el Señor en la gloria de una manera que supera toda expectativa.</p>
 

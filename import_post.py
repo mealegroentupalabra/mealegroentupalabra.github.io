@@ -44,6 +44,21 @@ HEADERS = {
     "Referer": "https://mealegroentupalabra.wordpress.com/"
 }
 
+# Regex to detect biblical citations (e.g. "Romanos 8:31-32", "1 Timoteo 6:6-10", "Salmos 23")
+BIBLE_CITATION_PATTERN = re.compile(
+    r'^\s*(?:(?:1|2|3|I|II|III|1º|2º)\s*)?'
+    r'(?:G[eé]nesis|[EÉ]xodo|Lev[ií]tico|N[uú]meros|Deuteronomio|Josu[eé]|Jueces|Rut|'
+    r'Samuel|Reyes|Cr[oó]nicas|Esdras|Nehem[ií]as|Ester|Job|Salmos?|Proverbios|Eclesiast[eé]s|'
+    r'Cantares|Isa[ií]as|Jerem[ií]as|Lamentaciones|Ezequiel|Daniel|Oseas|Joel|Am[oó]s|Abd[ií]as|'
+    r'Jon[aá]s|Miqueas|Nah[uú]m|Habacuc|Sofon[ií]as|Hageo|Zacar[ií]as|Malaqu[ií]as|Mateo|Marcos|'
+    r'Lucas|Juan|Hechos|Romanos|Corintios|G[aá]latas|Efesios|Filipenses|Colosenses|'
+    r'Tesalonicenses|Timoteo|Tito|Filem[oó]n|Hebreos|Santiago|Pedro|Judas|Apocalipsis)'
+    r'\s+\d+(?::\d+(?:[–-]\d+)?)?'
+    r'(?:\s*\((?:RVR60|NTV|TLA|NVI|DHH|LBLA|NBLA|BTX\d*|NBV|PDT|CST|BJ)\))?'
+    r'\s*[\.,;]?\s*$',
+    re.IGNORECASE
+)
+
 def slugify(text):
     text = text.lower().strip()
     text = re.sub(r'[áàäâ]', 'a', text)
@@ -209,6 +224,26 @@ def clean_and_transform_post_content(raw_html, dt):
             cite = bq.find("cite")
             if cite:
                 cite["class"] = ["scripture-cite"]
+
+    # 2b. Auto-detect and format Bible citations in all blockquotes
+    for bq in soup.find_all("blockquote"):
+        existing_cite = bq.find("cite")
+        if existing_cite:
+            existing_cite["class"] = ["scripture-cite"]
+        else:
+            # Check last child paragraph
+            paras = bq.find_all("p")
+            if paras and BIBLE_CITATION_PATTERN.match(paras[-1].get_text(strip=True)):
+                target_p = paras[-1]
+                target_p.name = "cite"
+                target_p["class"] = ["scripture-cite"]
+            else:
+                # Check next sibling element (sometimes reference is in a <p> right below blockquote)
+                nxt = bq.find_next_sibling()
+                if nxt and nxt.name == "p" and BIBLE_CITATION_PATTERN.match(nxt.get_text(strip=True)):
+                    nxt.name = "cite"
+                    nxt["class"] = ["scripture-cite"]
+                    bq.append(nxt)
 
     # 3. Process and download all inline images to WebP
     for img in soup.find_all("img"):
@@ -468,6 +503,72 @@ def interactive_mode():
     else:
         import_post_by_slug_or_url(choice)
 
+def sync_new_posts(limit=20, rebuild=True):
+    """
+    Checks the latest posts in WordPress and automatically imports
+    any post that does not exist in content/posts/.
+    Returns list of newly imported posts.
+    """
+    print(f"\n[Sincronización] Consultando los últimos {limit} artículos en WordPress...")
+    try:
+        data = fetch_json(f"{API_BASE}/posts?number={limit}")
+        posts = data.get("posts", [])
+    except Exception as e:
+        print(f"[Error de conexión con WordPress]: {e}")
+        return []
+
+    existing_slugs = get_existing_slugs()
+    new_posts = [p for p in posts if p.get("slug") and p.get("slug") not in existing_slugs]
+
+    if not new_posts:
+        print("✅ No hay nuevas publicaciones en WordPress. El sitio está al día.")
+        return []
+
+    print(f"⭐ Se encontraron {len(new_posts)} publicaciones nuevas para importar.")
+    # Process from oldest to newest among the new ones
+    new_posts.reverse()
+    imported = []
+
+    for idx, p in enumerate(new_posts, 1):
+        slug = p.get("slug")
+        title = html.unescape(p.get("title", ""))
+        print(f"\n({idx}/{len(new_posts)}) Importando: '{title}' ({slug})...")
+        try:
+            res = import_post_by_slug_or_url(slug, rebuild=False)
+            imported.append(res)
+        except Exception as e:
+            print(f"  [Error al importar '{slug}']: {e}")
+
+    if imported and rebuild:
+        print(f"\n[Reconstrucción] Compilando el sitio con los {len(imported)} nuevos artículos...")
+        from build import SiteBuilder
+        builder = SiteBuilder()
+        builder.build()
+        print(f"✅ ¡Sincronización completada! {len(imported)} artículos importados y sitio compilado.")
+
+    return imported
+
+def watch_wordpress(interval_minutes=15):
+    """
+    Runs a polling loop checking for new WordPress posts every N minutes.
+    """
+    print("=" * 60)
+    print(f" 👀 Me Alegro En Tu Palabra — Monitor Automático de WordPress")
+    print(f" Comprobando publicaciones cada {interval_minutes} minutos...")
+    print(" Presiona Ctrl+C para detener el monitor.")
+    print("=" * 60)
+
+    sync_new_posts()
+
+    while True:
+        try:
+            time.sleep(interval_minutes * 60)
+            print(f"\n[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Comprobando nuevas publicaciones en WordPress...")
+            sync_new_posts()
+        except KeyboardInterrupt:
+            print("\nMonitor detenido.")
+            break
+
 def import_latest():
     print("Buscando el artículo más reciente no importado...")
     data = fetch_json(f"{API_BASE}/posts?number=10")
@@ -493,6 +594,13 @@ if __name__ == "__main__":
         arg = sys.argv[1].strip()
         if arg in ("--latest", "-l"):
             import_latest()
+        elif arg in ("--sync", "--auto", "-s", "-a"):
+            sync_new_posts()
+        elif arg in ("--watch", "-w"):
+            interval = 15
+            if len(sys.argv) > 2 and sys.argv[2].isdigit():
+                interval = int(sys.argv[2])
+            watch_wordpress(interval)
         elif arg in ("--help", "-h"):
             print(__doc__)
         else:

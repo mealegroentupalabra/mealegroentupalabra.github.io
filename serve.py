@@ -269,13 +269,30 @@ def run_server(port=PORT):
     builder = SiteBuilder()
     builder.build()
 
+    # Start background auto-sync thread (polls WordPress every 15 min)
+    import threading
+    import time
+    def _bg_sync():
+        time.sleep(10)
+        while True:
+            try:
+                from import_post import sync_new_posts
+                sync_new_posts()
+            except Exception:
+                pass
+            time.sleep(15 * 60)
+
+    sync_thread = threading.Thread(target=_bg_sync, daemon=True)
+    sync_thread.start()
+
     socketserver.TCPServer.allow_reuse_address = True
     with socketserver.TCPServer(("", port), BlogRequestHandler) as httpd:
         print("\n" + "=" * 60)
         print(f" 📖  Me Alegro En Tu Palabra — Servidor & Estudio Editorial")
         print("=" * 60)
-        print(f" • Blog en vivo:     http://localhost:{port}/")
+        print(f" • Blog en vivo:       http://localhost:{port}/")
         print(f" • Estudio de Edición: http://localhost:{port}/editor/")
+        print(f" • Auto-Sync WP:       Activo (monitorea cada 15 min)")
         print("=" * 60)
         print("Presiona Ctrl+C para detener el servidor.")
         try:
