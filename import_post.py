@@ -222,27 +222,30 @@ def clean_and_transform_post_content(raw_html, dt):
             if figure.has_attr("style"):
                 del figure["style"]
             cite = bq.find("cite")
-            if cite:
-                cite["class"] = ["scripture-cite"]
+            if cite and cite.has_attr("class"):
+                del cite["class"]
 
     # 2b. Auto-detect and format Bible citations in all blockquotes
     for bq in soup.find_all("blockquote"):
         existing_cite = bq.find("cite")
         if existing_cite:
-            existing_cite["class"] = ["scripture-cite"]
+            if existing_cite.has_attr("class"):
+                del existing_cite["class"]
         else:
             # Check last child paragraph
             paras = bq.find_all("p")
             if paras and BIBLE_CITATION_PATTERN.match(paras[-1].get_text(strip=True)):
                 target_p = paras[-1]
                 target_p.name = "cite"
-                target_p["class"] = ["scripture-cite"]
+                if target_p.has_attr("class"):
+                    del target_p["class"]
             else:
                 # Check next sibling element (sometimes reference is in a <p> right below blockquote)
                 nxt = bq.find_next_sibling()
                 if nxt and nxt.name == "p" and BIBLE_CITATION_PATTERN.match(nxt.get_text(strip=True)):
                     nxt.name = "cite"
-                    nxt["class"] = ["scripture-cite"]
+                    if nxt.has_attr("class"):
+                        del nxt["class"]
                     bq.append(nxt)
 
     # 3. Process and download all inline images to WebP
