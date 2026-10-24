@@ -99,13 +99,13 @@
   </url>
   
   <url>
-    <loc>https://mealegroentupalabra.github.io/categoria/job/</loc>
+    <loc>https://mealegroentupalabra.github.io/categoria/reflexiones/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://mealegroentupalabra.github.io/categoria/reflexiones/</loc>
+    <loc>https://mealegroentupalabra.github.io/categoria/job/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -316,6 +316,13 @@
   
 
   <!-- Posts -->
+  
+  <url>
+    <loc>https://mealegroentupalabra.github.io/posts/cuando-mi-fe-se-tambalea/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.9</priority>
+  </url>
   
   <url>
     <loc>https://mealegroentupalabra.github.io/posts/aprende-a-vivir-contento/</loc>
