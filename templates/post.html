@@ -5,9 +5,7 @@
 {% block og_type %}article{% endblock %}
 {% block og_title %}{{ post.title }}{% endblock %}
 {% block og_description %}{{ post.summary }}{% endblock %}
-{% if post.image %}
-{% block og_image %}{{ post.image }}{% endblock %}
-{% endif %}
+{% block og_image %}{% if post.image %}{{ post.image if post.image.startswith('http') else site_url ~ base_path ~ (post.image if post.image.startswith('/') else '/' ~ post.image) }}{% else %}{{ site_url }}{{ base_path }}/assets/images/logo.png{% endif %}{% endblock %}
 
 {% block head_extra %}
 <!-- Schema.org Article structured data for rich Google search cards -->
@@ -31,7 +29,7 @@
       "url": "{{ site_url }}{{ base_path }}/assets/images/logo.png"
     }
   },
-  {% if post.image %}"image": {{ post.image | tojson }},{% endif %}
+  {% if post.image %}"image": {{ (post.image if post.image.startswith('http') else site_url ~ base_path ~ (post.image if post.image.startswith('/') else '/' ~ post.image)) | tojson }},{% endif %}
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{{ canonical_url }}"
