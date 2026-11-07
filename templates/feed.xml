@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>{{ site_title }}</title>
     <link>{{ site_url }}{{ base_path }}/</link>
@@ -13,7 +13,14 @@
       <link>{{ site_url }}{{ post.url }}</link>
       <guid isPermaLink="true">{{ site_url }}{{ post.url }}</guid>
       <pubDate>{{ post.pub_date_rfc822 }}</pubDate>
+      {% if post.image %}
+      <description><![CDATA[<img src="{{ site_url }}{{ post.image }}" alt="{{ post.title }}" /><p>{{ post.summary }}</p>]]></description>
+      <enclosure url="{{ site_url }}{{ post.image }}" type="image/webp" length="0" />
+      <media:content url="{{ site_url }}{{ post.image }}" medium="image" />
+      <media:thumbnail url="{{ site_url }}{{ post.image }}" />
+      {% else %}
       <description>{{ post.summary | e }}</description>
+      {% endif %}
       {% if post.category %}
       <category>{{ post.category | e }}</category>
       {% endif %}

@@ -429,6 +429,7 @@ class SiteBuilder:
                 "tags": [t["name"] for t in p["tags"]],
                 "summary": p["summary"],
                 "content": p["plain_text"][:1200],  # first 1200 chars for deep search
+                "image": p.get("image", ""),
                 "reading_time": p["reading_time"]
             })
         
