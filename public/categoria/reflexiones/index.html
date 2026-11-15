@@ -33,16 +33,40 @@
   <!-- Fonts & Stylesheet -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="/assets/css/style.css?v=7d261e43">
-
-  <!-- Google Analytics GA4 -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
+  <link rel="stylesheet" href="/assets/css/style.css?v=b4f6caf2">
   
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1ZQG29HZLW"></script>
+
+  <!-- Google Analytics GA4 (deferred to avoid blocking LCP/TBT) -->
+  
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-1ZQG29HZLW');
+    (function(){
+      var loaded = false;
+      function loadGA() {
+        if (loaded) return;
+        loaded = true;
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-1ZQG29HZLW';
+        document.head.appendChild(s);
+      }
+      window.addEventListener('load', function(){
+        if ('requestIdleCallback' in window) {
+          requestIdleCallback(loadGA, { timeout: 2500 });
+        } else {
+          setTimeout(loadGA, 1500);
+        }
+      }, { once: true });
+      ['scroll', 'pointerdown', 'keydown'].forEach(function(evt){
+        window.addEventListener(evt, loadGA, { once: true, passive: true });
+      });
+    })();
   </script>
   
 
@@ -53,7 +77,7 @@
   <header class="site-header">
     <div class="container header-inner">
       <a href="/" class="site-brand">
-        <img src="/assets/images/logo.png" alt="Logo de Me Alegro En Tu Palabra" class="site-logo" width="44" height="44">
+        <img src="/assets/images/logo-88.webp" alt="Logo de Me Alegro En Tu Palabra" class="site-logo" width="44" height="44">
         <div class="brand-text">
           <span class="brand-title">Me Alegro En Tu Palabra</span>
           <span class="brand-tagline">Descubre el tesoro de Dios para ti</span>
@@ -154,7 +178,7 @@
       <article class="post-card" data-timestamp="1792785103" data-day="0">
         
         <a href="/posts/cuando-mi-fe-se-tambalea/" class="card-media">
-          <img src="/assets/images/posts/2026/10/de-la-prision-a-la-esperanza.webp" alt="Cuando Mi Fe Se Tambalea" loading="lazy">
+          <img src="/assets/images/posts/2026/10/de-la-prision-a-la-esperanza.webp" srcset="/assets/images/posts/2026/10/de-la-prision-a-la-esperanza-480w.webp 480w, /assets/images/posts/2026/10/de-la-prision-a-la-esperanza-800w.webp 800w, /assets/images/posts/2026/10/de-la-prision-a-la-esperanza.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="787" alt="Cuando Mi Fe Se Tambalea" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -185,7 +209,7 @@
       <article class="post-card" data-timestamp="1790724660" data-day="0">
         
         <a href="/posts/aprende-a-vivir-contento/" class="card-media">
-          <img src="/assets/images/posts/2026/09/luan_aqua-girl-7008608_1280.webp" alt="Aprende a Vivir Contento" loading="lazy">
+          <img src="/assets/images/posts/2026/09/luan_aqua-girl-7008608_1280.webp" srcset="/assets/images/posts/2026/09/luan_aqua-girl-7008608_1280-480w.webp 480w, /assets/images/posts/2026/09/luan_aqua-girl-7008608_1280-800w.webp 800w, /assets/images/posts/2026/09/luan_aqua-girl-7008608_1280.webp 1280w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1280" height="853" alt="Aprende a Vivir Contento" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -216,7 +240,7 @@
       <article class="post-card" data-timestamp="1789081380" data-day="0">
         
         <a href="/posts/ningun-profano-como-esau/" class="card-media">
-          <img src="/assets/images/posts/2026/09/esau-llora-por-la-bendicion-2.webp" alt="Ningún Profano Como Esaú" loading="lazy">
+          <img src="/assets/images/posts/2026/09/esau-llora-por-la-bendicion-2.webp" srcset="/assets/images/posts/2026/09/esau-llora-por-la-bendicion-2-480w.webp 480w, /assets/images/posts/2026/09/esau-llora-por-la-bendicion-2-800w.webp 800w, /assets/images/posts/2026/09/esau-llora-por-la-bendicion-2.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="787" alt="Ningún Profano Como Esaú" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -247,7 +271,7 @@
       <article class="post-card" data-timestamp="1788151585" data-day="0">
         
         <a href="/posts/persevera-en-la-oracion/" class="card-media">
-          <img src="/assets/images/posts/2026/08/jesus-ora-en-getsemani.webp" alt="Persevera en la Oración" loading="lazy">
+          <img src="/assets/images/posts/2026/08/jesus-ora-en-getsemani.webp" srcset="/assets/images/posts/2026/08/jesus-ora-en-getsemani-480w.webp 480w, /assets/images/posts/2026/08/jesus-ora-en-getsemani-800w.webp 800w, /assets/images/posts/2026/08/jesus-ora-en-getsemani.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="787" alt="Persevera en la Oración" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -278,7 +302,7 @@
       <article class="post-card" data-timestamp="1787100621" data-day="0">
         
         <a href="/posts/usa-bien-tu-tiempo-sazona-bien-tus-palabras/" class="card-media">
-          <img src="/assets/images/posts/2026/08/reloj-arena-tiempo-faltante.webp" alt="Usa Bien Tu Tiempo, Sazona Bien Tus Palabras" loading="lazy">
+          <img src="/assets/images/posts/2026/08/reloj-arena-tiempo-faltante.webp" srcset="/assets/images/posts/2026/08/reloj-arena-tiempo-faltante-480w.webp 480w, /assets/images/posts/2026/08/reloj-arena-tiempo-faltante-800w.webp 800w, /assets/images/posts/2026/08/reloj-arena-tiempo-faltante.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="787" alt="Usa Bien Tu Tiempo, Sazona Bien Tus Palabras" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -309,7 +333,7 @@
       <article class="post-card" data-timestamp="1786394275" data-day="0">
         
         <a href="/posts/el-evangelio-segun-isaias/" class="card-media">
-          <img src="/assets/images/posts/2026/08/isaias-6.webp" alt="El Evangelio Según Isaías" loading="lazy">
+          <img src="/assets/images/posts/2026/08/isaias-6.webp" srcset="/assets/images/posts/2026/08/isaias-6-480w.webp 480w, /assets/images/posts/2026/08/isaias-6-800w.webp 800w, /assets/images/posts/2026/08/isaias-6.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="787" alt="El Evangelio Según Isaías" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -340,7 +364,7 @@
       <article class="post-card" data-timestamp="1785726407" data-day="0">
         
         <a href="/posts/a-quien-oyes/" class="card-media">
-          <img src="/assets/images/posts/2026/08/a-quien-oyes-header.webp" alt="¿A Quién Oyes?" loading="lazy">
+          <img src="/assets/images/posts/2026/08/a-quien-oyes-header.webp" srcset="/assets/images/posts/2026/08/a-quien-oyes-header-480w.webp 480w, /assets/images/posts/2026/08/a-quien-oyes-header-800w.webp 800w, /assets/images/posts/2026/08/a-quien-oyes-header.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="787" alt="¿A Quién Oyes?" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -371,7 +395,7 @@
       <article class="post-card" data-timestamp="1785259800" data-day="0">
         
         <a href="/posts/el-protocolo-biblico-para-una-visita-provechosa/" class="card-media">
-          <img src="/assets/images/posts/2026/07/jetro-aconseja-moises.webp" alt="El Protocolo Bíblico Para Una Visita Provechosa" loading="lazy">
+          <img src="/assets/images/posts/2026/07/jetro-aconseja-moises.webp" srcset="/assets/images/posts/2026/07/jetro-aconseja-moises-480w.webp 480w, /assets/images/posts/2026/07/jetro-aconseja-moises-800w.webp 800w, /assets/images/posts/2026/07/jetro-aconseja-moises.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="787" alt="El Protocolo Bíblico Para Una Visita Provechosa" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -402,7 +426,7 @@
       <article class="post-card" data-timestamp="1784866893" data-day="0">
         
         <a href="/posts/vivamos-agradecidos/" class="card-media">
-          <img src="/assets/images/posts/2026/07/gratitud.webp" alt="Vivamos Agradecidos" loading="lazy">
+          <img src="/assets/images/posts/2026/07/gratitud.webp" srcset="/assets/images/posts/2026/07/gratitud-480w.webp 480w, /assets/images/posts/2026/07/gratitud-800w.webp 800w, /assets/images/posts/2026/07/gratitud.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="787" alt="Vivamos Agradecidos" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -433,7 +457,7 @@
       <article class="post-card" data-timestamp="1784153159" data-day="0">
         
         <a href="/posts/la-historia-de-un-pobre-rico/" class="card-media">
-          <img src="/assets/images/posts/2026/07/jesus-y-el-joven-rico.webp" alt="La Historia de un Pobre Rico" loading="lazy">
+          <img src="/assets/images/posts/2026/07/jesus-y-el-joven-rico.webp" srcset="/assets/images/posts/2026/07/jesus-y-el-joven-rico-480w.webp 480w, /assets/images/posts/2026/07/jesus-y-el-joven-rico-800w.webp 800w, /assets/images/posts/2026/07/jesus-y-el-joven-rico.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="787" alt="La Historia de un Pobre Rico" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -464,7 +488,7 @@
       <article class="post-card" data-timestamp="1783548000" data-day="0">
         
         <a href="/posts/la-voz-del-que-clama-en-el-desierto/" class="card-media">
-          <img src="/assets/images/posts/2026/07/juan-el-bautista.webp" alt="La Voz Del Que Clama en el Desierto" loading="lazy">
+          <img src="/assets/images/posts/2026/07/juan-el-bautista.webp" srcset="/assets/images/posts/2026/07/juan-el-bautista-480w.webp 480w, /assets/images/posts/2026/07/juan-el-bautista-800w.webp 800w, /assets/images/posts/2026/07/juan-el-bautista.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="787" alt="La Voz Del Que Clama en el Desierto" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -495,7 +519,7 @@
       <article class="post-card" data-timestamp="1781670271" data-day="0">
         
         <a href="/posts/victoria-en-cristo/" class="card-media">
-          <img src="/assets/images/posts/2026/06/chatgpt-image-22-may-2026-11_30_57.webp" alt="Victoria en Cristo" loading="lazy">
+          <img src="/assets/images/posts/2026/06/chatgpt-image-22-may-2026-11_30_57.webp" srcset="/assets/images/posts/2026/06/chatgpt-image-22-may-2026-11_30_57-480w.webp 480w, /assets/images/posts/2026/06/chatgpt-image-22-may-2026-11_30_57-800w.webp 800w, /assets/images/posts/2026/06/chatgpt-image-22-may-2026-11_30_57.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="787" alt="Victoria en Cristo" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -526,7 +550,7 @@
       <article class="post-card" data-timestamp="1781329720" data-day="0">
         
         <a href="/posts/el-regalo-de-la-sumision/" class="card-media">
-          <img src="/assets/images/posts/2026/06/gregmontani-traffic-4003342.webp" alt="El Regalo de la Sumisión" loading="lazy">
+          <img src="/assets/images/posts/2026/06/gregmontani-traffic-4003342.webp" srcset="/assets/images/posts/2026/06/gregmontani-traffic-4003342-480w.webp 480w, /assets/images/posts/2026/06/gregmontani-traffic-4003342-800w.webp 800w, /assets/images/posts/2026/06/gregmontani-traffic-4003342.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="802" alt="El Regalo de la Sumisión" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -570,34 +594,34 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem;">
-            <img src="/assets/images/logo.png" alt="Logo Me Alegro En Tu Palabra" width="36" height="36" style="border-radius: 50%;">
+            <img src="/assets/images/logo-88.webp" alt="Logo Me Alegro En Tu Palabra" width="36" height="36" style="border-radius: 50%;" loading="lazy">
             <h3>Me Alegro En Tu Palabra</h3>
           </div>
           <p>Reflexiones bíblicas, planes de lectura y estudio de las Escrituras para descubrir la gloria de Dios en el rostro de Jesucristo.</p>
           <div class="author-socials" style="margin-top: 1rem;">
             
-            <a href="https://www.youtube.com/@mealegroentupalabra" class="social-icon-link" target="_blank" rel="noopener" title="YouTube">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            <a href="https://www.youtube.com/@mealegroentupalabra" class="social-icon-link" target="_blank" rel="noopener" title="YouTube" aria-label="YouTube">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
             </a>
             
             
-            <a href="https://whatsapp.com/channel/0029VatzhWr35fLzFFsQel1P" class="social-icon-link" target="_blank" rel="noopener" title="Canal de WhatsApp">
-              <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"><path d="M17.472 14.382c-.301-.15-1.78-.879-2.056-.98-.276-.1-.477-.15-.678.15-.2.301-.778.98-.954 1.18-.175.201-.351.226-.652.075-.301-.15-1.272-.469-2.423-1.496-.896-.799-1.501-1.786-1.677-2.087-.175-.301-.019-.464.132-.614.136-.135.301-.351.452-.527.15-.175.201-.3.301-.5.101-.201.05-.376-.025-.526-.075-.15-.678-1.631-.929-2.233-.244-.586-.492-.507-.678-.516-.176-.008-.376-.01-.577-.01s-.527.075-.803.376c-.276.301-1.054 1.029-1.054 2.508 0 1.479 1.079 2.908 1.229 3.109.15.201 2.124 3.243 5.145 4.549.718.311 1.279.497 1.716.636.721.23 1.377.197 1.895.12.577-.086 1.78-.727 2.031-1.429.251-.702.251-1.304.176-1.429-.076-.125-.276-.201-.577-.351zM12 2C6.477 2 2 6.477 2 12c0 1.891.524 3.662 1.435 5.176L2 22l4.981-1.396A9.957 9.957 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+            <a href="https://whatsapp.com/channel/0029VatzhWr35fLzFFsQel1P" class="social-icon-link" target="_blank" rel="noopener" title="Canal de WhatsApp" aria-label="Canal de WhatsApp">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" aria-hidden="true"><path d="M17.472 14.382c-.301-.15-1.78-.879-2.056-.98-.276-.1-.477-.15-.678.15-.2.301-.778.98-.954 1.18-.175.201-.351.226-.652.075-.301-.15-1.272-.469-2.423-1.496-.896-.799-1.501-1.786-1.677-2.087-.175-.301-.019-.464.132-.614.136-.135.301-.351.452-.527.15-.175.201-.3.301-.5.101-.201.05-.376-.025-.526-.075-.15-.678-1.631-.929-2.233-.244-.586-.492-.507-.678-.516-.176-.008-.376-.01-.577-.01s-.527.075-.803.376c-.276.301-1.054 1.029-1.054 2.508 0 1.479 1.079 2.908 1.229 3.109.15.201 2.124 3.243 5.145 4.549.718.311 1.279.497 1.716.636.721.23 1.377.197 1.895.12.577-.086 1.78-.727 2.031-1.429.251-.702.251-1.304.176-1.429-.076-.125-.276-.201-.577-.351zM12 2C6.477 2 2 6.477 2 12c0 1.891.524 3.662 1.435 5.176L2 22l4.981-1.396A9.957 9.957 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
             </a>
             
             
-            <a href="https://twitter.com/alemormez" class="social-icon-link" target="_blank" rel="noopener" title="Twitter / X">
-              <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            <a href="https://twitter.com/alemormez" class="social-icon-link" target="_blank" rel="noopener" title="Twitter / X" aria-label="Twitter / X">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
             </a>
             
             
-            <a href="https://www.facebook.com/mealegroentupalabra" class="social-icon-link" target="_blank" rel="noopener" title="Facebook">
-              <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            <a href="https://www.facebook.com/mealegroentupalabra" class="social-icon-link" target="_blank" rel="noopener" title="Facebook" aria-label="Facebook">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
             </a>
             
             
-            <a href="https://instagram.com/alejandromoralesmeza" class="social-icon-link" target="_blank" rel="noopener" title="Instagram">
-              <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            <a href="https://instagram.com/alejandromoralesmeza" class="social-icon-link" target="_blank" rel="noopener" title="Instagram" aria-label="Instagram">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
             </a>
             
           </div>
@@ -621,7 +645,7 @@
             <li><a href="/acerca-de/">Acerca de</a></li>
             <li><a href="/buscar/">Buscador de Artículos</a></li>
             <li><a href="/feed.xml" target="_blank">Canal RSS</a></li>
-            <li><a href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">Licencia CC BY-NC 4.0</a></li>
+            <li><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">Licencia CC BY-NC 4.0</a></li>
           </ul>
         </div>
       </div>
@@ -675,8 +699,8 @@
   <div class="toast-msg" role="status" aria-live="polite"></div>
 
   <!-- Scripts -->
-  <script src="/assets/js/main.js?v=ab3c2ef9"></script>
-  <script src="/assets/js/search.js?v=2dd65533"></script>
+  <script src="/assets/js/main.js?v=ab3c2ef9" defer></script>
+  <script src="/assets/js/search.js?v=2dd65533" defer></script>
 
   <!-- Logos RefTagger for Bible References (only loaded on posts) -->
   

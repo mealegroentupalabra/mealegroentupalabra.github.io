@@ -20,6 +20,10 @@ import yaml
 import hashlib
 from jinja2 import Environment, FileSystemLoader
 from markdown_it import MarkdownIt
+try:
+    from PIL import Image
+except ImportError:
+    Image = None
 
 # Initialize Markdown parser
 md_parser = MarkdownIt("commonmark", {"breaks": True}).enable("table").enable("strikethrough")
@@ -39,6 +43,58 @@ def format_date_rfc822(dt):
         return ""
     # Example: Wed, 09 Sep 2026 18:00:38 +0000
     return dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
+
+def minify_css(css_text):
+    """Lightweight CSS minifier that strips comments and redundant whitespace."""
+    css_text = re.sub(r'/\*[\s\S]*?\*/', '', css_text)
+    css_text = re.sub(r'\s+', ' ', css_text)
+    css_text = re.sub(r'\s*([{};,])\s*', r'\1', css_text)
+    css_text = re.sub(r':\s+', ':', css_text)
+    css_text = css_text.replace(';}', '}')
+    return css_text.strip()
+
+def prepare_responsive_image(image_url, base_path, out_dir, cache_dir=Path(".thumb_cache")):
+    """Return (srcset, width, height) and generate cached WebP thumbnails for local images."""
+    if not image_url or Image is None:
+        return "", None, None
+
+    rel_url = image_url
+    if base_path and rel_url.startswith(base_path):
+        rel_url = rel_url[len(base_path):]
+    if not rel_url.startswith("/assets/images/") and not rel_url.startswith("assets/images/"):
+        return "", None, None
+
+    src_path = Path(rel_url.lstrip("/"))
+    if not src_path.exists():
+        return "", None, None
+
+    try:
+        with Image.open(src_path) as im:
+            orig_w, orig_h = im.size
+            srcset_parts = []
+            for target_w in (480, 800):
+                if orig_w <= target_w:
+                    continue
+                target_h = max(1, round(orig_h * (target_w / orig_w)))
+                rel_thumb = src_path.with_name(f"{src_path.stem}-{target_w}w.webp")
+                cache_file = cache_dir / rel_thumb
+                dest_file = out_dir / rel_thumb
+                dest_file.parent.mkdir(parents=True, exist_ok=True)
+
+                if not (cache_file.exists() and cache_file.stat().st_mtime >= src_path.stat().st_mtime):
+                    cache_file.parent.mkdir(parents=True, exist_ok=True)
+                    img_rgb = im.convert("RGBA") if im.mode in ("P", "LA") else im
+                    resized = img_rgb.resize((target_w, target_h), Image.Resampling.LANCZOS)
+                    resized.save(cache_file, "WEBP", quality=82, method=4)
+
+                shutil.copy2(cache_file, dest_file)
+                srcset_parts.append(f"{base_path}/{rel_thumb.as_posix()} {target_w}w")
+
+            if srcset_parts:
+                srcset_parts.append(f"{image_url} {orig_w}w")
+            return ", ".join(srcset_parts), orig_w, orig_h
+    except Exception:
+        return "", None, None
 
 def slugify(text):
     text = str(text).lower().strip()
@@ -343,11 +399,37 @@ class SiteBuilder:
             shutil.copytree("assets", out_dir / "assets")
             print("Copied assets/")
 
+        # Minify style.css in output
+        out_css = out_dir / "assets/css/style.css"
+        if out_css.exists():
+            raw_css = out_css.read_text(encoding="utf-8")
+            out_css.write_text(minify_css(raw_css), encoding="utf-8")
+            print("Minified assets/css/style.css")
+
+        # Generate small WebP logo (88x88 for 2x retina at 44x44)
+        logo_src = Path("assets/images/logo.png")
+        if logo_src.exists() and Image is not None:
+            cache_logo = Path(".thumb_cache/assets/images/logo-88.webp")
+            dest_logo = out_dir / "assets/images/logo-88.webp"
+            if not (cache_logo.exists() and cache_logo.stat().st_mtime >= logo_src.stat().st_mtime):
+                cache_logo.parent.mkdir(parents=True, exist_ok=True)
+                with Image.open(logo_src) as im:
+                    resized = im.convert("RGBA").resize((88, 88), Image.Resampling.LANCZOS)
+                    resized.save(cache_logo, "WEBP", quality=85, method=4)
+            shutil.copy2(cache_logo, dest_logo)
+            print("Generated assets/images/logo-88.webp")
+
         # Write .nojekyll
         (out_dir / ".nojekyll").write_text("", encoding="utf-8")
 
         # Load data
         posts = self.load_posts()
+        base_path = self.config.get("base_path", "")
+        for p in posts:
+            srcset, img_w, img_h = prepare_responsive_image(p.get("image", ""), base_path, out_dir)
+            p["image_srcset"] = srcset
+            p["image_width"] = img_w
+            p["image_height"] = img_h
         pages = self.load_pages()
         print(f"Loaded {len(posts)} posts and {len(pages)} static pages.")
 

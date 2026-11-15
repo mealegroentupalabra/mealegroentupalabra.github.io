@@ -33,16 +33,40 @@
   <!-- Fonts & Stylesheet -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="/assets/css/style.css?v=7d261e43">
-
-  <!-- Google Analytics GA4 -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
+  <link rel="stylesheet" href="/assets/css/style.css?v=b4f6caf2">
   
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1ZQG29HZLW"></script>
+
+  <!-- Google Analytics GA4 (deferred to avoid blocking LCP/TBT) -->
+  
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-1ZQG29HZLW');
+    (function(){
+      var loaded = false;
+      function loadGA() {
+        if (loaded) return;
+        loaded = true;
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-1ZQG29HZLW';
+        document.head.appendChild(s);
+      }
+      window.addEventListener('load', function(){
+        if ('requestIdleCallback' in window) {
+          requestIdleCallback(loadGA, { timeout: 2500 });
+        } else {
+          setTimeout(loadGA, 1500);
+        }
+      }, { once: true });
+      ['scroll', 'pointerdown', 'keydown'].forEach(function(evt){
+        window.addEventListener(evt, loadGA, { once: true, passive: true });
+      });
+    })();
   </script>
   
 
@@ -53,7 +77,7 @@
   <header class="site-header">
     <div class="container header-inner">
       <a href="/" class="site-brand">
-        <img src="/assets/images/logo.png" alt="Logo de Me Alegro En Tu Palabra" class="site-logo" width="44" height="44">
+        <img src="/assets/images/logo-88.webp" alt="Logo de Me Alegro En Tu Palabra" class="site-logo" width="44" height="44">
         <div class="brand-text">
           <span class="brand-title">Me Alegro En Tu Palabra</span>
           <span class="brand-tagline">Descubre el tesoro de Dios para ti</span>
@@ -148,7 +172,7 @@
       <article class="post-card" data-timestamp="1626712200" data-day="200">
         
         <a href="/posts/dia-200-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/07/plank-729441_1280.webp" alt="Día 200 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/07/plank-729441_1280.webp" srcset="/assets/images/posts/2021/07/plank-729441_1280-480w.webp 480w, /assets/images/posts/2021/07/plank-729441_1280-800w.webp 800w, /assets/images/posts/2021/07/plank-729441_1280.webp 1280w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1280" height="853" alt="Día 200 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -171,7 +195,7 @@
       <article class="post-card" data-timestamp="1626667680" data-day="199">
         
         <a href="/posts/dia-199-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/07/honey-5043708_1280.webp" alt="Día 199 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/07/honey-5043708_1280.webp" srcset="/assets/images/posts/2021/07/honey-5043708_1280-480w.webp 480w, /assets/images/posts/2021/07/honey-5043708_1280-800w.webp 800w, /assets/images/posts/2021/07/honey-5043708_1280.webp 1280w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1280" height="853" alt="Día 199 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -194,7 +218,7 @@
       <article class="post-card" data-timestamp="1626549360" data-day="198">
         
         <a href="/posts/dia-198-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/07/death-g52a7f703a_1280.webp" alt="Día 198 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/07/death-g52a7f703a_1280.webp" srcset="/assets/images/posts/2021/07/death-g52a7f703a_1280-480w.webp 480w, /assets/images/posts/2021/07/death-g52a7f703a_1280-800w.webp 800w, /assets/images/posts/2021/07/death-g52a7f703a_1280.webp 1280w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1280" height="716" alt="Día 198 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -217,7 +241,7 @@
       <article class="post-card" data-timestamp="1626488100" data-day="197">
         
         <a href="/posts/dia-197-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/07/justos-malvados.webp" alt="Día 197 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/07/justos-malvados.webp" srcset="/assets/images/posts/2021/07/justos-malvados-480w.webp 480w, /assets/images/posts/2021/07/justos-malvados-800w.webp 800w, /assets/images/posts/2021/07/justos-malvados.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="787" alt="Día 197 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -240,7 +264,7 @@
       <article class="post-card" data-timestamp="1626369960" data-day="196">
         
         <a href="/posts/dia-196-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/07/platter-gc6eda4d35_1280.webp" alt="Día 196 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/07/platter-gc6eda4d35_1280.webp" srcset="/assets/images/posts/2021/07/platter-gc6eda4d35_1280-480w.webp 480w, /assets/images/posts/2021/07/platter-gc6eda4d35_1280-800w.webp 800w, /assets/images/posts/2021/07/platter-gc6eda4d35_1280.webp 1280w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1280" height="854" alt="Día 196 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -263,7 +287,7 @@
       <article class="post-card" data-timestamp="1626291000" data-day="195">
         
         <a href="/posts/dia-195-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/07/leaf-g76963f106_1280.webp" alt="Día 195 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/07/leaf-g76963f106_1280.webp" srcset="/assets/images/posts/2021/07/leaf-g76963f106_1280-480w.webp 480w, /assets/images/posts/2021/07/leaf-g76963f106_1280-800w.webp 800w, /assets/images/posts/2021/07/leaf-g76963f106_1280.webp 1280w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1280" height="853" alt="Día 195 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -286,7 +310,7 @@
       <article class="post-card" data-timestamp="1626203220" data-day="194">
         
         <a href="/posts/dia-194-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/07/analogue-g13a320770_1280.webp" alt="Día 194 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/07/analogue-g13a320770_1280.webp" srcset="/assets/images/posts/2021/07/analogue-g13a320770_1280-480w.webp 480w, /assets/images/posts/2021/07/analogue-g13a320770_1280-800w.webp 800w, /assets/images/posts/2021/07/analogue-g13a320770_1280.webp 1280w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1280" height="912" alt="Día 194 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -309,7 +333,7 @@
       <article class="post-card" data-timestamp="1626146400" data-day="193">
         
         <a href="/posts/dia-193-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/07/guitar-g060fb38e5_1280.webp" alt="Día 193 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/07/guitar-g060fb38e5_1280.webp" srcset="/assets/images/posts/2021/07/guitar-g060fb38e5_1280-480w.webp 480w, /assets/images/posts/2021/07/guitar-g060fb38e5_1280-800w.webp 800w, /assets/images/posts/2021/07/guitar-g060fb38e5_1280.webp 1280w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1280" height="850" alt="Día 193 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -332,7 +356,7 @@
       <article class="post-card" data-timestamp="1626031320" data-day="192">
         
         <a href="/posts/dia-192-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/07/pexels-jeffry-surianto-8807543-1.webp" alt="Día 192 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/07/pexels-jeffry-surianto-8807543-1.webp" srcset="/assets/images/posts/2021/07/pexels-jeffry-surianto-8807543-1-480w.webp 480w, /assets/images/posts/2021/07/pexels-jeffry-surianto-8807543-1-800w.webp 800w, /assets/images/posts/2021/07/pexels-jeffry-surianto-8807543-1.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="933" alt="Día 192 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -355,7 +379,7 @@
       <article class="post-card" data-timestamp="1625973600" data-day="191">
         
         <a href="/posts/dia-191-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/04/kingdom-6196975_1280.webp" alt="Día 191 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/04/kingdom-6196975_1280.webp" srcset="/assets/images/posts/2021/04/kingdom-6196975_1280-480w.webp 480w, /assets/images/posts/2021/04/kingdom-6196975_1280-800w.webp 800w, /assets/images/posts/2021/04/kingdom-6196975_1280.webp 1280w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1280" height="874" alt="Día 191 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -378,7 +402,7 @@
       <article class="post-card" data-timestamp="1625887020" data-day="190">
         
         <a href="/posts/dia-190-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/07/levi-meir-clancy-eejzrxr-7xa-unsplash.webp" alt="Día 190 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/07/levi-meir-clancy-eejzrxr-7xa-unsplash.webp" srcset="/assets/images/posts/2021/07/levi-meir-clancy-eejzrxr-7xa-unsplash-480w.webp 480w, /assets/images/posts/2021/07/levi-meir-clancy-eejzrxr-7xa-unsplash-800w.webp 800w, /assets/images/posts/2021/07/levi-meir-clancy-eejzrxr-7xa-unsplash.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="933" alt="Día 190 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -401,7 +425,7 @@
       <article class="post-card" data-timestamp="1625800500" data-day="189">
         
         <a href="/posts/dia-189-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/07/sander-crombach-b5a_mgblbx8-unsplash.webp" alt="Día 189 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/07/sander-crombach-b5a_mgblbx8-unsplash.webp" srcset="/assets/images/posts/2021/07/sander-crombach-b5a_mgblbx8-unsplash-480w.webp 480w, /assets/images/posts/2021/07/sander-crombach-b5a_mgblbx8-unsplash-800w.webp 800w, /assets/images/posts/2021/07/sander-crombach-b5a_mgblbx8-unsplash.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="787" alt="Día 189 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -424,7 +448,7 @@
       <article class="post-card" data-timestamp="1625688480" data-day="188">
         
         <a href="/posts/dia-188-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/07/samantha-sophia-nawkmlp3tvs-unsplash.webp" alt="Día 188 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/07/samantha-sophia-nawkmlp3tvs-unsplash.webp" srcset="/assets/images/posts/2021/07/samantha-sophia-nawkmlp3tvs-unsplash-480w.webp 480w, /assets/images/posts/2021/07/samantha-sophia-nawkmlp3tvs-unsplash-800w.webp 800w, /assets/images/posts/2021/07/samantha-sophia-nawkmlp3tvs-unsplash.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="933" alt="Día 188 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -447,7 +471,7 @@
       <article class="post-card" data-timestamp="1625600400" data-day="187">
         
         <a href="/posts/dia-187-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/07/avel-chuklanov-9cx4-qowglc-unsplash.webp" alt="Día 187 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/07/avel-chuklanov-9cx4-qowglc-unsplash.webp" srcset="/assets/images/posts/2021/07/avel-chuklanov-9cx4-qowglc-unsplash-480w.webp 480w, /assets/images/posts/2021/07/avel-chuklanov-9cx4-qowglc-unsplash-800w.webp 800w, /assets/images/posts/2021/07/avel-chuklanov-9cx4-qowglc-unsplash.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="933" alt="Día 187 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -470,7 +494,7 @@
       <article class="post-card" data-timestamp="1625526300" data-day="186">
         
         <a href="/posts/dia-186-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/07/man-gc88517cd0_1280.webp" alt="Día 186 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/07/man-gc88517cd0_1280.webp" srcset="/assets/images/posts/2021/07/man-gc88517cd0_1280-480w.webp 480w, /assets/images/posts/2021/07/man-gc88517cd0_1280-800w.webp 800w, /assets/images/posts/2021/07/man-gc88517cd0_1280.webp 1280w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1280" height="854" alt="Día 186 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -493,7 +517,7 @@
       <article class="post-card" data-timestamp="1625451780" data-day="185">
         
         <a href="/posts/dia-185-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/07/nikko-macaspac-6snbwyfwuhk-unsplash.webp" alt="Día 185 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/07/nikko-macaspac-6snbwyfwuhk-unsplash.webp" srcset="/assets/images/posts/2021/07/nikko-macaspac-6snbwyfwuhk-unsplash-480w.webp 480w, /assets/images/posts/2021/07/nikko-macaspac-6snbwyfwuhk-unsplash-800w.webp 800w, /assets/images/posts/2021/07/nikko-macaspac-6snbwyfwuhk-unsplash.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="932" alt="Día 185 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -516,7 +540,7 @@
       <article class="post-card" data-timestamp="1625373600" data-day="184">
         
         <a href="/posts/dia-184-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/07/jennie-razumnaya-xrelr7ctym4-unsplash.webp" alt="Día 184 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/07/jennie-razumnaya-xrelr7ctym4-unsplash.webp" srcset="/assets/images/posts/2021/07/jennie-razumnaya-xrelr7ctym4-unsplash-480w.webp 480w, /assets/images/posts/2021/07/jennie-razumnaya-xrelr7ctym4-unsplash-800w.webp 800w, /assets/images/posts/2021/07/jennie-razumnaya-xrelr7ctym4-unsplash.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="933" alt="Día 184 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -539,7 +563,7 @@
       <article class="post-card" data-timestamp="1625275380" data-day="183">
         
         <a href="/posts/dia-183-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/07/jean-wimmerlin-85b3iu8fkty-unsplash.webp" alt="Día 183 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/07/jean-wimmerlin-85b3iu8fkty-unsplash.webp" srcset="/assets/images/posts/2021/07/jean-wimmerlin-85b3iu8fkty-unsplash-480w.webp 480w, /assets/images/posts/2021/07/jean-wimmerlin-85b3iu8fkty-unsplash-800w.webp 800w, /assets/images/posts/2021/07/jean-wimmerlin-85b3iu8fkty-unsplash.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="933" alt="Día 183 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -562,7 +586,7 @@
       <article class="post-card" data-timestamp="1625161200" data-day="182">
         
         <a href="/posts/dia-182-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/07/pexels-leif-blessing-7001090.webp" alt="Día 182 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/07/pexels-leif-blessing-7001090.webp" srcset="/assets/images/posts/2021/07/pexels-leif-blessing-7001090-480w.webp 480w, /assets/images/posts/2021/07/pexels-leif-blessing-7001090-800w.webp 800w, /assets/images/posts/2021/07/pexels-leif-blessing-7001090.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="933" alt="Día 182 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -585,7 +609,7 @@
       <article class="post-card" data-timestamp="1625077800" data-day="181">
         
         <a href="/posts/dia-181-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/06/meiying-ng-orwkd-iwgqg-unsplash.webp" alt="Día 181 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/06/meiying-ng-orwkd-iwgqg-unsplash.webp" srcset="/assets/images/posts/2021/06/meiying-ng-orwkd-iwgqg-unsplash-480w.webp 480w, /assets/images/posts/2021/06/meiying-ng-orwkd-iwgqg-unsplash-800w.webp 800w, /assets/images/posts/2021/06/meiying-ng-orwkd-iwgqg-unsplash.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="934" alt="Día 181 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -608,7 +632,7 @@
       <article class="post-card" data-timestamp="1625016840" data-day="180">
         
         <a href="/posts/dia-180-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/06/grapes-gfbd4a646c_1280.webp" alt="Día 180 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/06/grapes-gfbd4a646c_1280.webp" srcset="/assets/images/posts/2021/06/grapes-gfbd4a646c_1280-480w.webp 480w, /assets/images/posts/2021/06/grapes-gfbd4a646c_1280-800w.webp 800w, /assets/images/posts/2021/06/grapes-gfbd4a646c_1280.webp 1280w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1280" height="853" alt="Día 180 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -631,7 +655,7 @@
       <article class="post-card" data-timestamp="1624926960" data-day="179">
         
         <a href="/posts/dia-179-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/06/priscilla-du-preez-mcxesld2su-unsplash.webp" alt="Día 179 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/06/priscilla-du-preez-mcxesld2su-unsplash.webp" srcset="/assets/images/posts/2021/06/priscilla-du-preez-mcxesld2su-unsplash-480w.webp 480w, /assets/images/posts/2021/06/priscilla-du-preez-mcxesld2su-unsplash-800w.webp 800w, /assets/images/posts/2021/06/priscilla-du-preez-mcxesld2su-unsplash.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="933" alt="Día 179 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -654,7 +678,7 @@
       <article class="post-card" data-timestamp="1619382591" data-day="115">
         
         <a href="/posts/dia-115-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/03/sword-790815_1280.webp" alt="Día 115 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/03/sword-790815_1280.webp" srcset="/assets/images/posts/2021/03/sword-790815_1280-480w.webp 480w, /assets/images/posts/2021/03/sword-790815_1280-800w.webp 800w, /assets/images/posts/2021/03/sword-790815_1280.webp 1280w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1280" height="843" alt="Día 115 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -677,7 +701,7 @@
       <article class="post-card" data-timestamp="1619320260" data-day="114">
         
         <a href="/posts/dia-114-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/04/pexels-sora-shimazaki-5668473.webp" alt="Día 114 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/04/pexels-sora-shimazaki-5668473.webp" srcset="/assets/images/posts/2021/04/pexels-sora-shimazaki-5668473-480w.webp 480w, /assets/images/posts/2021/04/pexels-sora-shimazaki-5668473-800w.webp 800w, /assets/images/posts/2021/04/pexels-sora-shimazaki-5668473.webp 1280w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1280" height="853" alt="Día 114 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -700,7 +724,7 @@
       <article class="post-card" data-timestamp="1619197740" data-day="113">
         
         <a href="/posts/dia-113-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/04/axe-5469741_1280.webp" alt="Día 113 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/04/axe-5469741_1280.webp" srcset="/assets/images/posts/2021/04/axe-5469741_1280-480w.webp 480w, /assets/images/posts/2021/04/axe-5469741_1280-800w.webp 800w, /assets/images/posts/2021/04/axe-5469741_1280.webp 1280w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1280" height="853" alt="Día 113 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -723,7 +747,7 @@
       <article class="post-card" data-timestamp="1619110980" data-day="112">
         
         <a href="/posts/dia-112-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/04/pexels-vansh-sharma-3692053.webp" alt="Día 112 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/04/pexels-vansh-sharma-3692053.webp" srcset="/assets/images/posts/2021/04/pexels-vansh-sharma-3692053-480w.webp 480w, /assets/images/posts/2021/04/pexels-vansh-sharma-3692053-800w.webp 800w, /assets/images/posts/2021/04/pexels-vansh-sharma-3692053.webp 1280w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1280" height="853" alt="Día 112 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -746,7 +770,7 @@
       <article class="post-card" data-timestamp="1617851400" data-day="97">
         
         <a href="/posts/dia-97-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/04/chariot-g25bb0435b_1280.webp" alt="Día 97 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/04/chariot-g25bb0435b_1280.webp" srcset="/assets/images/posts/2021/04/chariot-g25bb0435b_1280-480w.webp 480w, /assets/images/posts/2021/04/chariot-g25bb0435b_1280-800w.webp 800w, /assets/images/posts/2021/04/chariot-g25bb0435b_1280.webp 1280w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1280" height="853" alt="Día 97 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -769,7 +793,7 @@
       <article class="post-card" data-timestamp="1616549940" data-day="82">
         
         <a href="/posts/dia-82-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/03/lion-1141303_1280.webp" alt="Día 82 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/03/lion-1141303_1280.webp" srcset="/assets/images/posts/2021/03/lion-1141303_1280-480w.webp 480w, /assets/images/posts/2021/03/lion-1141303_1280-800w.webp 800w, /assets/images/posts/2021/03/lion-1141303_1280.webp 1280w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1280" height="853" alt="Día 82 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -792,7 +816,7 @@
       <article class="post-card" data-timestamp="1616475240" data-day="81">
         
         <a href="/posts/dia-81-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/03/artem-kovalev-fk3xucftavk-unsplash.webp" alt="Día 81 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/03/artem-kovalev-fk3xucftavk-unsplash.webp" srcset="/assets/images/posts/2021/03/artem-kovalev-fk3xucftavk-unsplash-480w.webp 480w, /assets/images/posts/2021/03/artem-kovalev-fk3xucftavk-unsplash-800w.webp 800w, /assets/images/posts/2021/03/artem-kovalev-fk3xucftavk-unsplash.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="933" alt="Día 81 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -815,7 +839,7 @@
       <article class="post-card" data-timestamp="1616344860" data-day="80">
         
         <a href="/posts/dia-80-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/03/payton-tuttle-hvpfbq-psgq-unsplash.webp" alt="Día 80 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/03/payton-tuttle-hvpfbq-psgq-unsplash.webp" srcset="/assets/images/posts/2021/03/payton-tuttle-hvpfbq-psgq-unsplash-480w.webp 480w, /assets/images/posts/2021/03/payton-tuttle-hvpfbq-psgq-unsplash-800w.webp 800w, /assets/images/posts/2021/03/payton-tuttle-hvpfbq-psgq-unsplash.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="787" alt="Día 80 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -838,7 +862,7 @@
       <article class="post-card" data-timestamp="1616280900" data-day="79">
         
         <a href="/posts/dia-79-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/03/amphora-170621_1280.webp" alt="Día 79 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/03/amphora-170621_1280.webp" srcset="/assets/images/posts/2021/03/amphora-170621_1280-480w.webp 480w, /assets/images/posts/2021/03/amphora-170621_1280-800w.webp 800w, /assets/images/posts/2021/03/amphora-170621_1280.webp 1280w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1280" height="842" alt="Día 79 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -861,7 +885,7 @@
       <article class="post-card" data-timestamp="1616173020" data-day="78">
         
         <a href="/posts/dia-78-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/03/reiseuhu-_uccesmgirq-unsplash.webp" alt="Día 78 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/03/reiseuhu-_uccesmgirq-unsplash.webp" srcset="/assets/images/posts/2021/03/reiseuhu-_uccesmgirq-unsplash-480w.webp 480w, /assets/images/posts/2021/03/reiseuhu-_uccesmgirq-unsplash-800w.webp 800w, /assets/images/posts/2021/03/reiseuhu-_uccesmgirq-unsplash.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="787" alt="Día 78 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -884,7 +908,7 @@
       <article class="post-card" data-timestamp="1614883020" data-day="63">
         
         <a href="/posts/dia-63-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/03/don-gd8b537964_1280.webp" alt="Día 63 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/03/don-gd8b537964_1280.webp" srcset="/assets/images/posts/2021/03/don-gd8b537964_1280-480w.webp 480w, /assets/images/posts/2021/03/don-gd8b537964_1280-800w.webp 800w, /assets/images/posts/2021/03/don-gd8b537964_1280.webp 1280w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1280" height="853" alt="Día 63 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -907,7 +931,7 @@
       <article class="post-card" data-timestamp="1614829500" data-day="62">
         
         <a href="/posts/dia-62-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/03/jordan-ge4c0d4ea3_1280.webp" alt="Día 62 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/03/jordan-ge4c0d4ea3_1280.webp" srcset="/assets/images/posts/2021/03/jordan-ge4c0d4ea3_1280-480w.webp 480w, /assets/images/posts/2021/03/jordan-ge4c0d4ea3_1280-800w.webp 800w, /assets/images/posts/2021/03/jordan-ge4c0d4ea3_1280.webp 1280w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1280" height="853" alt="Día 62 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -930,7 +954,7 @@
       <article class="post-card" data-timestamp="1614723360" data-day="61">
         
         <a href="/posts/dia-61-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/01/moses-2628535_1280.webp" alt="Día 61 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/01/moses-2628535_1280.webp" srcset="/assets/images/posts/2021/01/moses-2628535_1280-480w.webp 480w, /assets/images/posts/2021/01/moses-2628535_1280-800w.webp 800w, /assets/images/posts/2021/01/moses-2628535_1280.webp 1280w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1280" height="853" alt="Día 61 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -953,7 +977,7 @@
       <article class="post-card" data-timestamp="1614617400" data-day="60">
         
         <a href="/posts/dia-60-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/03/tanner-mardis-xuxghzhibn4-unsplash.webp" alt="Día 60 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/03/tanner-mardis-xuxghzhibn4-unsplash.webp" srcset="/assets/images/posts/2021/03/tanner-mardis-xuxghzhibn4-unsplash-480w.webp 480w, /assets/images/posts/2021/03/tanner-mardis-xuxghzhibn4-unsplash-800w.webp 800w, /assets/images/posts/2021/03/tanner-mardis-xuxghzhibn4-unsplash.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="933" alt="Día 60 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -976,7 +1000,7 @@
       <article class="post-card" data-timestamp="1614567120" data-day="59">
         
         <a href="/posts/dia-59-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/02/crete-g749f8655b_1280.webp" alt="Día 59 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/02/crete-g749f8655b_1280.webp" srcset="/assets/images/posts/2021/02/crete-g749f8655b_1280-480w.webp 480w, /assets/images/posts/2021/02/crete-g749f8655b_1280-800w.webp 800w, /assets/images/posts/2021/02/crete-g749f8655b_1280.webp 1280w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1280" height="960" alt="Día 59 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -999,7 +1023,7 @@
       <article class="post-card" data-timestamp="1611038340" data-day="19">
         
         <a href="/posts/dia-19-plan-de-lectura/" class="card-media">
-          <img src="/assets/images/posts/2021/01/pexels-david-mceachan-71241.webp" alt="Día 19 – Plan de Lectura" loading="lazy">
+          <img src="/assets/images/posts/2021/01/pexels-david-mceachan-71241.webp" srcset="/assets/images/posts/2021/01/pexels-david-mceachan-71241-480w.webp 480w, /assets/images/posts/2021/01/pexels-david-mceachan-71241-800w.webp 800w, /assets/images/posts/2021/01/pexels-david-mceachan-71241.webp 1400w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px" width="1400" height="792" alt="Día 19 – Plan de Lectura" loading="lazy" decoding="async">
         </a>
         
         <div class="card-body">
@@ -1035,34 +1059,34 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem;">
-            <img src="/assets/images/logo.png" alt="Logo Me Alegro En Tu Palabra" width="36" height="36" style="border-radius: 50%;">
+            <img src="/assets/images/logo-88.webp" alt="Logo Me Alegro En Tu Palabra" width="36" height="36" style="border-radius: 50%;" loading="lazy">
             <h3>Me Alegro En Tu Palabra</h3>
           </div>
           <p>Reflexiones bíblicas, planes de lectura y estudio de las Escrituras para descubrir la gloria de Dios en el rostro de Jesucristo.</p>
           <div class="author-socials" style="margin-top: 1rem;">
             
-            <a href="https://www.youtube.com/@mealegroentupalabra" class="social-icon-link" target="_blank" rel="noopener" title="YouTube">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            <a href="https://www.youtube.com/@mealegroentupalabra" class="social-icon-link" target="_blank" rel="noopener" title="YouTube" aria-label="YouTube">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
             </a>
             
             
-            <a href="https://whatsapp.com/channel/0029VatzhWr35fLzFFsQel1P" class="social-icon-link" target="_blank" rel="noopener" title="Canal de WhatsApp">
-              <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"><path d="M17.472 14.382c-.301-.15-1.78-.879-2.056-.98-.276-.1-.477-.15-.678.15-.2.301-.778.98-.954 1.18-.175.201-.351.226-.652.075-.301-.15-1.272-.469-2.423-1.496-.896-.799-1.501-1.786-1.677-2.087-.175-.301-.019-.464.132-.614.136-.135.301-.351.452-.527.15-.175.201-.3.301-.5.101-.201.05-.376-.025-.526-.075-.15-.678-1.631-.929-2.233-.244-.586-.492-.507-.678-.516-.176-.008-.376-.01-.577-.01s-.527.075-.803.376c-.276.301-1.054 1.029-1.054 2.508 0 1.479 1.079 2.908 1.229 3.109.15.201 2.124 3.243 5.145 4.549.718.311 1.279.497 1.716.636.721.23 1.377.197 1.895.12.577-.086 1.78-.727 2.031-1.429.251-.702.251-1.304.176-1.429-.076-.125-.276-.201-.577-.351zM12 2C6.477 2 2 6.477 2 12c0 1.891.524 3.662 1.435 5.176L2 22l4.981-1.396A9.957 9.957 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+            <a href="https://whatsapp.com/channel/0029VatzhWr35fLzFFsQel1P" class="social-icon-link" target="_blank" rel="noopener" title="Canal de WhatsApp" aria-label="Canal de WhatsApp">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" aria-hidden="true"><path d="M17.472 14.382c-.301-.15-1.78-.879-2.056-.98-.276-.1-.477-.15-.678.15-.2.301-.778.98-.954 1.18-.175.201-.351.226-.652.075-.301-.15-1.272-.469-2.423-1.496-.896-.799-1.501-1.786-1.677-2.087-.175-.301-.019-.464.132-.614.136-.135.301-.351.452-.527.15-.175.201-.3.301-.5.101-.201.05-.376-.025-.526-.075-.15-.678-1.631-.929-2.233-.244-.586-.492-.507-.678-.516-.176-.008-.376-.01-.577-.01s-.527.075-.803.376c-.276.301-1.054 1.029-1.054 2.508 0 1.479 1.079 2.908 1.229 3.109.15.201 2.124 3.243 5.145 4.549.718.311 1.279.497 1.716.636.721.23 1.377.197 1.895.12.577-.086 1.78-.727 2.031-1.429.251-.702.251-1.304.176-1.429-.076-.125-.276-.201-.577-.351zM12 2C6.477 2 2 6.477 2 12c0 1.891.524 3.662 1.435 5.176L2 22l4.981-1.396A9.957 9.957 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
             </a>
             
             
-            <a href="https://twitter.com/alemormez" class="social-icon-link" target="_blank" rel="noopener" title="Twitter / X">
-              <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            <a href="https://twitter.com/alemormez" class="social-icon-link" target="_blank" rel="noopener" title="Twitter / X" aria-label="Twitter / X">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
             </a>
             
             
-            <a href="https://www.facebook.com/mealegroentupalabra" class="social-icon-link" target="_blank" rel="noopener" title="Facebook">
-              <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            <a href="https://www.facebook.com/mealegroentupalabra" class="social-icon-link" target="_blank" rel="noopener" title="Facebook" aria-label="Facebook">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
             </a>
             
             
-            <a href="https://instagram.com/alejandromoralesmeza" class="social-icon-link" target="_blank" rel="noopener" title="Instagram">
-              <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            <a href="https://instagram.com/alejandromoralesmeza" class="social-icon-link" target="_blank" rel="noopener" title="Instagram" aria-label="Instagram">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
             </a>
             
           </div>
@@ -1086,7 +1110,7 @@
             <li><a href="/acerca-de/">Acerca de</a></li>
             <li><a href="/buscar/">Buscador de Artículos</a></li>
             <li><a href="/feed.xml" target="_blank">Canal RSS</a></li>
-            <li><a href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">Licencia CC BY-NC 4.0</a></li>
+            <li><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">Licencia CC BY-NC 4.0</a></li>
           </ul>
         </div>
       </div>
@@ -1140,8 +1164,8 @@
   <div class="toast-msg" role="status" aria-live="polite"></div>
 
   <!-- Scripts -->
-  <script src="/assets/js/main.js?v=ab3c2ef9"></script>
-  <script src="/assets/js/search.js?v=2dd65533"></script>
+  <script src="/assets/js/main.js?v=ab3c2ef9" defer></script>
+  <script src="/assets/js/search.js?v=2dd65533" defer></script>
 
   <!-- Logos RefTagger for Bible References (only loaded on posts) -->
   
