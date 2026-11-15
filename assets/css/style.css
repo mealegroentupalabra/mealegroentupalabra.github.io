@@ -3,8 +3,6 @@
    Modern, Elegant, Editorial Design for Christian Blog
    ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
-
 :root {
   /* Color Palette - Light Mode */
   --bg-body: #faf8f5;
@@ -15,7 +13,7 @@
   
   --text-main: #1c2430;
   --text-muted: #57657a;
-  --text-light: #7e8b9f;
+  --text-light: #5c687a;
   
   --primary: #1a365d;          /* Deep biblical navy */
   --primary-hover: #2b4c7e;
@@ -752,9 +750,17 @@ img {
 }
 
 .page-btn.disabled {
-  opacity: 0.4;
+  color: #57657a;
+  background-color: var(--bg-subtle);
+  border-color: var(--border-light);
   cursor: not-allowed;
   pointer-events: none;
+}
+
+[data-theme="dark"] .page-btn.disabled {
+  color: #94a3b8;
+  background-color: var(--bg-subtle);
+  border-color: var(--border-light);
 }
 
 /* ==========================================================================

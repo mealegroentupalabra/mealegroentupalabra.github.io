@@ -1,5 +1,11 @@
 {% extends "base.html" %}
 
+{% block head_preload %}
+{% if page_num == 1 and featured_post and featured_post.image %}
+<link rel="preload" as="image" href="{{ featured_post.image }}"{% if featured_post.image_srcset %} imagesrcset="{{ featured_post.image_srcset }}" imagesizes="(max-width: 768px) calc(100vw - 2rem), 615px"{% endif %} fetchpriority="high">
+{% endif %}
+{% endblock %}
+
 {% block content %}
 <!-- Hero Section -->
 <section class="hero-section">
@@ -19,16 +25,16 @@
 
     <!-- Category Shortcuts -->
     <div class="hero-categories">
-      <a href="{{ base_path }}/reflexiones/" class="hero-cat-btn">
+      <a href="{{ base_path }}/reflexiones/" class="hero-cat-btn" aria-label="Reflexiones">
         <span>📖 Reflexiones</span>
       </a>
-      <a href="{{ base_path }}/planes-de-lectura/" class="hero-cat-btn">
+      <a href="{{ base_path }}/planes-de-lectura/" class="hero-cat-btn" aria-label="Planes de Lectura">
         <span>✨ Planes de Lectura</span>
       </a>
-      <a href="{{ base_path }}/la-biblia-en-un-ano/" class="hero-cat-btn">
+      <a href="{{ base_path }}/la-biblia-en-un-ano/" class="hero-cat-btn" aria-label="La Biblia en un Año">
         <span>🗓️ La Biblia en un Año</span>
       </a>
-      <a href="{{ base_path }}/buscar/" class="hero-cat-btn">
+      <a href="{{ base_path }}/buscar/" class="hero-cat-btn" aria-label="Explorar Temas">
         <span>🔍 Explorar Temas</span>
       </a>
     </div>
@@ -47,7 +53,7 @@
     <article class="card-featured">
       <div class="featured-img-wrap">
         <a href="{{ featured_post.url }}">
-          <img src="{{ featured_post.image }}" alt="{{ featured_post.title }}" loading="eager">
+          <img src="{{ featured_post.image }}"{% if featured_post.image_srcset %} srcset="{{ featured_post.image_srcset }}" sizes="(max-width: 768px) calc(100vw - 2rem), 615px"{% endif %}{% if featured_post.image_width and featured_post.image_height %} width="{{ featured_post.image_width }}" height="{{ featured_post.image_height }}"{% endif %} alt="{{ featured_post.title }}" loading="eager" fetchpriority="high" decoding="async">
         </a>
       </div>
       <div class="featured-content">
@@ -92,7 +98,7 @@
       <article class="post-card">
         {% if post.image %}
         <a href="{{ post.url }}" class="card-media">
-          <img src="{{ post.image }}" alt="{{ post.title }}" loading="lazy">
+          <img src="{{ post.image }}"{% if post.image_srcset %} srcset="{{ post.image_srcset }}" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 1024px) 50vw, 364px"{% endif %}{% if post.image_width and post.image_height %} width="{{ post.image_width }}" height="{{ post.image_height }}"{% endif %} alt="{{ post.title }}" loading="lazy" decoding="async">
         </a>
         {% endif %}
         <div class="card-body">
